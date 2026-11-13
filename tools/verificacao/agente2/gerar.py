@@ -19,6 +19,8 @@ import base  # noqa: E402
 import lp, rle, atu, eti  # noqa: E402,F401
 
 import validar_banco as V  # noqa: E402
+sys.path.insert(0, os.path.join(AQUI, ".."))
+import validacao_agente5  # noqa: E402
 
 DATA = "2026-11-13"
 LETRAS = "ABCDE"
@@ -96,7 +98,7 @@ def main():
             "validacao": {"por": "agente-2", "em": DATA, "obs": spec["verif"] or ""},
             "versao": 1,
         }
-        objs.append(obj)
+        objs.append(validacao_agente5.aplicar(obj))
         log[mat].append((qid, pai, origem["fonte"], spec["var"] or ("inédita" if not pai else "variação"),
                          spec["verif"], letra_ok))
 

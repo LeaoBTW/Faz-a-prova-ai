@@ -78,10 +78,64 @@ def extrair_chamadas(texto, nome="BANCO"):
     return saida
 
 
-def carregar(raiz):
+ARQ_CORRECOES = "correcoes.js"
+CAMPOS_CORRIGIVEIS = set(OBRIGATORIOS) - {"id"} | {"validacao", "banca_estilo"}
+
+
+def carregar_correcoes(raiz):
+    """Lê banco/correcoes.js: CORRECOES.push({"id", "campos": {...}, "motivo"})."""
+    caminho = os.path.join(raiz, "banco", ARQ_CORRECOES)
+    corr, erros = [], []
+    if not os.path.exists(caminho):
+        return corr, erros
+    with open(caminho, encoding="utf-8") as f:
+        txt = f.read()
+    for linha, js in extrair_chamadas(txt, "CORRECOES"):
+        try:
+            obj = json.loads(js)
+        except json.JSONDecodeError as e:
+            erros.append("%s:%d: correção não é JSON válido (%s)" % (ARQ_CORRECOES, linha, e))
+            continue
+        obj["__arquivo"] = "%s:%d" % (ARQ_CORRECOES, linha)
+        corr.append(obj)
+    return corr, erros
+
+
+def aplicar_correcoes(questoes, correcoes):
+    """Aplica as correções (troca de campos inteiros), como o app faz em app/dados.js."""
+    erros = []
+    por_id = {}
+    for q in questoes:
+        por_id.setdefault(q.get("id"), q)
+    for c in correcoes:
+        onde = c["__arquivo"]
+        q = por_id.get(c.get("id"))
+        campos = c.get("campos")
+        if q is None:
+            erros.append("%s: correção para id inexistente %r" % (onde, c.get("id")))
+            continue
+        if not isinstance(campos, dict) or not campos:
+            erros.append("%s: correção sem campos" % onde)
+            continue
+        if not str(c.get("motivo") or "").strip():
+            erros.append("%s: correção sem motivo" % onde)
+        if q["__arquivo"].startswith("variacoes-"):
+            erros.append("%s: %s é gerada (variacoes-*.js); corrija na fonte do gerador" % (onde, c["id"]))
+        for k, v in campos.items():
+            if k not in CAMPOS_CORRIGIVEIS:
+                erros.append("%s: campo não corrigível %r" % (onde, k))
+                continue
+            q[k] = v
+        q["__corrigida"] = True
+    return erros
+
+
+def carregar(raiz, correcoes=True):
     questoes, textos, erros = [], [], []
     for caminho in sorted(glob.glob(os.path.join(raiz, "banco", "*.js"))):
         nome = os.path.basename(caminho)
+        if nome == ARQ_CORRECOES:
+            continue
         with open(caminho, encoding="utf-8") as f:
             txt = f.read()
         var = "TEXTOS_BASE" if nome == "textos-base.js" else "BANCO"
@@ -93,6 +147,9 @@ def carregar(raiz):
                 continue
             obj["__arquivo"] = "%s:%d" % (nome, linha)
             (textos if var == "TEXTOS_BASE" else questoes).append(obj)
+    if correcoes:
+        corr, e1 = carregar_correcoes(raiz)
+        erros += e1 + aplicar_correcoes(questoes, corr)
     return questoes, textos, erros
 
 
@@ -213,6 +270,8 @@ def validar(questoes, textos, raiz):
             erro("embaralhavel deve ser booleano")
         if not isinstance(q.get("versao"), int):
             erro("versao deve ser inteiro")
+        if st in ("rejeitada", "duvida") and not str((q.get("validacao") or {}).get("obs") or "").strip():
+            erro("status %r exige validacao.obs com o motivo" % st)
         if st == "validada" and not str(q.get("comentario") or "").strip() and org.get("tipo") == "variacao":
             avisos.append("%s: variação validada sem comentário" % onde)
     # id_pai precisa existir
@@ -244,6 +303,7 @@ def main():
     if not args.quieto:
         print("Questões: %d | textos-base: %d" % (len(questoes), len(textos)))
         print("Status: " + ", ".join("%s=%d" % kv for kv in sorted(st.items())))
+        print("Correções aplicadas (banco/correcoes.js): %d" % sum(1 for q in questoes if q.get("__corrigida")))
         print("Formatos: " + ", ".join("%s=%d" % kv for kv in sorted(fm.items())))
         for k, v in sorted(por.items()):
             print("  %-45s %4d" % (k, v))

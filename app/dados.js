@@ -12,8 +12,24 @@
     duplicadas: []
   });
 
+  /* Aplica banco/correcoes.js (sobreposição às questões importadas, que são geradas
+     por tools/importar.py): cada correção troca campos inteiros da questão de mesmo id. */
+  D.aplicarCorrecoes = function () {
+    var porId = {};
+    (window.BANCO || []).forEach(function (q) { if (q && q.id && !porId[q.id]) porId[q.id] = q; });
+    D.correcoesAplicadas = [];
+    D.correcoesInvalidas = [];
+    (window.CORRECOES || []).forEach(function (c) {
+      var q = c && porId[c.id];
+      if (!q || !c.campos) { D.correcoesInvalidas.push(c && c.id); return; }
+      Object.keys(c.campos).forEach(function (k) { q[k] = c.campos[k]; });
+      D.correcoesAplicadas.push(c.id);
+    });
+  };
+
   D.init = function (idConfig) {
     var cfg = (window.CONFIGS || {})[idConfig];
+    D.aplicarCorrecoes();
     D.config = cfg;
     var vistos = {};
     D.todas = [];

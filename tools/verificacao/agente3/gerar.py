@@ -19,7 +19,9 @@ AQUI = os.path.dirname(os.path.abspath(__file__))
 RAIZ = os.path.dirname(os.path.dirname(os.path.dirname(AQUI)))
 sys.path.insert(0, AQUI)
 sys.path.insert(0, os.path.join(RAIZ, "tools"))
-from validar_banco import extrair_chamadas  # noqa: E402
+from validar_banco import extrair_chamadas, carregar as carregar_validado  # noqa: E402
+sys.path.insert(0, os.path.dirname(AQUI))
+import validacao_agente5  # noqa: E402
 
 LETRAS = "ABCDE"
 DATA = "2026-11-14"
@@ -42,15 +44,9 @@ EIXOS = {
 
 
 def carregar_banco():
-    qs = {}
-    for nome in sorted(os.listdir(os.path.join(RAIZ, "banco"))):
-        if not nome.endswith(".js") or nome.startswith("variacoes") or nome == "textos-base.js":
-            continue
-        txt = open(os.path.join(RAIZ, "banco", nome), encoding="utf-8").read()
-        for _, js in extrair_chamadas(txt):
-            q = json.loads(js)
-            qs[q["id"]] = q
-    return qs
+    """Questões importadas, já com banco/correcoes.js aplicado (títulos e links corrigidos)."""
+    qs, _, _ = carregar_validado(RAIZ)
+    return {q["id"]: q for q in qs if not q["__arquivo"].startswith("variacoes")}
 
 
 def refs_existentes(banco):
@@ -178,7 +174,7 @@ def montar(eixo, lista, banco, refs, log):
             "validacao": {"por": "agente-3", "em": DATA, "obs": q.get("obs", "")},
             "versao": 1,
         }
-        saida.append(obj)
+        saida.append(validacao_agente5.aplicar(obj))
         log.append((qid, pai or "—", origem["fonte"], q.get("var", "inédita"), q.get("verif", "")))
     return saida
 

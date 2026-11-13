@@ -3771,7 +3771,7 @@ BANCO.push({
     "modulo": "05",
     "secao": "25",
     "titulo": "C# e ASP/ASP.NET",
-    "link": "[[05 - Bancos de Dados e Linguagens#25. C e ASP/ASP.NET]]"
+    "link": "[[05 - Bancos de Dados e Linguagens#25. C e ASP/ASP.NET|05 §25. C# e ASP/ASP.NET]]"
   },
   "origem": {
     "tipo": "variacao",
@@ -4715,7 +4715,7 @@ BANCO.push({
     "modulo": "05",
     "secao": "25",
     "titulo": "C# e ASP/ASP.NET",
-    "link": "[[05 - Bancos de Dados e Linguagens#25. C e ASP/ASP.NET]]"
+    "link": "[[05 - Bancos de Dados e Linguagens#25. C e ASP/ASP.NET|05 §25. C# e ASP/ASP.NET]]"
   },
   "origem": {
     "tipo": "variacao",

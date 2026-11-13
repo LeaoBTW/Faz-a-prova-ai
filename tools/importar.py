@@ -113,9 +113,14 @@ def titulo_topico(titulo):
 
 
 def link_wiki(mod, num, titulo):
-    alvo = "%d. %s" % (num, titulo)
-    alvo = re.sub(r"[|#^\[\]]", " ", alvo)
+    """Link wiki do Obsidian para a seção. O Obsidian não aceita |, #, ^, [ e ] no alvo de um
+    link de cabeçalho (o "#" de "C#" seria lido como subseção) e casa o cabeçalho ignorando esses
+    caracteres; quando algum é removido, o título original vai como texto exibido (alias)."""
+    original = "%d. %s" % (num, titulo)
+    alvo = re.sub(r"[|#^\[\]]", " ", original)
     alvo = re.sub(r"\s+", " ", alvo).strip()
+    if alvo != original:
+        return "[[%s#%s|%s §%s]]" % (C.MODULOS[mod], alvo, mod, original.replace("|", "/").replace("[", "(").replace("]", ")"))
     return "[[%s#%s]]" % (C.MODULOS[mod], alvo)
 
 

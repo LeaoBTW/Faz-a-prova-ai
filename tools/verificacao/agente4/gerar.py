@@ -11,6 +11,8 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from comum import RAIZ, carregar_pais, montar  # noqa: E402
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import validacao_agente5  # noqa: E402
 
 COTAS = {"ARQ": 42, "DEVOPS": 43, "SO": 14, "REDES": 26, "SERV": 21, "SEG": 29, "NUVEM": 7}
 ORDEM = ["arq", "devops", "so", "redes", "serv", "seg", "nuvem"]
@@ -38,7 +40,7 @@ def com_ids(lista):
 def main():
     pais = carregar_pais()
     lista = com_ids(todas())
-    objs = [montar(q, qid, pais) for qid, q in lista]
+    objs = [validacao_agente5.aplicar(montar(q, qid, pais)) for qid, q in lista]
     # checagens
     por_eixo = collections.Counter(q["eixo"] for _, q in lista)
     gab = collections.defaultdict(collections.Counter)
