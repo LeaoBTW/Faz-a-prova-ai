@@ -1,0 +1,2766 @@
+{
+ "ATU-V001": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V002": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V003": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V004": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V005": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V006": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V007": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V008": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V009": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V010": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V011": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V012": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V013": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V014": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V015": {
+  "status": "validada",
+  "obs": "Item datado: decisão do Copom de 04/11/2026 (manutenção da Selic em 13,75% a.a.) conferida na apostila 03 §3 e em notícias da imprensa de 04–05/11/2026. Revalidar perto da prova."
+ },
+ "ATU-V016": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V017": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V018": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V019": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V020": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V021": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V022": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V023": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V024": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V025": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V026": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V027": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V028": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V029": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V030": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V031": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V032": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V033": {
+  "status": "validada",
+  "obs": "Item datado (tag datado): fato conferido na apostila 03 §8 (revisão nov/2026, com fontes BCB/imprensa citadas). Revalidar perto da prova."
+ },
+ "ATU-V034": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V035": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V036": {
+  "status": "validada",
+  "obs": "Item datado (tag datado): fato conferido na apostila 03 §8 (revisão nov/2026, com fontes BCB/imprensa citadas). Revalidar perto da prova."
+ },
+ "ATU-V037": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V038": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V039": {
+  "status": "validada",
+  "obs": "Item datado (tag datado): fato conferido na apostila 03 §8 (revisão nov/2026, com fontes BCB/imprensa citadas). Revalidar perto da prova."
+ },
+ "ATU-V040": {
+  "status": "validada",
+  "obs": "Item datado (tag datado): fato conferido na apostila 03 §8 (revisão nov/2026, com fontes BCB/imprensa citadas). Revalidar perto da prova."
+ },
+ "ATU-V041": {
+  "status": "validada",
+  "obs": "Item datado (tag datado): fato conferido na apostila 03 §8 (revisão nov/2026, com fontes BCB/imprensa citadas). Revalidar perto da prova."
+ },
+ "ATU-V042": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V043": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V044": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V045": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V046": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V047": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V048": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V049": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V050": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V051": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V001": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V002": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V003": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V004": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V005": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V006": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V007": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V008": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V009": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V010": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V011": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V012": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V013": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V014": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V015": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V016": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V017": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V018": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V019": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V020": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V021": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V022": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V023": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V024": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V025": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V026": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V027": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V028": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V029": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V030": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V031": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V032": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V033": {
+  "status": "validada",
+  "obs": "Corrigido pelo agente 5: o enunciado deixava ambíguo se a chamada no instante exato em que o circuito completa 10 s aberto (t = 18 s) já é a de teste; com a outra leitura nenhuma alternativa estaria certa (11 e 3). Acrescentado \"a partir do instante em que completa 10 s aberto\". Simulação refeita: 8 encaminhadas, 4 falhas."
+ },
+ "ESP-ARQ-V034": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V035": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V036": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V037": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V038": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V039": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V040": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V041": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V042": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V043": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V044": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V045": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-BD-V001": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-BD-V002": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-BD-V003": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-BD-V004": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-BD-V005": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V001": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V002": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V003": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V004": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V005": {
+  "status": "validada",
+  "obs": "Tag nao_executado (sem daemon Docker no container): conferida pelo agente 5 com a documentação oficial do Dockerfile (ENTRYPOINT em forma exec + CMD como argumentos padrão; argumentos do docker run substituem só o CMD). Gabarito D correto."
+ },
+ "ESP-DEVOPS-V006": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V007": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V008": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V009": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V010": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V011": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V012": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V013": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V014": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V015": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V016": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V017": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V018": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V019": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V020": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V021": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V022": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V023": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V024": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V025": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V026": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V027": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V028": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V029": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V030": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V031": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V032": {
+  "status": "validada",
+  "obs": "Tag nao_executado (sem daemon Docker): conferida pelo agente 5 com a documentação do cache de build do Docker (camada invalidada quando o conteúdo copiado muda; versão 2 reaproveita a camada de dependências). Gabarito C correto."
+ },
+ "ESP-DEVOPS-V033": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V034": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V035": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V036": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V037": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V038": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V039": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V040": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V041": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V042": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V043": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V044": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V001": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V002": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V003": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V004": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V005": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V006": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V007": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V008": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V009": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V010": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V011": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V012": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V013": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V014": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V015": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V016": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V017": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V018": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V019": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V020": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V021": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V022": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V023": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V024": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V025": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V026": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V027": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V028": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V029": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V030": {
+  "status": "validada",
+  "obs": "Item datado: afirma só o que está confirmado em nov/2026 (ITIL Version 5 da PeopleCert lançada em fases em 2026, evolução da ITIL 4, que segue válida), conforme apostila 03 §15. Revalidar perto da prova."
+ },
+ "ESP-GOV-V031": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V032": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V033": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V034": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V035": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V036": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V037": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V038": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V039": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V040": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V041": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V042": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V043": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V044": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V045": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V046": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V047": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V048": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V049": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V050": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V051": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V052": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V053": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V054": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V055": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V056": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V057": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V058": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V059": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V060": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V061": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V062": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V063": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V064": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V065": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V066": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-NUVEM-V001": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-NUVEM-V002": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-NUVEM-V003": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-NUVEM-V004": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-NUVEM-V005": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-NUVEM-V006": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-NUVEM-V007": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V001": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V002": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V003": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V004": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V005": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V006": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V007": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V008": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V009": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V010": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V011": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V012": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V013": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V014": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V015": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V016": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V017": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V018": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V019": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V020": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V021": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V022": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V023": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V024": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V025": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V026": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V027": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V028": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V029": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V030": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V031": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V032": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V033": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V034": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V035": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V036": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V037": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V038": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V039": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V040": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V041": {
+  "status": "validada",
+  "obs": "Conferida pelo agente 5: no MR-MPS-SW 2021 (mantido no guia 2023) o nível G tem Gerência de Projetos e Engenharia de Requisitos (fusão de GRE e DRE), como na apostila 06 §6.5. Revalidar se sair nova versão do guia SOFTEX."
+ },
+ "ESP-PROC-V042": {
+  "status": "validada",
+  "obs": "Conferida pelo agente 5: os quatro grupos de processos da ISO/IEC/IEEE 12207:2017 (ABNT 2021) e o grupo de acordo (aquisição e fornecimento) estão corretos."
+ },
+ "ESP-PROC-V043": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V044": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V045": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V046": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V047": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V048": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V049": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V050": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V051": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V052": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V053": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V054": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V055": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V001": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V002": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V003": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V004": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V005": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V006": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V007": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V008": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V009": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V010": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V011": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V012": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V013": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V014": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V015": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V016": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V017": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V018": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V019": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V020": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V021": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V022": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V023": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V024": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V025": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V026": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V027": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V028": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V029": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V030": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V031": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V032": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V033": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V034": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V035": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V036": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V037": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V038": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V001": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V002": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V003": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V004": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V005": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V006": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V007": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V008": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V009": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V010": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V011": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V012": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V013": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V014": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V015": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V016": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V017": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V018": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V019": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V020": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V021": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V022": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V023": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V024": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V025": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V026": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V027": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V001": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V002": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V003": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V004": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V005": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V006": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V007": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V008": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V009": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V010": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V011": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V012": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V013": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V014": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V015": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V016": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V017": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V018": {
+  "status": "validada",
+  "obs": "Conferida pelo agente 5. Item datado (NIST SP 800-61 Rev. 3, abr/2025): revalidar se houver nova revisão antes da prova."
+ },
+ "ESP-SEG-V019": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V020": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V021": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V022": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V023": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V024": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V025": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V026": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V027": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V028": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V029": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V030": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V001": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V002": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V003": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V004": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V005": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V006": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V007": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V008": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V009": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V010": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V011": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V012": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V013": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V014": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V015": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V016": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V017": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V018": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V019": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V020": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V021": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V022": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SO-V001": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SO-V002": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SO-V003": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SO-V004": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SO-V005": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SO-V006": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SO-V007": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SO-V008": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SO-V009": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SO-V010": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SO-V011": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SO-V012": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SO-V013": {
+  "status": "validada",
+  "obs": "Tag nao_executado (PowerShell ausente no container): conferida pelo agente 5 com a documentação do Get-Service (propriedades Status e StartType, disponíveis no Windows PowerShell 5.1 do Windows Server 2022). Gabarito A correto."
+ },
+ "ESP-SO-V014": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SO-V015": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-WEB-V001": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-WEB-V002": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-WEB-V003": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-WEB-V004": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-WEB-V005": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-WEB-V006": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V001": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V002": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V003": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V004": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V005": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V006": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V007": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V008": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V009": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V010": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V011": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V012": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V013": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V014": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V015": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V016": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V017": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V018": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V019": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V020": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V021": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V022": {
+  "status": "validada",
+  "obs": "Item datado: regra de comunicação automática (Circular 3.978/2020, art. 49, redação da Res. BCB 591/2026, vigente desde 1º/10/2026) conferida na apostila 03 §10.7 (revisão nov/2026). Revalidar perto da prova."
+ },
+ "ETI-V023": {
+  "status": "validada",
+  "obs": "Item datado: regra de comunicação automática (Circular 3.978/2020, art. 49, redação da Res. BCB 591/2026, vigente desde 1º/10/2026) conferida na apostila 03 §10.7 (revisão nov/2026). Revalidar perto da prova."
+ },
+ "ETI-V024": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V025": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V026": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V027": {
+  "status": "validada",
+  "obs": "Item datado: regra de comunicação automática (Circular 3.978/2020, art. 49, redação da Res. BCB 591/2026, vigente desde 1º/10/2026) conferida na apostila 03 §10.7 (revisão nov/2026). Revalidar perto da prova."
+ },
+ "ETI-V028": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V029": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V030": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V031": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V032": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V033": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V034": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V035": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V036": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V037": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V038": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V039": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V040": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V041": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V042": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V043": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V044": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V045": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V046": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V047": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V048": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V049": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V050": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V051": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V052": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V053": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V054": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V055": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V056": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V057": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V058": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V059": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V060": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V061": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V062": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V063": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V064": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V065": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V066": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V067": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V068": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V069": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V070": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V071": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V072": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V073": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V074": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V075": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V076": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V077": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V078": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V079": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V080": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V001": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V002": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V003": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V004": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V005": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V006": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V007": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V008": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V009": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V010": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V011": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V012": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V013": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V014": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V015": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V016": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V017": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V018": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V019": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V020": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V021": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V022": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V023": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V024": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V025": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V026": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V027": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V028": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V029": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V030": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V031": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V032": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V033": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V034": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V035": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V036": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V037": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V038": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V039": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V040": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V041": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V042": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V043": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V044": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V045": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V046": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V047": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V048": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V049": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V050": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V051": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V052": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V053": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V054": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V055": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V056": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V057": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V058": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V059": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V060": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V061": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V062": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V063": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V064": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V065": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V066": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V067": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V068": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V069": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V070": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V071": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V072": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V073": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V074": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V075": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V076": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V077": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V078": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V079": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V080": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V081": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V082": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V083": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V084": {
+  "status": "validada",
+  "obs": "Corrigido pelo agente 5: o enunciado (\"o plural dos substantivos está correto em todos os itens\") tornava a alternativa \"cidadãos – capitães – mães\" também correta (mães é plural correto de mãe). O enunciado passou a nomear os singulares (cidadão, capitão, mão)."
+ },
+ "LP-V085": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V086": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V087": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V088": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V089": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V090": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V091": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V092": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V093": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V094": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V001": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V002": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V003": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V004": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V005": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V006": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V007": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V008": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V009": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V010": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V011": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V012": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V013": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V014": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V015": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V016": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V017": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V018": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V019": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V020": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V021": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V022": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V023": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V024": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V025": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V026": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V027": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V028": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V029": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V030": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V031": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V032": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V033": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V034": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V035": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V036": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V037": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V038": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V039": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V040": {
+  "status": "validada",
+  "obs": "Corrigido pelo agente 5: enunciado dizia \"anos de serviço (30, 40 e 50 meses)\"; passou a \"tempo de serviço\". Conta refeita (15:10:10 → R$ 3.000,00)."
+ },
+ "RLE-V041": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V042": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V043": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V044": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V045": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V046": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V047": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V048": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V049": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V050": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V051": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V052": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V053": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V054": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V055": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V056": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V057": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V058": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V059": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V060": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V061": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V062": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V063": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V064": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V065": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V066": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V067": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V068": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V069": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V070": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V071": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V072": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V073": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V074": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V075": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V076": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V077": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V078": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V079": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V080": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V081": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V082": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V083": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V084": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V085": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V086": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V087": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V088": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V089": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V090": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V091": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V092": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V093": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V094": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V095": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V096": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V097": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V098": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V099": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V100": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V101": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V102": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V103": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V104": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V105": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V106": {
+  "status": "validada",
+  "obs": ""
+ }
+}

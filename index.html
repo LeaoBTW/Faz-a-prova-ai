@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Faz a prova AI</title>
+  <meta name="description" content="Simulados e treino para o concurso Banestes 2027 – Analista de TI (Desenvolvimento de Sistemas).">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232a78d6'/%3E%3Cpath d='M9 17l5 5 9-11' stroke='white' stroke-width='3.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="app/estilo.css">
+</head>
+<body>
+  <div id="faixa-homolog" class="faixa-homolog" hidden>HOMOLOGAÇÃO · histórico separado do site final</div>
+  <header class="topo">
+    <a class="marca" href="#/">Faz a prova <span>AI</span></a>
+    <nav class="menu" aria-label="Seções">
+      <a href="#/">Início</a>
+      <a href="#/treino">Treino</a>
+      <a href="#/caderno">Caderno</a>
+      <a href="#/historico">Histórico</a>
+      <a href="#/banco">Banco</a>
+      <a href="#/dados">Dados</a>
+    </nav>
+    <div class="topo-ctrl">
+      <label class="perfil-sel"><span class="sr">Perfil</span><select id="perfil" aria-label="Perfil"></select></label>
+      <button id="tema" type="button" class="btn btn-mini">Tema</button>
+    </div>
+  </header>
+  <main id="app" tabindex="-1"><noscript>Este app precisa de JavaScript.</noscript></main>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="app/util.js"></script>
+  <script src="app/markdown.js"></script>
+  <script src="config/banestes-2027-analista-ti.js"></script>
+  <script src="banco/esp-arquitetura.js"></script>
+  <script src="banco/esp-bd.js"></script>
+  <script src="banco/esp-devops.js"></script>
+  <script src="banco/esp-governanca.js"></script>
+  <script src="banco/esp-nuvem.js"></script>
+  <script src="banco/esp-processo.js"></script>
+  <script src="banco/esp-programacao.js"></script>
+  <script src="banco/esp-redes.js"></script>
+  <script src="banco/esp-seguranca.js"></script>
+  <script src="banco/esp-servicos.js"></script>
+  <script src="banco/esp-so.js"></script>
+  <script src="banco/esp-web.js"></script>
+  <script src="banco/gerais-atualidades.js"></script>
+  <script src="banco/gerais-etica.js"></script>
+  <script src="banco/gerais-lp.js"></script>
+  <script src="banco/gerais-rle.js"></script>
+  <script src="banco/variacoes-gerais.js"></script>
+  <script src="banco/variacoes-esp-a.js"></script>
+  <script src="banco/variacoes-esp-b.js"></script>
+  <script src="banco/textos-base.js"></script>
+  <script src="banco/correcoes.js"></script>
+  <script src="app/dados.js"></script>
+  <script src="app/armazenamento.js"></script>
+  <script src="app/sorteio.js"></script>
+  <script src="app/correcao.js"></script>
+  <script src="app/grafico.js"></script>
+  <script src="app/telas.js"></script>
+  <script src="app/main.js"></script>
+</body>
+</html>
