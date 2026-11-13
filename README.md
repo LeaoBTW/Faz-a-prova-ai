@@ -121,7 +121,10 @@ O histórico de respostas **não** vai para o repositório: fica no navegador e,
 
 ## Adicionar outro concurso
 
-1. Copie `config/banestes-2027-analista-ti.js` para `config/<id>.js`, troque `id`, `nome`, `nome_curto`, `instituicao`, `cargo`, banca, data, blocos/matérias e eixos.
+1. Copie `config/banestes-2027-analista-ti.js` para `config/<id>.js` e ajuste: `id`, `nome`, `nome_curto`, `instituicao`, `cargo`, banca, data, tempo, nota mínima e `blocos` (quantos quiser, cada um com `peso`, `pontos_por_questao`, `materias` e, se a matéria for dividida, `eixos`). Opcionais: `historico` (resultado de um concurso anterior para a posição aproximada), `provas_reais`, `nota_edital`, `tags_obsidian`, `formula_texto` e `tem_apostila: false`. A nota é a média ponderada das notas dos blocos (0 a 10) pelos pesos.
 2. Carregue o arquivo no `index.html` (junto dos outros `config/*.js`).
 3. Marque as questões que valem para ele no campo `concursos` (questões sem esse campo valem para todos os concursos). Questões de um tópico em comum podem ser reaproveitadas listando os dois ids.
 4. Ele aparece automaticamente na tela de criação de perfil, agrupado pela instituição.
+5. Os scripts `tools/importar.py` e `tools/validar_banco.py` ainda conhecem só as matérias do Banestes; ao adicionar o primeiro outro concurso, inclua as matérias dele em `tools/catalogo.py`.
+
+O teste `tools/verificacao/teste_multi_concurso.js` roda o app com um concurso fictício (3 blocos com pesos diferentes, eixos só em um bloco, sem histórico e sem provas reais) para garantir que nada depende do Banestes.

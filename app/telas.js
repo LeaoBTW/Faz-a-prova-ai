@@ -186,8 +186,8 @@
     var grade = h("div", { class: "grade-modos" });
     grade.appendChild(cartao([
       h("h2", null, "Simulado completo"),
-      h("p", null, "80 questões na proporção do edital (30 Gerais + 50 Específicos), cronômetro de 4 h, folha de respostas e correção só ao entregar."),
-      botao("Começar simulado", function () { iniciarSimulado("completo", 80); }, "primario", { "data-acao": "simulado-completo" })
+      h("p", null, D.textoEstrutura() + " na proporção do edital, cronômetro de " + FP.fmtDuracao(cfg.tempo_min) + ", folha de respostas e correção só ao entregar."),
+      botao("Começar simulado", function () { iniciarSimulado("completo", D.totalQuestoes); }, "primario", { "data-acao": "simulado-completo" })
     ], "modo"));
     grade.appendChild(cartao([
       h("h2", null, "Mini-simulado"),
@@ -199,18 +199,18 @@
     ], "modo"));
     grade.appendChild(cartao([
       h("h2", null, "Treino"),
-      h("p", null, "Escolha matéria, eixo ou tópico. O comentário aparece logo após cada resposta, com o link para a apostila."),
+      h("p", null, "Escolha " + (D.temEixos ? "matéria, eixo" : "matéria") + " ou tópico. O comentário aparece logo após cada resposta" + (cfg.tem_apostila === false ? "." : ", com o link para a apostila.")),
       botao("Treinar", function () { ir("#/treino"); }, "", { "data-acao": "treino" })
     ], "modo"));
     grade.appendChild(cartao([
       h("h2", null, "Caderno de erros"),
-      h("p", null, Object.keys(p.caderno).length + " questões no caderno · " + vencidas + " para revisar hoje. Cada erro volta em 1, 3 e 7 dias e sai após 2 acertos seguidos."),
+      h("p", null, Object.keys(p.caderno).length + " questões no caderno · " + vencidas + " para revisar hoje. Cada erro volta em " + cfg.caderno.intervalos_dias.join(", ").replace(/, (\d+)$/, " e $1") + " dias e sai após " + cfg.caderno.acertos_para_sair + " acertos seguidos."),
       botao("Abrir caderno", function () { ir("#/caderno"); }, "", { "data-acao": "caderno" })
     ], "modo"));
-    grade.appendChild(cartao([
+    if ((cfg.provas_reais || []).length) grade.appendChild(cartao([
       h("h2", null, "Refazer prova real"),
-      h("p", null, "Provas completas, na ordem original, com o tempo de 4 h."),
-      h("div", { class: "acoes" }, (cfg.provas_reais || []).map(function (pr) {
+      h("p", null, "Provas completas, na ordem original, com o tempo da prova."),
+      h("div", { class: "acoes" }, cfg.provas_reais.map(function (pr) {
         return botao(pr.nome, function () { iniciarProvaReal(pr.id); }, "", { "data-acao": "prova-" + pr.id });
       }))
     ], "modo"));
@@ -322,7 +322,7 @@
       var bloco = null;
       s.itens.forEach(function (it, i) {
         var q = D.porId[it.id];
-        var nomeBloco = q ? (q.bloco === "gerais" ? "Gerais" : "Específicos") : "";
+        var nomeBloco = q && D.bloco(q.bloco) ? D.bloco(q.bloco).curto : "";
         if (nomeBloco !== bloco) { bloco = nomeBloco; g.appendChild(h("div", { class: "folha-sep" }, nomeBloco)); }
         var cls = "folha-item" + (it.resp ? " respondida" : "") + (i === s.atual ? " atual" : "") +
           (it.marcas.revisar ? " revisar" : "") + (it.marcas.chutei ? " chute" : "");
@@ -466,19 +466,23 @@
         h("span", { class: "rot" }, "meta: " + FP.fmtNum(meta[0], 1) + " a " + FP.fmtNum(meta[1], 1))
       ]),
       h("div", { class: "placar-itens" }, [
-        item("Gerais (0–10)", r.G == null ? "–" : FP.fmtNum(r.G), r.gerais.acertos + "/" + r.gerais.total),
-        item("Específicos (0–10)", r.E == null ? "–" : FP.fmtNum(r.E), r.especificos.acertos + "/" + r.especificos.total),
-        item("Pontos (de 90)", FP.fmtNum(r.pontos90, 1), "Gerais 1 · Específicos 1,2"),
+      ].concat(D.blocos.length > 1 ? D.blocos.map(function (b) {
+        var x = FP.correcao.bloco(r, b);
+        return item(b.curto + " (0–10)", x.nota == null ? "–" : FP.fmtNum(x.nota), x.acertos + "/" + x.total);
+      }) : []).concat([
+        item("Pontos (de " + FP.fmtNum(D.pontosTotal, 0) + ")", FP.fmtNum(r.pontos != null ? r.pontos : r.pontos90, 1),
+          D.blocos.map(function (b) { return b.curto + " " + FP.fmtNum(b.ppq, b.ppq % 1 ? 1 : 0); }).join(" · ")),
         item("Acertos", r.acertos + "/" + r.total, FP.pct(r.acertos, r.total) + "% · " + r.brancos + " em branco"),
         r.original ? item("Formato original", FP.fmtNum(r.original.pontos, 0) + "/" + r.original.total, FP.fmtNum(r.original.percentual, 1) + "%") : null,
-        item("Posição em 2024", r.posicao.posicao ? "≈ " + r.posicao.posicao + "º" : "–", r.posicao.texto),
+        r.posicao && D.historico ? item("Posição em " + D.historico.ano, r.posicao.posicao ? "≈ " + r.posicao.posicao + "º" : "–", r.posicao.texto) : null,
         item("Tempo", FP.fmtTempo(s.decorrido), "média " + FP.fmtTempo(r.tempoTotal / Math.max(1, r.total)) + " por questão"),
         item("Respostas trocadas", String(r.mudancas), "chutes: " + r.marcas.chutei + " (acertou " + r.marcas.chuteiAcertos + ")")
-      ])
+      ]))
     ]));
-    R.appendChild(h("p", { class: "nota-explica" }, "Nota = (Gerais + 2 × Específicos) ÷ 3, cada bloco de 0 a 10 (= pontos ÷ 9). " +
-      "A posição compara seu percentual com o resultado de 2024 (1º 84%, 50º 74%, 100º 71%, 242º 65%, 439º 59%, último aprovado 50%)" +
-      (s.prova === "banestes-2024" ? ", usando a pontuação original de 110 pontos." : ".")));
+    var hst = D.historico;
+    R.appendChild(h("p", { class: "nota-explica" }, D.textoFormula() + ". " +
+      (hst ? "A posição compara seu percentual com o resultado de " + hst.ano + " (" + hst.posicoes.map(function (x) { return x.rotulo.split(" ")[0] + " " + x.percentual + "%"; }).join(", ") + ")" +
+        (s.prova && s.prova === hst.prova_original && r.original ? ", usando a pontuação original de " + r.original.total + " pontos." : ".") : "")));
 
     var acoes = h("div", { class: "acoes" }, [
       botao("Baixar nota .md", function () {
@@ -496,10 +500,9 @@
     R.appendChild(acoes);
     if (s.avisos && s.avisos.length) R.appendChild(cartao(s.avisos.map(function (a) { return h("p", { class: "mudo" }, "⚠ " + a); })));
 
-    R.appendChild(cartao([h("h2", null, "Por matéria"), tabelaDesempenho("Matéria", r.porMateria,
-      D.unidades.filter(function (u) { return u.bloco === "gerais"; }).map(function (u) { return u.nome; }).concat([cfg.blocos[1].materias[0].nome]))]));
-    var te = tabelaDesempenho("Eixo", r.porEixo, cfg.eixos.map(function (e) { return e.nome; }));
-    if (te) R.appendChild(cartao([h("h2", null, "Específicos por eixo"), te]));
+    R.appendChild(cartao([h("h2", null, "Por matéria"), tabelaDesempenho("Matéria", r.porMateria, D.materias)]));
+    var te = tabelaDesempenho("Eixo", r.porEixo, D.unidades.filter(function (u) { return u.eixo; }).map(function (e) { return e.nome; }));
+    if (te) R.appendChild(cartao([h("h2", null, "Por eixo"), te]));
     var topicos = {};
     Object.keys(r.porTopico).sort(function (a, b) {
       var x = r.porTopico[a], y = r.porTopico[b];
@@ -563,12 +566,14 @@
     var R = main();
     R.appendChild(titulo("Treino", "Escolha o que treinar. As questões nunca vistas vêm primeiro; o comentário aparece logo após a resposta."));
     var selU = h("select", { id: "f-unidade" }, [h("option", { value: "" }, "Todas as matérias e eixos")]);
-    var gG = h("optgroup", { label: "Conhecimentos Gerais" }), gE = h("optgroup", { label: "Específicos (eixos)" });
-    D.unidades.forEach(function (u) {
-      var n = D.todas.filter(function (q) { return D.unidade(q) === u.nome && D.usavelTreino(q); }).length;
-      (u.bloco === "gerais" ? gG : gE).appendChild(h("option", { value: u.nome }, u.nome + " (" + n + ")"));
+    D.blocos.forEach(function (b) {
+      var g = h("optgroup", { label: b.nome + (b.temEixos ? " (eixos)" : "") });
+      D.unidades.filter(function (u) { return u.bloco === b.id; }).forEach(function (u) {
+        var n = D.todas.filter(function (q) { return D.unidade(q) === u.nome && D.usavelTreino(q); }).length;
+        g.appendChild(h("option", { value: u.nome }, u.nome + " (" + n + ")"));
+      });
+      selU.appendChild(g);
     });
-    selU.appendChild(gG); selU.appendChild(gE);
     var selT = h("select", { id: "f-topico" });
     function encherTopicos() {
       selT.innerHTML = "";
@@ -579,7 +584,7 @@
     selU.onchange = encherTopicos;
     encherTopicos();
     var selO = h("select", { id: "f-origem" }, [h("option", { value: "" }, "Todas as origens"), h("option", { value: "prova_real" }, "Provas reais"),
-      h("option", { value: "apostila" }, "Apostila"), h("option", { value: "simulado" }, "Simulado FCC"), h("option", { value: "variacao" }, "Variações")]);
+      h("option", { value: "apostila" }, "Apostila"), h("option", { value: "simulado" }, "Simulado / inéditas"), h("option", { value: "variacao" }, "Variações")]);
     var selN = h("select", { id: "f-limite" }, [10, 20, 30, 50, 0].map(function (n) { return h("option", { value: n, selected: n === 20 }, n ? n + " questões" : "Todas"); }));
     var ce = h("input", { type: "checkbox", id: "f-ce", checked: true });
     var nv = h("input", { type: "checkbox", id: "f-nv" });
@@ -718,10 +723,11 @@
     var R = main();
     R.appendChild(titulo("Histórico e evolução", p.simulados.length + " simulados · " + p.treinos.length + " sessões de treino"));
     var sel = h("select", { id: "serie", "aria-label": "Série do gráfico" }, [h("option", { value: "__nota" }, "Nota final (0–10)")]);
-    var gM = h("optgroup", { label: "Acerto por matéria (%)" }), gE = h("optgroup", { label: "Acerto por eixo (%)" });
-    D.unidades.forEach(function (u) { (u.bloco === "gerais" ? gM : gE).appendChild(h("option", { value: u.nome }, u.nome)); });
-    gM.appendChild(h("option", { value: "__esp" }, D.config.blocos[1].materias[0].nome + " (bloco)"));
-    sel.appendChild(gM); sel.appendChild(gE);
+    var gB = h("optgroup", { label: "Acerto por bloco (%)" }), gM = h("optgroup", { label: "Acerto por matéria (%)" }), gE = h("optgroup", { label: "Acerto por eixo (%)" });
+    if (D.blocos.length > 1) D.blocos.forEach(function (b) { gB.appendChild(h("option", { value: "__bloco:" + b.id }, b.nome)); });
+    D.materias.forEach(function (m) { gM.appendChild(h("option", { value: m }, m)); });
+    D.unidades.filter(function (u) { return u.eixo; }).forEach(function (u) { gE.appendChild(h("option", { value: u.nome }, u.nome)); });
+    [gB, gM, gE].forEach(function (g) { if (g.children.length) sel.appendChild(g); });
     var caixa = h("div");
     function desenhar() {
       caixa.innerHTML = "";
@@ -729,7 +735,7 @@
       p.simulados.forEach(function (s) {
         var r = s.resultado, y = null;
         if (v === "__nota") y = r.nota;
-        else if (v === "__esp") y = r.especificos.total ? FP.pct(r.especificos.acertos, r.especificos.total) : null;
+        else if (v.indexOf("__bloco:") === 0) { var xb = FP.correcao.bloco(r, D.bloco(v.slice(8))); y = xb.total ? FP.pct(xb.acertos, xb.total) : null; }
         else {
           var x = r.porMateria[v] || r.porEixo[v];
           y = x ? (100 * x.acertos) / x.total : null;
@@ -748,12 +754,12 @@
     desenhar();
 
     if (p.simulados.length) {
-      var tb = h("table", { class: "tabela" }, [h("thead", null, h("tr", null, ["Nº", "Data", "Tipo", "Nota", "Acertos", "Posição 2024", ""].map(function (t) { return h("th", null, t); })))]);
+      var tb = h("table", { class: "tabela" }, [h("thead", null, h("tr", null, ["Nº", "Data", "Tipo", "Nota", "Acertos"].concat(D.historico ? ["Posição " + D.historico.ano] : []).concat([""]).map(function (t) { return h("th", null, t); })))]);
       var body = h("tbody");
       p.simulados.slice().reverse().forEach(function (s) {
         var r = s.resultado;
         body.appendChild(h("tr", null, [h("td", null, String(s.numero)), h("td", null, FP.dataBR(s.fim)), h("td", null, FP.correcao.nomeTipo(s)),
-          h("td", null, h("strong", null, FP.fmtNum(r.nota))), h("td", null, r.acertos + "/" + r.total), h("td", null, r.posicao.posicao ? "≈ " + r.posicao.posicao + "º" : "–"),
+          h("td", null, h("strong", null, FP.fmtNum(r.nota))), h("td", null, r.acertos + "/" + r.total), D.historico ? h("td", null, r.posicao && r.posicao.posicao ? "≈ " + r.posicao.posicao + "º" : "–") : null,
           h("td", { class: "acoes-linha" }, [botao("Abrir", function () { ir("#/resultado/" + s.id); }, "btn-mini"),
             botao("Excluir", function () {
               if (!window.confirm("Excluir este simulado do histórico?")) return;
@@ -851,7 +857,7 @@
     var info = h("p", { class: "mudo" }, "Verificando…");
     var acoesPasta = h("div", { class: "acoes" });
     R.appendChild(cartao([h("h2", null, "Pasta do vault (Obsidian)"),
-      h("p", null, "No Chrome ou Edge do computador, escolha uma vez a pasta (ex.: Banestes\\Simulador). A cada simulado o app grava ali o historico.json, o Painel.md e uma nota AAAA-MM-DD Simulado NN.md. No celular, use Exportar e o botão \"Baixar nota .md\" do resultado."),
+      h("p", null, "No Chrome ou Edge do computador, escolha uma vez a pasta (ex.: Concursos\\Simulador). A cada simulado o app grava ali o historico.json, o Painel.md e uma nota AAAA-MM-DD Simulado NN.md. No celular, use Exportar e o botão \"Baixar nota .md\" do resultado."),
       info, acoesPasta]));
     if (!FP.pasta.suportado()) {
       info.textContent = "Este navegador não permite gravar em pastas. Use Exportar e Baixar nota .md.";

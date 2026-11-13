@@ -49,6 +49,12 @@
     return h ? h + ":" + mm + ":" + ss : m + ":" + ss;
   };
 
+  /* 240 → "4 h", 210 → "3 h 30 min", 90 → "1 h 30 min", 45 → "45 min" */
+  FP.fmtDuracao = function (min) {
+    var hh = Math.floor(min / 60), mm = min % 60;
+    return (hh ? hh + " h" : "") + (hh && mm ? " " : "") + (mm ? mm + " min" : "");
+  };
+
   FP.fmtNum = function (n, casas) {
     if (n == null || isNaN(n)) return "–";
     return Number(n).toFixed(casas == null ? 2 : casas).replace(".", ",");
