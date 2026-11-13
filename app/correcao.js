@@ -153,8 +153,8 @@
     erradas.forEach(function (i, k) {
       var q = D.porId[i.id];
       var n = s.itens.map(function (x) { return x.id; }).indexOf(i.id) + 1;
-      L.push("- **Q" + n + "** `" + q.id + "` – " + (q.eixo || q.materia) + " › " + q.topico + " · marcou **" + (i.resp || "em branco") +
-        "**, gabarito **" + q.gabarito + "** · " + q.origem.fonte + " · revisar " + q.ref_apostila.link);
+      L.push("- **Q" + n + "** `" + q.id + "` – " + (q.eixo || q.materia) + " › " + q.topico + " · marcou **" + (D.exibida(q, s.id, i.resp) || "em branco") +
+        "**, gabarito **" + D.exibida(q, s.id, q.gabarito) + "** · " + q.origem.fonte + " · revisar " + q.ref_apostila.link);
     });
     var marcadas = r.itens.filter(function (i) { return i.marcas && (i.marcas.revisar || i.marcas.suspeito || i.marcas.chutei); });
     if (marcadas.length) {

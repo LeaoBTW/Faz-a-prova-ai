@@ -68,6 +68,44 @@
     if (q.formato === "certo_errado") return ["C", "E"];
     return Object.keys(q.alternativas || {}).sort();
   };
+  /* Embaralhamento das alternativas.
+     Prova real mantém a ordem original. Importadas da apostila/simulado e variações
+     marcadas como embaralháveis trocam de ordem, exceto quando alguma alternativa
+     depende da posição (ex.: "todas as anteriores", "(b)", "tanto ... quanto"). */
+  var REF_POSICAO = /anteriores|acima|abaixo|alternativa|\(\s*[a-eA-E]\s*\)|(^|\s)[a-eA-E]\)|tanto .+ quanto/;
+  D.embaralhavel = function (q) {
+    if (!D.ehMultipla(q) || !q.origem || q.origem.tipo === "prova_real") return false;
+    // variações e inéditas trazem a marcação do autor; as importadas usam só a regra abaixo
+    var criada = q.origem.tipo === "variacao" || /^Inédita/.test(q.origem.fonte || "");
+    if (criada && q.embaralhavel === false) return false;
+    var alts = q.alternativas || {};
+    for (var k in alts) if (REF_POSICAO.test(alts[k])) return false;
+    return true;
+  };
+  function hash(str) {
+    var h = 2166136261;
+    for (var i = 0; i < str.length; i++) { h ^= str.charCodeAt(i); h = Math.imul(h, 16777619); }
+    return h >>> 0;
+  }
+  /* Ordem de exibição: lista das letras ORIGINAIS na ordem em que aparecem.
+     Determinística por (semente, id): a mesma prova sempre mostra a mesma ordem. */
+  D.ordem = function (q, semente) {
+    var letras = D.letras(q);
+    if (!semente || !D.embaralhavel(q)) return letras;
+    var a = letras.slice(), s = hash(semente + "|" + q.id) || 1;
+    for (var i = a.length - 1; i > 0; i--) {
+      s ^= s << 13; s >>>= 0; s ^= s >>> 17; s ^= s << 5; s >>>= 0;
+      var j = s % (i + 1);
+      var t = a[i]; a[i] = a[j]; a[j] = t;
+    }
+    return a;
+  };
+  /* Letra exibida para uma letra original. */
+  D.exibida = function (q, semente, orig) {
+    if (orig == null) return orig;
+    var ordem = D.ordem(q, semente), letras = D.letras(q), i = ordem.indexOf(orig);
+    return i < 0 ? orig : letras[i];
+  };
   D.provaReal = function (idProva) {
     return D.todas.filter(function (q) { return q.origem && q.origem.prova === idProva && q.origem.tipo === "prova_real"; })
       .sort(function (a, b) { return a.origem.numero - b.origem.numero; });
