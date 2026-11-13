@@ -467,9 +467,15 @@ CORRECOES.push({
 CORRECOES.push({
   "id": "RLE-0011",
   "campos": {
-    "comentario": "**Gabarito: A.** No gráfico da prova, a curva realizada está abaixo da planejada na semana 18 (atraso) e o caminho crítico projetado volta a encontrar a curva planejada na semana 21. Observação: a figura original não foi reproduzida no banco; a questão depende do gráfico."
+    "comentario": "**Gabarito: A.** No gráfico da prova, a curva realizada está abaixo da planejada na semana 18 (atraso) e o caminho crítico projetado volta a encontrar a curva planejada na semana 21. Observação: a figura original não foi reproduzida no banco; a questão depende do gráfico.",
+    "status": "duvida",
+    "validacao": {
+      "por": "agente-5",
+      "em": "2026-11-13",
+      "obs": "Depende do gráfico da curva S da prova (Banestes 2024, Q16), que não foi importado: sem a figura a questão não pode ser resolvida. Decisão do dono: anexar a imagem da prova (campo imagem) e voltar para validada, ou mantê-la fora dos simulados."
+    }
   },
-  "motivo": "Comentário escrito pelo agente 5 (a questão importada estava com comentário vazio); gabarito oficial mantido."
+  "motivo": "Comentário escrito pelo agente 5 (a questão importada estava com comentário vazio); gabarito oficial mantido. Marcada como dúvida pelo agente 5: Depende do gráfico da curva S da prova (Banestes 2024, Q16), que não foi importado: sem a figura a questão não pode ser resolvida. Decisão do dono: anexar a imagem da prova (campo imagem) e voltar para validada, ou mantê-la fora dos simulados."
 });
 
 CORRECOES.push({
