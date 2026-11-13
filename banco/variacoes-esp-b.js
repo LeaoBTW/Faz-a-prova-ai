@@ -43,11 +43,11 @@ BANCO.push({
   "comentario": "**Gabarito: A.** Na saga **orquestrada** um orquestrador central diz a cada serviço o que fazer e dispara as compensações em caso de falha.\n\n(B) Na saga coreografada não há coordenador: cada serviço publica eventos e reage aos eventos dos outros. (C) O 2PC é um protocolo bloqueante com coordenador de transação global, justamente o que a saga evita; não usa compensações. (D) CQRS separa os modelos de leitura e escrita e Event Sourcing guarda a sequência de eventos; nenhum dos dois coordena a transação de negócio. (E) Bulkhead isola recursos por dependência e fallback dá resposta alternativa; não tratam consistência entre serviços.\n\nRevisar: Apostila 06, §11.7.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -90,11 +90,11 @@ BANCO.push({
   "comentario": "**Gabarito: C.** O **Model** guarda os dados, as regras de negócio e o estado; no MVC clássico notifica as views (padrão Observer).\n\n(A) O Controller recebe as entradas do usuário, aciona o modelo e escolhe a view. (B) A View apenas apresenta os dados. (D) Front Controller é um ponto único que recebe todas as requisições e as despacha (ex.: DispatcherServlet); não contém regra de negócio. (E) Presenter é o mediador do padrão MVP, não um componente do MVC.\n\nRevisar: Apostila 06, §9.7.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -137,11 +137,11 @@ BANCO.push({
   "comentario": "**Gabarito: D.** No **MVVM** a ViewModel expõe dados e comandos aos quais a View se liga por **data binding** (WPF, Angular, Vue).\n\n(A) No MVC clássico a View consulta o Model e é notificada por Observer; não há ViewModel. (B) No MVP a View é passiva e o Presenter a atualiza explicitamente, sem data binding. (C) Front Controller trata do recebimento de requisições, não da ligação de dados com a tela. (E) Camadas fechadas descrevem dependências entre camadas, não o mecanismo de atualização da interface.\n\nRevisar: Apostila 06, §9.7.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -184,11 +184,11 @@ BANCO.push({
   "comentario": "**Gabarito: C.** No modelo **2 tier** (cliente gordo + SGBD), a aplicação cliente reúne interface e lógica e fala direto com o servidor de banco.\n\n(A) Descreve as camadas **fechadas** (estritas); nas abertas uma camada pode acessar qualquer inferior. (B) Layer é divisão lógica e tier é física: três layers podem rodar em um único tier. (D) Sinkhole é a camada que apenas repassa chamadas sem acrescentar lógica; acesso direto da apresentação ao banco é violação de camadas fechadas. (E) Isolar a persistência na camada de dados é justamente o que permite trocar o banco sem mexer nas outras camadas.\n\nRevisar: Apostila 06, §9.8.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -231,11 +231,11 @@ BANCO.push({
   "comentario": "**Gabarito: B.** O **BFF** é uma variação do API Gateway com um gateway por tipo de cliente (mobile, web, parceiros).\n\n(A) Service mesh cuida da comunicação **interna** serviço a serviço (mTLS, retries, observabilidade). (C) O ESB é o barramento de integração centralizado típico da SOA, não um gateway por canal. (D) Sidecar é um contêiner auxiliar implantado junto a cada serviço. (E) Strangler Fig é padrão de migração gradual de legado.\n\nRevisar: Apostila 06, §11.6.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -278,11 +278,11 @@ BANCO.push({
   "comentario": "**Gabarito: E.** Acumular lógica de negócio no gateway é um risco apontado na literatura: ele deve rotear, proteger e agregar, mas as regras ficam nos serviços (\"endpoints inteligentes, canais burros\").\n\n(A), (B), (C) e (D) são funções típicas do API Gateway: roteamento, autenticação/autorização centralizadas, rate limiting e composição de respostas.\n\nRevisar: Apostila 06, §11.6.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -325,11 +325,11 @@ BANCO.push({
   "comentario": "**Gabarito: D.** Lewis e Fowler descrevem **governança descentralizada** (cada time escolhe ferramentas) e **gerenciamento de dados descentralizado** (banco por serviço, persistência poliglota).\n\n(A) Componentização via serviços. (B) Organização em torno de capacidades de negócio (Lei de Conway). (C) Smart endpoints and dumb pipes. (E) Design for failure. Todas estão corretas.\n\nRevisar: Apostila 06, §11.3.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -372,11 +372,11 @@ BANCO.push({
   "comentario": "**Gabarito: C.** No estado **semiaberto** (half-open) algumas chamadas de teste passam; se derem certo, o circuito fecha; se falharem, volta a abrir.\n\n(A) Fechado é o funcionamento normal, com todas as chamadas passando. (B) Aberto bloqueia as chamadas e falha imediatamente. (D) Fallback é a resposta alternativa usada quando a chamada falha, não um estado do disjuntor. (E) Bulkhead é outro padrão (isolamento de recursos).\n\nRevisar: Apostila 06, §11.7.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -419,11 +419,11 @@ BANCO.push({
   "comentario": "**Gabarito: E.** O **Bulkhead** isola recursos (pools de threads/conexões) por dependência, como os compartimentos estanques de um navio.\n\n(A) Retry repete chamadas que falharam por motivo transitório; aqui pioraria o esgotamento. (B) O circuit breaker para de chamar o serviço após falhas, mas não reserva recursos separados. (C) Saga trata consistência de transações distribuídas. (D) API Composition junta resultados de vários serviços.\n\nRevisar: Apostila 06, §11.7.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -466,11 +466,11 @@ BANCO.push({
   "comentario": "**Gabarito: A.** O **CQRS** (Command Query Responsibility Segregation) separa o modelo de escrita (comandos) do de leitura (consultas), que podem ter bancos e estruturas diferentes.\n\n(B) Saga coordena transações locais com compensações. (C) Database per service define que cada serviço tem seu banco, mas não separa leitura de escrita dentro do serviço. (D) Strangler Fig migra legados aos poucos. (E) Service Discovery localiza instâncias de serviços.\n\nRevisar: Apostila 06, §11.7.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -513,11 +513,11 @@ BANCO.push({
   "comentario": "**Gabarito: E.** No **outbox transacional**, o evento é gravado numa tabela \"outbox\" na **mesma transação local** do dado; um processo separado o publica, garantindo que dado e evento fiquem consistentes.\n\n(B) O 2PC é bloqueante, pouco escalável e muitas vezes não suportado pelo broker; é o que se quer evitar. (C) Timeout maior não resolve a queda entre as duas operações. (D) Chamadas síncronas aumentam o acoplamento temporal e não resolvem a atomicidade. (A) Circuit breaker evita falhas em cascata; não garante atomicidade.\n\nRevisar: Apostila 06, §11.7.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -560,11 +560,11 @@ BANCO.push({
   "comentario": "**Gabarito: A.** A **camada anticorrupção** traduz entre o modelo do legado e o modelo novo, protegendo o domínio novo.\n\n(B) Strangler Fig substitui o legado aos poucos, roteando funções para o sistema novo; não é um tradutor de modelos. (C) Linguagem ubíqua é o vocabulário comum dentro de um contexto delimitado. (D) Raiz de agregado é a entidade que controla o acesso a um agregado. (E) Na relação conformista o consumidor **adota** o modelo do fornecedor, o oposto do que se quer.\n\nRevisar: Apostila 06, §18.3.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -607,11 +607,11 @@ BANCO.push({
   "comentario": "**Gabarito: D.** Adaptadores **secundários (driven)** são aqueles que o núcleo chama: repositório de banco (3) e cliente de API externa (4).\n\n(1) O controlador REST e (2) o consumidor de fila **chamam** o núcleo: são adaptadores **primários (driving)**. Por isso as combinações que incluem 1 ou 2 estão erradas.\n\nRevisar: Apostila 06, §18.1.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -654,11 +654,11 @@ BANCO.push({
   "comentario": "**Gabarito: E.** Em todas essas arquiteturas o **domínio fica no centro** e **as dependências apontam para dentro** (aplicação do princípio da inversão de dependência); o domínio define portas e os adaptadores as implementam.\n\n(A) O domínio não conhece framework nem banco. (C) Quem fica no centro é o domínio, não a persistência. (D) Um dos benefícios é testar o domínio com adaptadores falsos. (B) Não há restrição de tecnologia: o banco relacional entra por um adaptador.\n\nRevisar: Apostila 06, §18.1.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -701,11 +701,11 @@ BANCO.push({
   "comentario": "**Gabarito: C.** O **Strangler Fig** substitui o legado **gradualmente**, desviando o tráfego para o código novo até o legado poder ser desligado.\n\n(A) Big bang é o oposto: troca tudo de uma vez. (B) Lift and shift (rehost) move a aplicação sem reescrevê-la. (D) A camada anticorrupção traduz modelos, mas não é a estratégia de substituição incremental. (E) Blue-green é estratégia de implantação de versões, não de migração de legado.\n\nRevisar: Apostila 06, §18.3.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -748,11 +748,11 @@ BANCO.push({
   "comentario": "**Gabarito: A.** No **3 tier** clássico da web: navegador (apresentação), servidor de aplicação (lógica) e servidor de banco (dados).\n\n(B) MVC é padrão lógico de interface, não divisão física em tiers. (C) Cliente gordo + SGBD caracteriza o 2 tier. (D) São componentes de infraestrutura de microsserviços. (E) São camadas do modelo OSI.\n\nRevisar: Apostila 06, §9.8.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -795,11 +795,11 @@ BANCO.push({
   "comentario": "**Gabarito: D.** Com a lógica no servidor de aplicação, uma mudança de regra não exige redistribuir o cliente, e a camada intermediária pode ser replicada/escalada sem mexer no banco.\n\n(A) A comunicação continua sendo pela rede. (B) Concorrência no banco continua necessária. (C) Testes continuam necessários. (E) As camadas podem usar tecnologias diferentes.\n\nRevisar: Apostila 06, §9.8.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -842,11 +842,11 @@ BANCO.push({
   "comentario": "**Gabarito: B.** O **stub** é o **proxy remoto** do lado cliente: tem a mesma interface do objeto, faz o marshalling e envia a chamada. É uma aplicação do padrão Proxy (proxy remoto) citado na apostila.\n\n(A) O skeleton fica do lado **servidor**, desempacota a chamada e invoca o objeto real. (C) UDDI é registro de Web Services SOAP. (D) Adaptador primário é conceito da arquitetura hexagonal. (E) O broker intermedeia mensagens assíncronas, não representa um objeto remoto.\n\nRevisar: Apostila 06, §9.4.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -889,11 +889,11 @@ BANCO.push({
   "comentario": "**Gabarito: E.** **Ausência de estado** (statelessness): o serviço minimiza a retenção de estado entre requisições, o que favorece escalabilidade e reúso.\n\n(A) Autonomia: o serviço controla seu ambiente e sua lógica. (B) Abstração: o contrato expõe só o essencial. (C) Composição: serviços podem ser combinados em serviços maiores. (D) Descoberta: metadados permitem encontrar o serviço.\n\nRevisar: Apostila 06, §10.1.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -936,11 +936,11 @@ BANCO.push({
   "comentario": "**Gabarito: B.** **Orquestração** = coordenador central (WS-BPEL); **coreografia** = controle distribuído, sem coordenador (WS-CDL).\n\n(A) Inverte os conceitos, pegadinha comum. (C) ESB é barramento de integração e UDDI é registro de serviços. (D) 2PC é protocolo de transação distribuída, não estilo de composição. (E) Publicar e descobrir são operações do triângulo SOA, não desenhos de composição.\n\nRevisar: Apostila 06, §10.1.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -983,11 +983,11 @@ BANCO.push({
   "comentario": "**Gabarito: A.** O **ESB** é o barramento \"inteligente\" típico da SOA: roteamento, transformação, conversão de protocolos e mediação.\n\n(B) Service mesh cuida da comunicação serviço a serviço em microsserviços, sem transformar mensagens de negócio. (C) O BFF é um gateway por tipo de front-end. (D) Balanceador L4 distribui conexões TCP/UDP, sem entender o conteúdo. (E) Eureka é registro para descoberta de serviços.\n\nRevisar: Apostila 06, §10.1.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -1030,11 +1030,11 @@ BANCO.push({
   "comentario": "**Gabarito: C.** SOA: escopo corporativo, ESB, serviços maiores, governança centralizada. Microsserviços: arquitetura de uma aplicação, serviços menores, banco por serviço, governança descentralizada.\n\n(A) Está invertido: o ESB é da SOA; microsserviços usam canais burros. (B) Também invertido: em SOA é comum dado compartilhado; em microsserviços, banco por serviço. (D) Microsserviços usam REST/JSON, gRPC e eventos. (E) Reusabilidade é princípio da SOA.\n\nRevisar: Apostila 06, §11.9.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -1077,11 +1077,11 @@ BANCO.push({
   "comentario": "**Gabarito: E.** Um **evento** notifica que algo **aconteceu** e pode ter vários interessados (publish/subscribe); o emissor não conhece os consumidores — base da arquitetura orientada a eventos.\n\n(A) Comando **pede** que algo seja feito e tem um destinatário. (B) e (C) São interações síncronas, com acoplamento temporal. (D) Compensação desfaz uma etapa da saga; *ContaAberta* apenas informa um fato.\n\nRevisar: Apostila 06, §11.5.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -1124,11 +1124,11 @@ BANCO.push({
   "comentario": "**Gabarito: B.** Na **fila ponto a ponto**, cada mensagem é entregue a **um** consumidor (consumidores concorrentes dividem a carga). No **tópico publish/subscribe**, cada assinante recebe sua cópia do evento.\n\n(A) Inverte os modelos. (C) REST síncrono não distribui trabalho assíncrono nem absorve picos. (D) Um tópico sem grupos de consumidores entregaria a mesma ordem a todas as instâncias, duplicando boletos. (E) 2PC e gRPC não são modelos de mensageria.\n\nRevisar: Apostila 06, §11.5.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -1171,11 +1171,11 @@ BANCO.push({
   "comentario": "**Gabarito: A.** Com entrega at-least-once, o consumidor deve ser **idempotente**: processar a mesma mensagem duas vezes deve ter o mesmo efeito de processá-la uma vez (por exemplo, guardando o ID da mensagem).\n\n(B) Mais partições aumentam o paralelismo, não evitam duplicatas. (C) Sem ack, o broker reenviaria ainda mais. (D) Tópicos não eliminam duplicidade. (E) Retry no produtor pode até **gerar** duplicatas.\n\nRevisar: Apostila 06, §11.5.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -1218,11 +1218,11 @@ BANCO.push({
   "comentario": "**Gabarito: E.** A mensageria reduz o **acoplamento temporal**: emissor e consumidor não precisam estar no ar ao mesmo tempo, e a fila absorve picos.\n\n(A) Resposta imediata é característica da comunicação síncrona. (B) A comunicação assíncrona costuma **introduzir** consistência eventual. (C) A depuração fica mais difícil. (D) Duplicidade é um dos contras da mensageria.\n\nRevisar: Apostila 06, §11.5.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -1265,11 +1265,11 @@ BANCO.push({
   "comentario": "**Gabarito: C.** O **contexto delimitado** é a fronteira de consistência de um modelo e de sua linguagem ubíqua; um bom microsserviço normalmente corresponde a um bounded context.\n\n(A) Agregado é um grupo de entidades tratado como unidade de consistência, dentro de um contexto. (B) Objeto de valor é definido pelos atributos, sem identidade própria. (D) Repositório abstrai a persistência de agregados. (E) Serviço de domínio abriga operações que não pertencem naturalmente a uma entidade.\n\nRevisar: Apostila 06, §11.4.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -1312,11 +1312,11 @@ BANCO.push({
   "comentario": "**Gabarito: B.** O **agregado** é um grupo de entidades tratado como unidade de consistência; o acesso de fora passa pela **raiz do agregado** (aqui, Contrato).\n\n(A) Objeto de valor não tem identidade e é imutável; Contrato tem identidade. (C) Contexto delimitado é uma fronteira de modelo, maior que uma entidade. (D) Camada anticorrupção traduz modelos entre sistemas. (E) Evento de domínio registra um fato ocorrido.\n\nRevisar: Apostila 06, §11.4.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -1359,11 +1359,11 @@ BANCO.push({
   "comentario": "**Gabarito: D.** Na **descoberta no cliente**, o próprio cliente consulta o registro (Eureka, Consul) e escolhe a instância (balanceamento no cliente).\n\n(A) Na descoberta no servidor, o cliente chama um balanceador/roteador, que consulta o registro. (B) e (C) IP fixo ou arquivo hosts não acompanham instâncias dinâmicas. (E) Agregação de respostas é função do gateway, não descoberta.\n\nRevisar: Apostila 06, §11.7.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -1406,11 +1406,11 @@ BANCO.push({
   "comentario": "**Gabarito: B.** No Kubernetes, o **Service** e o **DNS interno** fazem a descoberta: dão endereço estável e balanceamento para pods cujos IPs mudam.\n\n(A) ConfigMap guarda configuração. (C) Volumes guardam dados. (D) O HPA escala o número de pods. (E) O Dockerfile só constrói a imagem.\n\nRevisar: Apostila 06, §18.2.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -1453,11 +1453,11 @@ BANCO.push({
   "comentario": "**Gabarito: C.** Retry exige operação **idempotente**: com uma chave de idempotência, o servidor reconhece a repetição e devolve o resultado já processado.\n\n(A) Repetir sem intervalo agrava a sobrecarga; recomenda-se backoff exponencial com jitter. (B) Tentativas devem ser limitadas. (D) Nunca se espera indefinidamente: timeout é obrigatório. (E) Erros 4xx indicam problema na requisição e normalmente não devem ser repetidos.\n\nRevisar: Apostila 06, §11.7.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -1502,11 +1502,11 @@ BANCO.push({
     "calculo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -1536,7 +1536,7 @@ BANCO.push({
   "formato": "multipla_5",
   "dificuldade": 3,
   "texto_base": null,
-  "enunciado": "Um circuit breaker abre após **3 falhas consecutivas**, permanece aberto por **10 s** e, depois disso, deixa passar **1 chamada de teste** (semiaberto): se ela tiver sucesso, o circuito fecha; se falhar, reabre por mais 10 s. O cliente faz uma requisição a cada 2 s, de t = 0 s a t = 30 s (16 requisições). O serviço remoto falha em todas as chamadas recebidas entre t = 4 s e t = 19 s e responde normalmente fora desse intervalo. O número de requisições efetivamente encaminhadas ao serviço e, entre elas, o número de falhas são, respectivamente,",
+  "enunciado": "Um circuit breaker abre após **3 falhas consecutivas**, permanece aberto por **10 s** e, depois disso (isto é, a partir do instante em que completa 10 s aberto), deixa passar **1 chamada de teste** (semiaberto): se ela tiver sucesso, o circuito fecha; se falhar, reabre por mais 10 s. O cliente faz uma requisição a cada 2 s, de t = 0 s a t = 30 s (16 requisições). O serviço remoto falha em todas as chamadas recebidas entre t = 4 s e t = 19 s e responde normalmente fora desse intervalo. O número de requisições efetivamente encaminhadas ao serviço e, entre elas, o número de falhas são, respectivamente,",
   "imagem": null,
   "alternativas": {
     "A": "16 e 8.",
@@ -1551,11 +1551,11 @@ BANCO.push({
     "calculo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Corrigido pelo agente 5: o enunciado deixava ambíguo se a chamada no instante exato em que o circuito completa 10 s aberto (t = 18 s) já é a de teste; com a outra leitura nenhuma alternativa estaria certa (11 e 3). Acrescentado \"a partir do instante em que completa 10 s aberto\". Simulação refeita: 8 encaminhadas, 4 falhas."
   },
   "versao": 1
 });
@@ -1600,11 +1600,11 @@ BANCO.push({
     "calculo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -1647,11 +1647,11 @@ BANCO.push({
   "comentario": "**Gabarito: E.** Serviços tão acoplados que precisam ser implantados juntos formam um **monolito distribuído**: têm a complexidade de rede dos microsserviços sem a implantação independente.\n\n(A) O monolito modular é **uma** unidade de implantação bem modularizada, não 20 serviços acoplados. (B) Hexagonal trata do isolamento do domínio. (C) Saga é padrão de consistência de dados. (D) Service mesh cuida da comunicação; não causa acoplamento de esquema.\n\nRevisar: Apostila 06, §11.2.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -1694,11 +1694,11 @@ BANCO.push({
   "comentario": "**Gabarito: A.** A **Lei de Conway** relaciona a estrutura do sistema à estrutura de comunicação da organização; por isso se organizam times por domínio (Pagamentos, Crédito).\n\n(B) CAP trata de consistência, disponibilidade e partição em sistemas distribuídos. (C) Moore fala da densidade de transistores. (D) Pareto é a regra 80/20. (E) Brooks: acrescentar pessoas a um projeto atrasado o atrasa ainda mais.\n\nRevisar: Apostila 06, §11.2.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -1741,11 +1741,11 @@ BANCO.push({
   "comentario": "**Gabarito: B.** Com partição (P), é preciso escolher entre C e A. Continuar atendendo nas duas regiões e reconciliar depois é escolher **disponibilidade** com **consistência eventual** (BASE).\n\n(A) Privilegiar consistência implicaria recusar operações durante a partição. (C) Partições não podem ser eliminadas por projeto. (D) O teorema diz justamente que não se garantem as três durante a partição. (E) ACID global exigiria coordenação, impossível durante a partição sem perder disponibilidade.\n\nRevisar: Apostila 06, §11.7.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -1788,11 +1788,11 @@ BANCO.push({
   "comentario": "**Gabarito: B.** No **Event Sourcing** guarda-se a **sequência de eventos** que levou ao estado, reconstruído pela reprodução dos eventos; dá trilha de auditoria completa.\n\n(A) CQRS separa os modelos de leitura e escrita (é comum combiná-lo com Event Sourcing, mas são padrões distintos). (C) API Composition junta resultados de vários serviços. (D) Database per service define a propriedade dos dados. (E) Outbox garante a publicação de eventos junto com a transação local.\n\nRevisar: Apostila 06, §11.7.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -1835,11 +1835,11 @@ BANCO.push({
   "comentario": "**Gabarito: D.** O **service mesh** (Istio, Linkerd) usa **proxies sidecar** e cuida do tráfego interno (leste-oeste) sem alterar o código; o **API Gateway** é o ponto único de entrada dos clientes externos (norte-sul).\n\n(A) Exposição externa e gestão de APIs são funções do gateway. (B) mTLS automático entre serviços é justamente o que o mesh oferece sem mudar código. (C) Ambos são componentes de infraestrutura, não bibliotecas. (E) O mesh não é barramento com transformação de mensagens.\n\nRevisar: Apostila 06, §11.7.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -1882,11 +1882,11 @@ BANCO.push({
   "comentario": "**Gabarito: C.** A definição da CNCF cita **contêineres, service meshes, microsserviços, infraestrutura imutável e APIs declarativas**.\n\n(A) Servidores atualizados no lugar caracterizam infraestrutura mutável (\"flocos de neve\"). (B) Releases raros e monolíticos se opõem à entrega contínua. (D) Estado na memória local impede escalar horizontalmente (12 fatores: processos sem estado). (E) O fator III manda guardar configuração em variáveis de ambiente.\n\nRevisar: Apostila 07, §2.6.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -1929,11 +1929,11 @@ BANCO.push({
   "comentario": "**Gabarito: A.** O fator **VI (Processos)** pede processos **sem estado**; dados que precisam persistir ficam em **serviços de apoio** (banco, cache como Redis).\n\n(B) Arquivo local continua preso à instância. (C) Sem balanceador não há escala horizontal. (D) Escala vertical não resolve a troca de instância. (E) Configuração no código viola o fator III.\n\nRevisar: Apostila 07, §2.6.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -1976,11 +1976,11 @@ BANCO.push({
   "comentario": "**Gabarito: E.** Em **duto e filtro**, os dados fluem por uma sequência de transformações independentes (pipelines Unix, compiladores, ETL).\n\n(A) No repositório os componentes interagem por um armazenamento central. (B) Cliente-servidor separa quem oferece e quem consome serviços. (D) Em eventos, componentes reagem a eventos publicados, sem cadeia fixa. (C) MVC organiza interfaces interativas.\n\nRevisar: Apostila 06, §9.8.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -2023,11 +2023,11 @@ BANCO.push({
   "comentario": "**Gabarito: B.** **Testes de contrato** (Pact) verificam se provedor e consumidor continuam compatíveis, sem ambiente integrado completo — recomendados para microsserviços.\n\n(A) Teste de carga mede desempenho. (C) Ponta a ponta exige o sistema todo e é justamente o que se quer reduzir. (D) SAST procura vulnerabilidades no código. (E) Teste de mutação avalia a qualidade dos testes alterando o código.\n\nRevisar: Apostila 06, §11.8.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -2070,11 +2070,11 @@ BANCO.push({
   "comentario": "**Gabarito: D.** **APIs de fachada** expõem funções do mainframe por REST, escondendo os detalhes do legado; publicadas no gateway, ganham autenticação e rate limiting.\n\n(A) Reescrever tudo antes é a abordagem big bang, de alto risco. (B) Acesso direto às tabelas cria acoplamento e ignora as regras do legado. (C) Arquivos diários não atendem consulta em tempo real. (E) Rehost muda a hospedagem, não oferece interface aos canais.\n\nRevisar: Apostila 06, §18.3.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -2117,11 +2117,11 @@ BANCO.push({
   "comentario": "**Gabarito: A.** O **rastreamento distribuído** (OpenTelemetry, Jaeger, Zipkin) segue a requisição por todos os serviços, mostrando o tempo de cada trecho (spans), com ID de correlação propagado.\n\n(B) O log de um só serviço não mostra o caminho completo. (C) Aumentar timeout esconde o problema. (D) Trocar o gateway não dá visibilidade. (E) Dump do banco não mostra a cadeia de chamadas.\n\nRevisar: Apostila 06, §11.7.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -2164,11 +2164,11 @@ BANCO.push({
   "comentario": "**Gabarito: D.** O kernel compartilhado torna o isolamento do contêiner **mais fraco**: uma falha no kernel afeta todos os contêineres do host. A VM tem fronteira de hardware virtual e isolamento mais forte.\n\n(A), (B), (C) e (E) estão corretas: VM virtualiza hardware com SO completo; contêiner virtualiza o SO; contêineres são leves e densos; e VMs e contêineres se complementam.\n\nRevisar: Apostila 04, §13.5.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -2211,11 +2211,11 @@ BANCO.push({
   "comentario": "**Gabarito: D.** Como o contêiner compartilha o kernel do hospedeiro, um contêiner precisa ser compatível com esse kernel. Para rodar Windows num host Linux, com isolamento forte, usa-se uma **máquina virtual** sobre hipervisor.\n\n(A) Contêiner Linux não executa binários Windows. (B) Namespaces e cgroups isolam e limitam processos Linux, não emulam outro SO. (C) chroot só muda a raiz do sistema de arquivos. (E) Um pod também roda contêineres sobre o kernel do nó; não resolve a incompatibilidade de SO.\n\nRevisar: Apostila 04, §13.5.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -2258,11 +2258,11 @@ BANCO.push({
   "comentario": "**Gabarito: D.** Os **namespaces** isolam o que o processo **vê**; o namespace **NET** dá a cada contêiner interfaces, rotas e portas próprias.\n\n(A) cgroups **limitam** o uso de recursos (quanto o processo usa), não a visão da rede. (C) UTS isola o hostname. (B) OverlayFS é o sistema de arquivos em camadas das imagens. (E) seccomp filtra chamadas de sistema permitidas.\n\nRevisar: Apostila 04, §13.5.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -2305,11 +2305,11 @@ BANCO.push({
   "comentario": "**Gabarito: C.** **cgroups** limitam e contabilizam recursos (CPU, memória, E/S). Um limite como `--memory=512m` no Docker é aplicado via cgroup.\n\n(A) e (B) Namespaces isolam a visão (processos, pontos de montagem), não limitam consumo. (D) chroot muda a raiz do sistema de arquivos. (E) O union filesystem empilha as camadas da imagem.\n\nRevisar: Apostila 04, §13.5.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -2354,11 +2354,11 @@ BANCO.push({
     "nao_executado"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Tag nao_executado (sem daemon Docker no container): conferida pelo agente 5 com a documentação oficial do Dockerfile (ENTRYPOINT em forma exec + CMD como argumentos padrão; argumentos do docker run substituem só o CMD). Gabarito D correto."
   },
   "versao": 1
 });
@@ -2401,11 +2401,11 @@ BANCO.push({
   "comentario": "**Gabarito: B.** A sintaxe é `-p host:contêiner`: a porta **8081 do host** encaminha para a 8080 do contêiner.\n\n(A) EXPOSE apenas **documenta** a porta; quem publica é o `-p`. (C) A ordem é host:contêiner. (D) Porta aleatória só ocorre com `-P` (maiúsculo) ou sem informar a porta do host. (E) `-d` apenas executa em segundo plano (detached).\n\nRevisar: Apostila 06, §12.5.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -2448,11 +2448,11 @@ BANCO.push({
   "comentario": "**Gabarito: C.** Na **entrega contínua**, o software está sempre pronto para ser liberado, mas a ida à produção é uma **decisão manual**.\n\n(A) Há pacote testado em homologação, o que vai além da CI. (B) Na implantação contínua a produção é atualizada **automaticamente**, sem intervenção humana. (D) O cascata não pressupõe pipeline automatizado a cada alteração. (E) Recreate é estratégia de troca de versão (derruba a antiga e sobe a nova).\n\nRevisar: Apostila 06, §12.3.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -2495,11 +2495,11 @@ BANCO.push({
   "comentario": "**Gabarito: E.** Acumular integrações para o fim da iteração é o oposto da CI: o objetivo é integrar **com frequência** (pelo menos diariamente) para detectar erros cedo.\n\n(A), (B), (C) e (D) são práticas de CI listadas por Fowler: commit diário na mainline, build autotestável, correção imediata do build quebrado e build rápido.\n\nRevisar: Apostila 06, §12.2.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -2542,11 +2542,11 @@ BANCO.push({
   "comentario": "**Gabarito: D.** Imagem = modelo **somente leitura** em camadas; contêiner = instância em execução com uma **camada gravável** por cima; dados persistentes vão para **volumes**.\n\n(A) Inverte imagem e contêiner. (B) A camada gravável some quando o contêiner é removido. (C) O arquivo de instruções é o Dockerfile; o Docker Hub é um registro de imagens. (E) O Compose define aplicações multicontêiner num YAML em um host; distribuir pods em cluster é papel do Kubernetes.\n\nRevisar: Apostila 06, §12.5.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -2589,11 +2589,11 @@ BANCO.push({
   "comentario": "**Gabarito: E.** No **blue-green** há dois ambientes completos; troca-se o tráfego de uma vez, e o rollback é imediato (volta-se para o ambiente antigo).\n\n(A) Canary libera a nova versão primeiro para uma pequena parcela de usuários. (B) Rolling substitui instâncias aos poucos, sem duplicar o ambiente. (C) Recreate derruba a versão antiga antes de subir a nova, com indisponibilidade. (D) A/B testing compara versões para fins de negócio.\n\nRevisar: Apostila 06, §12.3.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -2636,11 +2636,11 @@ BANCO.push({
   "comentario": "**Gabarito: A.** **Feature flags** colocam o código em produção desligado e o ativam por configuração para grupos de usuários: separam deploy de release e viabilizam o trunk-based development.\n\n(B) Blue-green troca todo o tráfego entre dois ambientes. (C) Dark launch envia cópia do tráfego real à nova versão sem afetar o usuário. (D) Recreate derruba a versão antiga e sobe a nova. (E) Hotfix é um ramo de correção urgente.\n\nRevisar: Apostila 06, §12.3.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -2683,11 +2683,11 @@ BANCO.push({
   "comentario": "**Gabarito: B.** A abordagem **declarativa** descreve o **estado desejado**; a ferramenta calcula as ações (Terraform, CloudFormation, YAML do Kubernetes).\n\n(A) e (D) A imperativa/procedural descreve os **passos**. (C) Mutável x imutável diz respeito a alterar servidores no lugar ou recriá-los, não à forma de descrever. (E) Configuração manual é o que a IaC substitui.\n\nRevisar: Apostila 06, §12.4.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -2730,11 +2730,11 @@ BANCO.push({
   "comentario": "**Gabarito: E.** Idempotência significa que aplicar a mesma definição várias vezes produz o **mesmo resultado**: se o estado já é o desejado, **nada muda**.\n\n(A) Versionamento é benefício central da IaC. (B) É a definição de infraestrutura imutável. (C) Ansible é push e agentless. (D) IaC combate drift e servidores únicos impossíveis de reproduzir.\n\nRevisar: Apostila 06, §12.4.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -2777,11 +2777,11 @@ BANCO.push({
   "comentario": "**Gabarito: B.** Ordem típica: commit → build → testes de unidade e análise estática (qualidade e segurança) → empacotamento (artefato/imagem) → testes de integração/aceitação em homologação → (aprovação, na entrega contínua) → produção → monitoramento.\n\n(A), (C), (D) e (E) invertem etapas: não se empacota antes de compilar, nem se implanta em produção antes de testar.\n\nRevisar: Apostila 06, §12.3.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -2824,11 +2824,11 @@ BANCO.push({
   "comentario": "**Gabarito: C.** Princípio: **construa os binários uma única vez** e promova o **mesmo artefato** por todos os ambientes; o que muda entre ambientes é a configuração.\n\n(A) Recompilar por ambiente abre espaço para diferenças entre o que foi testado e o que vai para produção. (B) e (E) Processos manuais e máquinas de desenvolvedor contrariam a automação e a rastreabilidade. (D) O artefato deve ser exatamente o que foi testado.\n\nRevisar: Apostila 06, §12.3.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -2871,11 +2871,11 @@ BANCO.push({
   "comentario": "**Gabarito: E.** **Teste de regressão** verifica se mudanças não quebraram o que já funcionava; sua automação no pipeline é prática central de CI/CD.\n\n(A) Aceitação valida o atendimento às necessidades do usuário. (B) Estresse leva o sistema além do limite. (C) Usabilidade avalia a facilidade de uso. (D) Smoke test é um teste rápido de sanidade; e não se executa só uma vez.\n\nRevisar: Apostila 06, §16.3.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -2918,11 +2918,11 @@ BANCO.push({
   "comentario": "**Gabarito: C.** A regra limita `producao` à branch `main` e, com `when: manual`, exige que alguém o acione: o software fica pronto para produção, mas a liberação é decisão manual — **entrega contínua**.\n\n(A) Não é automático nem vale para qualquer branch. (B) Os estágios rodam em sequência (build → test → deploy); só jobs do **mesmo** estágio rodam em paralelo. (D) A ordem é a de `stages`: build antes de test. (E) Com falha em um estágio, os estágios seguintes não prosseguem.\n\nEstrutura do YAML conferida com PyYAML em `tools/verificacao/agente4/verif_devops.py`; a semântica (stages, when, rules) segue a documentação do GitLab CI.\n\nRevisar: Apostila 06, §12.3.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -2965,11 +2965,11 @@ BANCO.push({
   "comentario": "**Gabarito: A.** No **trunk-based development** todos integram no tronco ao menos diariamente, com ramos curtos ou nenhum e feature flags; é a estratégia mais alinhada à CI/CD.\n\n(B) O Git Flow usa ramos de longa duração, adequados a releases planejadas. (C) e (E) Ramos longos adiam a integração e aumentam conflitos. (D) O GitLab Flow acrescenta ramos de ambiente, mas não é a definição pedida.\n\nRevisar: Apostila 06, §12.7.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -3012,11 +3012,11 @@ BANCO.push({
   "comentario": "**Gabarito: E.** **Taxa de falha de mudanças** e **tempo de restauração** (MTTR) medem estabilidade; **frequência de implantação** e **lead time** medem velocidade (throughput).\n\n(A) São as duas de velocidade. (B) e (C) Misturam uma de cada grupo. (D) Não são métricas DORA.\n\nRevisar: Apostila 06, §12.6.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -3061,11 +3061,11 @@ BANCO.push({
     "calculo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -3110,11 +3110,11 @@ BANCO.push({
     "calculo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -3157,11 +3157,11 @@ BANCO.push({
   "comentario": "**Gabarito: D.** **SLI** é o indicador medido; **SLO** é o objetivo interno para o SLI; **SLA** é o acordo contratual, com penalidades.\n\nAs demais alternativas trocam a ordem desses três conceitos.\n\nRevisar: Apostila 06, §12.6.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -3204,11 +3204,11 @@ BANCO.push({
   "comentario": "**Gabarito: A.** `terraform plan` mostra o que vai mudar. O fluxo é `init` → `plan` → `apply`, e o Terraform guarda um **arquivo de estado** para saber o que já existe.\n\n(B) `init` prepara o diretório e baixa provedores. (C) `apply` executa as mudanças. (D) `destroy` remove os recursos. (E) `import` traz para o estado um recurso criado fora do Terraform.\n\nRevisar: Apostila 06, §12.4.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -3251,11 +3251,11 @@ BANCO.push({
   "comentario": "**Gabarito: C.** O **Ansible** é push e agentless (via SSH); o **Puppet** (e o Chef) usa agentes que buscam a configuração (pull).\n\n(A) Inverte os modelos. (B) Terraform e CloudFormation são ferramentas de **provisionamento** declarativo, não de gerência de configuração por agentes. (D) São plataforma de contêineres e orquestrador. (E) São servidor de CI e ferramenta de qualidade de código.\n\nRevisar: Apostila 06, §12.4.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -3298,11 +3298,11 @@ BANCO.push({
   "comentario": "**Gabarito: A.** No **GitOps**, o Git é a fonte da verdade e um agente (Argo CD, Flux) sincroniza o ambiente com o repositório.\n\n(B) Git Flow é estratégia de ramificação. (C) Infraestrutura mutável é alterar servidores no lugar, o oposto da reconciliação automática. (D) Não se trata de aprovação manual. (E) Dark launch espelha tráfego para uma nova versão.\n\nRevisar: Apostila 06, §12.4.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -3345,11 +3345,11 @@ BANCO.push({
   "comentario": "**Gabarito: E.** A **SCA** identifica componentes de terceiros e suas versões, cruza com bases de vulnerabilidades (CVE) e licenças e gera **SBOM**.\n\n(A) SAST analisa o **código próprio** sem executar. (B) DAST ataca a aplicação em execução pelo lado de fora. (C) RASP protege a aplicação em produção, de dentro dela. (D) Teste de carga mede desempenho.\n\nRevisar: Apostila 04, §19.4.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -3392,11 +3392,11 @@ BANCO.push({
   "comentario": "**Gabarito: E.** Um segredo exposto deve ser considerado **comprometido**: revoga-se e troca-se a credencial, e passa-se a usar **gestão de segredos** (Vault, Key Vault, Secrets Manager).\n\n(A) Um novo commit não apaga a chave do histórico. (B) Tornar privado não desfaz a exposição já ocorrida. (D) Base64 é codificação, não criptografia. (C) `.gitignore` só evita rastrear arquivos novos; não remove nada já versionado nem dos clones.\n\nRevisar: Apostila 04, §19.4.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -3439,11 +3439,11 @@ BANCO.push({
   "comentario": "**Gabarito: E.** Segredos em `ENV` (ou em qualquer camada) ficam gravados na imagem e podem ser lidos por quem tiver acesso a ela; devem vir de um gerenciador de segredos ou de Secrets do orquestrador em tempo de execução.\n\n(A), (B), (C) e (D) são boas práticas: imagem mínima e confiável, não rodar como root, varredura de imagens e multi-stage build.\n\nRevisar: Apostila 04, §13.5.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -3486,11 +3486,11 @@ BANCO.push({
   "comentario": "**Gabarito: A.** *Shift left* é antecipar a segurança (e a qualidade) no ciclo: requisitos, modelagem de ameaças, SAST no commit, SCA no build, com segurança como responsabilidade compartilhada.\n\n(B) É o oposto. (C) DevSecOps torna a segurança responsabilidade de todos. (D) A ideia é automação contínua, não auditoria esporádica. (E) Não tem relação com migração para nuvem.\n\nRevisar: Apostila 06, §12.6.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -3533,11 +3533,11 @@ BANCO.push({
   "comentario": "**Gabarito: B.** **Métricas** são números ao longo do tempo (contadores, histogramas), ideais para painéis, tendências e alertas como taxa de 5xx e p95 de latência.\n\n(A) Logs registram eventos individuais; é possível derivar números deles, mas o pilar natural é o de métricas. (C) Traces mostram o percurso de uma requisição específica. (D) e (E) Não são pilares da observabilidade.\n\nRevisar: Apostila 04, §22.1.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -3580,11 +3580,11 @@ BANCO.push({
   "comentario": "**Gabarito: C.** Os **quatro sinais de ouro** são **latência, tráfego, erros e saturação**.\n\n(A) São princípios de segurança. (B) Logs, métricas e traces são os pilares da observabilidade. (D) São recursos de infraestrutura (a saturação os considera, mas não são os sinais). (E) São as métricas DORA.\n\nRevisar: Apostila 04, §22.1.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -3629,11 +3629,11 @@ BANCO.push({
     "nao_executado"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Tag nao_executado (sem daemon Docker): conferida pelo agente 5 com a documentação do cache de build do Docker (camada invalidada quando o conteúdo copiado muda; versão 2 reaproveita a camada de dependências). Gabarito C correto."
   },
   "versao": 1
 });
@@ -3676,11 +3676,11 @@ BANCO.push({
   "comentario": "**Gabarito: D.** No **multi-stage build** há vários `FROM` no mesmo Dockerfile; o estágio de build compila e o estágio final copia só o artefato (`COPY --from=...`).\n\n(A) Compose define aplicações multicontêiner. (C) Volume guarda dados persistentes. (B) HEALTHCHECK define como verificar a saúde do contêiner. (E) `docker commit` cria imagem a partir de um contêiner, prática pouco reprodutível.\n\nRevisar: Apostila 06, §12.5.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -3723,11 +3723,11 @@ BANCO.push({
   "comentario": "**Gabarito: A.** O **Docker Compose** define e executa aplicações com vários contêineres em um arquivo YAML (`compose.yaml`), subindo tudo com `docker compose up`.\n\n(B) HPA escala pods no Kubernetes. (C) Terraform provisiona infraestrutura. (D) Multi-stage build constrói **uma** imagem. (E) Jenkins é servidor de CI.\n\nRevisar: Apostila 06, §12.5.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -3770,11 +3770,11 @@ BANCO.push({
   "comentario": "**Gabarito: D.** O **pod** é a menor unidade implantável; seus contêineres compartilham rede (mesmo IP) e armazenamento.\n\n(A) Nó é a máquina que executa pods. (B) Deployment gerencia réplicas e atualizações de pods. (C) Service dá endereço estável e balanceamento a um conjunto de pods. (E) Namespace é uma divisão lógica do cluster.\n\nRevisar: Apostila 06, §12.5.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -3817,11 +3817,11 @@ BANCO.push({
   "comentario": "**Gabarito: A.** O **Deployment** gerencia ReplicaSets de forma declarativa, faz **rolling updates** por padrão e guarda o histórico de revisões, permitindo `kubectl rollout undo deployment/<nome>`.\n\n(B) Esse é o comportamento da estratégia Recreate, que precisa ser escolhida explicitamente; e o rollback continua possível. (C) e (D) O rollback é feito pela API do Kubernetes, sem recriar o cluster nem mexer no etcd. (E) Aplicações com estado usam StatefulSet; Deployment é para aplicações sem estado.\n\nRevisar: Apostila 06, §12.5.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -3864,11 +3864,11 @@ BANCO.push({
   "comentario": "**Gabarito: A.** O **Ingress** define regras de roteamento HTTP/HTTPS externas (por host e caminho) para Services, com terminação TLS, implementadas por um ingress controller.\n\n(C) ClusterIP expõe o Service apenas dentro do cluster. (B) ConfigMap guarda configuração. (D) DaemonSet roda um pod por nó. (E) PVC solicita armazenamento persistente.\n\nRevisar: Apostila 06, §12.5.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -3911,11 +3911,11 @@ BANCO.push({
   "comentario": "**Gabarito: B.** **ConfigMap** guarda configurações não sensíveis; **Secret** guarda dados sensíveis (senhas, chaves, certificados), separados da imagem. Boa prática: cifrar Secrets em repouso e restringir o acesso por RBAC.\n\n(A) Inverte os objetos. (C) Configuração e segredos não devem ficar fixos na imagem. (D) Ingress e Service tratam de rede. (E) Namespace e ReplicaSet não armazenam configuração.\n\nRevisar: Apostila 06, §12.5.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -3958,11 +3958,11 @@ BANCO.push({
   "comentario": "**Gabarito: B.** A **readiness probe** indica se o pod está pronto para receber tráfego; se falha, o pod sai dos endpoints do Service, sem ser reiniciado. A **liveness probe** indica se o contêiner está vivo; se falha, o kubelet o **reinicia**.\n\n(A) Inverte os papéis. (C) A readiness não reinicia o contêiner (a startup probe existe para inicializações lentas, adiando as demais sondas). (D) Liveness reiniciaria o contêiner durante o carregamento. (E) Readiness não resolve o travamento, pois não reinicia.\n\nRevisar: Apostila 06, §12.5.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -4007,11 +4007,11 @@ BANCO.push({
     "calculo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -4054,11 +4054,11 @@ BANCO.push({
   "comentario": "**Gabarito: A.** O **etcd** é o banco chave-valor com o estado do cluster; o **kubelet** é o agente em cada nó.\n\n(B) kube-proxy cuida das regras de rede dos Services. (C) O Scheduler decide em que nó o pod roda; o Controller Manager executa os controladores. (D) e (E) O API Server é a porta de entrada do plano de controle; não é agente de nó.\n\nRevisar: Apostila 06, §12.5.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -4101,11 +4101,11 @@ BANCO.push({
   "comentario": "**Gabarito: B.** `kubectl scale deployment <nome> --replicas=N -n <namespace>` ajusta o número de réplicas.\n\n(A) `get` apenas lista recursos. (C) `rollout undo` volta à revisão anterior. (D) Não é comando do Kubernetes. (E) `logs` mostra a saída dos contêineres.\n\nRevisar: Apostila 06, §12.5.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -4148,11 +4148,11 @@ BANCO.push({
   "comentario": "**Gabarito: D.** **DaemonSet** garante um pod por nó (coletores de log, agentes de monitoramento); **StatefulSet** dá identidade estável e volume por réplica (bancos, filas).\n\n(A) Deployment é para aplicações sem estado e Job para tarefas que terminam. (B) Inverte os objetos. (C) CronJob executa tarefas agendadas. (E) ReplicaSet mantém réplicas idênticas e ConfigMap guarda configuração.\n\nRevisar: Apostila 06, §12.5.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -4195,11 +4195,11 @@ BANCO.push({
   "comentario": "**Gabarito: B.** O **Rancher** é uma plataforma de **gerenciamento de múltiplos clusters Kubernetes** (on-premises e em nuvem), com interface web, autenticação centralizada, RBAC e catálogo de aplicações.\n\n(A) Compose roda contêineres em um único host. (C) O state do Terraform registra recursos provisionados. (D) Logstash é pipeline de logs. (E) Git Flow é modelo de ramificação.\n\nRevisar: Apostila 04, §13.5.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -4244,11 +4244,11 @@ BANCO.push({
     "calculo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -4293,11 +4293,11 @@ BANCO.push({
     "calculo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -4342,11 +4342,11 @@ BANCO.push({
     "calculo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -4389,11 +4389,11 @@ BANCO.push({
   "comentario": "**Gabarito: B.** No escalonamento por prioridade, processos de baixa prioridade podem esperar indefinidamente (**starvation**); o **aging** aumenta a prioridade de quem espera muito.\n\n(A) FCFS é não preemptivo e **sofre** o efeito comboio. (C) O SJF exige prever o burst. (D) Quantum muito pequeno **aumenta** as trocas de contexto (overhead). (E) Na realimentação (feedback) os processos **mudam** de fila conforme o comportamento; fixos ficam nas múltiplas filas simples.\n\nRevisar: Apostila 04, §8.5.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -4438,11 +4438,11 @@ BANCO.push({
     "calculo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -4487,11 +4487,11 @@ BANCO.push({
     "calculo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -4536,11 +4536,11 @@ BANCO.push({
     "calculo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -4585,11 +4585,11 @@ BANCO.push({
     "calculo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -4632,11 +4632,11 @@ BANCO.push({
   "comentario": "**Gabarito: E.** 2775 = SGID (2000) + rwxrwxr-x. O SGID aparece como **s** no x do grupo (`drwxrwsr-x`) e, em diretório, faz os arquivos criados **herdarem o grupo do diretório** — útil para pastas de equipe.\n\n(B) Descreve o SUID (4000), que em diretório não tem efeito no Linux. (C) Descreve o sticky bit (1000). (D) O `S` maiúsculo só apareceria sem o x do grupo; aqui o x existe. (A) O primeiro caractere `d` indica diretório.\n\nExecutado em bash em `tools/verificacao/agente4/verif_so.sh`.\n\nRevisar: Apostila 04, §12.4.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -4679,11 +4679,11 @@ BANCO.push({
   "comentario": "**Gabarito: B.** `cut -d: -f7` extrai o 7º campo (shell); `sort` agrupa iguais; `uniq -c` conta cada um; `sort -rn` ordena pela contagem decrescente; `head -1` mostra o primeiro: o **shell mais usado e sua quantidade**.\n\n(A) Não há seleção por ordem de cadastro. (C) Contaria linhas com `wc -l`. (D) Senhas ficam em /etc/shadow, e o campo 7 é o shell. (E) O UID é o campo 3.\n\nExecutado com um /etc/passwd de exemplo em `tools/verificacao/agente4/verif_so.sh`.\n\nRevisar: Apostila 04, §12.3.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -4726,11 +4726,11 @@ BANCO.push({
   "comentario": "**Gabarito: B.** A ordem normal é LSDOU e a última aplicada vence, mas **Enforced vence Block Inheritance**: a GPO imposta não pode ser bloqueada e prevalece sobre GPOs conflitantes de níveis inferiores.\n\n(A) Seria verdade se a GPO do domínio não estivesse imposta. (C) Conflitos são resolvidos pela precedência, não anulam as GPOs. (D) A política local é a **primeira** processada (L de LSDOU). (E) O site é processado **antes** do domínio.\n\nRevisar: Apostila 04, §11.6.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -4773,11 +4773,11 @@ BANCO.push({
   "comentario": "**Gabarito: E.** A **UO** organiza objetos dentro do domínio, permite **delegar administração** e **vincular GPOs**, e não é entidade de segurança.\n\n(A) Floresta é o limite de segurança, com esquema e catálogo global comuns. (B) Árvore é um conjunto de domínios em espaço de nomes DNS contíguo. (D) Grupos de segurança **recebem** permissões e não recebem vínculo de GPO. (C) Site representa a topologia física para replicação e autenticação.\n\nRevisar: Apostila 04, §11.3.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -4822,11 +4822,11 @@ BANCO.push({
     "nao_executado"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Tag nao_executado (PowerShell ausente no container): conferida pelo agente 5 com a documentação do Get-Service (propriedades Status e StartType, disponíveis no Windows PowerShell 5.1 do Windows Server 2022). Gabarito A correto."
   },
   "versao": 1
 });
@@ -4869,11 +4869,11 @@ BANCO.push({
   "comentario": "**Gabarito: D.** Na família Red Hat o pacote é `httpd`, instalado com `dnf` (ou `yum`); `systemctl enable --now` ativa no boot e inicia; o firewalld libera serviços com `firewall-cmd --permanent --add-service=https` e `--reload` para aplicar a regra permanente.\n\n(A) `apt`, `apache2` e `ufw` são da família Debian/Ubuntu. (C) e (B) Removem ou desabilitam o serviço; `iptables -F` apaga todas as regras. (E) No RHEL o pacote não se chama apache2, e desativar o SELinux (`setenforce 0`) é contra o hardening.\n\nRevisar: Apostila 04, §12.3.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -4916,11 +4916,11 @@ BANCO.push({
   "comentario": "**Gabarito: E.** `chmod 777` dá leitura, escrita e execução a todos: é o oposto do hardening e do princípio do menor privilégio.\n\n(A) Bloquear root via SSH e usar chaves reduz ataques de força bruta. (B) Menos serviços, menos superfície de ataque (o SMBv1 foi explorado pelo WannaCry). (C) O Server Core tem menor superfície de ataque e menos atualizações. (D) MAC com SELinux e patches em dia são controles básicos.\n\nRevisar: Apostila 04, §12.4.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -4965,11 +4965,11 @@ BANCO.push({
     "calculo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -5014,11 +5014,11 @@ BANCO.push({
     "calculo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -5063,11 +5063,11 @@ BANCO.push({
     "calculo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -5112,11 +5112,11 @@ BANCO.push({
     "calculo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -5161,11 +5161,11 @@ BANCO.push({
     "calculo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -5208,11 +5208,11 @@ BANCO.push({
   "comentario": "**Gabarito: B.** `::1` é o loopback do IPv6.\n\n(A) Link-local só vale no enlace local e não é roteado. (C) O cabeçalho base do IPv6 tem **40 bytes** fixos; opções vão em cabeçalhos de extensão. (D) São **128 bits** (o identificador de interface costuma ter 64). (E) IPv6 não tem broadcast: o NDP usa multicast (ICMPv6).\n\nRevisar: Apostila 04, §15.5.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -5257,11 +5257,11 @@ BANCO.push({
     "calculo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -5306,11 +5306,11 @@ BANCO.push({
     "calculo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -5353,11 +5353,11 @@ BANCO.push({
   "comentario": "**Gabarito: A.** 25 = SMTP; 110 = POP3; 389 = LDAP; 3389 = RDP.\n\n(B) IMAP é 143 e LDAPS é 636. (C) SNMP usa UDP 161/162 e SSH, 22. (D) FTP usa 20/21 e Kerberos, 88. (E) HTTPS é 443 e Telnet, 23.\n\nRevisar: Apostila 04, §16.1.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -5400,11 +5400,11 @@ BANCO.push({
   "comentario": "**Gabarito: C.** O **AH** (protocolo IP 51) autentica e protege a integridade, inclusive de campos do cabeçalho IP; não cifra. Como o NAT altera o cabeçalho autenticado, o AH quebra com NAT.\n\n(A) O ESP (protocolo 50) cifra a carga útil e é o mais usado. (B) O IKE negocia algoritmos e chaves (UDP 500/4500). (D) GRE é encapsulamento sem criptografia. (E) L2TP é túnel de camada 2 sem criptografia própria.\n\nRevisar: Apostila 04, §16.12.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -5447,11 +5447,11 @@ BANCO.push({
   "comentario": "**Gabarito: D.** Cat 6 → **classe E**, **250 MHz**; 1 Gbps em 100 m e 10 Gbps só até ~55 m.\n\n(A) Cat 5e (classe D, 100 MHz). (B) Cat 6A (classe EA, 500 MHz, 10 Gbps em 100 m). (C) Cat 7 (classe F, 600 MHz). (E) Classe C/16 MHz corresponde à antiga categoria 3.\n\nRevisar: Apostila 04, §23.1.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -5494,11 +5494,11 @@ BANCO.push({
   "comentario": "**Gabarito: D.** A regra é canal de até **100 m**, com até **90 m** de enlace permanente e até **10 m** de cordões somados. Aqui o enlace (85 m) está ok e o total (98 m) também, mas os cordões somam 6 + 7 = **13 m**, acima de 10 m.\n\n(A) e (B) Ignoram o limite dos cordões. (C) 55 m é a distância em que o Cat 6 suporta 10 Gbps, não limite do enlace. (E) 90 m é o limite do enlace permanente, não do canal.\n\nRevisar: Apostila 04, §23.1.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -5541,11 +5541,11 @@ BANCO.push({
   "comentario": "**Gabarito: E.** Na **multimodo** (núcleo de 50 ou 62,5 µm) a luz segue vários modos, gerando **dispersão modal**, o que limita a distância a centenas de metros.\n\n(A) Descreve a multimodo; a monomodo tem núcleo de ~9 µm e usa laser. (B) Longas distâncias usam monomodo. (D) OS1/OS2 são monomodo; multimodo é OM1 a OM5. (C) Fibra é imune a interferência eletromagnética.\n\nRevisar: Apostila 04, §23.2.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -5588,11 +5588,11 @@ BANCO.push({
   "comentario": "**Gabarito: A.** 802.3u = Fast Ethernet; 802.3z = Gigabit Ethernet em fibra; 802.3ae = 10 Gigabit Ethernet em fibra; 802.3af = **PoE** (até 15,4 W por porta).\n\n(B) e (D) Embaralham os padrões. (C) VLAN (802.1Q), STP (802.1D) e 802.1X são da família 802.1. (E) Wi-Fi é 802.11 e Bluetooth, 802.15.1.\n\nRevisar: Apostila 04, §23.3.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -5637,11 +5637,11 @@ BANCO.push({
     "calculo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -5684,11 +5684,11 @@ BANCO.push({
   "comentario": "**Gabarito: C.** O **802.11ax (Wi-Fi 6)** foca ambientes densos, com **OFDMA**, MU-MIMO em uplink e downlink, 1024-QAM e **Target Wake Time**.\n\n(A) O 802.11n opera em 2,4 e 5 GHz (6 GHz chegou com o Wi-Fi 6E). (B) OFDMA e TWT são do 802.11ax; o 802.11ac trouxe MU-MIMO no downlink. (D) O 802.11ax opera em 2,4 e 5 GHz (e 6 GHz no 6E). (E) O 802.11ac opera em 5 GHz, com canais de até 160 MHz.\n\nRevisar: Apostila 04, §14.8.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -5731,11 +5731,11 @@ BANCO.push({
   "comentario": "**Gabarito: E.** A **NFV** virtualiza funções de rede (firewall, roteador, balanceador) em servidores comuns, em vez de hardware dedicado; é padronizada pelo ETSI.\n\n(A) SDN muda **quem controla** a rede (controlador central); NFV muda **onde rodam** as funções — são complementares. (B) VXLAN é overlay de camada 2 sobre UDP. (C) MPLS é técnica de encaminhamento por rótulos. (D) STP evita laços.\n\nRevisar: Apostila 04, §24.4.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -5778,11 +5778,11 @@ BANCO.push({
   "comentario": "**Gabarito: D.** I e II estão corretas: o TCP garante entrega ordenada com sequência e ACKs e faz controle de fluxo pela janela do receptor.\n\nIII está errada: o UDP **não** retransmite; o DNS usa UDP pelo baixo overhead, e a própria aplicação repete a consulta se não houver resposta. Por isso as alternativas que incluem III, ou deixam de fora I ou II, estão erradas.\n\nRevisar: Apostila 04, §16.2.",
   "tags": [],
   "embaralhavel": false,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -5825,11 +5825,11 @@ BANCO.push({
   "comentario": "**Gabarito: E.** **OSPF**: IGP de **estado de enlace**, algoritmo de **Dijkstra**, métrica de custo baseada na largura de banda, organizado em áreas. **BGP**: **vetor de caminho**, roteia **entre sistemas autônomos** (EGP), sobre TCP 179.\n\n(A) Descreve o RIP. (B) e (C) Invertem os papéis. (D) Ambos são dinâmicos.\n\nRevisar: Apostila 04, §14.7.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -5872,11 +5872,11 @@ BANCO.push({
   "comentario": "**Gabarito: A.** O **MPLS** encaminha por **rótulos** (labels), atuando entre as camadas 2 e 3 (\"camada 2,5\"), com QoS, engenharia de tráfego e L3VPN — muito usado para interligar agências.\n\n(B) Frame Relay é tecnologia legada de circuitos virtuais. (C) ADSL é tecnologia de acesso. (D) STP evita laços em switches. (E) NAT traduz endereços.\n\nRevisar: Apostila 04, §14.7.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -5919,11 +5919,11 @@ BANCO.push({
   "comentario": "**Gabarito: D.** Telefonia tradicional: **circuitos** (caminho dedicado durante toda a chamada). Internet: **pacotes** (dados divididos e encaminhados independentemente). ATM: **células** de tamanho fixo de 53 bytes.\n\nAs demais alternativas trocam as associações.\n\nRevisar: Apostila 04, §14.1.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -5966,11 +5966,11 @@ BANCO.push({
   "comentario": "**Gabarito: C.** Bluetooth (IEEE 802.15.1) = **WPAN**; Wi-Fi (802.11) = **WLAN**; rede metropolitana sem fio (ex.: WiMAX, 802.16) = **WMAN**; rede celular 4G/5G de longa abrangência = **WWAN**.\n\n(A), (B) e (E) trocam as abrangências. (D) Omite o caráter sem fio e embaralha a ordem.\n\nRevisar: Apostila 04, §14.8.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -6013,11 +6013,11 @@ BANCO.push({
   "comentario": "**Gabarito: D.** O **802.1D** trata de bridges e do **Spanning Tree (STP)**, que bloqueia portas redundantes para eliminar laços; o 802.1D-2004 incorporou o **RSTP**.\n\n(A) 802.1Q define VLANs. (B) 802.1X é controle de acesso por porta. (C) 802.3af é PoE. (E) 802.11ax é Wi-Fi 6.\n\nRevisar: Apostila 04, §23.3.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -6060,11 +6060,11 @@ BANCO.push({
   "comentario": "**Gabarito: B.** O **switch** (camada 2) encaminha por MAC; o **roteador** (camada 3) encaminha por IP e separa domínios de broadcast.\n\n(A) e (D) Hub e repetidor são de camada 1 e apenas regeneram o sinal. (C) Inverte os papéis. (E) Modem converte sinais; hub é camada 1.\n\nRevisar: Apostila 04, §14.5.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -6107,11 +6107,11 @@ BANCO.push({
   "comentario": "**Gabarito: C.** Consultas comuns usam **UDP 53** (baixo overhead); **transferências de zona** e respostas que não cabem em um datagrama usam **TCP 53**.\n\n(A) e (B) O DNS usa os dois. (D) DNSSEC não muda a porta, e a 80 é do HTTP. (E) DNS é protocolo de aplicação, sobre UDP/TCP.\n\nRevisar: Apostila 04, §16.4.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -6154,11 +6154,11 @@ BANCO.push({
   "comentario": "**Gabarito: A.** Processo **DORA**: Discover (broadcast) → Offer → Request → Acknowledge, sobre **UDP 67 (servidor)** e **68 (cliente)**.\n\n(B) Inverte a ordem e as portas. (C) Ordem errada e porta do DNS. (D) Ordem errada e porta do SNMP. (E) É o handshake do TCP, que o DHCP não usa.\n\nRevisar: Apostila 04, §16.5.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -6201,11 +6201,11 @@ BANCO.push({
   "comentario": "**Gabarito: C.** O **IMAP** (143; 993 com TLS) mantém as mensagens e pastas no servidor e sincroniza vários dispositivos; o envio é feito pelo **SMTP** (25 entre servidores; 587 para submissão).\n\n(A) e (D) O POP3 tipicamente baixa as mensagens para um dispositivo, sem sincronizar estado entre vários. (B) SMTP não é protocolo de acesso à caixa postal. (E) SNMP é gerenciamento de rede.\n\nRevisar: Apostila 04, §16.7.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -6248,11 +6248,11 @@ BANCO.push({
   "comentario": "**Gabarito: C.** O Prometheus é **pull** (raspa `/metrics`); para **jobs curtos** que terminam antes da coleta, existe o **Pushgateway**: o job \"empurra\" as métricas para ele, e o Prometheus as raspa ali.\n\n(A) O Alertmanager roteia e agrupa alertas. (B) O node_exporter expõe métricas do sistema operacional do host. (D) O Grafana só visualiza; não armazena métricas. (E) Logstash processa logs.\n\nRevisar: Apostila 04, §22.2.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -6295,11 +6295,11 @@ BANCO.push({
   "comentario": "**Gabarito: D.** **Logstash** recebe e transforma (input → filter → output); **Elasticsearch** indexa e busca; **Kibana** visualiza.\n\n(A), (B) e (C) trocam os papéis. (E) Fluentd é coletor (forma o EFK no lugar do Logstash), mas Grafana e Prometheus pertencem à pilha de métricas.\n\nRevisar: Apostila 04, §22.2.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -6342,11 +6342,11 @@ BANCO.push({
   "comentario": "**Gabarito: E.** O **Fluentd** (CNCF) é uma camada unificada de logging com plugins; com Elasticsearch e Kibana forma o **EFK**. O Fluent Bit é a versão mais leve.\n\n(A) O Grafana não coleta nem armazena: conecta-se a fontes de dados. (B) Quem indexa é o Elasticsearch; o Kibana visualiza. (C) O Prometheus é **pull**. (D) O Zabbix suporta agentes e também coleta agentless, SNMP, IPMI e JMX.\n\nRevisar: Apostila 04, §22.2.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -6389,11 +6389,11 @@ BANCO.push({
   "comentario": "**Gabarito: C.** O **Zabbix proxy** coleta em nome do servidor em redes remotas, armazena temporariamente os dados e os repassa ao servidor central.\n\n(B) Trigger é a condição de alerta. (A) Template é um modelo reaproveitável de itens, triggers e gráficos. (D) Host group só agrupa hosts. (E) Pushgateway é do ecossistema Prometheus.\n\nRevisar: Apostila 04, §22.2.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -6436,11 +6436,11 @@ BANCO.push({
   "comentario": "**Gabarito: B.** **Monitoramento** responde a perguntas conhecidas (\"o servidor está no ar?\"); **observabilidade** permite investigar o desconhecido (\"por que esta requisição está lenta?\"), a partir de logs, métricas e traces.\n\n(A) São conceitos distintos, e logs são um dos pilares. (C) Isso é monitoramento básico de disponibilidade. (D) MTTD = tempo médio para **detectar**; MTTR = tempo médio para reparar/recuperar. (E) O OpenTelemetry é padrão aberto para coletar logs, métricas e traces.\n\nRevisar: Apostila 04, §22.1.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -6483,11 +6483,11 @@ BANCO.push({
   "comentario": "**Gabarito: D.** No H.323, o **gatekeeper** controla admissão, tradução de endereços e banda (sinalização RAS); a **MCU** (Multipoint Control Unit) viabiliza conferências multiponto.\n\n(A) Proxy e registrar são componentes do SIP. (B) O gateway faz a interconexão com outras redes (ex.: telefonia pública) e o terminal é o ponto final. (C) Inverte os papéis. (E) RTP transporta a mídia e RTCP traz estatísticas.\n\nRevisar: Apostila 04, §24.1.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -6530,11 +6530,11 @@ BANCO.push({
   "comentario": "**Gabarito: A.** O **SDP** (dentro do SIP) descreve a sessão; o **RTP** (sobre UDP) transporta a mídia; o **RTCP** traz estatísticas de qualidade.\n\n(B) Troca as funções e o SIP é sinalização, não estatística. (C) São partes do H.323 (controle de mídia, sinalização e RAS). (D) TCP não é usado para a mídia em tempo real e SNMP é gerenciamento. (E) Inverte RTP e RTCP.\n\nRevisar: Apostila 04, §24.1.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -6577,11 +6577,11 @@ BANCO.push({
   "comentario": "**Gabarito: E.** Voz é sensível a **atraso, jitter e perda**: até ~**150 ms** em um sentido é bom (G.114), perda abaixo de ~1%, jitter baixo — por isso recebe prioridade (DSCP EF, filas LLQ).\n\n(A) Perdas desse nível degradam muito a voz. (C) O RTP não retransmite; usa-se buffer de jitter. (D) Voz deve ser marcada como EF (DSCP 46). (B) O IntServ/RSVP é pouco usado em larga escala; o DiffServ é o mais comum.\n\nRevisar: Apostila 04, §24.2.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -6624,11 +6624,11 @@ BANCO.push({
   "comentario": "**Gabarito: E.** Com **IGMP snooping**, o switch \"escuta\" as mensagens IGMP entre hosts e roteador e encaminha o multicast só às portas interessadas.\n\n(A) O PIM roda **entre roteadores**. (B) Broadcast aumentaria a inundação. (C) O MLD é o equivalente do IGMP para **IPv6**. (D) O STP evita laços, sem relação com a seleção de portas de multicast.\n\nRevisar: Apostila 04, §24.3.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -6673,11 +6673,11 @@ BANCO.push({
     "calculo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -6720,11 +6720,11 @@ BANCO.push({
   "comentario": "**Gabarito: A.** **mod_ssl** fornece HTTPS (terminação TLS); **mod_proxy** e **mod_proxy_balancer** fazem o proxy reverso e o balanceamento entre os servidores de aplicação.\n\n(B) mod_rewrite reescreve URLs e o MPM define o modelo de processos/threads; não balanceiam. (C) mod_headers manipula cabeçalhos e .htaccess é configuração por diretório. (D) Pool de aplicativos e binding são conceitos do IIS. (E) Modo domain é do WildFly/JBoss EAP.\n\nRevisar: Apostila 04, §25.2.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -6767,11 +6767,11 @@ BANCO.push({
   "comentario": "**Gabarito: B.** No IIS, o **binding** combina protocolo, IP, porta e **nome de host**; com HTTPS, o **SNI** permite escolher o certificado de cada nome no mesmo IP e porta.\n\n(A) O pool isola processos, mas não define qual site atende cada nome. (C), (D) e (E) São conceitos do Apache HTTP Server, não do IIS.\n\nRevisar: Apostila 04, §25.3.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -6814,11 +6814,11 @@ BANCO.push({
   "comentario": "**Gabarito: C.** No modo **standalone**, a configuração fica em **standalone.xml**; o console de administração usa a porta **9990**; e o scanner automático implanta o que é copiado para **deployments** (também é possível usar o console ou a `jboss-cli`). As aplicações atendem por padrão na 8080.\n\n(A) domain.xml é do modo domain e webapps é do Tomcat. (B) httpd.conf e htdocs são do Apache. (D) web.config e wwwroot são do IIS. (E) host.xml é do modo domain.\n\nRevisar: Apostila 04, §25.4.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -6861,11 +6861,11 @@ BANCO.push({
   "comentario": "**Gabarito: E.** O **TRAP** (e o INFORM, com confirmação, a partir da v2c) é a notificação **espontânea** do agente ao gerente, usando a porta UDP 162.\n\n(A) e (B) GET e GETNEXT são consultas do gerente (porta 161 do agente). (C) SET altera um valor no agente. (D) RESPONSE é a resposta do agente a uma consulta.\n\nRevisar: Apostila 04, §16.10.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -6908,11 +6908,11 @@ BANCO.push({
   "comentario": "**Gabarito: A.** A **MIB** descreve as variáveis, identificadas por **OIDs**; **v1/v2c** usam community strings em texto claro (inseguras), e o **SNMPv3** acrescenta autenticação e criptografia.\n\n(B) Inverte: o agente fica no dispositivo; o gerente, na estação de gerência. (C) O SNMP usa UDP 161/162; a v1 não tem criptografia. (D) A community \"public\" é um risco clássico e deve ser trocada ou abandonada em favor da v3. (E) A MIB é uma base de informações, não um protocolo.\n\nRevisar: Apostila 04, §16.10.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -6955,11 +6955,11 @@ BANCO.push({
   "comentario": "**Gabarito: B.** A **RFC 2889** é específica para **switches LAN**: taxa de encaminhamento, congestionamento, capacidade e aprendizado da tabela MAC, broadcast. A **RFC 2544** é a metodologia geral para dispositivos de interconexão (vazão, latência, perda de quadros, back-to-back).\n\n(A) A RFC 2544 não se limita a WAN, e o pedido é específico de switching. (C) A NBR 14565 trata de cabeamento estruturado. (D) G.114 trata de atraso em voz. (E) 802.3af é PoE.\n\nRevisar: Apostila 04, §23.4.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -7002,11 +7002,11 @@ BANCO.push({
   "comentario": "**Gabarito: C.** O **proxy direto (forward)** atende os **clientes internos** no acesso à internet (controle, filtragem, cache — ex.: Squid); o **proxy reverso** fica **na frente dos servidores** (balanceamento, terminação TLS, cache, WAF — ex.: Nginx, HAProxy).\n\n(A) Inverte os papéis. (B) DHCP e DNS não intermedeiam conexões HTTP. (D) IDS e IPS detectam/bloqueiam ataques. (E) São componentes de telefonia e videoconferência.\n\nRevisar: Apostila 04, §16.10.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -7049,11 +7049,11 @@ BANCO.push({
   "comentario": "**Gabarito: C.** **SPF** lista os servidores autorizados a enviar pelo domínio; **DKIM** publica a chave pública para verificar a assinatura das mensagens; **DMARC** define a política (nenhuma ação, quarentena, rejeição) e os relatórios. Todos usam registros **TXT**.\n\n(A) MX indica os servidores que recebem e-mail do domínio; PTR faz resolução reversa; SOA define a autoridade da zona. (B) São protocolos de acesso e envio de e-mail. (D) São registros de endereço e apelido. (E) São protocolos de diretório e autenticação.\n\nRevisar: Apostila 04, §11.4.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -7096,11 +7096,11 @@ BANCO.push({
   "comentario": "**Gabarito: D.** O **Discover é broadcast**, e roteadores não encaminham broadcast; sem resposta, o Windows assume um endereço **APIPA** (169.254.0.0/16). Solução: **DHCP relay** (ip helper-address) na interface da VLAN da agência, que repassa em unicast ao servidor, e um escopo para a sub-rede.\n\n(A) Exclusões reduzem a faixa distribuída; não resolvem. (B) Zona reversa é do DNS. (C) Reservas não são necessárias para receber endereço. (E) Com relay o DHCP atende várias sub-redes.\n\nRevisar: Apostila 04, §11.5.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -7143,11 +7143,11 @@ BANCO.push({
   "comentario": "**Gabarito: B.** No **full tunnel**, todo o tráfego passa pela VPN; no **split tunneling** só o tráfego corporativo usa o túnel e o resto vai direto à internet, reduzindo o controle de segurança.\n\n(A) Site a site liga redes inteiras por gateways; acesso remoto usa cliente VPN. (C) O PPTP é inseguro. (D) O AH não cifra. (E) VPN MPLS é separação lógica na rede da operadora, inviável por residência.\n\nRevisar: Apostila 04, §16.12.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -7192,11 +7192,11 @@ BANCO.push({
     "calculo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -7239,11 +7239,11 @@ BANCO.push({
   "comentario": "**Gabarito: A.** `journalctl -u httpd -f` mostra o journal do systemd filtrado pela unidade e o acompanha (*follow*); o **logrotate** faz a rotação e a compactação dos arquivos de log.\n\n(B) `dmesg -c` lê e limpa o buffer do kernel; `crontab -r` **apaga** o crontab. (C) `systemctl disable` desativa o serviço no boot; rsync copia arquivos. (D) /etc/passwd não é log, e `gzip -d` descompacta. (E) `ss -tulpn` lista portas em escuta; logger grava uma mensagem no syslog.\n\nRevisar: Apostila 04, §12.5.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -7286,11 +7286,11 @@ BANCO.push({
   "comentario": "**Gabarito: D.** Na **pseudonimização** (art. 13, § 4º), o dado perde a associação ao titular **senão pelo uso de informação adicional mantida separadamente** (a tabela de-para). É reversível por quem tem essa informação, por isso **continua sendo dado pessoal**.\n\n(A) Anonimização é irreversível por meios razoáveis, e não há tabela de correspondência. (B) Bloqueio é a suspensão temporária de qualquer operação de tratamento. (C) Eliminação é a exclusão do dado, que aqui pode ser recuperado. (E) Difusão é a divulgação dos dados, não a técnica aplicada.\n\nRevisar: Apostila 04, §20.6.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -7333,11 +7333,11 @@ BANCO.push({
   "comentario": "**Gabarito: C.** O universo de CPFs é limitado: basta calcular o hash de todos os CPFs possíveis (ataque de dicionário) para reverter o SHA-256 sem chave. Além disso, as demais colunas mantidas permitem cruzamentos. Hash sem chave de CPF **não anonimiza**.\n\n(A) Supressão, (B) generalização, (D) agregação e (E) k-anonimato são técnicas de anonimização citadas na apostila.\n\nO script `tools/verificacao/agente4/verif_seg.py` demonstra a reversão do hash por força bruta em um subconjunto de CPFs.\n\nRevisar: Apostila 04, §20.6.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -7380,11 +7380,11 @@ BANCO.push({
   "comentario": "**Gabarito: C.** Na **versão 1**, a concatenação transforma o dado em código: o comando vira `DELETE FROM conta WHERE id = 10 OR 1=1`, e a condição é verdadeira para **todas as 5 linhas**. Na **versão 2**, o placeholder `?` envia o texto `10 OR 1=1` como **valor**; nenhum id é igual a esse texto, e **0** linhas são removidas.\n\n(A) e (E) Supõem que só a linha 10 seria atingida. (B) Supõe que o placeholder também seria vulnerável. (D) Inverte as versões.\n\nExecutado em SQLite em `tools/verificacao/agente4/verif_seg.py`.\n\nRevisar: Apostila 04, §19.4.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -7427,11 +7427,11 @@ BANCO.push({
   "comentario": "**Gabarito: B.** É **XSS armazenado**: o script fica gravado e roda no navegador de quem vê o dado. Defesas: **codificação de saída** conforme o contexto, validação de entrada, **CSP** e cookies **HttpOnly** (impedem que o script leia o cookie de sessão).\n\n(A) Consultas parametrizadas evitam SQL injection, não XSS. (C) Aumentar o campo não resolve. (D) HTTPS protege o transporte; o script chega cifrado do mesmo jeito. (E) Backup não previne o ataque.\n\nRevisar: Apostila 04, §17.7.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -7474,11 +7474,11 @@ BANCO.push({
   "comentario": "**Gabarito: D.** Autenticidade, integridade e não repúdio: **assinar** o hash com a **chave privada de Ana** (verificável com a pública dela). Sigilo: **cifrar** com a **chave pública de Bruno** (só a privada dele decifra). Na prática, cifra-se o conteúdo com uma chave simétrica e protege-se essa chave com a pública de Bruno.\n\n(A) Ana não tem a chave privada de Bruno. (B) Inverte o uso das chaves. (C) Cifrar com a pública de Ana só permitiria a ela mesma decifrar. (E) Hash sem assinatura não prova autoria (qualquer um recalcula) e não dá sigilo.\n\nRevisar: Apostila 04, §18.5.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -7521,11 +7521,11 @@ BANCO.push({
   "comentario": "**Gabarito: A.** SHA-256 gera **256 bits = 64 caracteres hexadecimais**, de tamanho fixo, com efeito avalanche. Serve para verificar **integridade**; como qualquer um pode recalcular o hash, a **autoria** exige assinatura digital ou HMAC com chave.\n\n(B) São 64 caracteres, e o hash não é reversível. (C) Hash não é cifra. (D) O tamanho do resumo é fixo. (E) Hash não dá confidencialidade.\n\nTamanho conferido com `hashlib` em `tools/verificacao/agente4/verif_seg.py`.\n\nRevisar: Apostila 04, §18.4.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -7570,11 +7570,11 @@ BANCO.push({
     "owasp-2021"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -7619,11 +7619,11 @@ BANCO.push({
     "owasp-2021"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -7666,11 +7666,11 @@ BANCO.push({
   "comentario": "**Gabarito: A.** O **encarregado** (art. 5º, VIII, e art. 41) é o canal de comunicação com titulares e com a autoridade nacional; aceita reclamações, presta esclarecimentos, recebe comunicações da autoridade e orienta funcionários.\n\n(B) Operador trata dados em nome do controlador. (C) Controladores conjuntos decidem juntos sobre o tratamento. (D) Titular é a pessoa natural a quem os dados se referem. (E) Suboperador é contratado pelo operador.\n\nRevisar: Apostila 04, §20.8.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -7713,11 +7713,11 @@ BANCO.push({
   "comentario": "**Gabarito: E.** Guardar dados por exigência do Banco Central e comunicar operações suspeitas ao COAF (Lei 9.613/1998) é **cumprimento de obrigação legal ou regulatória** (art. 7º, II), que dispensa consentimento e também autoriza a conservação após o término da relação (art. 16, I).\n\n(A) O consentimento é revogável e não é a base adequada para obrigações legais; não há hierarquia entre bases. (B) Legítimo interesse exige balanceamento e não é o fundamento de uma obrigação legal. (C) Proteção do crédito trata de birôs e análise de crédito. (D) Tutela da saúde é restrita a profissionais e serviços de saúde.\n\nRevisar: Apostila 04, §20.5.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -7760,11 +7760,11 @@ BANCO.push({
   "comentario": "**Gabarito: D.** O **IPS** opera **em linha** e **bloqueia** o tráfego malicioso, além de alertar.\n\n(A) e (B) O IDS detecta e alerta; geralmente recebe cópia do tráfego (espelhamento) e não bloqueia; o HIDS fica no próprio host. (C) Honeypot é isca para atrair atacantes. (E) O SIEM correlaciona logs e eventos; não fica em linha bloqueando pacotes.\n\nRevisar: Apostila 04, §17.8.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -7807,11 +7807,11 @@ BANCO.push({
   "comentario": "**Gabarito: A.** O **WAF** protege aplicações **web**, inspecionando a camada 7 (parâmetros, cabeçalhos, corpo) contra SQLi, XSS e outros ataques, como o ModSecurity e os WAFs de nuvem. Não substitui o código seguro.\n\n(B) Filtragem por IP e porta não vê o conteúdo HTTP. (C) DHCP distribui endereços. (D) NAC controla a admissão de dispositivos na rede interna. (E) Proxy direto atende os usuários internos, não protege o servidor.\n\nRevisar: Apostila 04, §17.8.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -7856,11 +7856,11 @@ BANCO.push({
     "calculo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -7903,11 +7903,11 @@ BANCO.push({
   "comentario": "**Gabarito: B.** É o esquema **híbrido**: o assimétrico (certificado do servidor, assinaturas e troca de chaves por Diffie-Hellman efêmero) autentica e estabelece a **chave de sessão**; os dados seguem cifrados com algoritmo **simétrico** (AES-GCM, ChaCha20), muito mais rápido.\n\n(A) Cifrar todo o tráfego com RSA seria lento; o simétrico não é inseguro. (C) A chave privada nunca sai do servidor. (D) A chave de sessão é simétrica e efêmera. (E) O certificado continua sendo usado para autenticar o servidor.\n\nRevisar: Apostila 04, §18.3.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -7950,11 +7950,11 @@ BANCO.push({
   "comentario": "**Gabarito: A.** A revogação é verificada na **LCR** (CRL), assinada e publicada pela AC, ou de forma online pelo **OCSP**.\n\n(C) A cadeia de certificação prova a emissão por AC confiável, não informa revogação. (B) O certificado é assinado e não é alterado; a validade original continua lá. (D) A AR identifica solicitantes; quem revoga e publica a LCR é a AC. (E) O hash do documento verifica a integridade do conteúdo.\n\nRevisar: Apostila 04, §18.6.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -7997,11 +7997,11 @@ BANCO.push({
   "comentario": "**Gabarito: E.** O **OAuth 2.0** é um framework de **autorização** delegada; para **autenticação** (login, SSO) usa-se o **OpenID Connect**, que acrescenta o **ID Token** (JWT com informações do usuário) e o endpoint UserInfo.\n\n(A) O OAuth 2.0 não define o ID Token nem é protocolo de autenticação. (C) O access token é apresentado à **API** (resource server) e carrega escopos. (D) TLS continua obrigatório. (B) O Implicit é desaconselhado; recomenda-se Authorization Code com PKCE.\n\nRevisar: Apostila 04, §19.5.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -8044,11 +8044,11 @@ BANCO.push({
   "comentario": "**Gabarito: D.** Para clientes com usuário — web, mobile, SPA — recomenda-se **Authorization Code + PKCE**: o PKCE impede que um código interceptado seja trocado por tokens, mesmo sem segredo de cliente.\n\n(A) Client Credentials é máquina a máquina, sem usuário, e um segredo embutido no app é extraível. (B) Password expõe a senha ao cliente e é desaconselhado. (C) Implicit expõe tokens e foi removido no OAuth 2.1. (E) Device Code é para dispositivos com entrada limitada (TVs, CLIs).\n\nRevisar: Apostila 04, §19.5.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -8093,11 +8093,11 @@ BANCO.push({
     "datado"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5. Item datado (NIST SP 800-61 Rev. 3, abr/2025): revalidar se houver nova revisão antes da prova."
   },
   "versao": 1
 });
@@ -8140,11 +8140,11 @@ BANCO.push({
   "comentario": "**Gabarito: E.** A fase **aprender lições** abrange a análise pós-incidente e a melhoria de controles e processos.\n\n(A) Planejar e preparar define política, equipe, procedimentos e ferramentas antes dos incidentes. (B) Detectar e reportar identifica e comunica eventos. (C) Avaliar e decidir classifica o evento e decide se é incidente. (D) Responder abrange conter, erradicar, recuperar e coletar evidências — etapas já concluídas no cenário.\n\nRevisar: Apostila 04, §21.3.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -8187,11 +8187,11 @@ BANCO.push({
   "comentario": "**Gabarito: A.** Aplicar controles para reduzir probabilidade ou impacto é **modificar** o risco. O que sobra depois é o risco residual.\n\n(B) Reter é aceitar o risco sem novos controles. (C) Evitar é eliminar a atividade que gera o risco (por exemplo, desligar o internet banking). (D) Compartilhar é dividir o risco com terceiros (seguro, terceirização). (E) Não é opção da norma.\n\nRevisar: Apostila 04, §21.2.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -8234,11 +8234,11 @@ BANCO.push({
   "comentario": "**Gabarito: C.** A **27017** é código de prática de segurança para serviços em nuvem (baseado na 27002), com orientações para cliente e provedor e controles próprios (responsabilidades compartilhadas, remoção de ativos, segregação em ambientes virtuais, hardening de VMs, monitoramento). A **27018** trata de **dados pessoais em nuvem pública**.\n\n(A) Atribui à 27017 o escopo da 27018; e nenhuma norma substitui a lei. (B) Atribui à 27018 o escopo da 27017. (D) São códigos de prática que complementam a 27001/27002. (E) Papéis e responsabilidades compartilhados são um dos controles acrescentados.\n\nRevisar: Apostila 04, §21.5.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -8281,11 +8281,11 @@ BANCO.push({
   "comentario": "**Gabarito: B.** A **27001** define os **requisitos do SGSI** (contexto, liderança, planejamento, apoio, operação, avaliação de desempenho e melhoria) e é **certificável**; seu Anexo A lista os controles de referência. A **27002** é o **código de prática** com orientações para implementar esses controles.\n\n(A) Inverte as normas. (C) Só a 27001 é certificável. (D) A 27001 é norma de gestão, com controles organizacionais, de pessoas, físicos e tecnológicos. (E) Incidentes são tema da série 27035.\n\nRevisar: Apostila 04, §17.2.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -8328,11 +8328,11 @@ BANCO.push({
   "comentario": "**Gabarito: C.** O modo **Enterprise** usa **802.1X** com **EAP** (EAP-TLS, PEAP) contra servidor **RADIUS** (ex.: NPS integrado ao AD), com credencial individual. O **WPA3** torna obrigatório o **PMF** (802.11w), que dificulta ataques de desautenticação.\n\n(A) WEP é quebrado; filtro por MAC é medida fraca. (B) TKIP é obsoleto; ocultar SSID é medida fraca. (D) Rede aberta não autentica usuários. (E) Senha compartilhada não identifica cada funcionário, e o WPS por PIN é vulnerável.\n\nRevisar: Apostila 04, §14.9.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -8375,11 +8375,11 @@ BANCO.push({
   "comentario": "**Gabarito: D.** O **ZTNA** (Zero Trust Network Access) aplica o **Zero Trust**: nenhum acesso é confiável por estar \"dentro\"; cada acesso a cada aplicação é verificado (identidade, dispositivo, contexto), com microssegmentação e menor privilégio.\n\n(A) É o modelo tradicional que o Zero Trust supera. (B) VPN site a site liga redes inteiras. (C) Split tunneling só decide qual tráfego passa pelo túnel. (E) Expor portas por NAT aumenta a superfície de ataque.\n\nRevisar: Apostila 04, §16.12.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -8422,11 +8422,11 @@ BANCO.push({
   "comentario": "**Gabarito: A.** O **UTM** consolida várias funções de segurança (firewall, IPS, antivírus, filtro web, antispam, VPN) em um único equipamento, comum em pequenas e médias organizações.\n\n(B) SIEM coleta e correlaciona logs. (C) Honeynet é rede-isca. (D) HIDS detecta intrusões em um host. (E) PAM gerencia contas privilegiadas.\n\nRevisar: Apostila 04, §17.8.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -8469,11 +8469,11 @@ BANCO.push({
   "comentario": "**Gabarito: E.** O **NAC** controla a **admissão** de dispositivos na rede, com autenticação (802.1X) e **verificação de postura** (antivírus, patches), podendo isolar dispositivos não conformes.\n\n(A) DLP impede vazamento de dados. (B) WAF protege aplicações web. (D) Proxy reverso fica na frente de servidores. (C) IDS detecta intrusões, não decide a admissão de dispositivos.\n\nRevisar: Apostila 04, §17.8.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -8516,11 +8516,11 @@ BANCO.push({
   "comentario": "**Gabarito: B.** O **SIEM** centraliza, **correlaciona** logs e eventos e gera alertas (base do SOC); o **EDR** atua nos **endpoints**, detectando comportamento suspeito e respondendo (isolar a máquina, encerrar processos).\n\n(A) Inverte as ferramentas. (C) NAC controla a admissão de dispositivos e WAF protege aplicações web. (D) IPS bloqueia tráfego em linha e DLP evita vazamento de dados. (E) UTM consolida funções de perímetro e honeypot é isca.\n\nRevisar: Apostila 04, §17.8.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -8563,11 +8563,11 @@ BANCO.push({
   "comentario": "**Gabarito: D.** Permissões por **papéis** = **RBAC**. Senha (algo que se **sabe**) + código do app no celular (algo que se **tem**) = **MFA**, com fatores de categorias diferentes.\n\n(A) No DAC o dono do recurso decide quem acessa. (B) No MAC o sistema impõe rótulos de classificação. (C) O ABAC decide por atributos, e os fatores aqui são de tipos diferentes. (E) O fato de ambos serem digitados não importa: o código prova a **posse** do dispositivo. (Senha + PIN, sim, seria um fator só.)\n\nRevisar: Apostila 04, §17.2.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -8610,11 +8610,11 @@ BANCO.push({
   "comentario": "**Gabarito: E.** O **TLS 1.3** removeu a troca de chaves RSA estática (só DHE/ECDHE, com **forward secrecy**), aceita apenas cifras **AEAD** (AES-GCM, ChaCha20-Poly1305) e faz o handshake em **1-RTT** (com opção 0-RTT na retomada).\n\n(A) A troca RSA estática foi removida justamente por não ter sigilo direto. (B) RC4 e CBC foram eliminados. (C) O servidor continua se autenticando com certificado. (D) SSL 3.0 é obsoleto e inseguro; TLS 1.3 é outro protocolo, bem mais moderno.\n\nRevisar: Apostila 04, §16.3.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -8657,11 +8657,11 @@ BANCO.push({
   "comentario": "**Gabarito: B.** A **DMZ** é a zona intermediária para os servidores **expostos**; regras de firewall controlam o tráfego internet ↔ DMZ e DMZ ↔ rede interna, e um servidor comprometido na DMZ não dá acesso direto à rede interna.\n\n(A) Colocar servidores expostos na rede interna amplia o impacto de uma invasão. (C) Deixar sem firewall elimina a defesa em profundidade. (D) A VLAN de usuários não é lugar para serviços públicos. (E) Sem endereçamento IP o serviço não seria acessível.\n\nRevisar: Apostila 04, §17.8.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -8704,11 +8704,11 @@ BANCO.push({
   "comentario": "**Gabarito: C.** Quem instala e atualiza o **sistema operacional** é o cliente: é **IaaS**. O provedor responde pela infraestrutura física e pela virtualização.\n\n(A) No SaaS o cliente só usa a aplicação pronta. (B) No PaaS o provedor cuida do SO e do runtime; o cliente só envia a aplicação. (D) FaaS executa funções sob evento, sem servidor gerenciado pelo cliente. (E) Nuvem comunitária é modelo de **implantação**, não de serviço.\n\nRevisar: Apostila 07, §1.3.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -8751,11 +8751,11 @@ BANCO.push({
   "comentario": "**Gabarito: E.** O **RPO** mede a **perda de dados** tolerável: com réplica a cada 15 minutos, no pior caso perdem-se **15 minutos** de transações. O **RTO** mede o **tempo** até o serviço voltar: **2 horas**.\n\n(A) Inverte os conceitos. (B) O tempo de retorno é de 2 horas, não 15 minutos. (C) RPO zero exigiria replicação síncrona. (D) Confunde a perda de dados com o tempo de recuperação.\n\nRevisar: Apostila 07, §2.3.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -8798,11 +8798,11 @@ BANCO.push({
   "comentario": "**Gabarito: A.** Adicionar e remover **instâncias** atrás de um balanceador é escalar **horizontalmente**; para isso a aplicação deve ser **sem estado** (ou guardar o estado em cache ou banco). Feito automaticamente, conforme a carga, caracteriza **elasticidade**.\n\n(B) e (C) Escala vertical aumenta os recursos de uma mesma máquina, com limite físico. (D) Não é conceito do NIST nem restrito a nuvem privada. (E) O cenário descreve justamente aumento e redução conforme a demanda.\n\nRevisar: Apostila 07, §2.2.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -8845,11 +8845,11 @@ BANCO.push({
   "comentario": "**Gabarito: B.** **Replatform** faz pequenas otimizações durante a migração, como trocar o banco próprio por um gerenciado, sem mudar a arquitetura.\n\n(A) Rehost move a aplicação exatamente como está. (C) Refactor reescreve para usar recursos nativos (microsserviços, serverless). (D) Repurchase troca por um produto SaaS. (E) Retire desliga o que não é mais necessário.\n\nRevisar: Apostila 07, §2.5.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -8892,11 +8892,11 @@ BANCO.push({
   "comentario": "**Gabarito: C.** **Spot/preemptível** oferece grande desconto sobre capacidade ociosa, mas pode ser interrompido — ideal para lotes tolerantes a falhas. **Reservado/savings plan** dá desconto em troca de compromisso de 1 a 3 anos — ideal para carga estável.\n\n(A) Sob demanda é o mais caro para cargas previsíveis. (B) Inverte as escolhas. (D) Reservar para um lote noturno paga por capacidade ociosa no resto do dia. (E) Interrupções no banco do core são inaceitáveis.\n\nRevisar: Apostila 07, §2.6.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -8941,11 +8941,11 @@ BANCO.push({
     "calculo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });
@@ -8988,11 +8988,11 @@ BANCO.push({
   "comentario": "**Gabarito: D.** Em qualquer modelo, **dados, identidades e acessos** continuam com o cliente, assim como as configurações do serviço (criptografia, regras de rede, exposição pública). Em um serviço gerenciado, o provedor cuida do SO, do motor do banco, de patches e de backups automatizados conforme o serviço.\n\n(A) No DBaaS o SO dos servidores do banco é administrado pelo provedor. (B) Hardware é do provedor. (C) O hipervisor é do provedor. (E) Energia e redundância das zonas são do provedor.\n\nRevisar: Apostila 07, §1.3.",
   "tags": [],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-4",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": ""
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-4)."
   },
   "versao": 1
 });

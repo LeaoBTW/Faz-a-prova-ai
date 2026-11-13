@@ -203,6 +203,186 @@
   "status": "validada",
   "obs": ""
  },
+ "ESP-ARQ-V001": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V002": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V003": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V004": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V005": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V006": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V007": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V008": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V009": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V010": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V011": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V012": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V013": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V014": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V015": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V016": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V017": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V018": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V019": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V020": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V021": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V022": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V023": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V024": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V025": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V026": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V027": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V028": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V029": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V030": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V031": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V032": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V033": {
+  "status": "validada",
+  "obs": "Corrigido pelo agente 5: o enunciado deixava ambíguo se a chamada no instante exato em que o circuito completa 10 s aberto (t = 18 s) já é a de teste; com a outra leitura nenhuma alternativa estaria certa (11 e 3). Acrescentado \"a partir do instante em que completa 10 s aberto\". Simulação refeita: 8 encaminhadas, 4 falhas."
+ },
+ "ESP-ARQ-V034": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V035": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V036": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V037": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V038": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V039": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V040": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V041": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V042": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V043": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V044": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-ARQ-V045": {
+  "status": "validada",
+  "obs": ""
+ },
  "ESP-BD-V001": {
   "status": "validada",
   "obs": ""
@@ -220,6 +400,182 @@
   "obs": ""
  },
  "ESP-BD-V005": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V001": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V002": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V003": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V004": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V005": {
+  "status": "validada",
+  "obs": "Tag nao_executado (sem daemon Docker no container): conferida pelo agente 5 com a documentação oficial do Dockerfile (ENTRYPOINT em forma exec + CMD como argumentos padrão; argumentos do docker run substituem só o CMD). Gabarito D correto."
+ },
+ "ESP-DEVOPS-V006": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V007": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V008": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V009": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V010": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V011": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V012": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V013": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V014": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V015": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V016": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V017": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V018": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V019": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V020": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V021": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V022": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V023": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V024": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V025": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V026": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V027": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V028": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V029": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V030": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V031": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V032": {
+  "status": "validada",
+  "obs": "Tag nao_executado (sem daemon Docker): conferida pelo agente 5 com a documentação do cache de build do Docker (camada invalidada quando o conteúdo copiado muda; versão 2 reaproveita a camada de dependências). Gabarito C correto."
+ },
+ "ESP-DEVOPS-V033": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V034": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V035": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V036": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V037": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V038": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V039": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V040": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V041": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V042": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V043": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-DEVOPS-V044": {
   "status": "validada",
   "obs": ""
  },
@@ -484,6 +840,34 @@
   "obs": ""
  },
  "ESP-GOV-V066": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-NUVEM-V001": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-NUVEM-V002": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-NUVEM-V003": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-NUVEM-V004": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-NUVEM-V005": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-NUVEM-V006": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-NUVEM-V007": {
   "status": "validada",
   "obs": ""
  },
@@ -856,6 +1240,382 @@
   "obs": ""
  },
  "ESP-PROG-V038": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V001": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V002": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V003": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V004": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V005": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V006": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V007": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V008": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V009": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V010": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V011": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V012": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V013": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V014": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V015": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V016": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V017": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V018": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V019": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V020": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V021": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V022": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V023": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V024": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V025": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V026": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-REDES-V027": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V001": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V002": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V003": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V004": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V005": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V006": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V007": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V008": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V009": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V010": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V011": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V012": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V013": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V014": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V015": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V016": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V017": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V018": {
+  "status": "validada",
+  "obs": "Conferida pelo agente 5. Item datado (NIST SP 800-61 Rev. 3, abr/2025): revalidar se houver nova revisão antes da prova."
+ },
+ "ESP-SEG-V019": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V020": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V021": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V022": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V023": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V024": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V025": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V026": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V027": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V028": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V029": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SEG-V030": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V001": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V002": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V003": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V004": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V005": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V006": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V007": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V008": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V009": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V010": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V011": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V012": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V013": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V014": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V015": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V016": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V017": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V018": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V019": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V020": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V021": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SERV-V022": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SO-V001": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SO-V002": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SO-V003": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SO-V004": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SO-V005": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SO-V006": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SO-V007": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SO-V008": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SO-V009": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SO-V010": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SO-V011": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SO-V012": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SO-V013": {
+  "status": "validada",
+  "obs": "Tag nao_executado (PowerShell ausente no container): conferida pelo agente 5 com a documentação do Get-Service (propriedades Status e StartType, disponíveis no Windows PowerShell 5.1 do Windows Server 2022). Gabarito A correto."
+ },
+ "ESP-SO-V014": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-SO-V015": {
   "status": "validada",
   "obs": ""
  },
