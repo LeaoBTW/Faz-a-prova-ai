@@ -122,7 +122,7 @@ def main():
     nomes = {k: v[0] for k, v in base.MATERIAS.items()}
     L = ["# Log do agente 2 – Variações dos Conhecimentos Gerais", "",
          "Gerado por `tools/verificacao/agente2/gerar.py` em %s. Arquivo do banco: `banco/variacoes-gerais.js`." % DATA,
-         "Todas as questões estão com `status: \"rascunho\"`.", "",
+         "As questões saem do gerador como `status: \"rascunho\"` e recebem o status final (validada/rejeitada/dúvida) da validação do agente 5 (`tools/verificacao/validacao-agente5.json`; ver `docs/relatorio-validacao.md`).", "",
          "## Resumo", "",
          "| Matéria | Cota | Criadas | Variações | Inéditas | A | B | C | D | E |",
          "|---|---|---|---|---|---|---|---|---|---|"]

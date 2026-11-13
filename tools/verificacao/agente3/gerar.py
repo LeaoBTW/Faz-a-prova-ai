@@ -201,7 +201,7 @@ def main():
     with open(os.path.join(RAIZ, "docs", "log-agente3.md"), "w", encoding="utf-8") as f:
         f.write("# Log do agente 3 – variações dos Específicos (parte A)\n\n")
         f.write("Arquivo gerado: `banco/variacoes-esp-a.js` (por `tools/verificacao/agente3/gerar.py`). "
-                "Todas as questões estão em `status: \"rascunho\"`.\n\n## Resumo\n\n")
+                "As questões saem do gerador como `status: \"rascunho\"` e recebem o status final (validada/rejeitada/dúvida) da validação do agente 5 (`tools/verificacao/validacao-agente5.json`; ver `docs/relatorio-validacao.md`).\n\n## Resumo\n\n")
         f.write("| Eixo | Total | Variações | Inéditas | A | B | C | D | E |\n|---|---|---|---|---|---|---|---|---|\n")
         for nome, tot, nv, ni, d in resumo:
             f.write("| %s | %d | %d | %d | %s |\n" % (nome, tot, nv, ni, " | ".join(str(d[l]) for l in LETRAS)))

@@ -1,6 +1,6 @@
 # Log do agente 4 – Variações dos Específicos, parte B
 
-Arquivo gerado: `banco/variacoes-esp-b.js` (190 questões, status `rascunho`), produzido por `tools/verificacao/agente4/gerar.py` a partir de `dados_*.py`.
+Arquivo gerado: `banco/variacoes-esp-b.js` (190 questões; saem do gerador como `rascunho` e recebem o status final da validação do agente 5, ver `docs/relatorio-validacao.md`), produzido por `tools/verificacao/agente4/gerar.py` a partir de `dados_*.py`.
 Para regenerar e reverificar tudo: `tools/verificacao/agente4/verificar_tudo.sh`.
 
 ## Resumo

@@ -1335,3 +1335,68 @@ CORRECOES.push({
   },
   "motivo": "Observação de versão: o edital 2027 cita o OWASP Top 10:2021; a questão (edição 2025) foi mantida com nota no comentário."
 });
+
+CORRECOES.push({
+  "id": "ESP-WEB-0021",
+  "campos": {
+    "status": "rejeitada",
+    "validacao": {
+      "por": "agente-5",
+      "em": "2026-11-13",
+      "obs": "Quase-duplicata de ESP-WEB-0016 (mesma pergunta: usuário autenticado sem permissão → 403, com as mesmas alternativas). Mantida a ESP-WEB-0016, contextualizada em API REST."
+    }
+  },
+  "motivo": "Rejeitada pelo agente 5: Quase-duplicata de ESP-WEB-0016 (mesma pergunta: usuário autenticado sem permissão → 403, com as mesmas alternativas). Mantida a ESP-WEB-0016, contextualizada em API REST."
+});
+
+CORRECOES.push({
+  "id": "ESP-WEB-0057",
+  "campos": {
+    "status": "rejeitada",
+    "validacao": {
+      "por": "agente-5",
+      "em": "2026-11-13",
+      "obs": "Quase-duplicata de ESP-WEB-0016 (mesma pergunta: autenticado sem permissão → 403, com as mesmas alternativas de ESP-WEB-0021). Mantida a ESP-WEB-0016."
+    }
+  },
+  "motivo": "Rejeitada pelo agente 5: Quase-duplicata de ESP-WEB-0016 (mesma pergunta: autenticado sem permissão → 403, com as mesmas alternativas de ESP-WEB-0021). Mantida a ESP-WEB-0016."
+});
+
+CORRECOES.push({
+  "id": "RLE-0149",
+  "campos": {
+    "status": "rejeitada",
+    "validacao": {
+      "por": "agente-5",
+      "em": "2026-11-13",
+      "obs": "Duplicata de RLE-0116 (setor de 18% → 64,8°, mesmo enunciado e quase as mesmas alternativas); além disso, estava classificada em 02 §24 (desvio médio), e não em 02 §19 (gráficos). Mantida a RLE-0116."
+    }
+  },
+  "motivo": "Rejeitada pelo agente 5: Duplicata de RLE-0116 (setor de 18% → 64,8°, mesmo enunciado e quase as mesmas alternativas); além disso, estava classificada em 02 §24 (desvio médio), e não em 02 §19 (gráficos). Mantida a RLE-0116."
+});
+
+CORRECOES.push({
+  "id": "ESP-PROG-0081",
+  "campos": {
+    "status": "rejeitada",
+    "validacao": {
+      "por": "agente-5",
+      "em": "2026-11-13",
+      "obs": "Duplicata de ESP-PROG-0019 (ciclo do TDD, mesmas alternativas em outra ordem). Mantida a ESP-PROG-0019, que é pai da variação ESP-PROG-V034."
+    }
+  },
+  "motivo": "Rejeitada pelo agente 5: Duplicata de ESP-PROG-0019 (ciclo do TDD, mesmas alternativas em outra ordem). Mantida a ESP-PROG-0019, que é pai da variação ESP-PROG-V034."
+});
+
+CORRECOES.push({
+  "id": "ESP-NUVEM-0003",
+  "campos": {
+    "status": "rejeitada",
+    "validacao": {
+      "por": "agente-5",
+      "em": "2026-11-13",
+      "obs": "Quase-duplicata de ESP-NUVEM-0001 (mesmo cenário: API publicada sem administrar SO, só pacote e variáveis de ambiente → PaaS). Mantida a ESP-NUVEM-0001, que é pai de ESP-NUVEM-V001."
+    }
+  },
+  "motivo": "Rejeitada pelo agente 5: Quase-duplicata de ESP-NUVEM-0001 (mesmo cenário: API publicada sem administrar SO, só pacote e variáveis de ambiente → PaaS). Mantida a ESP-NUVEM-0001, que é pai de ESP-NUVEM-V001."
+});

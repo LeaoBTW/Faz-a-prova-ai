@@ -1,6 +1,6 @@
 # Log do agente 3 – variações dos Específicos (parte A)
 
-Arquivo gerado: `banco/variacoes-esp-a.js` (por `tools/verificacao/agente3/gerar.py`). Todas as questões estão em `status: "rascunho"`.
+Arquivo gerado: `banco/variacoes-esp-a.js` (por `tools/verificacao/agente3/gerar.py`). As questões saem do gerador como `status: "rascunho"` e recebem o status final (validada/rejeitada/dúvida) da validação do agente 5 (`tools/verificacao/validacao-agente5.json`; ver `docs/relatorio-validacao.md`).
 
 ## Resumo
 
