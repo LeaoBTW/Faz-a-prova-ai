@@ -1,0 +1,63 @@
+name: Publicar no GitHub Pages
+
+# Site final (branch main) na raiz e homologação (branch homolog) em /homolog/.
+on:
+  push:
+    branches: [main, homolog]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: src-main
+      - name: Checkout homolog
+        uses: actions/checkout@v4
+        continue-on-error: true
+        with:
+          ref: homolog
+          path: src-homolog
+      - name: Montar _site
+        run: |
+          set -e
+          copiar() {
+            # $1 = origem, $2 = destino; copia o que existir, sem .git, .github, tools e docs
+            [ -d "$1" ] || return 0
+            mkdir -p "$2"
+            tar -C "$1" --exclude=./.git --exclude=./.github --exclude=./tools --exclude=./docs --exclude=./homolog -cf - . | tar -C "$2" -xf -
+          }
+          rm -rf _site && mkdir -p _site
+          copiar src-main _site
+          copiar src-homolog _site/homolog
+          touch _site/.nojekyll
+          [ -f _site/index.html ] || echo "Aviso: main ainda não tem index.html"
+          [ -f _site/homolog/index.html ] || echo "Aviso: homolog ainda não tem index.html"
+          find _site -maxdepth 2 | head -50
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publicar
+        id: deployment
+        uses: actions/deploy-pages@v4
