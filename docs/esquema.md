@@ -71,7 +71,7 @@ BANCO.push({
 | `gabarito` | sim | Letra da alternativa; `"C"` (certo) ou `"E"` (errado) em `certo_errado`; `null` só em anulada. |
 | `comentario` | sim | Markdown; pode ser `""` quando a fonte não traz comentário. |
 | `tags` | sim | Lista de textos (ex.: `"ingles"`, `"datado"`, `"certo-errado"`). |
-| `embaralhavel` | sim | `true` se a ordem das alternativas pode mudar (hoje o app não embaralha). |
+| `embaralhavel` | sim | Em variações e inéditas, `false` impede o embaralhamento. Regra do app (`D.embaralhavel`): prova real nunca embaralha; as demais de múltipla escolha embaralham, exceto quando alguma alternativa depende da posição ("anteriores", "(b)", "tanto … quanto"). A ordem é fixa por simulado/treino; o histórico guarda sempre a letra original, e o comentário mostra a tabela de conversão. |
 | `status` | sim | `"rascunho"`, `"validada"`, `"rejeitada"` ou `"duvida"`. Só `validada` entra no app. |
 | `validacao` | não | `{ "por", "em", "obs" }`. |
 | `versao` | sim | Inteiro, começa em 1. |

@@ -113,11 +113,13 @@
     return frag;
   }
 
-  /* Lista de alternativas. op: {resp, aoEscolher(letra), revelar: bool} */
+  /* Lista de alternativas. op: {resp, aoEscolher(letra), revelar: bool, semente}
+     resp e aoEscolher usam sempre a letra ORIGINAL (a do gabarito); a tela mostra
+     as letras A–E na ordem embaralhada definida por D.ordem(q, semente). */
   function alternativas(q, op) {
     var lista = h("div", { class: "alts", role: "radiogroup", "aria-label": "Alternativas" });
-    var letras = D.letras(q);
-    letras.forEach(function (L) {
+    var exib = D.letras(q);
+    D.ordem(q, op.semente).forEach(function (L, i) {
       var texto = q.formato === "certo_errado" ? (L === "C" ? "Certo" : "Errado") : q.alternativas[L];
       var cls = "alt";
       if (op.resp === L) cls += " marcada";
@@ -126,9 +128,9 @@
         else if (op.resp === L) cls += " errada";
       }
       var b = h("button", { type: "button", class: cls, role: "radio", "aria-checked": op.resp === L ? "true" : "false",
-        disabled: op.revelar ? true : null, "data-letra": L,
+        disabled: op.revelar ? true : null, "data-letra": L, "data-exib": exib[i],
         onclick: function () { if (op.aoEscolher) op.aoEscolher(L); } }, [
-        h("span", { class: "alt-letra" }, L),
+        h("span", { class: "alt-letra" }, exib[i]),
         h("span", { class: "alt-texto md", html: FP.md(texto) })
       ]);
       lista.appendChild(b);
@@ -136,10 +138,18 @@
     return lista;
   }
 
-  function comentario(q) {
+  /* Botão da alternativa pela letra que o usuário VÊ (teclado). */
+  function botaoExibido(area, L) { return area.querySelector('[data-exib="' + L + '"]'); }
+
+  function comentario(q, semente) {
     var c = q.comentario && q.comentario.trim();
+    var ordem = D.ordem(q, semente), letras = D.letras(q);
+    var trocou = ordem.join("") !== letras.join("");
+    var gab = D.anulada(q) ? "anulada" : (q.formato === "certo_errado" ? (q.gabarito === "C" ? "Certo" : "Errado") : D.exibida(q, semente, q.gabarito));
     return h("div", { class: "comentario" }, [
-      h("p", { class: "gab" }, ["Gabarito: ", h("strong", null, D.anulada(q) ? "anulada" : (q.formato === "certo_errado" ? (q.gabarito === "C" ? "Certo" : "Errado") : q.gabarito))]),
+      h("p", { class: "gab" }, ["Gabarito: ", h("strong", null, gab)]),
+      trocou ? h("p", { class: "mudo nota-ordem" }, "As alternativas foram embaralhadas. O comentário usa as letras da ordem original: " +
+        letras.map(function (L) { return L + " = " + D.exibida(q, semente, L) + " aqui"; }).join(" · ") + ".") : null,
       c ? h("div", { class: "md", html: FP.md(c) }) : h("p", { class: "mudo" }, "A fonte não traz comentário para esta questão. Revise a seção da apostila indicada."),
       refApostila(q)
     ]);
@@ -318,7 +328,7 @@
         var cls = "folha-item" + (it.resp ? " respondida" : "") + (i === s.atual ? " atual" : "") +
           (it.marcas.revisar ? " revisar" : "") + (it.marcas.chutei ? " chute" : "");
         g.appendChild(h("button", { type: "button", class: cls, title: "Questão " + (i + 1),
-          onclick: function () { irPara(i); } }, [h("span", null, String(i + 1)), h("b", null, it.resp || "–")]));
+          onclick: function () { irPara(i); } }, [h("span", null, String(i + 1)), h("b", null, (D.porId[it.id] ? D.exibida(D.porId[it.id], s.id, it.resp) : it.resp) || "–")]));
       });
       var brancos = s.itens.filter(function (i) { return !i.resp; }).length;
       folha.appendChild(h("p", { class: "folha-legenda" }, "Em branco: " + brancos + " · ● respondida · ◆ revisar · ? chute"));
@@ -344,7 +354,7 @@
       var c = cartao([], "questao");
       c.appendChild(cabecalhoQuestao(q, s.atual + 1, s.itens.length));
       c.appendChild(corpoQuestao(q));
-      c.appendChild(alternativas(q, { resp: it.resp, aoEscolher: function (L) {
+      c.appendChild(alternativas(q, { resp: it.resp, semente: s.id, aoEscolher: function (L) {
         if (it.resp && it.resp !== L) it.mudancas++;
         it.resp = it.resp === L ? null : L;
         S.salvar();
@@ -378,7 +388,7 @@
       if (letras.indexOf(k) >= 0 || /^[1-5]$/.test(k)) {
         var L = /^[1-5]$/.test(k) ? letras[+k - 1] : k;
         if (!L) return;
-        var btn = area.querySelector('[data-letra="' + L + '"]');
+        var btn = botaoExibido(area, L);
         if (btn) btn.click();
       } else if (ev.key === "ArrowRight") irPara(s.atual + 1);
       else if (ev.key === "ArrowLeft") irPara(s.atual - 1);
@@ -524,14 +534,14 @@
         if (!q) return;
         var det = h("details", { class: "rev-item " + (x.acertou ? "ok" : "erro") }, [
           h("summary", null, [h("span", { class: "rev-n" }, "Q" + (i + 1)), " ",
-            h("span", null, (x.acertou ? "✔ " : "✘ ") + D.unidade(q) + " › " + q.topico + " · marcou " + (x.resp || "em branco") + " · gabarito " + (x.anulada ? "anulada" : q.gabarito))])
+            h("span", null, (x.acertou ? "✔ " : "✘ ") + D.unidade(q) + " › " + q.topico + " · marcou " + (D.exibida(q, s.id, x.resp) || "em branco") + " · gabarito " + (x.anulada ? "anulada" : D.exibida(q, s.id, q.gabarito)))])
         ]);
         det.addEventListener("toggle", function () {
           if (det.open && det.children.length === 1) {
             det.appendChild(cabecalhoQuestao(q));
             det.appendChild(corpoQuestao(q));
-            det.appendChild(alternativas(q, { resp: x.resp, revelar: true }));
-            det.appendChild(comentario(q));
+            det.appendChild(alternativas(q, { resp: x.resp, revelar: true, semente: s.id }));
+            det.appendChild(comentario(q, s.id));
           }
         });
         lista.appendChild(det);
@@ -614,7 +624,7 @@
     c.appendChild(cabecalhoQuestao(q, e.idx + 1, e.fila.length));
     c.appendChild(corpoQuestao(q));
     var r = e.resp[q.id];
-    c.appendChild(alternativas(q, { resp: r && r.resp, revelar: !!r, aoEscolher: function (L) {
+    c.appendChild(alternativas(q, { resp: r && r.resp, revelar: !!r, semente: e.inicio, aoEscolher: function (L) {
       if (e.resp[q.id]) return;
       var acertou = D.anulada(q) ? true : L === q.gabarito;
       e.resp[q.id] = { resp: L, acertou: acertou };
@@ -625,7 +635,7 @@
     } }));
     if (r) {
       c.appendChild(h("p", { class: "feedback " + (r.acertou ? "ok" : "erro"), role: "status" }, r.acertou ? "✔ Você acertou." : "✘ Você errou."));
-      c.appendChild(comentario(q));
+      c.appendChild(comentario(q, e.inicio));
       var susp = !!S.perfil().suspeitas[q.id];
       c.appendChild(h("label", { class: "chip" + (susp ? " ligado" : "") }, [h("input", { type: "checkbox", checked: susp, onchange: function (ev) {
         S.marcarSuspeita(q.id, ev.target.checked, "Treino"); S.salvar(); UI.estudo();
@@ -642,7 +652,7 @@
       var k = ev.key.toUpperCase();
       var letras = D.letras(q);
       var L = /^[1-5]$/.test(k) ? letras[+k - 1] : (letras.indexOf(k) >= 0 ? k : null);
-      if (L && !e.resp[q.id]) { var b = raiz.querySelector('[data-letra="' + L + '"]'); if (b) b.click(); }
+      if (L && !e.resp[q.id]) { var b = botaoExibido(raiz, L); if (b) b.click(); }
       else if (ev.key === "ArrowRight" && e.idx < e.fila.length - 1) { e.idx++; UI.estudo(); }
       else if (ev.key === "ArrowLeft" && e.idx > 0) { e.idx--; UI.estudo(); }
     };
