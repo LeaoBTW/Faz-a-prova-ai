@@ -62,8 +62,13 @@ window.CONFIGS["banestes-2027-analista-ti"] = {
   // Em pontos: Gerais 1 por questão, Específicos 1,2 por questão, total 90 (nota = pontos ÷ 9).
   pontos_total: 90,
 
+  // Nota no Obsidian com o edital (link nas notas .md) e tags das notas geradas.
+  nota_edital: "Edital Banestes 2027 - Analista TI",
+  tags_obsidian: ["banestes"],
+
   // Resultado de 2024 (Instituto ACCESS, cargo 304) para comparar o percentual de acerto.
-  posicoes_2024: [
+  // prova_original: na prova real de 2024 a comparação usa a pontuação original (110 pontos).
+  historico: { ano: "2024", prova_original: "banestes-2024", presentes: 1138, posicoes: [
     { posicao: 1, percentual: 84, rotulo: "1º colocado" },
     { posicao: 10, percentual: 81, rotulo: "10º" },
     { posicao: 50, percentual: 74, rotulo: "50º" },
@@ -71,8 +76,7 @@ window.CONFIGS["banestes-2027-analista-ti"] = {
     { posicao: 242, percentual: 65, rotulo: "242º (vagas de ampla concorrência)" },
     { posicao: 439, percentual: 59, rotulo: "439º (número de vagas de CR de 2024)" },
     { posicao: 652, percentual: 50, rotulo: "último aprovado (652º)" }
-  ],
-  presentes_2024: 1138,
+  ] },
 
   // Provas reais disponíveis no modo "Refazer prova real"
   provas_reais: [

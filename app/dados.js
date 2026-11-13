@@ -44,21 +44,44 @@
     D.todas.forEach(function (q) { D.porId[q.id] = q; });
     D.textos = {};
     (window.TEXTOS_BASE || []).forEach(function (t) { D.textos[t.id] = t; });
+    /* Estrutura genérica da prova: N blocos, cada um com peso e matérias. Uma matéria
+       pode ser dividida em eixos (b.eixos, ou cfg.eixos no bloco "especificos" por
+       compatibilidade); nesse caso a unidade de sorteio é o eixo. */
     D.unidades = [];
+    D.blocos = [];
+    D.materias = [];
+    D.totalQuestoes = 0;
     cfg.blocos.forEach(function (b) {
-      if (b.id === "gerais") {
-        b.materias.forEach(function (m) {
-          D.unidades.push({ nome: m.nome, sigla: m.sigla, bloco: "gerais", questoes: m.questoes });
-        });
-      }
+      var eixos = b.eixos || (b.id === "especificos" ? cfg.eixos : null);
+      var total = 0;
+      b.materias.forEach(function (m) { total += m.questoes; D.materias.push(m.nome); });
+      D.blocos.push({ id: b.id, nome: b.nome, curto: b.nome_curto || b.nome.replace(/^Conhecimentos /, ""), peso: b.peso == null ? 1 : b.peso,
+        ppq: b.pontos_por_questao == null ? 1 : b.pontos_por_questao, questoes: total, temEixos: !!eixos });
+      D.totalQuestoes += total;
+      if (eixos) eixos.forEach(function (e) { D.unidades.push({ nome: e.nome, sigla: e.sigla, bloco: b.id, questoes: e.questoes, eixo: true }); });
+      else b.materias.forEach(function (m) { D.unidades.push({ nome: m.nome, sigla: m.sigla, bloco: b.id, questoes: m.questoes }); });
     });
-    cfg.eixos.forEach(function (e) {
-      D.unidades.push({ nome: e.nome, sigla: e.sigla, bloco: "especificos", questoes: e.questoes });
-    });
+    D.temEixos = D.blocos.some(function (b) { return b.temEixos; });
+    D.pontosTotal = D.blocos.reduce(function (s, b) { return s + b.questoes * b.ppq; }, 0);
+    // resultado de um concurso anterior para comparar (opcional)
+    D.historico = cfg.historico || null;
+  };
+  D.bloco = function (id) { return D.blocos.filter(function (b) { return b.id === id; })[0]; };
+  /* "80 questões (30 Gerais + 50 Específicos)" */
+  D.textoEstrutura = function () {
+    return D.totalQuestoes + " questões" + (D.blocos.length > 1 ? " (" + D.blocos.map(function (b) { return b.questoes + " " + b.curto; }).join(" + ") + ")" : "");
+  };
+  /* "Nota = (Gerais + 2 × Específicos) ÷ 3" */
+  D.textoFormula = function () {
+    if (D.config.formula_texto) return D.config.formula_texto;
+    if (D.blocos.length === 1) return "Nota = acertos ÷ questões × 10";
+    var somaPesos = D.blocos.reduce(function (s, b) { return s + b.peso; }, 0);
+    return "Nota = (" + D.blocos.map(function (b) { return (b.peso === 1 ? "" : FP.fmtNum(b.peso, b.peso % 1 ? 1 : 0) + " × ") + b.curto; }).join(" + ") + ") ÷ " +
+      FP.fmtNum(somaPesos, somaPesos % 1 ? 1 : 0) + ", cada bloco de 0 a 10";
   };
 
   /* "Unidade" de distribuição: matéria (Gerais) ou eixo (Específicos) */
-  D.unidade = function (q) { return q.bloco === "gerais" ? q.materia : q.eixo; };
+  D.unidade = function (q) { return q.eixo || q.materia; };
   D.familia = function (q) { return (q.origem && q.origem.id_pai) || q.id; };
   D.anulada = function (q) { return !!(q.origem && q.origem.anulada); };
   D.ehMultipla = function (q) { return q.formato === "multipla_5" || q.formato === "multipla_4"; };

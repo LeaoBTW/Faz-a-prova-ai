@@ -106,7 +106,8 @@
       (porUnidade[u] = porUnidade[u] || []).push(q);
     });
     var resultado = [];
-    var faltas = { gerais: 0, especificos: 0 };
+    var faltas = {};
+    D.blocos.forEach(function (b) { faltas[b.id] = 0; });
     dist.forEach(function (d) {
       if (!d.n) { resultado.push({ u: d.u, qs: [] }); return; }
       var pool = porUnidade[d.u.nome] || [];
@@ -121,7 +122,7 @@
       resultado.push({ u: d.u, qs: esc });
     });
     // completa faltas com outras unidades do mesmo bloco
-    ["gerais", "especificos"].forEach(function (bloco) {
+    D.blocos.map(function (b) { return b.id; }).forEach(function (bloco) {
       if (!faltas[bloco]) return;
       var pool = D.todas.filter(function (q) { return q.bloco === bloco && D.usavelSimulado(q) && !usadas[q.id]; });
       var c = ordenarCandidatos(pool, perfil);
@@ -135,9 +136,9 @@
     // ordena: Gerais (matérias na ordem) e Específicos; evita sequências de letras
     var ids = [];
     var ant = [];
-    var gerais = resultado.filter(function (r) { return r.u.bloco === "gerais"; });
-    var esp = resultado.filter(function (r) { return r.u.bloco === "especificos"; });
-    gerais.concat(esp).forEach(function (r) {
+    var emOrdem = [];
+    D.blocos.forEach(function (b) { emOrdem = emOrdem.concat(resultado.filter(function (r) { return r.u.bloco === b.id; })); });
+    emOrdem.forEach(function (r) {
       var ord = SO.evitarSequencias(FP.embaralhar(r.qs), ant);
       ord.forEach(function (q) { ids.push(q.id); ant.push(q.gabarito); });
     });
