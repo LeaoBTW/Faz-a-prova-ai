@@ -1,0 +1,77 @@
+# -*- coding: utf-8 -*-
+"""Computação em nuvem (NUVEM) — cota 7."""
+from comum import Q
+
+E = "NUVEM"
+T2 = "Nuvem na prática: responsabilidade compartilhada, elasticidade, alta disponibilidade, s…"
+QUESTOES = [
+    Q(E, "07", 1, sub="1.3", pai="ESP-NUVEM-0001", k="nuv-iaas",
+      enun="Um banco contratou máquinas virtuais em um provedor de nuvem pública para hospedar um sistema legado. A equipe do banco escolhe a imagem do sistema operacional, aplica os patches, instala o servidor de aplicação e configura o firewall de host; o provedor cuida do data center, do hardware, da rede física e do hipervisor. Segundo o NIST, o modelo de serviço contratado é",
+      alts=["SaaS.",
+            "PaaS.",
+            "IaaS.",
+            "FaaS.",
+            "nuvem comunitária."],
+      gab="C",
+      com="**Gabarito: C.** Quem instala e atualiza o **sistema operacional** é o cliente: é **IaaS**. O provedor responde pela infraestrutura física e pela virtualização.\n\n(A) No SaaS o cliente só usa a aplicação pronta. (B) No PaaS o provedor cuida do SO e do runtime; o cliente só envia a aplicação. (D) FaaS executa funções sob evento, sem servidor gerenciado pelo cliente. (E) Nuvem comunitária é modelo de **implantação**, não de serviço."),
+
+    Q(E, "07", 2, sub="2.3", pai="ESP-NUVEM-0010", k="nuv-rpo-rto",
+      enun="O banco de dados do sistema de cobrança é replicado para outra região a cada 15 minutos. Em um teste de recuperação de desastre, a equipe levou 2 horas para colocar o sistema em funcionamento na região secundária. Considerando o pior caso, os valores que esse plano consegue atender para RPO e RTO são, respectivamente,",
+      alts=["2 horas e 15 minutos.",
+            "15 minutos e 15 minutos.",
+            "zero e 2 horas.",
+            "2 horas e 2 horas.",
+            "15 minutos e 2 horas."],
+      gab="E",
+      com="**Gabarito: E.** O **RPO** mede a **perda de dados** tolerável: com réplica a cada 15 minutos, no pior caso perdem-se **15 minutos** de transações. O **RTO** mede o **tempo** até o serviço voltar: **2 horas**.\n\n(A) Inverte os conceitos. (B) O tempo de retorno é de 2 horas, não 15 minutos. (C) RPO zero exigiria replicação síncrona. (D) Confunde a perda de dados com o tempo de recuperação."),
+
+    Q(E, "07", 2, sub="2.2", pai="ESP-NUVEM-0008", k="nuv-horizontal",
+      enun="Na véspera do pagamento do 13º salário, a API de consulta de extratos passou a ser atendida por 40 instâncias atrás de um balanceador de carga, em vez das 4 habituais, voltando a 4 depois do pico. Essa forma de crescer, adicionando e removendo instâncias, é a escalabilidade",
+      alts=["horizontal (scale out/in), que exige aplicação sem estado ou com estado externo.",
+            "vertical (scale up), que aumenta CPU e memória de uma única máquina.",
+            "vertical, que dispensa balanceador de carga.",
+            "diagonal, exclusiva de nuvens privadas.",
+            "manual, incompatível com elasticidade."],
+      gab="A",
+      com="**Gabarito: A.** Adicionar e remover **instâncias** atrás de um balanceador é escalar **horizontalmente**; para isso a aplicação deve ser **sem estado** (ou guardar o estado em cache ou banco). Feito automaticamente, conforme a carga, caracteriza **elasticidade**.\n\n(B) e (C) Escala vertical aumenta os recursos de uma mesma máquina, com limite físico. (D) Não é conceito do NIST nem restrito a nuvem privada. (E) O cenário descreve justamente aumento e redução conforme a demanda."),
+
+    Q(E, "07", 2, sub="2.5", top=T2, k="nuv-replatform",
+      enun="Na migração de um sistema de câmbio para a nuvem, a equipe moveu a aplicação para máquinas virtuais sem reescrevê-la, mas aproveitou para trocar o banco de dados instalado em servidor próprio por um serviço de banco de dados gerenciado do provedor, sem mudar a arquitetura da aplicação. Entre os \"6 Rs\" de migração, essa estratégia é o",
+      alts=["rehost (lift and shift).",
+            "replatform (lift, tinker and shift).",
+            "refactor/rearchitect.",
+            "repurchase.",
+            "retire."],
+      gab="B",
+      com="**Gabarito: B.** **Replatform** faz pequenas otimizações durante a migração, como trocar o banco próprio por um gerenciado, sem mudar a arquitetura.\n\n(A) Rehost move a aplicação exatamente como está. (C) Refactor reescreve para usar recursos nativos (microsserviços, serverless). (D) Repurchase troca por um produto SaaS. (E) Retire desliga o que não é mais necessário."),
+
+    Q(E, "07", 2, sub="2.6", top=T2, k="nuv-finops-spot",
+      enun="Em um programa de FinOps, a equipe de um banco precisa escolher o modelo de cobrança de duas cargas: (1) o processamento noturno de modelos de risco, em lotes que podem ser interrompidos e retomados sem prejuízo; (2) o banco de dados do core, que roda 24 horas por dia, de forma estável, pelos próximos três anos. Os modelos mais econômicos são, respectivamente,",
+      alts=["sob demanda e sob demanda.",
+            "reservado e spot.",
+            "spot (preemptível) e reservado (ou savings plan).",
+            "reservado e reservado.",
+            "spot e spot."],
+      gab="C",
+      com="**Gabarito: C.** **Spot/preemptível** oferece grande desconto sobre capacidade ociosa, mas pode ser interrompido — ideal para lotes tolerantes a falhas. **Reservado/savings plan** dá desconto em troca de compromisso de 1 a 3 anos — ideal para carga estável.\n\n(A) Sob demanda é o mais caro para cargas previsíveis. (B) Inverte as escolhas. (D) Reservar para um lote noturno paga por capacidade ociosa no resto do dia. (E) Interrupções no banco do core são inaceitáveis."),
+
+    Q(E, "07", 2, sub="2.3", top=T2, k="nuv-ha-paralelo", tags=["calculo"],
+      enun="Uma aplicação foi distribuída em duas zonas de disponibilidade, cada uma com uma instância de disponibilidade 99,5%, atrás de um balanceador. Supondo falhas independentes, que o balanceador não falha e que basta uma instância ativa para atender, a disponibilidade resultante é de aproximadamente",
+      alts=["99,0025%.",
+            "99,5000%.",
+            "99,7500%.",
+            "99,9975%.",
+            "100,0000%."],
+      gab="D",
+      com="**Gabarito: D.** Em paralelo, o serviço só cai se **as duas** instâncias falharem: indisponibilidade = 0,005 × 0,005 = 0,000025 → disponibilidade = 1 − 0,000025 = **99,9975%**.\n\n(A) 99,0025% é o produto 0,995 × 0,995, que vale para componentes em **série**. (B) Ignora a redundância. (C) Soma metade da indisponibilidade de forma indevida. (E) Redundância reduz, mas não elimina, a chance de falha.\n\nConta conferida em `tools/verificacao/agente4/verif_nuvem.py`."),
+
+    Q(E, "07", 1, sub="1.3", top="Computação em nuvem: definição NIST, características, modelos de serviço e de implantação", k="nuv-gerenciado",
+      enun="Um banco passou a usar um serviço de banco de dados relacional gerenciado (DBaaS) de um provedor de nuvem pública. No modelo de responsabilidade compartilhada, permanece com o banco (cliente)",
+      alts=["a aplicação de patches no sistema operacional dos servidores do banco de dados.",
+            "a substituição de discos com defeito no data center.",
+            "a manutenção do hipervisor que hospeda as instâncias.",
+            "a classificação e a proteção dos dados, a gestão de usuários e permissões de acesso e a configuração de criptografia e de exposição de rede da instância.",
+            "a redundância de energia das zonas de disponibilidade."],
+      gab="D",
+      com="**Gabarito: D.** Em qualquer modelo, **dados, identidades e acessos** continuam com o cliente, assim como as configurações do serviço (criptografia, regras de rede, exposição pública). Em um serviço gerenciado, o provedor cuida do SO, do motor do banco, de patches e de backups automatizados conforme o serviço.\n\n(A) No DBaaS o SO dos servidores do banco é administrado pelo provedor. (B) Hardware é do provedor. (C) O hipervisor é do provedor. (E) Energia e redundância das zonas são do provedor."),
+]
