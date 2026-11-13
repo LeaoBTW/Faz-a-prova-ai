@@ -2905,7 +2905,7 @@ BANCO.push({
   "formato": "multipla_5",
   "dificuldade": 3,
   "texto_base": null,
-  "enunciado": "Considere o arquivo de pipeline a seguir (sintaxe do GitLab CI):\n\n```yaml\nstages: [build, test, deploy]\n\nempacotar:\n  stage: build\n  script: mvn -B package\n\ntestar:\n  stage: test\n  script: mvn -B verify\n\nproducao:\n  stage: deploy\n  script: ./implantar.sh prod\n  when: manual\n  rules:\n    - if: $CI_COMMIT_BRANCH == \"main\"\n```\n\nÉ correto afirmar que",
+  "enunciado": "Considere o arquivo de pipeline a seguir (sintaxe do GitLab CI):\n\n```yaml\nstages: [build, test, deploy]\n\nempacotar:\n  stage: build\n  script: mvn -B package\n\ntestar:\n  stage: test\n  script: mvn -B verify\n\nproducao:\n  stage: deploy\n  script: ./implantar.sh prod\n  rules:\n    - if: $CI_COMMIT_BRANCH == \"main\"\n      when: manual\n```\n\nÉ correto afirmar que",
   "imagem": null,
   "alternativas": {
     "A": "o job `producao` roda automaticamente em todo commit de qualquer branch, caracterizando implantação contínua.",
@@ -2915,7 +2915,7 @@ BANCO.push({
     "E": "se o job `testar` falhar, o job `producao` é executado automaticamente para corrigir o ambiente."
   },
   "gabarito": "C",
-  "comentario": "**Gabarito: C.** A regra limita `producao` à branch `main`, e `when: manual` exige que alguém o acione: o software fica pronto para produção, mas a liberação é decisão manual — **entrega contínua**.\n\n(A) Não é automático nem vale para qualquer branch. (B) Os estágios rodam em sequência (build → test → deploy); só jobs do **mesmo** estágio rodam em paralelo. (D) A ordem é a de `stages`: build antes de test. (E) Com falha em um estágio, os estágios seguintes não prosseguem.\n\nEstrutura do YAML conferida com PyYAML em `tools/verificacao/agente4/verif_devops.py`; a semântica (stages, when, rules) segue a documentação do GitLab CI.\n\nRevisar: Apostila 06, §12.3.",
+  "comentario": "**Gabarito: C.** A regra limita `producao` à branch `main` e, com `when: manual`, exige que alguém o acione: o software fica pronto para produção, mas a liberação é decisão manual — **entrega contínua**.\n\n(A) Não é automático nem vale para qualquer branch. (B) Os estágios rodam em sequência (build → test → deploy); só jobs do **mesmo** estágio rodam em paralelo. (D) A ordem é a de `stages`: build antes de test. (E) Com falha em um estágio, os estágios seguintes não prosseguem.\n\nEstrutura do YAML conferida com PyYAML em `tools/verificacao/agente4/verif_devops.py`; a semântica (stages, when, rules) segue a documentação do GitLab CI.\n\nRevisar: Apostila 06, §12.3.",
   "tags": [],
   "embaralhavel": true,
   "status": "rascunho",
