@@ -747,3 +747,173 @@ Q(M, "6", """A regência nominal está de acordo com a norma-padrão em:""",
    ("O analista é residente à Rua das Palmeiras.", "Residente em."),
    ("A decisão foi contrária com o parecer.", "Contrária a.")],
   pai=None, dif=2, tags=["regência nominal"], var="inédita (regência nominal)", verif=V("6"))
+
+# =====================================================================
+# Vozes do verbo – pai LP-0105 e inéditas
+# =====================================================================
+Q(M, "15", """Transpondo-se para a voz passiva a frase "A comissão **terá analisado** todos os pedidos até sexta-feira", a forma verbal resultante será:""",
+  ("terão sido analisados.", "\"Terá analisado\" é futuro do presente composto; o auxiliar \"ser\" vai para o mesmo tempo (\"terá sido\") e concorda com o novo sujeito \"todos os pedidos\": terão sido analisados."),
+  [("serão analisados.", "Futuro do presente simples: perde o aspecto de ação concluída do tempo composto."),
+   ("teriam sido analisados.", "Futuro do pretérito composto: muda o tempo verbal."),
+   ("terão analisado.", "Continua na voz ativa (falta o auxiliar \"ser\")."),
+   ("tinham sido analisados.", "Pretérito mais-que-perfeito composto: muda o tempo verbal.")],
+  pai="LP-0105", tags=["vozes do verbo", "voz passiva"], var="voz passiva com outro tempo composto (futuro do presente composto)", verif=V("15"))
+
+Q(M, "15", """Passando-se para a voz ativa a frase "O relatório **foi revisado** pelos auditores externos", obtém-se, com correção e sem alteração de sentido:""",
+  ("Os auditores externos revisaram o relatório.", "O agente da passiva vira sujeito e o \"ser\" no pretérito perfeito (\"foi\") indica que o verbo principal fica no pretérito perfeito: revisaram."),
+  [("Os auditores externos revisavam o relatório.", "Pretérito imperfeito: muda o tempo verbal."),
+   ("Revisou-se o relatório pelos auditores externos.", "Continua na voz passiva (sintética), e a passiva sintética não costuma trazer agente expresso."),
+   ("Os auditores externos tinham revisado o relatório.", "Mais-que-perfeito composto: muda o tempo verbal."),
+   ("Os auditores externos revisariam o relatório.", "Futuro do pretérito: muda o tempo e acrescenta hipótese.")],
+  pai="LP-0105", tags=["vozes do verbo", "voz ativa"], var="sentido inverso: da passiva analítica para a ativa", verif=V("15"))
+
+Q(M, "15", """Há voz passiva sintética (pronominal) em:""",
+  ("Aprovaram-se as contas na assembleia de ontem.", "\"Se\" é pronome apassivador: VTD + se, com sujeito paciente \"as contas\" (= as contas foram aprovadas); o verbo concorda com o sujeito."),
+  [("O técnico feriu-se ao abrir o gabinete do servidor.", "Voz reflexiva: o sujeito pratica e sofre a ação."),
+   ("Os sócios cumprimentaram-se ao fim da reunião.", "Voz reflexiva recíproca (um cumprimentou o outro)."),
+   ("Precisa-se de estagiários na área de dados.", "VTI + se: o \"se\" é índice de indeterminação do sujeito, e não há voz passiva."),
+   ("O gerente queixou-se do atraso no sistema.", "\"Queixar-se\" é verbo pronominal; o \"se\" é parte integrante do verbo.")],
+  pai=None, tags=["vozes do verbo", "pronome se", "voz passiva sintética"], var="inédita (identificação da voz passiva sintética)", verif=V("15"))
+
+Q(M, "6", """A concordância verbal está de acordo com a norma-padrão em:""",
+  ("Consertam-se computadores e alugam-se salas para treinamento.", "Passiva sintética: VTD + se concorda com o sujeito paciente no plural (computadores; salas)."),
+  [("Aluga-se salas comerciais no centro.", "\"Salas\" é sujeito paciente: alugam-se."),
+   ("Precisam-se de analistas com experiência.", "VTI + se: o verbo fica no singular (precisa-se de)."),
+   ("Divulgou-se os resultados do concurso.", "\"Os resultados\" é sujeito paciente: divulgaram-se."),
+   ("Fazem dez anos que a agência foi inaugurada.", "\"Fazer\" indicando tempo decorrido é impessoal: faz dez anos.")],
+  pai=None, tags=["concordância verbal", "pronome se", "voz passiva sintética"], var="inédita (concordância com o pronome se)", verif=V("6"))
+
+# =====================================================================
+# Correlação de tempos e modos – pai LP-0106
+# =====================================================================
+Q(M, "15", """"Se o cliente ________ o contrato hoje, o crédito ________ liberado amanhã."
+
+Preenchem as lacunas com correta correlação entre tempos e modos:""",
+  ("assinar – será", "Futuro do subjuntivo na condicional (\"se assinar\") correlaciona-se com o futuro do presente do indicativo (\"será\")."),
+  [("assinasse – será", "Imperfeito do subjuntivo pede futuro do pretérito (\"seria\")."),
+   ("assinar – seria", "Futuro do subjuntivo pede futuro do presente (\"será\"), não futuro do pretérito."),
+   ("assinaria – será", "Futuro do pretérito não cabe na oração introduzida por \"se\" condicional."),
+   ("assine – fosse", "Depois de \"se\" condicional não se usa presente do subjuntivo, e \"fosse\" não fecha a correlação.")],
+  pai="LP-0106", tags=["correlação de tempos e modos", "subjuntivo"], var="lacunas: futuro do subjuntivo + futuro do presente", verif=V("15"))
+
+Q(M, "15", """Está correta a correlação entre tempos e modos verbais em:""",
+  ("O gerente pediu que os clientes trouxessem os documentos originais.", "Verbo da principal no pretérito perfeito (\"pediu\") pede o imperfeito do subjuntivo na subordinada (\"trouxessem\")."),
+  [("O gerente pede que os clientes trouxessem os documentos originais.", "Presente na principal pede presente do subjuntivo: \"tragam\"."),
+   ("Se tivesse havido chuva, o evento será adiado.", "Mais-que-perfeito do subjuntivo pede futuro do pretérito composto: \"teria sido adiado\"."),
+   ("Quando o cliente chegasse, será atendido pelo gerente.", "Futuro do presente na principal pede futuro do subjuntivo: \"quando o cliente chegar\"."),
+   ("Caso houver dúvidas, procure o atendimento.", "\"Caso\" pede presente ou imperfeito do subjuntivo: \"caso haja dúvidas\".")],
+  pai="LP-0106", dif=2, tags=["correlação de tempos e modos"], var="novas frases (pretérito + imperfeito do subjuntivo; \"caso\" + futuro)", verif=V("15"))
+
+# =====================================================================
+# Flexão nominal e verbal – pais LP-0107, LP-0108, LP-0109
+# =====================================================================
+Q(M, "15", """Os dois plurais estão corretos em:""",
+  ("os cartões-postais – os guarda-roupas", "Substantivo + adjetivo: os dois elementos variam (cartões-postais); verbo + substantivo: só o substantivo varia (guarda-roupas)."),
+  [("os guardas-roupas – os cartões-postais", "\"Guarda\" é verbo e não varia: guarda-roupas."),
+   ("os cartão-postais – os vice-reis", "\"Cartão\" é substantivo e varia: cartões-postais (vice-reis está correto)."),
+   ("os alto-falante – os guarda-chuvas", "Em \"alto-falante\" o segundo elemento varia: alto-falantes."),
+   ("os vices-reis – as obras-primas", "\"Vice\" é prefixo e não varia: vice-reis (obras-primas está correto).")],
+  pai="LP-0107", tags=["flexão nominal", "plural de compostos"], var="plural de compostos com pares de palavras", verif=V("15"))
+
+Q(M, "15", """O plural dos substantivos está correto em todos os itens de:""",
+  ("cidadãos – capitães – mãos", "Os plurais dos nomes em -ão são fixados pelo uso: cidadão > cidadãos; capitão > capitães; mão > mãos."),
+  [("cidadões – capitães – mãos", "Cidadão faz cidadãos."),
+   ("cidadãos – capitãos – mãos", "Capitão faz capitães."),
+   ("cidadães – capitões – mãos", "Cidadão faz cidadãos e capitão faz capitães."),
+   ("cidadãos – capitães – mães", "\"Mães\" é plural de \"mãe\"; o plural de \"mão\" é \"mãos\".")],
+  pai=None, dif=1, tags=["flexão nominal", "plural"], var="inédita (plural dos nomes em -ão)", verif=V("15"))
+
+Q(M, "15", """A forma verbal está de acordo com a norma-padrão em:""",
+  ("Quando nós revirmos o contrato, você receberá a nova versão.", "\"Rever\" segue \"ver\": futuro do subjuntivo revir, revires, revir, revirmos..."),
+  [("Se o gerente manter a proposta, o acordo sai hoje.", "\"Manter\" segue \"ter\": se o gerente mantiver."),
+   ("Os sócios interviram na negociação.", "\"Intervir\" segue \"vir\": intervieram."),
+   ("Se a empresa reaver os valores, informará os clientes.", "Futuro do subjuntivo de \"reaver\": reouver."),
+   ("O fiscal deteu a carga no porto.", "\"Deter\" segue \"ter\": deteve.")],
+  pai="LP-0108", tags=["flexão verbal", "verbos irregulares"], var="outros derivados de ver/ter/vir/haver", verif=V("15"))
+
+Q(M, "15", """A forma verbal **contraria** a norma-padrão em:""",
+  ("Se você dispor de tempo, revise o relatório.", "\"Dispor\" segue \"pôr\": se você dispuser."),
+  [("Quando ele vier à agência, atenda-o com prioridade.", "Correta: futuro do subjuntivo de \"vir\" é \"vier\"."),
+   ("Se nós virmos alguma falha, avisaremos a equipe.", "Correta: futuro do subjuntivo de \"ver\" é \"virmos\"."),
+   ("O banco reouve os valores pagos indevidamente.", "Correta: pretérito perfeito de \"reaver\" é \"reouve\" (como \"houve\")."),
+   ("Os gestores se precaveram contra novas fraudes.", "Correta: \"precaver\" é regular nas formas existentes (precaveram).")],
+  pai="LP-0108", dif=3, tags=["flexão verbal", "verbos irregulares"], var="formato invertido (assinale a forma incorreta)", verif=V("15"))
+
+Q(M, "15", """Todos os superlativos absolutos sintéticos estão na forma erudita em:""",
+  ("fidelíssimo – amaríssimo – sacratíssimo", "Formas eruditas, formadas sobre o radical latino: fiel > fidelíssimo; amargo > amaríssimo; sagrado > sacratíssimo."),
+  [("fielíssimo – amarguíssimo – sagradíssimo", "As três são formas populares."),
+   ("fidelíssimo – amarguíssimo – sacratíssimo", "\"Amarguíssimo\" é popular; a erudita é \"amaríssimo\"."),
+   ("fielíssimo – amaríssimo – sacratíssimo", "\"Fielíssimo\" é popular; a erudita é \"fidelíssimo\"."),
+   ("fidelíssimo – amaríssimo – sagradíssimo", "\"Sagradíssimo\" é popular; a erudita é \"sacratíssimo\".")],
+  pai="LP-0109", dif=3, tags=["flexão nominal", "grau do adjetivo"], var="outros adjetivos com superlativo erudito", verif=V("15"))
+
+# =====================================================================
+# Conectivos e reescrita – pai LP-0110 e inéditas
+# =====================================================================
+Q(M, "6", """Mantendo-se o sentido e a correção, a frase "**Como** o sistema estava instável, a migração foi adiada" pode ser reescrita como:""",
+  ("Visto que o sistema estava instável, a migração foi adiada.", "\"Como\" anteposto à principal tem valor causal, assim como \"visto que\"."),
+  [("Conquanto o sistema estivesse instável, a migração foi adiada.", "\"Conquanto\" é concessivo: o sentido passa a ser de oposição."),
+   ("Contanto que o sistema estivesse instável, a migração foi adiada.", "\"Contanto que\" é condicional."),
+   ("À medida que o sistema estava instável, a migração foi adiada.", "\"À medida que\" é proporcional."),
+   ("Mesmo que o sistema estivesse instável, a migração foi adiada.", "\"Mesmo que\" é concessivo.")],
+  pai="LP-0110", tags=["conectivos", "reescrita", "oração causal"], var="mesma estrutura com conectivo causal", verif=V("6"))
+
+Q(M, "6", """Na frase "O analista estudou **tanto que** foi aprovado em primeiro lugar", a oração destacada estabelece com a anterior relação de:""",
+  ("consequência.", "\"Tanto... que\" introduz oração subordinada adverbial consecutiva: a aprovação é consequência da intensidade do estudo."),
+  [("causa.", "A causa é o estudo (oração principal); a oração introduzida por \"que\" traz o efeito."),
+   ("comparação.", "Comparação pediria \"tanto quanto\" / \"tanto como\"."),
+   ("finalidade.", "Finalidade pediria \"para que\" / \"a fim de que\"."),
+   ("concessão.", "Não há oposição entre estudar e ser aprovado.")],
+  pai=None, dif=1, tags=["subordinação", "oração consecutiva", "conectivos"], var="inédita (classificação de oração adverbial)", verif=V("6"))
+
+Q(M, "6", """"O sistema é seguro; **portanto**, os clientes confiam nele."
+
+Mantêm-se o sentido e a correção na seguinte reescrita, com subordinação:""",
+  ("Os clientes confiam no sistema porque ele é seguro.", "\"Portanto\" (conclusiva) liga causa e consequência; na reescrita, a causa passa a oração subordinada causal (\"porque ele é seguro\")."),
+  [("Embora o sistema seja seguro, os clientes confiam nele.", "Concessão: sugere oposição que não existe no original."),
+   ("Os clientes confiam no sistema, mas ele é seguro.", "Adversativa: cria contraste incoerente."),
+   ("O sistema é seguro, contanto que os clientes confiem nele.", "Condição: inverte a relação, a segurança passaria a depender da confiança."),
+   ("Se os clientes confiam no sistema, ele é seguro.", "Inverte causa e efeito: a confiança vira condição da segurança.")],
+  pai=None, tags=["coordenação", "subordinação", "reescrita", "conectivos"], var="inédita (coordenada conclusiva → subordinada causal)", verif=V("6"))
+
+# =====================================================================
+# Contexto histórico e gênero – pais LP-0112, LP-0113 (C/E → múltipla escolha)
+# =====================================================================
+Q(M, "15", """Um texto informa que um equipamento custava "40 mil cruzados" e que o pedido havia sido confirmado "por telex". Com base nessas marcas, é correto afirmar que o texto""",
+  ("foi produzido antes da criação do real, em 1994, pois o cruzado circulou de 1986 a 1989.", "Marcas como a moeda vigente ajudam a situar o texto: o cruzado é dos anos 1980, anterior ao real."),
+  [("foi produzido depois de 1994, pois o telex ainda era usado nessa época.", "A moeda citada já não existia em 1994; o raciocínio ignora a marca mais segura."),
+   ("não pode ser datado, pois moedas e tecnologias não indicam a época do texto.", "Moedas e tecnologias são marcas do contexto histórico de produção."),
+   ("é necessariamente da década de 1970, quando o telex era o principal meio de comunicação.", "O cruzado só foi criado em 1986."),
+   ("foi produzido depois de 2000, já que menciona tecnologia de comunicação a distância.", "Telex e cruzado são marcas de época anteriores ao real.")],
+  pai="LP-0112", tags=["contexto histórico", "interpretação"], var="C/E convertida em múltipla escolha (datação pelo contexto)", verif=V("15"))
+
+Q(M, "15", """Estão corretas, quanto ao gênero, todas as expressões de:""",
+  ("o grama de ouro – a cal – o dó", "\"Grama\" (unidade de massa) e \"dó\" (pena) são masculinos; \"cal\" é feminino."),
+  [("a grama de ouro – a cal – o dó", "\"Grama\" como unidade de massa é masculino (a grama é a planta)."),
+   ("o grama de ouro – o cal – o dó", "\"Cal\" é feminino: a cal."),
+   ("o grama de ouro – a cal – a dó", "\"Dó\" é masculino: o dó."),
+   ("a omoplata – o alface – o eclipse", "\"Alface\" é feminino: a alface.")],
+  pai="LP-0113", dif=2, tags=["flexão nominal", "gênero"], var="C/E convertida em múltipla escolha (outros substantivos de gênero vacilante)", verif=V("15"))
+
+# =====================================================================
+# Interpretação – inéditas com texto curto
+# =====================================================================
+Q(M, "1", """Leia o texto:
+
+"A popularização dos pagamentos instantâneos trouxe conveniência, mas também abriu espaço para golpes que exploram a pressa do usuário. Nenhuma tecnologia, por mais segura que seja, protege quem transfere dinheiro sem conferir o destinatário. Por isso, além de mecanismos de devolução, as instituições investem em campanhas que ensinam o cliente a desconfiar de urgências."
+
+A ideia central do texto é que""",
+  ("a segurança dos pagamentos instantâneos depende também do comportamento atento do usuário.", "O texto afirma que nenhuma tecnologia protege quem não confere o destinatário e, por isso, destaca a educação do cliente."),
+  [("os pagamentos instantâneos são inseguros e devem ser evitados.", "Generalização: o texto reconhece a conveniência e não recomenda abandoná-los."),
+   ("os mecanismos de devolução tornaram os golpes impossíveis.", "O texto apresenta a devolução como complemento, não como solução definitiva."),
+   ("as campanhas educativas substituem os mecanismos tecnológicos de proteção.", "O texto diz \"além de\": as campanhas somam-se aos mecanismos."),
+   ("os golpes decorrem exclusivamente de falhas da tecnologia.", "Contradiz o texto, que atribui os golpes à exploração da pressa do usuário.")],
+  pai=None, tags=["interpretação", "ideia central"], var="inédita (texto curto novo)", verif=V("1"))
+
+Q(M, "1", """Na frase "O banco **ainda** não lançou o novo aplicativo", o termo destacado permite inferir que""",
+  ("existe a expectativa de que o aplicativo seja lançado.", "\"Ainda não\" pressupõe que o fato é esperado ou previsto para depois."),
+  [("o aplicativo foi lançado e depois retirado.", "Nada no enunciado indica lançamento anterior."),
+   ("o banco desistiu definitivamente do aplicativo.", "\"Ainda\" indica o contrário: a possibilidade continua aberta."),
+   ("outros bancos já lançaram aplicativos semelhantes.", "Extrapolação: a frase não compara instituições."),
+   ("o aplicativo será lançado na próxima semana.", "O pressuposto é de expectativa, sem data definida.")],
+  pai=None, dif=1, tags=["interpretação", "pressuposto"], var="inédita (pressuposto marcado por advérbio)", verif=V("1"))
