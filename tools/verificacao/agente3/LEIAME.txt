@@ -1,1 +1,9 @@
-Verificação descrita em LEIAME
+Tudo em `tools/verificacao/agente3/` (reexecutável com `python3 tools/verificacao/agente3/verificar.py`):
+
+- `q_proc.py`, `q_prog.py`, `q_gov.py`, `q_bdweb.py`: as questões, como dados; `gerar.py` monta `banco/variacoes-esp-a.js` e este log, distribuindo o gabarito por eixo (alternativa correta na letra menos usada) e conferindo que as 5 alternativas são distintas e que, nas questões de código, a correta é exatamente a saída executada e nenhum distrator coincide com ela.
+- `executar.sh` + `codigo/`: todo código de "qual a saída" foi executado — Python 3.12 (`-I`), Java 21 (javac/java), C (gcc -std=c11), C# (mcs/mono, instalado via apt nesta sessão), PHP 8. `verificar.py` reexecuta cada um e compara com o gabarito (28 questões de PROG).
+- `conf_codigo_extra.py`: as 5 alternativas de C# de ESP-PROG-V019 (`codigo/cs_v6/`, só A compila e imprime "Ana 500"; B–E falham com CS0272, CS1729, CS1043, CS0542); o trecho JDBC de `codigo/V45.java` foi só compilado (não há banco para executá-lo); o cherry-pick de `codigo/git_cherry.sh` roda num repositório Git temporário.
+- `conf_sql.py` + `sql/`: as consultas de BD foram executadas no PostgreSQL 16 local (servidor de teste em /tmp, porta 5433; variáveis PGHOST/PGPORT/PGUSER) e, quando portáveis (janela e CTE recursiva), também no SQLite 3.
+- `conf_calculos.py`: recalcula Lei de Little, análise de valor-limite, partição de equivalência, complexidade ciclomática, precedência SemVer, validade do JSON, SLA, ROI, TCO e a contagem de objetivos do COBIT.
+- Questões conceituais: conferidas com a seção da apostila indicada na coluna "verificação"; quando o conteúdo vai além da apostila, isso está em `validacao.obs`.
+- Nenhum código ficou sem execução (nenhuma tag `nao_executado`).

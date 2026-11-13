@@ -1,2 +1,142 @@
-BD = []
-WEB = []
+# -*- coding: utf-8 -*-
+"""Banco de Dados (ESP-BD-V…) e Desenvolvimento web e mobile (ESP-WEB-V…).
+
+As consultas SQL ficam em sql/ e são executadas por conf_sql.py (PostgreSQL 16 e,
+quando portáveis, SQLite); o trecho exibido é o que está entre '-- <<<' e '-- >>>'.
+"""
+
+BD = [
+    dict(pai="ESP-BD-0103", topico="PL/pgSQL", dif=3, codigo="../sql/bd1_funcao.sql",
+         enun=("Considere, no PostgreSQL, a tabela lancamento(cliente_id, valor) com as linhas (1, 200), (1, -50), (1, -30) e (2, 80), "
+               "e o código a seguir.\n\n```sql\n{codigo}\n```\n\nO resultado do último SELECT é, respectivamente,"),
+         var="conceito → código: de PERFORM para execução de função PL/pgSQL com SELECT INTO e agregação sem linhas",
+         verif="executado no PostgreSQL 16 (sql/bd1_funcao.sql, conf_sql.py): 120|-1",
+         resumo=("Para o cliente 1, SUM(valor) = 200 − 50 − 30 = 120. Para o cliente 3, que não tem lançamentos, SUM sobre zero linhas devolve uma linha com NULL; "
+                 "o SELECT INTO atribui NULL a v_saldo e o IF devolve −1."),
+         ok=("120 e -1.", "120 para o cliente 1; −1 porque SUM sem linhas é NULL."),
+         erradas=[("120 e 0.", "0 seria o valor inicial de v_saldo, mas o SELECT INTO sobrescreve a variável com NULL."),
+                  ("200 e -1.", "considera só o primeiro lançamento; SUM soma os três."),
+                  ("120 e NULL.", "o IF trata o NULL e retorna −1."),
+                  ("120 e um erro de execução, pois o SELECT INTO não encontra linhas para o cliente 3.", "uma agregação sem GROUP BY sempre devolve uma linha; não há erro.")],
+         extra="No PL/pgSQL, um SELECT sem destino (INTO) dentro da função causaria erro; para descartar o resultado usa-se PERFORM.",
+         tags=["pl-pgsql", "postgresql", "sql"]),
+    dict(fonte="Inédita – Apostila 05 §7 (7.10, funções de janela)", mod="05", sec="7", topico="Funções de janela (ROW_NUMBER, RANK, DENSE_RANK)", dif=3,
+         codigo="../sql/bd2_janela.sql",
+         enun=("A tabela conta(numero, saldo) contém as linhas (10, 500), (11, 300), (12, 500), (13, 100) e (14, 300). Considere a consulta a seguir.\n\n"
+               "```sql\n{codigo}\n```\n\nO resultado da consulta é:"),
+         var="inédita (funções de janela, tópico do edital 2027)",
+         verif="executado no PostgreSQL 16 e no SQLite (sql/bd2_janela.sql, conf_sql.py)", tags=["sql", "funcoes-de-janela"],
+         resumo=("O WHERE é avaliado antes das funções de janela: só as contas 13 e 14 entram na janela. Ordenadas por saldo decrescente, 14 (300) fica em 1º "
+                 "e 13 (100) em 2º nas três funções, pois não há empate entre elas."),
+         ok=("14 | 1 | 1 | 1 e 13 | 2 | 2 | 2.", "a janela só enxerga as duas linhas filtradas."),
+         erradas=[("14 | 4 | 3 | 2 e 13 | 5 | 5 | 3.", "seria o resultado se a janela fosse calculada sobre as cinco contas, antes do WHERE."),
+                  ("14 | 1 | 1 | 1 e 13 | 2 | 3 | 2.", "sem empate, RANK não salta posições."),
+                  ("14 | 4 | 3 | 3 e 13 | 5 | 5 | 5.", "além de ignorar o WHERE, DENSE_RANK não deixa lacunas: seriam 2 e 3."),
+                  ("apenas a linha 14 | 1 | 1 | 1, pois funções de janela reduzem o número de linhas.", "funções de janela não agregam linhas, ao contrário do GROUP BY.")],
+         extra="Para numerar sobre a tabela inteira e só depois filtrar, coloca-se a consulta com as funções de janela numa subconsulta ou CTE e aplica-se o filtro fora dela.",
+         obs="A ordem de avaliação (WHERE antes das funções de janela) não está explícita na apostila; é regra do padrão SQL, conferida na execução."),
+    dict(fonte="Inédita – Apostila 05 §7 (7.10, CTE recursiva)", mod="05", sec="7", topico="CTE (WITH) e consultas recursivas", dif=2,
+         codigo="../sql/bd3_cte.sql",
+         enun=("A tabela funcionario(id, nome, id_gerente) contém: (1, Ana, NULL), (2, Bia, 1), (3, Caio, 1), (4, Duda, 2), (5, Enzo, 2) e (6, Fabi, 4). "
+               "Considere a consulta PostgreSQL a seguir.\n\n```sql\n{codigo}\n```\n\nO resultado, no formato (nivel, quantidade), é:"),
+         var="inédita (CTE recursiva, tópico do edital 2027)",
+         verif="executado no PostgreSQL 16 e no SQLite (sql/bd3_cte.sql, conf_sql.py)", tags=["sql", "cte", "recursividade"],
+         resumo=("A parte âncora traz Ana (nível 1). A cada passo recursivo entram os subordinados do nível anterior: Bia e Caio (nível 2), "
+                 "Duda e Enzo (nível 3) e Fabi (nível 4). Resultado: (1,1), (2,2), (3,2), (4,1)."),
+         ok=("(1, 1), (2, 2), (3, 2), (4, 1).", "Ana; Bia e Caio; Duda e Enzo; Fabi."),
+         erradas=[("(1, 1), (2, 5).", "a recursão incrementa o nível a cada geração; não agrupa todos os subordinados no nível 2."),
+                  ("(1, 1), (2, 2), (3, 3).", "Fabi é subordinada de Duda, logo está no nível 4."),
+                  ("(1, 6).", "só a âncora tem nível 1; as linhas recursivas recebem nivel + 1."),
+                  ("(1, 1), (2, 2), (3, 2), (4, 1), (5, 0).", "a recursão para quando o passo não devolve linhas; não há nível 5.")],
+         extra="No PostgreSQL e no MySQL a recursão exige WITH RECURSIVE; no Oracle também existe CONNECT BY PRIOR. O PostgreSQL 14 acrescentou as cláusulas SEARCH e CYCLE às CTEs recursivas."),
+    dict(pai="ESP-BD-0088", topico="Data Warehouse, OLAP e ETL", dif=2,
+         enun="Sobre modelagem dimensional e os esquemas estrela e floco de neve, é correto afirmar:",
+         var="certo/errado → múltipla escolha (afirmações sobre estrela, floco de neve, grão e tipos de medida)",
+         verif="conferido com Apostila 05 §13.3 e §13.4", tags=["data-warehouse", "modelagem-dimensional"],
+         resumo=("No floco de neve as dimensões são normalizadas (menos redundância, mais junções); no estrela são desnormalizadas. Saldo de conta é medida "
+                 "semiaditiva, o grão se declara antes das dimensões e uma dimensão conformada é compartilhada entre fatos."),
+         ok=("No esquema floco de neve, as dimensões são normalizadas em várias tabelas, o que reduz a redundância, mas aumenta o número de junções nas consultas.", "característica do floco de neve."),
+         erradas=[("No esquema estrela, as tabelas de dimensão são normalizadas até a 3FN para evitar redundância.", "no estrela as dimensões são desnormalizadas."),
+                  ("O saldo de conta é uma medida aditiva, podendo ser somado em todas as dimensões, inclusive no tempo.", "saldo é semiaditivo: não se soma ao longo do tempo."),
+                  ("No processo de Kimball, as dimensões são identificadas antes da declaração do grão da tabela fato.", "a ordem é: processo de negócio, grão, dimensões e fatos."),
+                  ("Uma dimensão conformada é aquela armazenada na própria tabela fato, sem tabela própria.", "isso é dimensão degenerada; a conformada é compartilhada entre fatos.")]),
+    dict(pai="ESP-BD-0107", topico="PL/pgSQL, PostgreSQL 14/15, Oracle 19c e H2 Database", dif=2,
+         enun="Sobre os produtos de banco de dados citados no edital, é correto afirmar:",
+         var="conceito: de escolha do H2 para testes para afirmações sobre PostgreSQL 15, Oracle 19c e H2",
+         verif="conferido com Apostila 05 §27.2 a §27.4", tags=["postgresql", "oracle", "h2"],
+         resumo=("O PostgreSQL 15 introduziu o comando MERGE; antes dele o upsert era feito com INSERT ... ON CONFLICT. O Oracle 19c é a versão de suporte de "
+                 "longo prazo da família 12.2, e o H2 é um banco em Java usado sobretudo em testes."),
+         ok=("O PostgreSQL 15 introduziu o comando MERGE, que combina INSERT, UPDATE e DELETE conforme a junção com uma origem.", "novidade do PostgreSQL 15."),
+         erradas=[("O H2 Database só funciona em modo servidor TCP e não aceita SQL padrão via JDBC.", "o H2 tem modos embutido, servidor e em memória e aceita SQL via JDBC."),
+                  ("O Oracle 19c é uma versão de inovação de curto prazo, sem suporte estendido.", "é a versão de suporte de longo prazo da família 12.2."),
+                  ("No PostgreSQL, procedimentos criados com CREATE PROCEDURE não podem executar COMMIT nem ROLLBACK.", "procedimentos podem controlar transações; funções é que não podem."),
+                  ("O PostgreSQL 15 passou a conceder a todos os usuários (PUBLIC) o privilégio CREATE no schema public.", "foi o contrário: o 15 revogou esse privilégio de PUBLIC.")]),
+]
+
+WEB = [
+    dict(pai="ESP-WEB-0055", topico="REST: idempotência e status HTTP", dif=2,
+         enun=("O aplicativo de um banco envia POST /v1/transferencias e, por queda de conexão, não recebe a resposta. Para que o aplicativo possa reenviar "
+               "a requisição sem risco de efetivar a transferência duas vezes, a solução adequada é"),
+         var="conceito: de classificar métodos (idempotente × seguro) para aplicar idempotência em POST de pagamento",
+         verif="conferido com Apostila 06 §10.9 (exemplo com Idempotency-Key) e §11 (retry exige idempotência)", tags=["rest", "http", "idempotencia"],
+         resumo=("POST não é idempotente. APIs de pagamento usam uma chave de idempotência (cabeçalho Idempotency-Key) gerada pelo cliente: o servidor "
+                 "guarda a chave e, ao recebê-la de novo, devolve o resultado já processado em vez de criar outra transferência."),
+         ok=("enviar no cabeçalho uma chave de idempotência gerada pelo cliente, que o servidor usa para reconhecer a repetição e devolver o resultado já processado.", "padrão Idempotency-Key."),
+         erradas=[("trocar o método para GET, que é seguro e idempotente.", "GET não deve alterar estado; usá-lo para transferência viola a semântica HTTP."),
+                  ("repetir a requisição imediatamente, já que o HTTP garante entrega única.", "o HTTP não garante entrega única; o reenvio cria nova transferência."),
+                  ("usar PATCH, que é sempre idempotente.", "PATCH não é garantidamente idempotente."),
+                  ("responder 202 Accepted, o que impede o cliente de reenviar a requisição.", "202 indica processamento assíncrono; não evita duplicidade.")]),
+    dict(fonte="Inédita – Apostila 06 §10 (10.8, OpenAPI)", mod="06", sec="10", topico="OpenAPI e documentação de APIs REST", dif=2,
+         enun="A OpenAPI Specification (antigo Swagger), em projetos de APIs REST,",
+         var="inédita (OpenAPI, tópico do edital 2027)", verif="conferido com Apostila 06 §10.1 e §10.8", tags=["rest", "openapi", "documentacao"],
+         resumo=("A OpenAPI é um formato padronizado, em JSON ou YAML, para descrever o contrato de uma API REST (caminhos, métodos, parâmetros, esquemas e respostas). "
+                 "Serve de contrato de serviço, à semelhança do WSDL no SOAP, e permite gerar documentação, clientes e testes."),
+         ok=("descreve, em JSON ou YAML, o contrato da API (caminhos, métodos, parâmetros, esquemas de dados e respostas), papel semelhante ao do WSDL nos serviços SOAP.", "definição da OpenAPI."),
+         erradas=[("é um protocolo de transporte que substitui o HTTP nas APIs REST.", "OpenAPI é formato de descrição; o transporte continua HTTP."),
+                  ("é obrigatória para que uma API seja considerada RESTful, segundo Fielding.", "REST não exige descrição formal; OpenAPI é opcional."),
+                  ("descreve apenas serviços SOAP e é publicada em registros UDDI.", "SOAP usa WSDL; OpenAPI é para APIs HTTP/REST."),
+                  ("define o formato binário Protocol Buffers usado pelo gRPC.", "o contrato do gRPC fica em arquivos .proto.")]),
+    dict(fonte="Inédita – Apostila 06 §10 (10.8, paginação, filtros e ordenação)", mod="06", sec="10", topico="REST: paginação, filtros e ordenação", dif=2,
+         enun=("Uma API REST de extrato precisa devolver as transações de um período, 50 por página, da mais recente para a mais antiga. "
+               "Segundo as boas práticas de projeto de URIs, a requisição adequada para obter a segunda página é"),
+         var="inédita (paginação de APIs, tópico do edital 2027)", verif="conferido com Apostila 06 §10.8 (boas práticas de URIs)", tags=["rest", "paginacao"],
+         resumo="Filtros, paginação e ordenação vão na query string de um recurso identificado por substantivo no plural, consultado com GET.",
+         ok=("GET /v1/transacoes?inicio=2026-10-01&page=2&size=50&sort=data,desc", "recurso no plural, GET e parâmetros na query string."),
+         erradas=[("POST /v1/listarTransacoes com page=2 no corpo.", "usa verbo na URI e POST para leitura."),
+                  ("GET /v1/transacoes/pagina2/50/desc", "parâmetros de paginação não são subrecursos."),
+                  ("DELETE /v1/transacoes?page=1, para que a próxima consulta comece na página 2.", "DELETE remove recursos; paginação não altera estado."),
+                  ("GET /v1/getTransacoes?pagina=2, sem ordenação, pois REST proíbe parâmetros de ordenação.", "verbo na URI e a ordenação pela query string é permitida.")]),
+    dict(fonte="Inédita – Apostila 06 §18 (18.4, versionamento de APIs)", mod="06", sec="18", topico="Versionamento de APIs", dif=2,
+         enun=("A equipe de uma API pública de um banco precisa renomear um campo obrigatório da resposta, o que quebra clientes existentes. "
+               "Segundo as práticas de versionamento de APIs e o versionamento semântico, deve-se"),
+         var="inédita (versionamento de APIs, tópico do edital 2027)", verif="conferido com Apostila 06 §18.4 e §10.8", tags=["rest", "versionamento", "semver"],
+         resumo=("Mudança incompatível exige nova versão maior (por exemplo, de /v1 para /v2, na URI, em cabeçalho ou no media type), mantendo a versão antiga "
+                 "por um prazo de descontinuação (deprecation) comunicado aos clientes."),
+         ok=("publicar a mudança numa nova versão maior da API (por exemplo, /v2) e manter a /v1 durante um prazo de descontinuação comunicado aos clientes.", "prática correta para mudança incompatível."),
+         erradas=[("alterar a /v1 imediatamente, pois clientes devem acompanhar a última versão.", "quebra os clientes sem aviso."),
+                  ("incrementar apenas a versão de correção (PATCH), já que é só um nome de campo.", "mudança incompatível incrementa a versão maior."),
+                  ("incrementar a versão menor (MINOR), que no SemVer indica mudança incompatível.", "MINOR indica funcionalidade compatível; incompatível é MAJOR."),
+                  ("evitar qualquer versionamento, pois REST proíbe versões na URI e em cabeçalhos.", "a versão pode ir na URI, em cabeçalho ou no media type.")]),
+    dict(pai="ESP-WEB-0084", topico="Acessibilidade digital: WCAG 2.1/2.2 e ABNT NBR 17225:2025", dif=2,
+         enun="Sobre as WCAG 2.2, publicadas pelo W3C em outubro de 2023, é correto afirmar que",
+         var="conceito: dos princípios POUR para as novidades e números da WCAG 2.2",
+         verif="conferido com Apostila 07 §7.1 e §7.2", tags=["acessibilidade", "wcag"],
+         resumo=("A WCAG 2.2 incluiu critérios como 2.5.8 (alvo mínimo de 24 × 24 pixels CSS, nível AA), 2.4.11 (foco não obscurecido) e 3.3.8 (autenticação "
+                 "acessível), e removeu o 4.1.1 (Análise). O contraste de texto normal no nível AA continua 4,5:1."),
+         ok=("incluiu critério de nível AA que exige alvos de toque ou clique com pelo menos 24 × 24 pixels CSS, ou espaçamento equivalente.", "critério 2.5.8."),
+         erradas=[("substituiu os princípios perceptível, operável, compreensível e robusto por níveis de maturidade.", "os quatro princípios POUR continuam."),
+                  ("acrescentou o critério 4.1.1 Análise (Parsing), que exige HTML sem erros de sintaxe.", "o 4.1.1 foi removido na 2.2."),
+                  ("reduziu o contraste mínimo de texto normal, no nível AA, para 3:1.", "continua 4,5:1; 3:1 é para texto grande."),
+                  ("proíbe colar senhas nos campos de login, para evitar ataques automatizados.", "a autenticação acessível pede justamente permitir colar a senha e usar gerenciadores.")]),
+    dict(pai="ESP-WEB-0086", topico="Acessibilidade digital: WCAG 2.1/2.2 e ABNT NBR 17225:2025", dif=2,
+         enun="A respeito da ABNT NBR 17225:2025, é correto afirmar:",
+         var="certo/errado → múltipla escolha (afirmações sobre a NBR 17225)",
+         verif="conferido com Apostila 07 §7.3", tags=["acessibilidade", "nbr-17225"],
+         resumo=("A NBR 17225:2025 (março de 2025), elaborada sob coordenação do Ceweb.br, é a primeira norma brasileira de acessibilidade para conteúdo e aplicações web. "
+                 "Tem 146 itens classificados em requisitos e recomendações, sem os níveis A/AA/AAA, e dá suporte ao art. 63 da Lei Brasileira de Inclusão."),
+         ok=("Classifica seus itens em requisitos, obrigatórios para a conformidade, e recomendações, sem adotar os níveis A, AA e AAA.", "estrutura da norma."),
+         erradas=[("É uma tradução integral da WCAG 2.2, mantendo os níveis A, AA e AAA.", "não usa os níveis de conformidade da WCAG."),
+                  ("Aplica-se somente a sites de órgãos do governo federal, em substituição ao eMAG.", "o eMAG é o modelo do governo federal; a norma vale de forma geral."),
+                  ("Recomenda o CAPTCHA visual como mecanismo preferencial, dispensando alternativas.", "alerta que CAPTCHA deve ser usado com cautela e com alternativa."),
+                  ("Trata apenas de contraste de cores, deixando de fora formulários e multimídia.", "cobre teclado, imagens, cabeçalhos, formulários, multimídia e mais.")]),
+]
