@@ -1,0 +1,17 @@
+name: Validar banco de questões
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validar esquema, ids e gabaritos
+        run: python3 tools/validar_banco.py
