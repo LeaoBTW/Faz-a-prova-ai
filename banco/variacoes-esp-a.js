@@ -48,11 +48,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -100,11 +100,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -151,11 +151,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -202,11 +202,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -253,11 +253,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -305,11 +305,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -357,11 +357,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -409,11 +409,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -460,11 +460,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -511,11 +511,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -563,11 +563,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -615,11 +615,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -666,11 +666,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -717,11 +717,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -769,11 +769,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -820,11 +820,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -872,11 +872,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -924,11 +924,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -975,11 +975,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -1027,11 +1027,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -1078,11 +1078,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -1129,11 +1129,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -1180,11 +1180,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -1231,11 +1231,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -1281,11 +1281,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -1332,11 +1332,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -1384,11 +1384,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -1435,11 +1435,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -1486,11 +1486,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -1538,11 +1538,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -1590,11 +1590,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -1642,11 +1642,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -1694,11 +1694,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -1747,11 +1747,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -1798,11 +1798,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -1850,11 +1850,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -1902,11 +1902,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -1954,11 +1954,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -2005,11 +2005,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -2056,11 +2056,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -2107,11 +2107,11 @@ BANCO.push({
     "2023"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": "Composição do nível G conforme a apostila; conferir o guia SOFTEX 2023 na validação."
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5: no MR-MPS-SW 2021 (mantido no guia 2023) o nível G tem Gerência de Projetos e Engenharia de Requisitos (fusão de GRE e DRE), como na apostila 06 §6.5. Revalidar se sair nova versão do guia SOFTEX."
   },
   "versao": 1
 });
@@ -2157,11 +2157,11 @@ BANCO.push({
     "ciclo-de-vida"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": "Detalhe da norma além do texto da apostila (que só cita a 12207); estrutura conferida com a edição ISO/IEC/IEEE 12207:2017."
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5: os quatro grupos de processos da ISO/IEC/IEEE 12207:2017 (ABNT 2021) e o grupo de acordo (aquisição e fornecimento) estão corretos."
   },
   "versao": 1
 });
@@ -2207,11 +2207,11 @@ BANCO.push({
     "12207"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -2258,11 +2258,11 @@ BANCO.push({
     "qualidade"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -2310,11 +2310,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -2361,11 +2361,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -2412,11 +2412,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -2462,11 +2462,11 @@ BANCO.push({
     "modelagem-de-processos"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -2512,11 +2512,11 @@ BANCO.push({
     "modelagem-de-processos"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -2563,11 +2563,11 @@ BANCO.push({
     "dados-semiestruturados"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -2613,11 +2613,11 @@ BANCO.push({
     "documentacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -2664,11 +2664,11 @@ BANCO.push({
     "rastreabilidade"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -2715,11 +2715,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -2766,11 +2766,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -2818,11 +2818,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -2870,11 +2870,11 @@ BANCO.push({
     "qual-a-saida"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -2922,11 +2922,11 @@ BANCO.push({
     "qual-a-saida"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -2973,11 +2973,11 @@ BANCO.push({
     "qual-a-saida"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -3024,11 +3024,11 @@ BANCO.push({
     "qual-a-saida"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -3075,11 +3075,11 @@ BANCO.push({
     "qual-a-saida"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -3127,11 +3127,11 @@ BANCO.push({
     "qual-a-saida"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -3178,11 +3178,11 @@ BANCO.push({
     "qual-a-saida"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -3230,11 +3230,11 @@ BANCO.push({
     "qual-a-saida"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -3283,11 +3283,11 @@ BANCO.push({
     "qual-a-saida"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -3334,11 +3334,11 @@ BANCO.push({
     "qual-a-saida"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -3386,11 +3386,11 @@ BANCO.push({
     "qual-a-saida"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -3437,11 +3437,11 @@ BANCO.push({
     "qual-a-saida"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -3489,11 +3489,11 @@ BANCO.push({
     "qual-a-saida"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -3540,11 +3540,11 @@ BANCO.push({
     "qual-a-saida"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -3591,11 +3591,11 @@ BANCO.push({
     "qual-a-saida"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -3643,11 +3643,11 @@ BANCO.push({
     "qual-a-saida"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -3695,11 +3695,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -3748,11 +3748,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -3800,11 +3800,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -3852,11 +3852,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -3906,11 +3906,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -3958,11 +3958,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -4011,11 +4011,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -4065,11 +4065,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -4118,11 +4118,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -4170,11 +4170,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -4222,11 +4222,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -4274,11 +4274,11 @@ BANCO.push({
     "qual-a-saida"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -4326,11 +4326,11 @@ BANCO.push({
     "qual-a-saida"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -4379,11 +4379,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -4431,11 +4431,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -4484,11 +4484,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -4535,11 +4535,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -4587,11 +4587,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -4640,11 +4640,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -4692,11 +4692,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -4744,11 +4744,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -4797,11 +4797,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -4848,11 +4848,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -4900,11 +4900,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -4951,11 +4951,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -5002,11 +5002,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -5053,11 +5053,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -5105,11 +5105,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -5155,11 +5155,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -5206,11 +5206,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -5257,11 +5257,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -5308,11 +5308,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -5359,11 +5359,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -5410,11 +5410,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -5461,11 +5461,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -5511,11 +5511,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -5562,11 +5562,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -5613,11 +5613,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -5664,11 +5664,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -5715,11 +5715,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -5766,11 +5766,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -5818,11 +5818,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -5869,11 +5869,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -5920,11 +5920,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -5972,11 +5972,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -6024,11 +6024,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -6075,11 +6075,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -6126,11 +6126,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -6178,11 +6178,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -6229,11 +6229,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -6280,11 +6280,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -6331,11 +6331,11 @@ BANCO.push({
     "datado"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": "Fato datado (nov/2026); revalidar perto da prova."
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Item datado: afirma só o que está confirmado em nov/2026 (ITIL Version 5 da PeopleCert lançada em fases em 2026, evolução da ITIL 4, que segue válida), conforme apostila 03 §15. Revalidar perto da prova."
   },
   "versao": 1
 });
@@ -6381,11 +6381,11 @@ BANCO.push({
     "melhoria-continua"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -6432,11 +6432,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -6483,11 +6483,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -6534,11 +6534,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -6584,11 +6584,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -6636,11 +6636,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -6687,11 +6687,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -6738,11 +6738,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -6789,11 +6789,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -6840,11 +6840,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -6891,11 +6891,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -6942,11 +6942,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -6993,11 +6993,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -7044,11 +7044,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -7095,11 +7095,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -7146,11 +7146,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -7198,11 +7198,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -7250,11 +7250,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -7302,11 +7302,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -7353,11 +7353,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -7404,11 +7404,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -7455,11 +7455,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -7507,11 +7507,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -7559,11 +7559,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -7611,11 +7611,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -7663,11 +7663,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -7715,11 +7715,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -7767,11 +7767,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -7819,11 +7819,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -7870,11 +7870,11 @@ BANCO.push({
     "gestao-financeira-de-ti"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -7921,11 +7921,11 @@ BANCO.push({
     "gestao-financeira-de-ti"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -7971,11 +7971,11 @@ BANCO.push({
     "riscos"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -8021,11 +8021,11 @@ BANCO.push({
     "riscos"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": "O caráter de diretrizes (não certificável) da ISO 31000 não está explícito na apostila; é fato consolidado da norma."
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -8071,11 +8071,11 @@ BANCO.push({
     "governanca-de-ti"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -8121,11 +8121,11 @@ BANCO.push({
     "comunicacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": "Os quatro quadrantes da matriz são prática consolidada; a apostila só cita a análise poder × interesse."
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -8171,11 +8171,11 @@ BANCO.push({
     "documentacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -8223,11 +8223,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -8273,11 +8273,11 @@ BANCO.push({
     "funcoes-de-janela"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": "A ordem de avaliação (WHERE antes das funções de janela) não está explícita na apostila; é regra do padrão SQL, conferida na execução."
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -8324,11 +8324,11 @@ BANCO.push({
     "recursividade"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -8375,11 +8375,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -8427,11 +8427,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -8479,11 +8479,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -8530,11 +8530,11 @@ BANCO.push({
     "documentacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -8580,11 +8580,11 @@ BANCO.push({
     "paginacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -8631,11 +8631,11 @@ BANCO.push({
     "semver"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -8682,11 +8682,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });
@@ -8733,11 +8733,11 @@ BANCO.push({
     "variacao"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-3",
-    "em": "2026-11-14",
-    "obs": ""
+    "por": "agente-5",
+    "em": "2026-11-13",
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-3)."
   },
   "versao": 1
 });

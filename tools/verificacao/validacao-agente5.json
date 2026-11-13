@@ -203,6 +203,686 @@
   "status": "validada",
   "obs": ""
  },
+ "ESP-BD-V001": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-BD-V002": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-BD-V003": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-BD-V004": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-BD-V005": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V001": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V002": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V003": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V004": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V005": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V006": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V007": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V008": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V009": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V010": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V011": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V012": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V013": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V014": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V015": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V016": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V017": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V018": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V019": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V020": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V021": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V022": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V023": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V024": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V025": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V026": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V027": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V028": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V029": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V030": {
+  "status": "validada",
+  "obs": "Item datado: afirma só o que está confirmado em nov/2026 (ITIL Version 5 da PeopleCert lançada em fases em 2026, evolução da ITIL 4, que segue válida), conforme apostila 03 §15. Revalidar perto da prova."
+ },
+ "ESP-GOV-V031": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V032": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V033": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V034": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V035": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V036": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V037": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V038": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V039": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V040": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V041": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V042": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V043": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V044": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V045": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V046": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V047": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V048": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V049": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V050": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V051": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V052": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V053": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V054": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V055": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V056": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V057": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V058": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V059": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V060": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V061": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V062": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V063": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V064": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V065": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-GOV-V066": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V001": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V002": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V003": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V004": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V005": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V006": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V007": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V008": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V009": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V010": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V011": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V012": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V013": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V014": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V015": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V016": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V017": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V018": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V019": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V020": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V021": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V022": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V023": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V024": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V025": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V026": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V027": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V028": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V029": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V030": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V031": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V032": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V033": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V034": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V035": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V036": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V037": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V038": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V039": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V040": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V041": {
+  "status": "validada",
+  "obs": "Conferida pelo agente 5: no MR-MPS-SW 2021 (mantido no guia 2023) o nível G tem Gerência de Projetos e Engenharia de Requisitos (fusão de GRE e DRE), como na apostila 06 §6.5. Revalidar se sair nova versão do guia SOFTEX."
+ },
+ "ESP-PROC-V042": {
+  "status": "validada",
+  "obs": "Conferida pelo agente 5: os quatro grupos de processos da ISO/IEC/IEEE 12207:2017 (ABNT 2021) e o grupo de acordo (aquisição e fornecimento) estão corretos."
+ },
+ "ESP-PROC-V043": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V044": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V045": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V046": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V047": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V048": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V049": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V050": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V051": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V052": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V053": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V054": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROC-V055": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V001": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V002": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V003": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V004": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V005": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V006": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V007": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V008": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V009": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V010": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V011": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V012": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V013": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V014": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V015": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V016": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V017": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V018": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V019": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V020": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V021": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V022": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V023": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V024": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V025": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V026": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V027": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V028": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V029": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V030": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V031": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V032": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V033": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V034": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V035": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V036": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V037": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-PROG-V038": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-WEB-V001": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-WEB-V002": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-WEB-V003": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-WEB-V004": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-WEB-V005": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ESP-WEB-V006": {
+  "status": "validada",
+  "obs": ""
+ },
  "ETI-V001": {
   "status": "validada",
   "obs": ""
