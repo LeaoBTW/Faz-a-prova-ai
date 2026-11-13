@@ -33,7 +33,7 @@ Em qualquer navegador há o botão **Baixar nota .md** no resultado.
 ## Como usar
 
 1. Abra o site (ou o `index.html` local).
-2. Escolha ou crie seu perfil no seletor do topo.
+2. Crie seu perfil escolhendo o concurso (na primeira visita o app pede isso). Cada perfil é **pessoa + concurso**: para estudar outro concurso, crie outro perfil pelo seletor do topo.
 3. Comece por um mini-simulado ou treino; faça o simulado completo com 4 h livres.
 4. Depois de cada simulado, baixe a nota `.md` (ou deixe gravar na pasta do vault) e revise as erradas
    pelo link da apostila.
@@ -118,3 +118,10 @@ docs/
 ```
 
 O histórico de respostas **não** vai para o repositório: fica no navegador e, se você quiser, no vault.
+
+## Adicionar outro concurso
+
+1. Copie `config/banestes-2027-analista-ti.js` para `config/<id>.js`, troque `id`, `nome`, `nome_curto`, `instituicao`, `cargo`, banca, data, blocos/matérias e eixos.
+2. Carregue o arquivo no `index.html` (junto dos outros `config/*.js`).
+3. Marque as questões que valem para ele no campo `concursos` (questões sem esse campo valem para todos os concursos). Questões de um tópico em comum podem ser reaproveitadas listando os dois ids.
+4. Ele aparece automaticamente na tela de criação de perfil, agrupado pela instituição.

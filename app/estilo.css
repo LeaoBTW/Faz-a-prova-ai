@@ -325,3 +325,11 @@ h2 { font-size: 18px; margin: 0 0 8px; }
 @media print {
   .topo, .barra-prova, .acoes, .faixa-homolog { display: none; }
 }
+
+/* Novo perfil: escolha do concurso */
+#np-nome { display: block; width: 100%; max-width: 360px; margin: 6px 0 14px; }
+.grade-concursos { display: grid; gap: 10px; margin: 6px 0 12px; }
+.grade-concursos .inst { margin: 6px 0 0; font-size: 0.95rem; color: var(--texto-suave, inherit); }
+.cartao.concurso { display: flex; flex-direction: column; gap: 4px; text-align: left; cursor: pointer; margin: 0; font: inherit; color: inherit; width: 100%; }
+.cartao.concurso.ativo { border-color: var(--acento); background: var(--acento-suave); box-shadow: inset 0 0 0 1px var(--acento); }
+.cartao.concurso:focus-visible { outline: 2px solid var(--acento); outline-offset: 2px; }

@@ -12,8 +12,10 @@
     function medir() { document.documentElement.style.setProperty("--topo-h", topo.offsetHeight + "px"); }
     medir();
     window.addEventListener("resize", medir);
-    FP.dados.init("banestes-2027-analista-ti");
     FP.store.carregar();
+    FP.store.ativarConcurso();
+    // primeira visita: cria o perfil escolhendo o concurso
+    if (FP.store.novo && !/^#\/./.test(location.hash)) location.hash = "#/novo-perfil";
     FP.ui.iniciar(document.getElementById("app"));
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", iniciar);

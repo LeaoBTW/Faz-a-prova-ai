@@ -4,8 +4,10 @@
   "use strict";
   var FP = window.FP;
 
-  function perfilVazio() {
-    return { criado: new Date().toISOString(), simulados: [], treinos: [], questoes: {}, caderno: {}, suspeitas: {},
+  /* Cada perfil é "pessoa + concurso": o campo concurso define banco, prova e histórico. */
+  function concursoPadrao() { return Object.keys(window.CONFIGS || {})[0]; }
+  function perfilVazio(concurso) {
+    return { concurso: concurso || concursoPadrao(), criado: new Date().toISOString(), simulados: [], treinos: [], questoes: {}, caderno: {}, suspeitas: {},
       emAndamento: null, contador: 0 };
   }
 
@@ -19,6 +21,7 @@
     } catch (err) {
       S.disponivel = false;
     }
+    S.novo = !e || !e.perfis;
     if (!e || !e.perfis) e = { versao: 1, perfilAtual: "Padrão", perfis: {}, tema: null };
     if (!e.perfis[e.perfilAtual]) {
       var nomes = Object.keys(e.perfis);
@@ -28,6 +31,8 @@
     Object.keys(e.perfis).forEach(function (n) {
       var p = e.perfis[n], v = perfilVazio();
       Object.keys(v).forEach(function (k) { if (p[k] === undefined) p[k] = v[k]; });
+      // perfil de um concurso que saiu do app: volta para o padrão em vez de quebrar
+      if (!(window.CONFIGS || {})[p.concurso]) p.concurso = concursoPadrao();
     });
     S.estado = e;
     return e;
@@ -47,16 +52,33 @@
   S.perfil = function () { return S.estado.perfis[S.estado.perfilAtual]; };
   S.nomePerfil = function () { return S.estado.perfilAtual; };
   S.perfis = function () { return Object.keys(S.estado.perfis).sort(); };
+  /* Ativa o concurso do perfil atual (recarrega o banco filtrado e a prova). */
+  S.ativarConcurso = function () {
+    FP.dados.duplicadas = [];
+    FP.dados.init(S.perfil().concurso);
+  };
   S.trocarPerfil = function (nome) {
     if (!S.estado.perfis[nome]) S.estado.perfis[nome] = perfilVazio();
     S.estado.perfilAtual = nome;
     S.salvar();
+    S.ativarConcurso();
+  };
+  S.criarPerfil = function (nome, concurso) {
+    if (S.estado.perfis[nome]) return false;
+    S.estado.perfis[nome] = perfilVazio(concurso);
+    S.trocarPerfil(nome);
+    return true;
+  };
+  S.concursoDe = function (nome) {
+    var c = (window.CONFIGS || {})[S.estado.perfis[nome].concurso];
+    return c ? (c.nome_curto || c.nome) : "?";
   };
   S.excluirPerfil = function (nome) {
     delete S.estado.perfis[nome];
     if (!Object.keys(S.estado.perfis).length) S.estado.perfis["Padrão"] = perfilVazio();
     if (!S.estado.perfis[S.estado.perfilAtual]) S.estado.perfilAtual = Object.keys(S.estado.perfis)[0];
     S.salvar();
+    S.ativarConcurso();
   };
 
   /* Registra uma resposta (qualquer modo): estatística por questão e caderno de erros. */
@@ -125,9 +147,9 @@
     if (!perfis) throw new Error("Arquivo sem perfis.");
     var n = 0;
     Object.keys(perfis).forEach(function (nome) {
-      if (!S.estado.perfis[nome]) S.estado.perfis[nome] = perfilVazio();
+      if (!S.estado.perfis[nome]) S.estado.perfis[nome] = perfilVazio(perfis[nome].concurso);
       var dest = S.estado.perfis[nome];
-      var v = perfilVazio();
+      var v = perfilVazio(dest.concurso);
       Object.keys(v).forEach(function (k) { if (dest[k] === undefined) dest[k] = v[k]; });
       mesclarPerfil(dest, perfis[nome]);
       n++;

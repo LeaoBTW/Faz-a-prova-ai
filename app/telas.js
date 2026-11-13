@@ -37,19 +37,18 @@
   /* Cabeçalho: perfis e tema                                            */
   /* ------------------------------------------------------------------ */
   UI.cabecalho = function () {
+    var ca = document.getElementById("concurso-atual");
+    if (ca && D.config) ca.textContent = (D.config.nome_curto || D.config.nome) + " ▾";
     var sel = document.getElementById("perfil");
     sel.innerHTML = "";
     S.perfis().forEach(function (n) {
-      sel.appendChild(h("option", { value: n, selected: n === S.nomePerfil() }, n));
+      sel.appendChild(h("option", { value: n, selected: n === S.nomePerfil() }, n + " · " + S.concursoDe(n)));
     });
     sel.appendChild(h("option", { value: "__novo" }, "+ Novo perfil…"));
     sel.onchange = function () {
-      if (sel.value === "__novo") {
-        var nome = (window.prompt("Nome do novo perfil:") || "").trim();
-        if (nome) S.trocarPerfil(nome);
-        UI.cabecalho();
-      } else S.trocarPerfil(sel.value);
-      UI.rota();
+      if (sel.value === "__novo") { UI.cabecalho(); ir("#/novo-perfil"); return; }
+      S.trocarPerfil(sel.value);
+      if (/^#\/(prova|estudo|resultado)/.test(location.hash)) ir("#/"); else UI.rota();
     };
     var bt = document.getElementById("tema");
     var tema = S.estado.tema || "auto";
@@ -825,16 +824,13 @@
     R.appendChild(cartao([h("h2", null, "Perfis"),
       h("ul", null, S.perfis().map(function (n) {
         var pp = S.estado.perfis[n];
-        return h("li", null, [h("strong", null, n), " – " + pp.simulados.length + " simulados, " + Object.keys(pp.questoes).length + " questões vistas ",
+        return h("li", null, [h("strong", null, n), " · " + S.concursoDe(n) + " – " + pp.simulados.length + " simulados, " + Object.keys(pp.questoes).length + " questões vistas ",
           n === S.nomePerfil() ? h("span", { class: "tag" }, "atual") : botao("Usar", function () { S.trocarPerfil(n); UI.cabecalho(); UI.dados(); }, "btn-mini"),
           " ", botao("Excluir", function () {
             if (window.confirm("Excluir o perfil \"" + n + "\" e todo o histórico dele?")) { S.excluirPerfil(n); UI.cabecalho(); UI.dados(); }
           }, "btn-mini perigo")]);
       })),
-      botao("Novo perfil", function () {
-        var nome = (window.prompt("Nome do novo perfil:") || "").trim();
-        if (nome) { S.trocarPerfil(nome); UI.cabecalho(); UI.dados(); }
-      })]));
+      botao("Novo perfil", function () { ir("#/novo-perfil"); })]));
     var arq = h("input", { type: "file", accept: "application/json,.json", hidden: true, onchange: function (ev) {
       var f = ev.target.files[0];
       if (!f) return;
@@ -877,6 +873,105 @@
   };
 
   /* ------------------------------------------------------------------ */
+  /* Escolha do concurso                                                  */
+  /* ------------------------------------------------------------------ */
+  UI.concursos = function () {
+    limpar("Concursos");
+    var R = main();
+    R.appendChild(titulo("Escolha o concurso", "Cada concurso tem sua própria prova, banco de questões e histórico."));
+    var grade = h("div", { class: "grade-concursos" });
+    var cfgs = window.CONFIGS || {};
+    // agrupa por instituição (ex.: Banestes, Bacen) para quando houver vários
+    var porInst = {};
+    Object.keys(cfgs).forEach(function (id) {
+      var c = cfgs[id], inst = c.instituicao || "Outros";
+      (porInst[inst] = porInst[inst] || []).push(c);
+    });
+    Object.keys(porInst).sort().forEach(function (inst) {
+      grade.appendChild(h("h3", { class: "inst" }, inst));
+      porInst[inst].forEach(function (c) {
+        var n = (window.BANCO || []).filter(function (q) { return q && (!q.concursos || q.concursos.indexOf(c.id) >= 0) && q.status === "validada"; }).length;
+        var total = 0;
+        c.blocos.forEach(function (b) { (b.materias || []).forEach(function (m) { total += m.questoes; }); });
+        (c.eixos || []).forEach(function (e) { total += e.questoes; });
+        var ativo = D.config && D.config.id === c.id;
+        grade.appendChild(cartao([
+          h("h4", null, c.cargo || c.nome),
+          h("p", { class: "mudo" }, [c.banca, " · edital ", c.edital, " · prova em ", new Date(c.data_prova + "T12:00:00").toLocaleDateString("pt-BR")]),
+          h("p", null, total + " questões por prova · " + n + " questões no banco"),
+          h("div", { class: "acoes" }, [botao(ativo ? "Continuar estudando" : "Estudar este concurso", function () {
+            FP.trocarConcurso(c.id, true);
+            ir("#/");
+          }, "primario", { "data-acao": "concurso-" + c.id })])
+        ], ativo ? "concurso ativo" : "concurso"));
+      });
+    });
+    R.appendChild(grade);
+    R.appendChild(h("p", { class: "mudo" }, "Novos concursos aparecem aqui quando forem adicionados ao app."));
+  };
+
+  /* ------------------------------------------------------------------ */
+  /* Novo perfil: nome + concurso                                         */
+  /* ------------------------------------------------------------------ */
+  UI.novoPerfil = function () {
+    limpar("Novo perfil");
+    var R = main();
+    var primeira = S.novo;
+    R.appendChild(titulo(primeira ? "Bem-vindo! Crie seu perfil" : "Novo perfil",
+      "Cada perfil estuda um concurso, com prova, banco de questões e histórico próprios. Para estudar outro concurso, crie outro perfil."));
+    var cfgs = window.CONFIGS || {};
+    var escolhido = Object.keys(cfgs)[0];
+    var nomeIn = h("input", { type: "text", id: "np-nome", class: "campo", maxlength: "40", placeholder: "Ex.: Leão" });
+    var lista = h("div", { class: "grade-concursos", role: "radiogroup", "aria-label": "Concurso" });
+    function desenharLista() {
+      lista.innerHTML = "";
+      var porInst = {};
+      Object.keys(cfgs).forEach(function (id) { var c = cfgs[id]; (porInst[c.instituicao || "Outros"] = porInst[c.instituicao || "Outros"] || []).push(c); });
+      Object.keys(porInst).sort().forEach(function (inst) {
+        lista.appendChild(h("h3", { class: "inst" }, inst));
+        porInst[inst].forEach(function (c) {
+          var n = (window.BANCO || []).filter(function (q) { return q && (!q.concursos || q.concursos.indexOf(c.id) >= 0) && q.status === "validada"; }).length;
+          var total = 0;
+          c.blocos.forEach(function (b) { (b.materias || []).forEach(function (m) { total += m.questoes; }); });
+          (c.eixos || []).forEach(function (e) { total += e.questoes; });
+          lista.appendChild(h("button", { type: "button", role: "radio", "aria-checked": escolhido === c.id ? "true" : "false",
+            class: "cartao concurso" + (escolhido === c.id ? " ativo" : ""), "data-concurso": c.id,
+            onclick: function () { escolhido = c.id; desenharLista(); } }, [
+            h("strong", null, c.cargo || c.nome),
+            h("span", { class: "mudo" }, c.banca + " · edital " + c.edital + " · prova em " + new Date(c.data_prova + "T12:00:00").toLocaleDateString("pt-BR")),
+            h("span", null, total + " questões por prova · " + n + " no banco")
+          ]));
+        });
+      });
+    }
+    desenharLista();
+    var erro = h("p", { class: "erro", role: "alert" });
+    R.appendChild(cartao([
+      h("label", { for: "np-nome" }, h("strong", null, "Nome do perfil")), nomeIn,
+      h("p", null, h("strong", null, "Concurso")), lista, erro,
+      h("div", { class: "acoes" }, [
+        botao("Criar perfil", function () {
+          var nome = nomeIn.value.trim();
+          if (!nome) { erro.textContent = "Digite um nome."; nomeIn.focus(); return; }
+          if (S.estado.perfis[nome] && !(primeira && nome === S.nomePerfil())) { erro.textContent = "Já existe um perfil com esse nome."; return; }
+          // primeira visita: o perfil "Padrão" vazio é substituído pelo novo
+          var vazio = S.estado.perfis["Padrão"];
+          var descartarPadrao = primeira && vazio && !vazio.simulados.length && !Object.keys(vazio.questoes).length && nome !== "Padrão";
+          if (S.estado.perfis[nome]) { S.estado.perfis[nome].concurso = escolhido; S.trocarPerfil(nome); }
+          else S.criarPerfil(nome, escolhido);
+          if (descartarPadrao) delete S.estado.perfis["Padrão"];
+          S.novo = false;
+          S.salvar();
+          FP.aviso("Perfil \"" + nome + "\" criado.");
+          ir("#/");
+        }, "primario", { "data-acao": "criar-perfil" }),
+        primeira ? null : botao("Cancelar", function () { history.back(); })
+      ])
+    ]));
+    nomeIn.focus();
+  };
+
+  /* ------------------------------------------------------------------ */
   UI.rota = function () {
     var hs = (location.hash || "#/").replace(/^#\/?/, "");
     var partes = hs.split("/");
@@ -893,6 +988,8 @@
       case "historico": return UI.historico();
       case "banco": return UI.banco();
       case "dados": return UI.dados();
+      case "novo-perfil": return UI.novoPerfil();
+      case "concursos": return UI.concursos();
       default: return UI.inicio();
     }
   };
