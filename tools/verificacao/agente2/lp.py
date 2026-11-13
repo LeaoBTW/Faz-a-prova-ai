@@ -815,12 +815,12 @@ Q(M, "15", """Os dois plurais estão corretos em:""",
    ("os vices-reis – as obras-primas", "\"Vice\" é prefixo e não varia: vice-reis (obras-primas está correto).")],
   pai="LP-0107", tags=["flexão nominal", "plural de compostos"], var="plural de compostos com pares de palavras", verif=V("15"))
 
-Q(M, "15", """O plural dos substantivos está correto em todos os itens de:""",
+Q(M, "15", """O plural dos substantivos *cidadão*, *capitão* e *mão* está correto, nessa ordem, em:""",
   ("cidadãos – capitães – mãos", "Os plurais dos nomes em -ão são fixados pelo uso: cidadão > cidadãos; capitão > capitães; mão > mãos."),
   [("cidadões – capitães – mãos", "Cidadão faz cidadãos."),
    ("cidadãos – capitãos – mãos", "Capitão faz capitães."),
    ("cidadães – capitões – mãos", "Cidadão faz cidadãos e capitão faz capitães."),
-   ("cidadãos – capitães – mães", "\"Mães\" é plural de \"mãe\"; o plural de \"mão\" é \"mãos\".")],
+   ("cidadãos – capitães – mães", "\"Mães\" é plural de \"mãe\", e não de \"mão\", cujo plural é \"mãos\".")],
   pai=None, dif=1, tags=["flexão nominal", "plural"], var="inédita (plural dos nomes em -ão)", verif=V("15"))
 
 Q(M, "15", """A forma verbal está de acordo com a norma-padrão em:""",

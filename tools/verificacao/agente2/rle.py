@@ -717,7 +717,7 @@ w = [F(30, 2), F(40, 4), F(50, 5)]   # 15, 10, 10
 k = F(7000) / sum(w)
 vals = [k * x for x in w]
 assert vals == [3000, 2000, 2000]
-Q(M, "9", """Uma gratificação de R$ 7.000,00 será repartida entre três técnicos em partes diretamente proporcionais aos anos de serviço (30, 40 e 50 meses) e inversamente proporcionais ao número de erros registrados (2, 4 e 5 erros, respectivamente).
+Q(M, "9", """Uma gratificação de R$ 7.000,00 será repartida entre três técnicos em partes diretamente proporcionais ao tempo de serviço (30, 40 e 50 meses) e inversamente proporcionais ao número de erros registrados (2, 4 e 5 erros, respectivamente).
 
 O técnico com 30 meses de serviço receberá""",
   ("R$ 3.000,00.", "Pesos: 30/2 = 15; 40/4 = 10; 50/5 = 10. Soma 35; cada unidade vale 7.000/35 = 200. O primeiro recebe 15 × 200 = **R$ 3.000,00**."),

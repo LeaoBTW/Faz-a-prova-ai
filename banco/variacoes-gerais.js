@@ -46,11 +46,11 @@ BANCO.push({
     "interpretação"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §1"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -96,11 +96,11 @@ BANCO.push({
     "interpretação"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §1"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -146,11 +146,11 @@ BANCO.push({
     "manchetes"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §1"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -197,11 +197,11 @@ BANCO.push({
     "texto inédito"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §1"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -248,11 +248,11 @@ BANCO.push({
     "texto inédito"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §1"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -297,11 +297,11 @@ BANCO.push({
     "pressuposto"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §1"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -348,11 +348,11 @@ BANCO.push({
     "operador argumentativo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §1"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -398,11 +398,11 @@ BANCO.push({
     "exemplificação"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §1"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -448,11 +448,11 @@ BANCO.push({
     "clareza"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §1"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -498,11 +498,11 @@ BANCO.push({
     "valor semântico"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §2"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -548,11 +548,11 @@ BANCO.push({
     "valor semântico"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §2"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -598,11 +598,11 @@ BANCO.push({
     "adversativas"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §2"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -648,11 +648,11 @@ BANCO.push({
     "condição"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §2"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -699,11 +699,11 @@ BANCO.push({
     "reescrita"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §6"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -750,11 +750,11 @@ BANCO.push({
     "reescrita"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §6"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -800,11 +800,11 @@ BANCO.push({
     "coordenação"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §11"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -850,11 +850,11 @@ BANCO.push({
     "coordenação"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §11"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -900,11 +900,11 @@ BANCO.push({
     "pronomes demonstrativos"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §2"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -949,11 +949,11 @@ BANCO.push({
     "intertextualidade"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §2"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -1000,11 +1000,11 @@ BANCO.push({
     "títulos"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §15"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -1050,11 +1050,11 @@ BANCO.push({
     "código"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §9"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -1099,11 +1099,11 @@ BANCO.push({
     "funções da linguagem"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §8"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -1149,11 +1149,11 @@ BANCO.push({
     "conotação"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §12"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -1199,11 +1199,11 @@ BANCO.push({
     "termos acessórios"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §6"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -1249,11 +1249,11 @@ BANCO.push({
     "vocativo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §6"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -1298,11 +1298,11 @@ BANCO.push({
     "orações subordinadas substantivas"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §6"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -1347,11 +1347,11 @@ BANCO.push({
     "orações subordinadas substantivas"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §6"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -1397,11 +1397,11 @@ BANCO.push({
     "pronome relativo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §6"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -1447,11 +1447,11 @@ BANCO.push({
     "regência"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §6"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -1498,11 +1498,11 @@ BANCO.push({
     "aposto resumitivo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §6"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -1548,11 +1548,11 @@ BANCO.push({
     "vírgula"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §6"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -1598,11 +1598,11 @@ BANCO.push({
     "vírgula"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §6"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -1648,11 +1648,11 @@ BANCO.push({
     "orações adjetivas"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §6"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -1698,11 +1698,11 @@ BANCO.push({
     "ponto e vírgula"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §6"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -1747,11 +1747,11 @@ BANCO.push({
     "discurso indireto"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §7"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -1797,11 +1797,11 @@ BANCO.push({
     "interrogativa indireta"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §7"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -1846,11 +1846,11 @@ BANCO.push({
     "discurso indireto livre"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §7"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -1897,11 +1897,11 @@ BANCO.push({
     "modalização"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §11"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -1947,11 +1947,11 @@ BANCO.push({
     "voz passiva sintética"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §11"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -1996,11 +1996,11 @@ BANCO.push({
     "modalizadores"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §11"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -2045,11 +2045,11 @@ BANCO.push({
     "pronomes pessoais"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §11"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -2094,11 +2094,11 @@ BANCO.push({
     "colocação pronominal"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §6"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -2144,11 +2144,11 @@ BANCO.push({
     "reescrita"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §6"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -2194,11 +2194,11 @@ BANCO.push({
     "metonímia"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §12"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -2243,11 +2243,11 @@ BANCO.push({
     "parônimos"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §12"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -2292,11 +2292,11 @@ BANCO.push({
     "ambiguidade"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §12"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -2342,11 +2342,11 @@ BANCO.push({
     "paradoxo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §12"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -2391,11 +2391,11 @@ BANCO.push({
     "figuras de linguagem"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §12"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -2441,11 +2441,11 @@ BANCO.push({
     "sinestesia"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §12"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -2491,11 +2491,11 @@ BANCO.push({
     "sinonímia"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §12"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -2541,11 +2541,11 @@ BANCO.push({
     "vocabulário"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §12"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -2591,11 +2591,11 @@ BANCO.push({
     "parassíntese"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §10"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -2641,11 +2641,11 @@ BANCO.push({
     "derivação regressiva"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §10"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -2690,11 +2690,11 @@ BANCO.push({
     "estrangeirismos"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §13"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -2739,11 +2739,11 @@ BANCO.push({
     "ortografia"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §14"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -2789,11 +2789,11 @@ BANCO.push({
     "Acordo Ortográfico"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §14"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -2839,11 +2839,11 @@ BANCO.push({
     "hiato"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §14"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -2889,11 +2889,11 @@ BANCO.push({
     "Acordo Ortográfico"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §14"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -2939,11 +2939,11 @@ BANCO.push({
     "verbos ter/vir/ver"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §14"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -2988,11 +2988,11 @@ BANCO.push({
     "porquês"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §14"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -3037,11 +3037,11 @@ BANCO.push({
     "crase"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §14"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -3086,11 +3086,11 @@ BANCO.push({
     "crase"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §14"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -3136,11 +3136,11 @@ BANCO.push({
     "nomes de lugar"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §14"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -3186,11 +3186,11 @@ BANCO.push({
     "mudança de sentido"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §14"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -3236,11 +3236,11 @@ BANCO.push({
     "facultativa"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §14"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -3287,11 +3287,11 @@ BANCO.push({
     "conversão C/E"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §6"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -3336,11 +3336,11 @@ BANCO.push({
     "concordância verbal"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §6"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -3386,11 +3386,11 @@ BANCO.push({
     "verbos impessoais"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §6"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -3436,11 +3436,11 @@ BANCO.push({
     "porcentagem"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §6"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -3485,11 +3485,11 @@ BANCO.push({
     "concordância nominal"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §6"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -3534,11 +3534,11 @@ BANCO.push({
     "concordância nominal"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §6"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -3584,11 +3584,11 @@ BANCO.push({
     "bastante"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §6"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -3633,11 +3633,11 @@ BANCO.push({
     "regência verbal"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §6"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -3682,11 +3682,11 @@ BANCO.push({
     "regência verbal"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §6"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -3732,11 +3732,11 @@ BANCO.push({
     "pronome relativo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §6"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -3781,11 +3781,11 @@ BANCO.push({
     "regência nominal"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §6"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -3831,11 +3831,11 @@ BANCO.push({
     "voz passiva"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §15"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -3881,11 +3881,11 @@ BANCO.push({
     "voz ativa"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §15"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -3932,11 +3932,11 @@ BANCO.push({
     "voz passiva sintética"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §15"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -3983,11 +3983,11 @@ BANCO.push({
     "voz passiva sintética"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §6"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -4033,11 +4033,11 @@ BANCO.push({
     "subjuntivo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §15"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -4082,11 +4082,11 @@ BANCO.push({
     "correlação de tempos e modos"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §15"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -4132,11 +4132,11 @@ BANCO.push({
     "plural de compostos"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §15"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -4166,7 +4166,7 @@ BANCO.push({
   "formato": "multipla_5",
   "dificuldade": 1,
   "texto_base": null,
-  "enunciado": "O plural dos substantivos está correto em todos os itens de:",
+  "enunciado": "O plural dos substantivos *cidadão*, *capitão* e *mão* está correto, nessa ordem, em:",
   "imagem": null,
   "alternativas": {
     "A": "cidadães – capitões – mãos",
@@ -4176,17 +4176,17 @@ BANCO.push({
     "E": "cidadões – capitães – mãos"
   },
   "gabarito": "B",
-  "comentario": "**Gabarito: B.**\n\n- **A:** Cidadão faz cidadãos e capitão faz capitães.\n- **B (correta):** Os plurais dos nomes em -ão são fixados pelo uso: cidadão > cidadãos; capitão > capitães; mão > mãos.\n- **C:** \"Mães\" é plural de \"mãe\"; o plural de \"mão\" é \"mãos\".\n- **D:** Capitão faz capitães.\n- **E:** Cidadão faz cidadãos.",
+  "comentario": "**Gabarito: B.**\n\n- **A:** Cidadão faz cidadãos e capitão faz capitães.\n- **B (correta):** Os plurais dos nomes em -ão são fixados pelo uso: cidadão > cidadãos; capitão > capitães; mão > mãos.\n- **C:** \"Mães\" é plural de \"mãe\", e não de \"mão\", cujo plural é \"mãos\".\n- **D:** Capitão faz capitães.\n- **E:** Cidadão faz cidadãos.",
   "tags": [
     "flexão nominal",
     "plural"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §15"
+    "obs": "Corrigido pelo agente 5: o enunciado (\"o plural dos substantivos está correto em todos os itens\") tornava a alternativa \"cidadãos – capitães – mães\" também correta (mães é plural correto de mãe). O enunciado passou a nomear os singulares (cidadão, capitão, mão)."
   },
   "versao": 1
 });
@@ -4232,11 +4232,11 @@ BANCO.push({
     "verbos irregulares"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §15"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -4282,11 +4282,11 @@ BANCO.push({
     "verbos irregulares"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §15"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -4332,11 +4332,11 @@ BANCO.push({
     "grau do adjetivo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §15"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -4383,11 +4383,11 @@ BANCO.push({
     "oração causal"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §6"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -4434,11 +4434,11 @@ BANCO.push({
     "conectivos"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §6"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -4486,11 +4486,11 @@ BANCO.push({
     "conectivos"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §6"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -4536,11 +4536,11 @@ BANCO.push({
     "interpretação"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §15"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -4586,11 +4586,11 @@ BANCO.push({
     "gênero"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §15"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -4636,11 +4636,11 @@ BANCO.push({
     "ideia central"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §1"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -4686,11 +4686,11 @@ BANCO.push({
     "pressuposto"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra conferida na apostila 01 §1"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -4736,11 +4736,11 @@ BANCO.push({
     "área"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -4786,11 +4786,11 @@ BANCO.push({
     "área"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -4837,11 +4837,11 @@ BANCO.push({
     "condicional"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -4888,11 +4888,11 @@ BANCO.push({
     "contrapositiva"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -4938,11 +4938,11 @@ BANCO.push({
     "raciocínio"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -4988,11 +4988,11 @@ BANCO.push({
     "verdades e mentiras"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -5038,11 +5038,11 @@ BANCO.push({
     "verdades e mentiras"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -5088,11 +5088,11 @@ BANCO.push({
     "tabela de dupla entrada"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -5138,11 +5138,11 @@ BANCO.push({
     "tabela de dupla entrada"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -5189,11 +5189,11 @@ BANCO.push({
     "condicional"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -5239,11 +5239,11 @@ BANCO.push({
     "modus tollens"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -5289,11 +5289,11 @@ BANCO.push({
     "raciocínio"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -5339,11 +5339,11 @@ BANCO.push({
     "raciocínio"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -5389,11 +5389,11 @@ BANCO.push({
     "contagem"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -5439,11 +5439,11 @@ BANCO.push({
     "contagem"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -5489,11 +5489,11 @@ BANCO.push({
     "contagem"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -5540,11 +5540,11 @@ BANCO.push({
     "otimização"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -5591,11 +5591,11 @@ BANCO.push({
     "otimização"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -5641,11 +5641,11 @@ BANCO.push({
     "dados"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -5691,11 +5691,11 @@ BANCO.push({
     "dados"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -5742,11 +5742,11 @@ BANCO.push({
     "complementar"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -5792,11 +5792,11 @@ BANCO.push({
     "sem reposição"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -5842,11 +5842,11 @@ BANCO.push({
     "sem reposição"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -5892,11 +5892,11 @@ BANCO.push({
     "raciocínio"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -5941,11 +5941,11 @@ BANCO.push({
     "equações diofantinas"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -5991,11 +5991,11 @@ BANCO.push({
     "medidas"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -6040,11 +6040,11 @@ BANCO.push({
     "velocidade média"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -6090,11 +6090,11 @@ BANCO.push({
     "média harmônica"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -6139,11 +6139,11 @@ BANCO.push({
     "equação do 1º grau"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -6189,11 +6189,11 @@ BANCO.push({
     "frações"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -6239,11 +6239,11 @@ BANCO.push({
     "variações sucessivas"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -6289,11 +6289,11 @@ BANCO.push({
     "variações sucessivas"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -6339,11 +6339,11 @@ BANCO.push({
     "negação"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra de negação de quantificadores (apostila 02 §3)."
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -6389,11 +6389,11 @@ BANCO.push({
     "negação"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Regra de negação de quantificadores (apostila 02 §3)."
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -6439,11 +6439,11 @@ BANCO.push({
     "diagrama de Venn"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -6489,11 +6489,11 @@ BANCO.push({
     "inclusão-exclusão"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -6539,11 +6539,11 @@ BANCO.push({
     "diagramas lógicos"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Diagrama de Venn (apostila 02 §4)."
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -6589,11 +6589,11 @@ BANCO.push({
     "diagramas lógicos"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Diagrama de Venn (apostila 02 §4)."
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -6639,11 +6639,11 @@ BANCO.push({
     "inversamente proporcional"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -6673,7 +6673,7 @@ BANCO.push({
   "formato": "multipla_5",
   "dificuldade": 3,
   "texto_base": null,
-  "enunciado": "Uma gratificação de R$ 7.000,00 será repartida entre três técnicos em partes diretamente proporcionais aos anos de serviço (30, 40 e 50 meses) e inversamente proporcionais ao número de erros registrados (2, 4 e 5 erros, respectivamente).\n\nO técnico com 30 meses de serviço receberá",
+  "enunciado": "Uma gratificação de R$ 7.000,00 será repartida entre três técnicos em partes diretamente proporcionais ao tempo de serviço (30, 40 e 50 meses) e inversamente proporcionais ao número de erros registrados (2, 4 e 5 erros, respectivamente).\n\nO técnico com 30 meses de serviço receberá",
   "imagem": null,
   "alternativas": {
     "A": "R$ 3.684,21.",
@@ -6689,11 +6689,11 @@ BANCO.push({
     "proporção composta"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle.py"
+    "obs": "Corrigido pelo agente 5: enunciado dizia \"anos de serviço (30, 40 e 50 meses)\"; passou a \"tempo de serviço\". Conta refeita (15:10:10 → R$ 3.000,00)."
   },
   "versao": 1
 });
@@ -6738,11 +6738,11 @@ BANCO.push({
     "juros simples"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -6788,11 +6788,11 @@ BANCO.push({
     "taxa"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -6838,11 +6838,11 @@ BANCO.push({
     "prazo em dias"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -6888,11 +6888,11 @@ BANCO.push({
     "montante"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -6938,11 +6938,11 @@ BANCO.push({
     "valor presente"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -6988,11 +6988,11 @@ BANCO.push({
     "taxa"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -7038,11 +7038,11 @@ BANCO.push({
     "prazo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -7088,11 +7088,11 @@ BANCO.push({
     "taxa"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -7137,11 +7137,11 @@ BANCO.push({
     "taxas equivalentes"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -7186,11 +7186,11 @@ BANCO.push({
     "taxas equivalentes"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -7236,11 +7236,11 @@ BANCO.push({
     "taxa efetiva"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -7286,11 +7286,11 @@ BANCO.push({
     "taxa efetiva"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -7336,11 +7336,11 @@ BANCO.push({
     "Fisher"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -7386,11 +7386,11 @@ BANCO.push({
     "Fisher"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -7437,11 +7437,11 @@ BANCO.push({
     "juro real negativo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -7486,11 +7486,11 @@ BANCO.push({
     "capitalização contínua"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -7536,11 +7536,11 @@ BANCO.push({
     "taxa efetiva"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -7586,11 +7586,11 @@ BANCO.push({
     "prazo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -7636,11 +7636,11 @@ BANCO.push({
     "desconto comercial"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -7686,11 +7686,11 @@ BANCO.push({
     "desconto racional"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -7736,11 +7736,11 @@ BANCO.push({
     "taxa efetiva"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -7786,11 +7786,11 @@ BANCO.push({
     "comercial x racional"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -7836,11 +7836,11 @@ BANCO.push({
     "desconto racional"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -7886,11 +7886,11 @@ BANCO.push({
     "desconto comercial"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -7936,11 +7936,11 @@ BANCO.push({
     "desconto racional"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -7986,11 +7986,11 @@ BANCO.push({
     "série uniforme"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -8036,11 +8036,11 @@ BANCO.push({
     "rendas"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -8086,11 +8086,11 @@ BANCO.push({
     "valor futuro"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -8136,11 +8136,11 @@ BANCO.push({
     "amortização"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -8186,11 +8186,11 @@ BANCO.push({
     "saldo devedor"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -8237,11 +8237,11 @@ BANCO.push({
     "comparação"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -8286,11 +8286,11 @@ BANCO.push({
     "SAC"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -8336,11 +8336,11 @@ BANCO.push({
     "sistema misto"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -8385,11 +8385,11 @@ BANCO.push({
     "SAC"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -8437,11 +8437,11 @@ BANCO.push({
     "conversão C/E"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido com a apostila 02 §22.4."
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -8488,11 +8488,11 @@ BANCO.push({
     "análise de investimentos"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -8537,11 +8537,11 @@ BANCO.push({
     "VPL"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -8587,11 +8587,11 @@ BANCO.push({
     "payback"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -8636,11 +8636,11 @@ BANCO.push({
     "TIR"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -8686,11 +8686,11 @@ BANCO.push({
     "VPL"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -8736,11 +8736,11 @@ BANCO.push({
     "data focal"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -8786,11 +8786,11 @@ BANCO.push({
     "data focal"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -8836,11 +8836,11 @@ BANCO.push({
     "valor presente"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -8886,11 +8886,11 @@ BANCO.push({
     "valor futuro"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -8936,11 +8936,11 @@ BANCO.push({
     "rendas"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_fin.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -8986,11 +8986,11 @@ BANCO.push({
     "dispersão"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_stats.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -9036,11 +9036,11 @@ BANCO.push({
     "desvio padrão"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_stats.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -9087,11 +9087,11 @@ BANCO.push({
     "conversão C/E"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_stats.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -9136,11 +9136,11 @@ BANCO.push({
     "variância"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_stats.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -9186,11 +9186,11 @@ BANCO.push({
     "amostra"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_stats.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -9237,11 +9237,11 @@ BANCO.push({
     "média"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_stats.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -9286,11 +9286,11 @@ BANCO.push({
     "média ponderada"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_stats.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -9335,11 +9335,11 @@ BANCO.push({
     "média"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_stats.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -9385,11 +9385,11 @@ BANCO.push({
     "variações sucessivas"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_stats.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -9434,11 +9434,11 @@ BANCO.push({
     "porcentagem"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_stats.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -9484,11 +9484,11 @@ BANCO.push({
     "ponto percentual"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_stats.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -9533,11 +9533,11 @@ BANCO.push({
     "regra de três composta"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_stats.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -9583,11 +9583,11 @@ BANCO.push({
     "inversamente proporcional"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_stats.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -9633,11 +9633,11 @@ BANCO.push({
     "princípio multiplicativo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_stats.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -9683,11 +9683,11 @@ BANCO.push({
     "complementar"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_stats.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -9733,11 +9733,11 @@ BANCO.push({
     "arranjo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_stats.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -9782,11 +9782,11 @@ BANCO.push({
     "permutação circular"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_stats.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -9832,11 +9832,11 @@ BANCO.push({
     "soma da PA"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_stats.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -9882,11 +9882,11 @@ BANCO.push({
     "recorrência"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_stats.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -9932,11 +9932,11 @@ BANCO.push({
     "condicional"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_stats.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -9982,11 +9982,11 @@ BANCO.push({
     "bicondicional"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Python: tools/verificacao/agente2/rle_stats.py"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -10033,11 +10033,11 @@ BANCO.push({
     "intermediação financeira"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §1 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -10084,11 +10084,11 @@ BANCO.push({
     "mercado secundário"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §1 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -10135,11 +10135,11 @@ BANCO.push({
     "previdência complementar"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §1 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -10186,11 +10186,11 @@ BANCO.push({
     "SUSEP"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §4 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -10236,11 +10236,11 @@ BANCO.push({
     "órgãos normativos"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §2 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -10286,11 +10286,11 @@ BANCO.push({
     "política monetária"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §3 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -10336,11 +10336,11 @@ BANCO.push({
     "funções do BCB"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §3 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -10386,11 +10386,11 @@ BANCO.push({
     "política monetária"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §3 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -10436,11 +10436,11 @@ BANCO.push({
     "política monetária"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §3 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -10487,11 +10487,11 @@ BANCO.push({
     "Copom"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §2 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -10538,11 +10538,11 @@ BANCO.push({
     "canais de transmissão"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §3 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -10589,11 +10589,11 @@ BANCO.push({
     "CMN"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §2 (revisão nov/2026); contagem feita em Python"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -10640,11 +10640,11 @@ BANCO.push({
     "LC 179/2021"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §3 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -10689,11 +10689,11 @@ BANCO.push({
     "Copom"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §3 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -10740,11 +10740,11 @@ BANCO.push({
     "datado"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §3 (revisão nov/2026)"
+    "obs": "Item datado: decisão do Copom de 04/11/2026 (manutenção da Selic em 13,75% a.a.) conferida na apostila 03 §3 e em notícias da imprensa de 04–05/11/2026. Revalidar perto da prova."
   },
   "versao": 1
 });
@@ -10790,11 +10790,11 @@ BANCO.push({
     "multiplicador bancário"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §3 (revisão nov/2026); conta feita em Python"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -10840,11 +10840,11 @@ BANCO.push({
     "política monetária"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §3 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -10890,11 +10890,11 @@ BANCO.push({
     "Selic"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §6 (revisão nov/2026); conta feita em Python"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -10941,11 +10941,11 @@ BANCO.push({
     "SEP"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §5 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -10992,11 +10992,11 @@ BANCO.push({
     "FGC"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §5 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -11042,11 +11042,11 @@ BANCO.push({
     "FGCoop"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §5 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -11092,11 +11092,11 @@ BANCO.push({
     "inclusão financeira"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §6 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -11143,11 +11143,11 @@ BANCO.push({
     "mercado interbancário"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §3 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -11193,11 +11193,11 @@ BANCO.push({
     "ações"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §4 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -11243,11 +11243,11 @@ BANCO.push({
     "regulação prudencial"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §7 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -11293,11 +11293,11 @@ BANCO.push({
     "regulação prudencial"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §7 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -11342,11 +11342,11 @@ BANCO.push({
     "spread bancário"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §7 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -11392,11 +11392,11 @@ BANCO.push({
     "Open Finance"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §7 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -11442,11 +11442,11 @@ BANCO.push({
     "política monetária"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §7 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -11492,11 +11492,11 @@ BANCO.push({
     "arcabouço fiscal"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §7 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -11542,11 +11542,11 @@ BANCO.push({
     "produtos bancários"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §6 (revisão nov/2026); conta feita em Python"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -11592,11 +11592,11 @@ BANCO.push({
     "produtos bancários"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §6 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -11644,11 +11644,11 @@ BANCO.push({
     "datado"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §8 (revisão nov/2026)"
+    "obs": "Item datado (tag datado): fato conferido na apostila 03 §8 (revisão nov/2026, com fontes BCB/imprensa citadas). Revalidar perto da prova."
   },
   "versao": 1
 });
@@ -11693,11 +11693,11 @@ BANCO.push({
     "Pix"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §8 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -11743,11 +11743,11 @@ BANCO.push({
     "SPB"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §8 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -11794,11 +11794,11 @@ BANCO.push({
     "datado"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §8 (revisão nov/2026)"
+    "obs": "Item datado (tag datado): fato conferido na apostila 03 §8 (revisão nov/2026, com fontes BCB/imprensa citadas). Revalidar perto da prova."
   },
   "versao": 1
 });
@@ -11843,11 +11843,11 @@ BANCO.push({
     "Open Finance"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §8 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -11893,11 +11893,11 @@ BANCO.push({
     "consentimento"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §8 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -11943,11 +11943,11 @@ BANCO.push({
     "datado"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §8 (revisão nov/2026)"
+    "obs": "Item datado (tag datado): fato conferido na apostila 03 §8 (revisão nov/2026, com fontes BCB/imprensa citadas). Revalidar perto da prova."
   },
   "versao": 1
 });
@@ -11994,11 +11994,11 @@ BANCO.push({
     "datado"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §8 (revisão nov/2026)"
+    "obs": "Item datado (tag datado): fato conferido na apostila 03 §8 (revisão nov/2026, com fontes BCB/imprensa citadas). Revalidar perto da prova."
   },
   "versao": 1
 });
@@ -12045,11 +12045,11 @@ BANCO.push({
     "datado"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §8 (revisão nov/2026)"
+    "obs": "Item datado (tag datado): fato conferido na apostila 03 §8 (revisão nov/2026, com fontes BCB/imprensa citadas). Revalidar perto da prova."
   },
   "versao": 1
 });
@@ -12096,11 +12096,11 @@ BANCO.push({
     "fintechs"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §8 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -12146,11 +12146,11 @@ BANCO.push({
     "BaaS"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §8 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -12196,11 +12196,11 @@ BANCO.push({
     "sandbox regulatório"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §8 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -12246,11 +12246,11 @@ BANCO.push({
     "ouvidoria"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §17 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -12296,11 +12296,11 @@ BANCO.push({
     "superendividamento"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §17 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -12347,11 +12347,11 @@ BANCO.push({
     "cheque especial"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §6 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -12397,11 +12397,11 @@ BANCO.push({
     "inclusão financeira"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §21 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -12448,11 +12448,11 @@ BANCO.push({
     "ESG"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §17 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -12499,11 +12499,11 @@ BANCO.push({
     "ESG"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §17 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -12550,11 +12550,11 @@ BANCO.push({
     "perda esperada"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §17 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -12600,11 +12600,11 @@ BANCO.push({
     "Lei 9.613/1998"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §9 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -12650,11 +12650,11 @@ BANCO.push({
     "fases da lavagem"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §9 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -12700,11 +12700,11 @@ BANCO.push({
     "fases da lavagem"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §9 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -12750,11 +12750,11 @@ BANCO.push({
     "fases da lavagem"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §9 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -12800,11 +12800,11 @@ BANCO.push({
     "crime antecedente"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §9 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -12850,11 +12850,11 @@ BANCO.push({
     "crime antecedente"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §9 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -12901,11 +12901,11 @@ BANCO.push({
     "tipping off"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §9 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -12951,11 +12951,11 @@ BANCO.push({
     "sanções administrativas"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §9 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -13001,11 +13001,11 @@ BANCO.push({
     "PLD"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §9 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -13051,11 +13051,11 @@ BANCO.push({
     "pessoas obrigadas"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §9 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -13101,11 +13101,11 @@ BANCO.push({
     "causa de aumento"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §9 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -13151,11 +13151,11 @@ BANCO.push({
     "autonomia"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §9 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -13201,11 +13201,11 @@ BANCO.push({
     "colaboração premiada"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §9 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -13252,11 +13252,11 @@ BANCO.push({
     "dados cadastrais"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §9 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -13303,11 +13303,11 @@ BANCO.push({
     "financiamento do terrorismo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §9 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -13353,11 +13353,11 @@ BANCO.push({
     "pessoas obrigadas"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §9 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -13403,11 +13403,11 @@ BANCO.push({
     "registros"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §9 (revisão nov/2026) e §10"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -13454,11 +13454,11 @@ BANCO.push({
     "comunicação ao COAF"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §10 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -13504,11 +13504,11 @@ BANCO.push({
     "avaliação interna de risco"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §10 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -13554,11 +13554,11 @@ BANCO.push({
     "PEP"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §10 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -13604,11 +13604,11 @@ BANCO.push({
     "PEP"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §10 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -13655,11 +13655,11 @@ BANCO.push({
     "datado"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §10 (revisão nov/2026); valores comparados com os limites"
+    "obs": "Item datado: regra de comunicação automática (Circular 3.978/2020, art. 49, redação da Res. BCB 591/2026, vigente desde 1º/10/2026) conferida na apostila 03 §10.7 (revisão nov/2026). Revalidar perto da prova."
   },
   "versao": 1
 });
@@ -13707,11 +13707,11 @@ BANCO.push({
     "datado"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §10 (revisão nov/2026)"
+    "obs": "Item datado: regra de comunicação automática (Circular 3.978/2020, art. 49, redação da Res. BCB 591/2026, vigente desde 1º/10/2026) conferida na apostila 03 §10.7 (revisão nov/2026). Revalidar perto da prova."
   },
   "versao": 1
 });
@@ -13758,11 +13758,11 @@ BANCO.push({
     "beneficiário final"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §10 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -13808,11 +13808,11 @@ BANCO.push({
     "abordagem baseada em risco"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §10 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -13858,11 +13858,11 @@ BANCO.push({
     "KYC"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §10 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -13909,11 +13909,11 @@ BANCO.push({
     "datado"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §10 (revisão nov/2026)"
+    "obs": "Item datado: regra de comunicação automática (Circular 3.978/2020, art. 49, redação da Res. BCB 591/2026, vigente desde 1º/10/2026) conferida na apostila 03 §10.7 (revisão nov/2026). Revalidar perto da prova."
   },
   "versao": 1
 });
@@ -13959,11 +13959,11 @@ BANCO.push({
     "avaliação de efetividade"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §10 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -14009,11 +14009,11 @@ BANCO.push({
     "situações atípicas"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §10 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -14059,11 +14059,11 @@ BANCO.push({
     "governança de PLD"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §10 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -14109,11 +14109,11 @@ BANCO.push({
     "Lei 7.492/1986"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §11 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -14159,11 +14159,11 @@ BANCO.push({
     "LC 105/2001"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §11 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -14209,11 +14209,11 @@ BANCO.push({
     "evasão de divisas"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §11 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -14260,11 +14260,11 @@ BANCO.push({
     "Fisco"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §11 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -14311,11 +14311,11 @@ BANCO.push({
     "sigilo bancário"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §11 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -14361,11 +14361,11 @@ BANCO.push({
     "Lei 7.492/1986"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §11 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -14411,11 +14411,11 @@ BANCO.push({
     "competência"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §11 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -14461,11 +14461,11 @@ BANCO.push({
     "dado sensível"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §11 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -14511,11 +14511,11 @@ BANCO.push({
     "agentes de tratamento"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §11 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -14561,11 +14561,11 @@ BANCO.push({
     "sanções"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §11 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -14611,11 +14611,11 @@ BANCO.push({
     "decisão automatizada"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §11 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -14662,11 +14662,11 @@ BANCO.push({
     "KYC"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §11 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -14713,11 +14713,11 @@ BANCO.push({
     "conduta ética"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §11 (revisão nov/2026) e §12"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -14763,11 +14763,11 @@ BANCO.push({
     "incidente de segurança"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §11 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -14813,11 +14813,11 @@ BANCO.push({
     "princípios éticos"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §12 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -14863,11 +14863,11 @@ BANCO.push({
     "abrangência"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §12 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -14913,11 +14913,11 @@ BANCO.push({
     "princípios éticos"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §12 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -14963,11 +14963,11 @@ BANCO.push({
     "princípios éticos"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §12 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -15014,11 +15014,11 @@ BANCO.push({
     "sigilo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §12 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -15065,11 +15065,11 @@ BANCO.push({
     "PLD"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §12 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -15115,11 +15115,11 @@ BANCO.push({
     "presentes e brindes"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §12 (revisão nov/2026); soma conferida em Python"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -15165,11 +15165,11 @@ BANCO.push({
     "Conselho de Conduta Ética"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §12 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -15215,11 +15215,11 @@ BANCO.push({
     "Conselho de Conduta Ética"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §12 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -15265,11 +15265,11 @@ BANCO.push({
     "nepotismo e favoritismo"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §12 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -15315,11 +15315,11 @@ BANCO.push({
     "canal de denúncias"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §12 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -15365,11 +15365,11 @@ BANCO.push({
     "condutas inadequadas"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §12 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -15415,11 +15415,11 @@ BANCO.push({
     "conflito de interesses"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §12 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -15465,11 +15465,11 @@ BANCO.push({
     "princípios éticos"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §12 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -15515,11 +15515,11 @@ BANCO.push({
     "relacionamento com clientes"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §12 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -15566,11 +15566,11 @@ BANCO.push({
     "informação privilegiada"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §12 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -15616,11 +15616,11 @@ BANCO.push({
     "princípios éticos"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §12 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -15667,11 +15667,11 @@ BANCO.push({
     "código de conduta"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §12 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -15717,11 +15717,11 @@ BANCO.push({
     "missão, visão e valores"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §12 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -15767,11 +15767,11 @@ BANCO.push({
     "Lei 12.846/2013"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §17 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -15818,11 +15818,11 @@ BANCO.push({
     "programa de integridade"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §17 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -15868,11 +15868,11 @@ BANCO.push({
     "controles internos"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §17 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -15918,11 +15918,11 @@ BANCO.push({
     "auditoria interna"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §21 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -15968,11 +15968,11 @@ BANCO.push({
     "social"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §17 (revisão nov/2026) e §21"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -16019,11 +16019,11 @@ BANCO.push({
     "ESG"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §21 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -16070,11 +16070,11 @@ BANCO.push({
     "normas do CMN"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §21 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -16120,11 +16120,11 @@ BANCO.push({
     "Res. 4.595/2017"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §17 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -16170,11 +16170,11 @@ BANCO.push({
     "normas do CMN"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §17 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -16220,11 +16220,11 @@ BANCO.push({
     "IBGC"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §21 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -16270,11 +16270,11 @@ BANCO.push({
     "compliance"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §21 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -16320,11 +16320,11 @@ BANCO.push({
     "compliance"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §17 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -16371,11 +16371,11 @@ BANCO.push({
     "TI"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §17 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -16422,11 +16422,11 @@ BANCO.push({
     "finanças sustentáveis"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §17 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -16472,11 +16472,11 @@ BANCO.push({
     "risco climático"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §17 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -16521,11 +16521,11 @@ BANCO.push({
     "ESG"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §21 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });
@@ -16572,11 +16572,11 @@ BANCO.push({
     "compliance"
   ],
   "embaralhavel": true,
-  "status": "rascunho",
+  "status": "validada",
   "validacao": {
-    "por": "agente-2",
+    "por": "agente-5",
     "em": "2026-11-13",
-    "obs": "Conferido na apostila 03 §17 (revisão nov/2026)"
+    "obs": "Conferida pelo agente 5 (resolvida sem o gabarito; criada por agente-2)."
   },
   "versao": 1
 });

@@ -1,1 +1,1326 @@
-{}
+{
+ "ATU-V001": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V002": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V003": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V004": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V005": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V006": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V007": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V008": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V009": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V010": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V011": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V012": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V013": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V014": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V015": {
+  "status": "validada",
+  "obs": "Item datado: decisão do Copom de 04/11/2026 (manutenção da Selic em 13,75% a.a.) conferida na apostila 03 §3 e em notícias da imprensa de 04–05/11/2026. Revalidar perto da prova."
+ },
+ "ATU-V016": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V017": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V018": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V019": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V020": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V021": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V022": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V023": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V024": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V025": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V026": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V027": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V028": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V029": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V030": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V031": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V032": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V033": {
+  "status": "validada",
+  "obs": "Item datado (tag datado): fato conferido na apostila 03 §8 (revisão nov/2026, com fontes BCB/imprensa citadas). Revalidar perto da prova."
+ },
+ "ATU-V034": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V035": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V036": {
+  "status": "validada",
+  "obs": "Item datado (tag datado): fato conferido na apostila 03 §8 (revisão nov/2026, com fontes BCB/imprensa citadas). Revalidar perto da prova."
+ },
+ "ATU-V037": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V038": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V039": {
+  "status": "validada",
+  "obs": "Item datado (tag datado): fato conferido na apostila 03 §8 (revisão nov/2026, com fontes BCB/imprensa citadas). Revalidar perto da prova."
+ },
+ "ATU-V040": {
+  "status": "validada",
+  "obs": "Item datado (tag datado): fato conferido na apostila 03 §8 (revisão nov/2026, com fontes BCB/imprensa citadas). Revalidar perto da prova."
+ },
+ "ATU-V041": {
+  "status": "validada",
+  "obs": "Item datado (tag datado): fato conferido na apostila 03 §8 (revisão nov/2026, com fontes BCB/imprensa citadas). Revalidar perto da prova."
+ },
+ "ATU-V042": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V043": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V044": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V045": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V046": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V047": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V048": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V049": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V050": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ATU-V051": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V001": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V002": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V003": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V004": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V005": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V006": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V007": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V008": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V009": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V010": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V011": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V012": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V013": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V014": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V015": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V016": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V017": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V018": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V019": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V020": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V021": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V022": {
+  "status": "validada",
+  "obs": "Item datado: regra de comunicação automática (Circular 3.978/2020, art. 49, redação da Res. BCB 591/2026, vigente desde 1º/10/2026) conferida na apostila 03 §10.7 (revisão nov/2026). Revalidar perto da prova."
+ },
+ "ETI-V023": {
+  "status": "validada",
+  "obs": "Item datado: regra de comunicação automática (Circular 3.978/2020, art. 49, redação da Res. BCB 591/2026, vigente desde 1º/10/2026) conferida na apostila 03 §10.7 (revisão nov/2026). Revalidar perto da prova."
+ },
+ "ETI-V024": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V025": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V026": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V027": {
+  "status": "validada",
+  "obs": "Item datado: regra de comunicação automática (Circular 3.978/2020, art. 49, redação da Res. BCB 591/2026, vigente desde 1º/10/2026) conferida na apostila 03 §10.7 (revisão nov/2026). Revalidar perto da prova."
+ },
+ "ETI-V028": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V029": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V030": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V031": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V032": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V033": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V034": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V035": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V036": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V037": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V038": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V039": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V040": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V041": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V042": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V043": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V044": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V045": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V046": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V047": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V048": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V049": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V050": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V051": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V052": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V053": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V054": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V055": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V056": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V057": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V058": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V059": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V060": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V061": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V062": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V063": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V064": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V065": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V066": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V067": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V068": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V069": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V070": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V071": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V072": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V073": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V074": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V075": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V076": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V077": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V078": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V079": {
+  "status": "validada",
+  "obs": ""
+ },
+ "ETI-V080": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V001": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V002": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V003": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V004": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V005": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V006": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V007": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V008": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V009": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V010": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V011": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V012": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V013": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V014": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V015": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V016": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V017": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V018": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V019": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V020": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V021": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V022": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V023": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V024": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V025": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V026": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V027": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V028": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V029": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V030": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V031": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V032": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V033": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V034": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V035": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V036": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V037": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V038": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V039": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V040": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V041": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V042": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V043": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V044": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V045": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V046": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V047": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V048": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V049": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V050": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V051": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V052": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V053": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V054": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V055": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V056": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V057": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V058": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V059": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V060": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V061": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V062": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V063": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V064": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V065": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V066": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V067": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V068": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V069": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V070": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V071": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V072": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V073": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V074": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V075": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V076": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V077": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V078": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V079": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V080": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V081": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V082": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V083": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V084": {
+  "status": "validada",
+  "obs": "Corrigido pelo agente 5: o enunciado (\"o plural dos substantivos está correto em todos os itens\") tornava a alternativa \"cidadãos – capitães – mães\" também correta (mães é plural correto de mãe). O enunciado passou a nomear os singulares (cidadão, capitão, mão)."
+ },
+ "LP-V085": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V086": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V087": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V088": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V089": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V090": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V091": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V092": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V093": {
+  "status": "validada",
+  "obs": ""
+ },
+ "LP-V094": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V001": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V002": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V003": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V004": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V005": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V006": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V007": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V008": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V009": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V010": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V011": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V012": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V013": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V014": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V015": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V016": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V017": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V018": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V019": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V020": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V021": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V022": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V023": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V024": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V025": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V026": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V027": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V028": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V029": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V030": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V031": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V032": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V033": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V034": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V035": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V036": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V037": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V038": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V039": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V040": {
+  "status": "validada",
+  "obs": "Corrigido pelo agente 5: enunciado dizia \"anos de serviço (30, 40 e 50 meses)\"; passou a \"tempo de serviço\". Conta refeita (15:10:10 → R$ 3.000,00)."
+ },
+ "RLE-V041": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V042": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V043": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V044": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V045": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V046": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V047": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V048": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V049": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V050": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V051": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V052": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V053": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V054": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V055": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V056": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V057": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V058": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V059": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V060": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V061": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V062": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V063": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V064": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V065": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V066": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V067": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V068": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V069": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V070": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V071": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V072": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V073": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V074": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V075": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V076": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V077": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V078": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V079": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V080": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V081": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V082": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V083": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V084": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V085": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V086": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V087": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V088": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V089": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V090": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V091": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V092": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V093": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V094": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V095": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V096": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V097": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V098": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V099": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V100": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V101": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V102": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V103": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V104": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V105": {
+  "status": "validada",
+  "obs": ""
+ },
+ "RLE-V106": {
+  "status": "validada",
+  "obs": ""
+ }
+}
