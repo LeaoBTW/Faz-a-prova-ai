@@ -21,7 +21,7 @@ Validação do banco de questões do concurso **Banestes 2027 – Analista de TI
 | Validadas | 1.597 |
 | Corrigidas | 162 (3 variações na fonte + 159 importadas via `correcoes.js`) |
 | **Rejeitadas** | **5** (duplicatas importadas) |
-| **Dúvidas** | **1** (RLE-0011, falta a figura) |
+| **Dúvidas** | **0** (RLE-0011 resolvida na revisão final: a figura já estava anexada) |
 
 **O que foi conferido em cada grupo:**
 
@@ -88,7 +88,6 @@ Validação do banco de questões do concurso **Banestes 2027 – Analista de TI
 | Indentação perdida na importação | ESP-PROG-0004 (Python 2.7), ESP-PROG-0005 (JS), ESP-PROG-0008 (C++) | Código reindentado sem mudar o conteúdo. No Python, a indentação é sintática e sem ela o código nem compila. Executados: `[20, 1, 4, …, 81]`, `1/2/3/4/5/`, `0 2 4 6 8`. |
 | OWASP 2025 × 2021 | ESP-SEG-0020, ESP-SEG-0025 | Questões mantidas, com nota no comentário: o edital cita o OWASP Top 10:2021, e a nota lista a ordem A01–A10 da edição 2021. |
 | Rejeição | ESP-WEB-0021, ESP-WEB-0057, RLE-0149, ESP-PROG-0081, ESP-NUVEM-0003 | `status: "rejeitada"` com `validacao.obs` (ver §3). |
-| Dúvida | RLE-0011 | `status: "duvida"` com `validacao.obs` (ver §4). |
 
 Questões que receberam comentário:
 
@@ -125,7 +124,7 @@ Nenhuma variação foi rejeitada. O teste do app confirmou que as rejeitadas nã
 
 | id | Por quê | Recomendação |
 |---|---|---|
-| **RLE-0011** (Banestes 2024, Q16, curva S) | A questão depende do gráfico da prova, que não foi importado. Sem a figura ela não pode ser resolvida (o comentário avisa). | Anexar a imagem da prova no campo `imagem` (via `correcoes.js`) e voltar o status para `validada`. Até lá ela fica fora de simulados e treinos; continua no modo "prova real". |
+| **RLE-0011** (Banestes 2024, Q16, curva S) | Resolvida na revisão final: a figura `img/2024-q16-curva-s.png` já estava anexada; gabarito A conferido com o gráfico e comentário reescrito. | Nenhuma ação. |
 
 ### 4.2 Gabaritos oficiais discutíveis (mantidos, sem mudança)
 
