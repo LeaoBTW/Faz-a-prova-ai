@@ -7,6 +7,12 @@ window.CONFIGS = window.CONFIGS || {};
 window.CONFIGS["banestes-2027-analista-ti"] = {
   id: "banestes-2027-analista-ti",
   nome: "Banestes 2027 – Analista de TI (Desenvolvimento de Sistemas)",
+  nome_curto: "Banestes 2027 · Analista TI",
+  instituicao: "Banestes",
+  cargo: "Analista de TI – Desenvolvimento de Sistemas",
+  nome_curto: "Banestes 2027 · Analista TI",
+  instituicao: "Banestes",
+  cargo: "Analista de TI – Desenvolvimento de Sistemas",
   banca: "FCC",
   edital: "01/2027",
   data_prova: "2027-02-21",

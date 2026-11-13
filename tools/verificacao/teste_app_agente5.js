@@ -18,6 +18,10 @@ let falhas = 0; const ok = (c, msg) => { log((c ? 'OK   ' : 'FALHA') + ' ' + msg
   page.on('pageerror', e => erros.push('pageerror: ' + e.message));
   page.on('dialog', d => d.accept());
   await page.goto(URL);
+  // primeira visita: cria o perfil (perfil = pessoa + concurso)
+  await page.waitForSelector('#np-nome');
+  await page.fill('#np-nome', 'Teste');
+  await page.click('[data-acao="criar-perfil"]');
   await page.waitForSelector('[data-acao="simulado-completo"]');
 
   // --- correções e rejeitadas ---
