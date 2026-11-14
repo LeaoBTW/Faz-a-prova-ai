@@ -215,6 +215,11 @@
       }))
     ], "modo"));
     grade.appendChild(cartao([
+      h("h2", null, "Pontos fortes e fracos"),
+      h("p", null, "Veja em que " + (D.temEixos ? "matérias, eixos" : "matérias") + " e tópicos você mais erra e onde já manda bem, e treine direto o que precisa."),
+      botao("Ver desempenho", function () { ir("#/desempenho"); }, "", { "data-acao": "desempenho" })
+    ], "modo"));
+    grade.appendChild(cartao([
       h("h2", null, "Histórico e evolução"),
       h("p", null, p.simulados.length + " simulados feitos" + (p.simulados.length ? " · última nota " + FP.fmtNum(p.simulados[p.simulados.length - 1].resultado.nota) : "") + "."),
       botao("Ver histórico", function () { ir("#/historico"); }, "", { "data-acao": "historico" })
@@ -717,6 +722,207 @@
   /* ------------------------------------------------------------------ */
   /* Histórico e gráfico de evolução                                     */
   /* ------------------------------------------------------------------ */
+  /* ------------------------------------------------------------------ */
+  /* Pontos fortes e fracos                                              */
+  /* ------------------------------------------------------------------ */
+  // Agrega as estatísticas acumuladas do perfil (p.questoes: v/a/e por questão),
+  // que somam simulados, treinos e caderno de erros.
+  function agregarDesempenho(p) {
+    var porUnidade = {}, porTopico = {}, total = { a: 0, v: 0, vistas: 0 };
+    Object.keys(p.questoes).forEach(function (qid) {
+      var q = D.porId[qid], st = p.questoes[qid];
+      if (!q || D.anulada(q) || !st.v) return;
+      var u = D.unidade(q), kt = u + "\u0001" + q.topico;
+      var xu = porUnidade[u] || (porUnidade[u] = { a: 0, v: 0, vistas: 0 });
+      var xt = porTopico[kt] || (porTopico[kt] = { unidade: u, topico: q.topico, a: 0, v: 0, vistas: 0 });
+      [xu, xt, total].forEach(function (x) { x.a += st.a; x.v += st.v; x.vistas++; });
+    });
+    return { porUnidade: porUnidade, porTopico: porTopico, total: total };
+  }
+
+  function faixasDesempenho() {
+    var cfg = D.config;
+    var fraco = (cfg.nota_minima != null ? cfg.nota_minima : 6) * 10;
+    var forte = (cfg.meta_nota ? cfg.meta_nota[0] : 7.5) * 10;
+    return { fraco: fraco, forte: Math.max(forte, fraco) };
+  }
+
+  function situacao(pc, n, minimo, fx) {
+    if (n < minimo) return h("span", { class: "tag leve" }, "poucos dados");
+    if (pc < fx.fraco) return h("span", { class: "tag erro" }, "fraco");
+    if (pc >= fx.forte) return h("span", { class: "tag ok" }, "forte");
+    return h("span", { class: "tag alerta" }, "regular");
+  }
+
+  function treinarDireto(unidade, topico) {
+    var ids = FP.sorteio.treino({ unidade: unidade, topico: topico || null, certoErrado: true, limite: 10 }, S.perfil());
+    if (!ids.length) { FP.aviso("Nenhuma questão disponível para treino aqui."); return; }
+    estudo = { modo: "treino", desc: [unidade, topico].filter(Boolean).join(" › "), fila: ids, idx: 0, resp: {}, inicio: new Date().toISOString() };
+    ir("#/estudo");
+  }
+
+  UI.desempenho = function () {
+    limpar("Pontos fortes e fracos");
+    var p = S.perfil();
+    var R = main();
+    var fx = faixasDesempenho();
+    var ag = agregarDesempenho(p);
+    R.appendChild(titulo("Pontos fortes e fracos", "Seu aproveitamento por " + (D.temEixos ? "matéria, eixo" : "matéria") + " e tópico, somando simulados, treinos e caderno de erros."));
+
+    if (!ag.total.v) {
+      R.appendChild(cartao([
+        h("h2", null, "Ainda não há respostas neste perfil"),
+        h("p", null, "Faça um simulado ou alguns treinos. Conforme você responde, esta tela mostra o que você mais erra e o que já domina."),
+        h("div", { class: "acoes" }, [
+          botao("Mini-simulado de 20", function () { iniciarSimulado("mini", 20); }, "primario"),
+          botao("Treinar", function () { ir("#/treino"); })
+        ])
+      ], "vazio-desempenho"));
+      return;
+    }
+
+    var minimoSel = h("select", { id: "d-minimo", "aria-label": "Mínimo de respostas" }, [1, 3, 5, 10].map(function (n) {
+      return h("option", { value: n }, "mín. " + n + (n === 1 ? " resposta" : " respostas"));
+    }));
+    var minimo = 3;
+    try { minimo = +(sessionStorage.getItem("fazaprova:desempenho:minimo") || 3); } catch (e) { /* sem storage */ }
+    minimoSel.value = String(minimo);
+    var corpo = h("div");
+    minimoSel.onchange = function () {
+      try { sessionStorage.setItem("fazaprova:desempenho:minimo", minimoSel.value); } catch (e) { /* sem storage */ }
+      desenhar();
+    };
+
+    var pcGeral = FP.pct(ag.total.a, ag.total.v);
+    var usaveis = D.todas.filter(function (q) { return D.usavelTreino(q) && !D.anulada(q); }).length;
+    R.appendChild(cartao([
+      h("div", { class: "resumo-desempenho" }, [
+        h("div", null, [h("strong", { class: "numero-grande" }, pcGeral + "%"), h("span", { class: "mudo pequeno" }, "acerto geral (" + ag.total.a + "/" + ag.total.v + " respostas)")]),
+        h("div", null, [h("strong", { class: "numero-grande" }, String(ag.total.vistas)), h("span", { class: "mudo pequeno" }, "de " + usaveis + " questões já vistas")]),
+        h("div", null, [h("strong", { class: "numero-grande" }, String(p.simulados.length)), h("span", { class: "mudo pequeno" }, "simulados · " + p.treinos.length + " treinos")])
+      ]),
+      h("p", { class: "mudo pequeno" }, "Fraco: abaixo de " + fx.fraco + "% (nota mínima do edital). Forte: " + fx.forte + "% ou mais (meta de nota). Entre os dois: regular."),
+      h("div", { class: "linha-form" }, [h("span", { class: "pequeno" }, "Classificar só itens com pelo menos"), minimoSel])
+    ]));
+    R.appendChild(corpo);
+
+    function desenhar() {
+      corpo.innerHTML = "";
+      var min = +minimoSel.value;
+
+      // Por matéria / eixo, ordenado pelos pontos que o aproveitamento atual custaria na prova.
+      var linhas = D.unidades.map(function (u) {
+        var x = ag.porUnidade[u.nome] || { a: 0, v: 0, vistas: 0 };
+        var b = D.bloco(u.bloco);
+        var pc = x.v ? (100 * x.a) / x.v : null;
+        var banco = D.todas.filter(function (q) { return D.unidade(q) === u.nome && D.usavelTreino(q) && !D.anulada(q); }).length;
+        var perda = pc == null ? null : (1 - pc / 100) * u.questoes * (b ? b.ppq : 1);
+        return { u: u, x: x, pc: pc, banco: banco, perda: perda };
+      });
+      linhas.sort(function (A, B) {
+        var a = A.x.v >= min ? A.perda : -1, bb = B.x.v >= min ? B.perda : -1;
+        return bb - a || B.u.questoes - A.u.questoes;
+      });
+      var tb = h("table", { class: "tabela tabela-desempenho" }, [h("thead", null, h("tr", null, [
+        h("th", null, D.temEixos ? "Matéria / eixo" : "Matéria"), h("th", null, "Acertos"), h("th", null, "%"), h("th", { class: "col-barra" }, ""),
+        h("th", null, "Situação"), h("th", { title: "Questões diferentes já vistas / disponíveis no banco" }, "Vistas"),
+        h("th", { title: "Pontos que você perderia na prova com esse aproveitamento (questões da unidade × pontos por questão × % de erro)" }, "Perda estimada"), h("th", null, "")
+      ]))]);
+      var body = h("tbody");
+      linhas.forEach(function (l) {
+        var pcR = l.pc == null ? null : Math.round(l.pc);
+        body.appendChild(h("tr", { "data-unidade": l.u.nome }, [
+          h("td", null, [l.u.nome, h("span", { class: "mudo pequeno" }, " · " + l.u.questoes + " q. na prova")]),
+          h("td", null, l.x.v ? l.x.a + "/" + l.x.v : "–"),
+          h("td", null, pcR == null ? "–" : pcR + "%"),
+          h("td", { class: "col-barra" }, pcR == null ? "" : FP.barra(pcR)),
+          h("td", null, l.x.v ? situacao(l.pc, l.x.v, min, fx) : h("span", { class: "tag leve" }, "não visto")),
+          h("td", null, l.x.vistas + "/" + l.banco),
+          h("td", null, l.perda == null ? "–" : FP.fmtNum(l.perda, 1) + " pt"),
+          h("td", null, botao("Treinar", function () { treinarDireto(l.u.nome); }, "btn-mini", { "data-acao": "treinar-unidade" }))
+        ]));
+      });
+      tb.appendChild(body);
+      corpo.appendChild(cartao([
+        h("h2", null, "Por " + (D.temEixos ? "matéria e eixo" : "matéria")),
+        h("p", { class: "mudo pequeno" }, "Ordenado por perda estimada: no topo está o que mais custa pontos na prova hoje, considerando peso e número de questões."),
+        h("div", { class: "tabela-wrap" }, tb)
+      ], "cartao-unidades"));
+
+      // Tópicos
+      var tops = Object.keys(ag.porTopico).map(function (k) {
+        var t = ag.porTopico[k];
+        t.pc = (100 * t.a) / t.v;
+        return t;
+      }).filter(function (t) { return t.v >= min; });
+      var fracos = tops.filter(function (t) { return t.pc < fx.forte; })
+        .sort(function (a, b) { return a.pc - b.pc || b.v - a.v; });
+      var fortes = tops.filter(function (t) { return t.pc >= fx.forte; })
+        .sort(function (a, b) { return b.pc - a.pc || b.v - a.v; });
+
+      function listaTopicos(lista, id, vazio) {
+        var limite = 10;
+        var caixa = h("div", { id: id });
+        function render() {
+          caixa.innerHTML = "";
+          if (!lista.length) { caixa.appendChild(h("p", { class: "mudo" }, vazio)); return; }
+          var tb2 = h("table", { class: "tabela" }, [h("thead", null, h("tr", null, [h("th", null, "Tópico"), h("th", null, "Acertos"), h("th", null, "%"), h("th", { class: "col-barra" }, ""), h("th", null, "Situação"), h("th", null, "")]))]);
+          var b2 = h("tbody");
+          lista.slice(0, limite).forEach(function (t) {
+            var pc = Math.round(t.pc);
+            b2.appendChild(h("tr", { class: "linha-topico" }, [
+              h("td", null, [h("span", { class: "mudo pequeno" }, t.unidade + " › "), t.topico]),
+              h("td", null, t.a + "/" + t.v), h("td", null, pc + "%"), h("td", { class: "col-barra" }, FP.barra(pc)),
+              h("td", null, situacao(t.pc, t.v, min, fx)),
+              h("td", null, botao("Treinar", function () { treinarDireto(t.unidade, t.topico); }, "btn-mini", { "data-acao": "treinar-topico" }))
+            ]));
+          });
+          tb2.appendChild(b2);
+          caixa.appendChild(h("div", { class: "tabela-wrap" }, tb2));
+          if (lista.length > limite) caixa.appendChild(botao("Mostrar todos (" + lista.length + ")", function () { limite = lista.length; render(); }, "btn-mini"));
+        }
+        render();
+        return caixa;
+      }
+
+      corpo.appendChild(cartao([
+        h("h2", null, "Tópicos para reforçar"),
+        h("p", { class: "mudo pequeno" }, "Abaixo de " + fx.forte + "%, do pior para o melhor. O botão Treinar abre 10 questões do tópico, começando pelas que você nunca viu."),
+        listaTopicos(fracos, "topicos-fracos", "Nenhum tópico abaixo de " + fx.forte + "% com pelo menos " + min + (min === 1 ? " resposta." : " respostas."))
+      ], "cartao-fracos"));
+      corpo.appendChild(cartao([
+        h("h2", null, "Onde você está mandando bem"),
+        h("p", { class: "mudo pequeno" }, fx.forte + "% ou mais de acerto."),
+        listaTopicos(fortes, "topicos-fortes", "Ainda nenhum tópico com " + fx.forte + "% ou mais e pelo menos " + min + (min === 1 ? " resposta." : " respostas."))
+      ], "cartao-fortes"));
+
+      // O que ainda não foi visto
+      var naoVistos = [];
+      D.unidades.forEach(function (u) {
+        var t = D.topicos(u.nome);
+        Object.keys(t).sort().forEach(function (top) {
+          if (!ag.porTopico[u.nome + "\u0001" + top]) {
+            var n = D.todas.filter(function (q) { return D.unidade(q) === u.nome && q.topico === top && D.usavelTreino(q) && !D.anulada(q); }).length;
+            if (n) naoVistos.push({ unidade: u.nome, topico: top, n: n });
+          }
+        });
+      });
+      if (naoVistos.length) {
+        var lista = h("ul", { class: "lista-nao-vistos" });
+        var porU = {};
+        naoVistos.forEach(function (t) { (porU[t.unidade] = porU[t.unidade] || []).push(t); });
+        Object.keys(porU).forEach(function (u) {
+          lista.appendChild(h("li", null, [h("strong", null, u + ": ")].concat(porU[u].map(function (t, i) {
+            return h("span", null, [i ? ", " : "", h("a", { href: "#/desempenho", onclick: function (ev) { ev.preventDefault(); treinarDireto(t.unidade, t.topico); } }, t.topico), h("span", { class: "mudo" }, " (" + t.n + ")")]);
+          }))));
+        });
+        var det = h("details", { class: "nao-vistos" }, [h("summary", null, naoVistos.length + " tópicos que você ainda não treinou"), lista]);
+        corpo.appendChild(cartao([h("h2", null, "Ainda sem respostas"), h("p", { class: "mudo pequeno" }, "Clique num tópico para treinar 10 questões dele."), det]));
+      }
+    }
+    desenhar();
+  };
+
   UI.historico = function () {
     limpar("Histórico");
     var p = S.perfil();
@@ -992,6 +1198,7 @@
       case "estudo": return UI.estudo();
       case "caderno": return UI.caderno();
       case "historico": return UI.historico();
+      case "desempenho": return UI.desempenho();
       case "banco": return UI.banco();
       case "dados": return UI.dados();
       case "novo-perfil": return UI.novoPerfil();
