@@ -105,10 +105,11 @@ a { color: var(--acento); }
 .marca { font-weight: 800; font-size: 18px; color: var(--texto); text-decoration: none; letter-spacing: -.01em; }
 .marca span { color: var(--acento); }
 .menu { display: flex; gap: 2px; flex-wrap: wrap; flex: 1; }
-.menu a { padding: 6px 10px; border-radius: 8px; color: var(--texto-2); text-decoration: none; font-size: 14px; }
+.menu a { padding: 6px 8px; border-radius: 8px; color: var(--texto-2); text-decoration: none; font-size: 14px; }
 .menu a:hover { background: var(--superficie-2); }
 .menu a.ativo { background: var(--acento-suave); color: var(--acento-forte); font-weight: 600; }
 .topo-ctrl { display: flex; gap: 8px; align-items: center; }
+.topo-ctrl select { max-width: 220px; text-overflow: ellipsis; }
 select, input[type="text"] {
   font: inherit; font-size: 14px; color: var(--texto); background: var(--superficie);
   border: 1px solid var(--borda); border-radius: 8px; padding: 6px 8px; max-width: 100%;
@@ -333,3 +334,14 @@ h2 { font-size: 18px; margin: 0 0 8px; }
 .cartao.concurso { display: flex; flex-direction: column; gap: 4px; text-align: left; cursor: pointer; margin: 0; font: inherit; color: inherit; width: 100%; }
 .cartao.concurso.ativo { border-color: var(--acento); background: var(--acento-suave); box-shadow: inset 0 0 0 1px var(--acento); }
 .cartao.concurso:focus-visible { outline: 2px solid var(--acento); outline-offset: 2px; }
+
+/* Pontos fortes e fracos */
+.tag.ok { background: var(--ok-suave); color: var(--ok); }
+.resumo-desempenho { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; margin-bottom: 8px; }
+.resumo-desempenho > div { display: flex; flex-direction: column; }
+.numero-grande { font-size: 28px; font-weight: 700; line-height: 1.2; font-variant-numeric: tabular-nums; }
+.tabela-desempenho td:first-child { min-width: 180px; }
+.tabela td .tag { white-space: nowrap; }
+.lista-nao-vistos { margin: 8px 0 0; padding-left: 18px; }
+.lista-nao-vistos li { margin-bottom: 6px; line-height: 1.5; }
+.nao-vistos summary { cursor: pointer; font-weight: 600; }
