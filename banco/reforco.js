@@ -10897,3 +10897,1576 @@ BANCO.push({
   },
   "versao": 1
 });
+
+BANCO.push({
+  "id": "ESP-NUVEM-V026",
+  "concursos": [
+    "banestes-2027-analista-ti"
+  ],
+  "banca_estilo": "FCC",
+  "bloco": "especificos",
+  "materia": "Desenvolvimento de Sistemas",
+  "eixo": "Computação em nuvem",
+  "topico": "Inglês técnico",
+  "ref_apostila": {
+    "modulo": "06",
+    "secao": "19",
+    "titulo": "Inglês técnico",
+    "link": "[[06 - Engenharia de Software, Requisitos e Desenvolvimento#19. Inglês técnico]]"
+  },
+  "origem": {
+    "tipo": "simulado",
+    "fonte": "Inédita de reforço (nov/2026) – Apostila 06 §19",
+    "id_pai": null,
+    "anulada": false
+  },
+  "formato": "multipla_5",
+  "dificuldade": 2,
+  "texto_base": null,
+  "enunciado": "Considere o texto a seguir.\n\n> *A service level agreement (SLA) defines the level of service a customer can expect from a provider. If the provider fails to meet the agreed uptime, the customer is usually entitled to service credits rather than a cash refund.*\n\nDe acordo com o texto, quando o provedor não cumpre a disponibilidade acordada, o cliente normalmente",
+  "imagem": null,
+  "alternativas": {
+    "A": "pode escolher entre créditos de serviço e reembolso em dinheiro.",
+    "B": "tem direito a créditos de serviço, e não a reembolso em dinheiro.",
+    "C": "perde o direito a qualquer compensação.",
+    "D": "deve pagar uma taxa adicional ao provedor.",
+    "E": "recebe reembolso em dinheiro, e não créditos de serviço."
+  },
+  "gabarito": "B",
+  "comentario": "**Gabarito: B.** *Fails to meet* significa \"deixa de cumprir\"; *uptime* é o tempo em que o serviço fica disponível; *is entitled to* é \"tem direito a\"; *rather than* é \"em vez de\". Logo, o cliente tem direito a créditos de serviço em vez de reembolso em dinheiro.\n\nRevisar: Apostila 06, §19.",
+  "tags": [
+    "reforco",
+    "ingles"
+  ],
+  "embaralhavel": true,
+  "status": "validada",
+  "validacao": {
+    "por": "autor",
+    "em": "2026-11-16",
+    "obs": "Inédita de reforço; conferida pelo autor (códigos e SQL conferidos por execução)."
+  },
+  "versao": 1
+});
+
+BANCO.push({
+  "id": "ESP-NUVEM-V027",
+  "concursos": [
+    "banestes-2027-analista-ti"
+  ],
+  "banca_estilo": "FCC",
+  "bloco": "especificos",
+  "materia": "Desenvolvimento de Sistemas",
+  "eixo": "Computação em nuvem",
+  "topico": "Inglês técnico",
+  "ref_apostila": {
+    "modulo": "06",
+    "secao": "19",
+    "titulo": "Inglês técnico",
+    "link": "[[06 - Engenharia de Software, Requisitos e Desenvolvimento#19. Inglês técnico]]"
+  },
+  "origem": {
+    "tipo": "simulado",
+    "fonte": "Inédita de reforço (nov/2026) – Apostila 06 §19",
+    "id_pai": null,
+    "anulada": false
+  },
+  "formato": "multipla_5",
+  "dificuldade": 2,
+  "texto_base": null,
+  "enunciado": "A tradução adequada da frase *\"The current release is actually slower than the previous one.\"* é:",
+  "imagem": null,
+  "alternativas": {
+    "A": "\"A versão atual foi, na verdade, a mais lenta de todas.\"",
+    "B": "\"A versão corrente é atualmente mais lenta que a prévia.\"",
+    "C": "\"A versão atual é atualmente mais rápida que a anterior.\"",
+    "D": "\"A versão atual é, na verdade, mais lenta que a anterior.\"",
+    "E": "\"A liberação da corrente é, na verdade, mais lenta que a anterior.\""
+  },
+  "gabarito": "D",
+  "comentario": "**Gabarito: D.** Há dois falsos cognatos. ***Actually*** significa \"na verdade\", \"de fato\", e não \"atualmente\" (que é *currently*). ***Current*** significa \"atual\". *Release* é \"versão\" ou \"lançamento\"; *slower than* é comparativo: \"mais lenta que\".\n\nRevisar: Apostila 06, §19.",
+  "tags": [
+    "reforco",
+    "ingles"
+  ],
+  "embaralhavel": true,
+  "status": "validada",
+  "validacao": {
+    "por": "autor",
+    "em": "2026-11-16",
+    "obs": "Inédita de reforço; conferida pelo autor (códigos e SQL conferidos por execução)."
+  },
+  "versao": 1
+});
+
+BANCO.push({
+  "id": "ESP-NUVEM-V028",
+  "concursos": [
+    "banestes-2027-analista-ti"
+  ],
+  "banca_estilo": "FCC",
+  "bloco": "especificos",
+  "materia": "Desenvolvimento de Sistemas",
+  "eixo": "Computação em nuvem",
+  "topico": "Inglês técnico",
+  "ref_apostila": {
+    "modulo": "06",
+    "secao": "19",
+    "titulo": "Inglês técnico",
+    "link": "[[06 - Engenharia de Software, Requisitos e Desenvolvimento#19. Inglês técnico]]"
+  },
+  "origem": {
+    "tipo": "simulado",
+    "fonte": "Inédita de reforço (nov/2026) – Apostila 06 §19",
+    "id_pai": null,
+    "anulada": false
+  },
+  "formato": "multipla_5",
+  "dificuldade": 2,
+  "texto_base": null,
+  "enunciado": "Na frase *\"Data at rest must be encrypted, **whereas** data in transit should be protected by TLS.\"*, o conectivo ***whereas*** expressa",
+  "imagem": null,
+  "alternativas": {
+    "A": "contraste entre as duas orações.",
+    "B": "causa da primeira oração.",
+    "C": "condição para a primeira oração.",
+    "D": "conclusão da primeira oração.",
+    "E": "finalidade da primeira oração."
+  },
+  "gabarito": "A",
+  "comentario": "**Gabarito: A.** *Whereas* equivale a \"ao passo que\", \"enquanto\": opõe duas informações. A frase diz que dados em repouso (*at rest*) devem ser cifrados, ao passo que dados em trânsito (*in transit*) devem ser protegidos por TLS. Causa seria *because*; condição, *if*; conclusão, *therefore*; finalidade, *so that*.\n\nRevisar: Apostila 06, §19.",
+  "tags": [
+    "reforco",
+    "ingles"
+  ],
+  "embaralhavel": true,
+  "status": "validada",
+  "validacao": {
+    "por": "autor",
+    "em": "2026-11-16",
+    "obs": "Inédita de reforço; conferida pelo autor (códigos e SQL conferidos por execução)."
+  },
+  "versao": 1
+});
+
+BANCO.push({
+  "id": "ESP-NUVEM-V029",
+  "concursos": [
+    "banestes-2027-analista-ti"
+  ],
+  "banca_estilo": "FCC",
+  "bloco": "especificos",
+  "materia": "Desenvolvimento de Sistemas",
+  "eixo": "Computação em nuvem",
+  "topico": "Inglês técnico",
+  "ref_apostila": {
+    "modulo": "06",
+    "secao": "19",
+    "titulo": "Inglês técnico",
+    "link": "[[06 - Engenharia de Software, Requisitos e Desenvolvimento#19. Inglês técnico]]"
+  },
+  "origem": {
+    "tipo": "simulado",
+    "fonte": "Inédita de reforço (nov/2026) – Apostila 06 §19",
+    "id_pai": null,
+    "anulada": false
+  },
+  "formato": "multipla_5",
+  "dificuldade": 1,
+  "texto_base": null,
+  "enunciado": "Em um comunicado técnico, lê-se: *\"The legacy system will be **phased out** by the end of the year.\"* A expressão ***phased out*** indica que o sistema legado será",
+  "imagem": null,
+  "alternativas": {
+    "A": "terceirizado.",
+    "B": "duplicado em outro ambiente.",
+    "C": "desativado gradualmente.",
+    "D": "atualizado para uma nova fase.",
+    "E": "testado em fases."
+  },
+  "gabarito": "C",
+  "comentario": "**Gabarito: C.** *To phase out* é retirar de uso **aos poucos**, por etapas. *Legacy system* é \"sistema legado\"; *by the end of the year* é \"até o fim do ano\".\n\nRevisar: Apostila 06, §19.",
+  "tags": [
+    "reforco",
+    "ingles"
+  ],
+  "embaralhavel": true,
+  "status": "validada",
+  "validacao": {
+    "por": "autor",
+    "em": "2026-11-16",
+    "obs": "Inédita de reforço; conferida pelo autor (códigos e SQL conferidos por execução)."
+  },
+  "versao": 1
+});
+
+BANCO.push({
+  "id": "ESP-NUVEM-V030",
+  "concursos": [
+    "banestes-2027-analista-ti"
+  ],
+  "banca_estilo": "FCC",
+  "bloco": "especificos",
+  "materia": "Desenvolvimento de Sistemas",
+  "eixo": "Computação em nuvem",
+  "topico": "Inglês técnico",
+  "ref_apostila": {
+    "modulo": "06",
+    "secao": "19",
+    "titulo": "Inglês técnico",
+    "link": "[[06 - Engenharia de Software, Requisitos e Desenvolvimento#19. Inglês técnico]]"
+  },
+  "origem": {
+    "tipo": "simulado",
+    "fonte": "Inédita de reforço (nov/2026) – Apostila 06 §19",
+    "id_pai": null,
+    "anulada": false
+  },
+  "formato": "multipla_5",
+  "dificuldade": 1,
+  "texto_base": null,
+  "enunciado": "Uma política de continuidade determina: *\"Backups **must not** be stored in the same region as the primary data.\"* De acordo com a frase, armazenar as cópias de segurança na mesma região dos dados primários é",
+  "imagem": null,
+  "alternativas": {
+    "A": "opcional.",
+    "B": "recomendado.",
+    "C": "obrigatório.",
+    "D": "impossível.",
+    "E": "proibido."
+  },
+  "gabarito": "E",
+  "comentario": "**Gabarito: E.** *Must not* expressa **proibição**. Não se confunde com *need not* ou *do not have to*, que indicam ausência de obrigação (algo opcional). *Should* indicaria recomendação; *must*, obrigação; *cannot*, impossibilidade.\n\nRevisar: Apostila 06, §19.",
+  "tags": [
+    "reforco",
+    "ingles"
+  ],
+  "embaralhavel": true,
+  "status": "validada",
+  "validacao": {
+    "por": "autor",
+    "em": "2026-11-16",
+    "obs": "Inédita de reforço; conferida pelo autor (códigos e SQL conferidos por execução)."
+  },
+  "versao": 1
+});
+
+BANCO.push({
+  "id": "ESP-NUVEM-V031",
+  "concursos": [
+    "banestes-2027-analista-ti"
+  ],
+  "banca_estilo": "FCC",
+  "bloco": "especificos",
+  "materia": "Desenvolvimento de Sistemas",
+  "eixo": "Computação em nuvem",
+  "topico": "Rancher: gerenciamento de clusters Kubernetes",
+  "ref_apostila": {
+    "modulo": "06",
+    "secao": "12",
+    "titulo": "DevOps, CI/CD, IaC, contêineres e Git",
+    "link": "[[06 - Engenharia de Software, Requisitos e Desenvolvimento#12. DevOps, CI/CD, IaC, contêineres e Git]]"
+  },
+  "origem": {
+    "tipo": "simulado",
+    "fonte": "Inédita de reforço (nov/2026) – Apostila 06 §12",
+    "id_pai": null,
+    "anulada": false
+  },
+  "formato": "multipla_5",
+  "dificuldade": 2,
+  "texto_base": null,
+  "enunciado": "Quanto aos clusters Kubernetes que o Rancher é capaz de administrar, é correto afirmar que ele gerencia",
+  "imagem": null,
+  "alternativas": {
+    "A": "apenas clusters de um único provedor de nuvem por instalação.",
+    "B": "clusters criados por ele próprio e também clusters já existentes, que são importados, inclusive os de serviços gerenciados de provedores de nuvem.",
+    "C": "apenas clusters Docker Swarm, convertidos para Kubernetes.",
+    "D": "apenas o cluster em que o próprio Rancher está instalado.",
+    "E": "apenas clusters criados por ele próprio, em servidores físicos."
+  },
+  "gabarito": "B",
+  "comentario": "**Gabarito: B.** O Rancher provisiona clusters (por exemplo, com RKE2 e K3s), cria clusters em serviços gerenciados de nuvem e **importa** clusters Kubernetes existentes. Todos passam a ser administrados pela mesma interface e pela mesma API.\n\nRevisar: Apostila 06, §12.",
+  "tags": [
+    "reforco"
+  ],
+  "embaralhavel": true,
+  "status": "validada",
+  "validacao": {
+    "por": "autor",
+    "em": "2026-11-16",
+    "obs": "Inédita de reforço; conferida pelo autor (códigos e SQL conferidos por execução)."
+  },
+  "versao": 1
+});
+
+BANCO.push({
+  "id": "ESP-NUVEM-V032",
+  "concursos": [
+    "banestes-2027-analista-ti"
+  ],
+  "banca_estilo": "FCC",
+  "bloco": "especificos",
+  "materia": "Desenvolvimento de Sistemas",
+  "eixo": "Computação em nuvem",
+  "topico": "Rancher: gerenciamento de clusters Kubernetes",
+  "ref_apostila": {
+    "modulo": "06",
+    "secao": "12",
+    "titulo": "DevOps, CI/CD, IaC, contêineres e Git",
+    "link": "[[06 - Engenharia de Software, Requisitos e Desenvolvimento#12. DevOps, CI/CD, IaC, contêineres e Git]]"
+  },
+  "origem": {
+    "tipo": "simulado",
+    "fonte": "Inédita de reforço (nov/2026) – Apostila 06 §12",
+    "id_pai": null,
+    "anulada": false
+  },
+  "formato": "multipla_5",
+  "dificuldade": 2,
+  "texto_base": null,
+  "enunciado": "Para padronizar o acesso de usuários a vários clusters Kubernetes, o Rancher",
+  "imagem": null,
+  "alternativas": {
+    "A": "armazena as senhas dos usuários em texto claro em cada nó.",
+    "B": "exige a criação manual de contas separadas em cada cluster.",
+    "C": "substitui o RBAC do Kubernetes por listas de endereços IP autorizados.",
+    "D": "integra-se a provedores de identidade externos, como Active Directory, LDAP e SAML, e aplica o controle de acesso de forma centralizada.",
+    "E": "dispensa a autenticação dos usuários, confiando na rede interna."
+  },
+  "gabarito": "D",
+  "comentario": "**Gabarito: D.** A **autenticação centralizada** é um dos principais recursos do Rancher: o usuário entra uma vez, com a identidade corporativa, e suas permissões são propagadas aos clusters por meio do **RBAC** do próprio Kubernetes.\n\nRevisar: Apostila 06, §12.",
+  "tags": [
+    "reforco"
+  ],
+  "embaralhavel": true,
+  "status": "validada",
+  "validacao": {
+    "por": "autor",
+    "em": "2026-11-16",
+    "obs": "Inédita de reforço; conferida pelo autor (códigos e SQL conferidos por execução)."
+  },
+  "versao": 1
+});
+
+BANCO.push({
+  "id": "ESP-NUVEM-V033",
+  "concursos": [
+    "banestes-2027-analista-ti"
+  ],
+  "banca_estilo": "FCC",
+  "bloco": "especificos",
+  "materia": "Desenvolvimento de Sistemas",
+  "eixo": "Computação em nuvem",
+  "topico": "Rancher: gerenciamento de clusters Kubernetes",
+  "ref_apostila": {
+    "modulo": "06",
+    "secao": "12",
+    "titulo": "DevOps, CI/CD, IaC, contêineres e Git",
+    "link": "[[06 - Engenharia de Software, Requisitos e Desenvolvimento#12. DevOps, CI/CD, IaC, contêineres e Git]]"
+  },
+  "origem": {
+    "tipo": "simulado",
+    "fonte": "Inédita de reforço (nov/2026) – Apostila 06 §12",
+    "id_pai": null,
+    "anulada": false
+  },
+  "formato": "multipla_5",
+  "dificuldade": 2,
+  "texto_base": null,
+  "enunciado": "No Rancher, as permissões podem ser atribuídas em três níveis. Um desenvolvedor que deve administrar **apenas as aplicações de sua equipe**, em um conjunto de *namespaces* de um cluster, deve receber um papel de",
+  "imagem": null,
+  "alternativas": {
+    "A": "projeto.",
+    "B": "cluster, como proprietário do cluster.",
+    "C": "administrador global.",
+    "D": "nó.",
+    "E": "catálogo."
+  },
+  "gabarito": "A",
+  "comentario": "**Gabarito: A.** Níveis de permissão do Rancher: **global** (toda a instalação), **cluster** (um cluster inteiro) e **projeto** (um grupo de *namespaces*). Pelo princípio do menor privilégio, quem cuida só das aplicações de uma equipe recebe papel de projeto.\n\nRevisar: Apostila 06, §12.",
+  "tags": [
+    "reforco"
+  ],
+  "embaralhavel": true,
+  "status": "validada",
+  "validacao": {
+    "por": "autor",
+    "em": "2026-11-16",
+    "obs": "Inédita de reforço; conferida pelo autor (códigos e SQL conferidos por execução)."
+  },
+  "versao": 1
+});
+
+BANCO.push({
+  "id": "ESP-NUVEM-V034",
+  "concursos": [
+    "banestes-2027-analista-ti"
+  ],
+  "banca_estilo": "FCC",
+  "bloco": "especificos",
+  "materia": "Desenvolvimento de Sistemas",
+  "eixo": "Computação em nuvem",
+  "topico": "Rancher: gerenciamento de clusters Kubernetes",
+  "ref_apostila": {
+    "modulo": "06",
+    "secao": "12",
+    "titulo": "DevOps, CI/CD, IaC, contêineres e Git",
+    "link": "[[06 - Engenharia de Software, Requisitos e Desenvolvimento#12. DevOps, CI/CD, IaC, contêineres e Git]]"
+  },
+  "origem": {
+    "tipo": "simulado",
+    "fonte": "Inédita de reforço (nov/2026) – Apostila 06 §12",
+    "id_pai": null,
+    "anulada": false
+  },
+  "formato": "multipla_5",
+  "dificuldade": 3,
+  "texto_base": null,
+  "enunciado": "O recurso de entrega contínua incorporado ao Rancher, baseado em **GitOps**, que aplica a muitos clusters as configurações mantidas em repositórios Git, é o",
+  "imagem": null,
+  "alternativas": {
+    "A": "Harvester.",
+    "B": "Istio.",
+    "C": "Fleet.",
+    "D": "Helm.",
+    "E": "Longhorn."
+  },
+  "gabarito": "C",
+  "comentario": "**Gabarito: C.** O **Fleet** observa repositórios Git e mantém os clusters no estado declarado neles. **Helm** é o gerenciador de pacotes do Kubernetes; **Longhorn** é armazenamento distribuído em blocos; **Harvester** é uma plataforma de virtualização; **Istio** é uma malha de serviços.\n\nRevisar: Apostila 06, §12.",
+  "tags": [
+    "reforco"
+  ],
+  "embaralhavel": true,
+  "status": "validada",
+  "validacao": {
+    "por": "autor",
+    "em": "2026-11-16",
+    "obs": "Inédita de reforço; conferida pelo autor (códigos e SQL conferidos por execução)."
+  },
+  "versao": 1
+});
+
+BANCO.push({
+  "id": "ESP-NUVEM-V035",
+  "concursos": [
+    "banestes-2027-analista-ti"
+  ],
+  "banca_estilo": "FCC",
+  "bloco": "especificos",
+  "materia": "Desenvolvimento de Sistemas",
+  "eixo": "Computação em nuvem",
+  "topico": "Rancher: gerenciamento de clusters Kubernetes",
+  "ref_apostila": {
+    "modulo": "06",
+    "secao": "12",
+    "titulo": "DevOps, CI/CD, IaC, contêineres e Git",
+    "link": "[[06 - Engenharia de Software, Requisitos e Desenvolvimento#12. DevOps, CI/CD, IaC, contêineres e Git]]"
+  },
+  "origem": {
+    "tipo": "simulado",
+    "fonte": "Inédita de reforço (nov/2026) – Apostila 06 §12",
+    "id_pai": null,
+    "anulada": false
+  },
+  "formato": "multipla_5",
+  "dificuldade": 2,
+  "texto_base": null,
+  "enunciado": "Na arquitetura do Rancher, o servidor de gerenciamento",
+  "imagem": null,
+  "alternativas": {
+    "A": "é executado dentro de cada contêiner das aplicações, como biblioteca.",
+    "B": "substitui o servidor de API do Kubernetes em cada cluster administrado.",
+    "C": "acessa os nós apenas por conexões Telnet iniciadas a cada comando.",
+    "D": "precisa ser instalado em todos os nós de todos os clusters.",
+    "E": "é executado sobre um cluster Kubernetes e se comunica com os clusters administrados por meio de agentes instalados neles."
+  },
+  "gabarito": "E",
+  "comentario": "**Gabarito: E.** O Rancher roda em um cluster de gerenciamento. Em cada cluster administrado (*downstream*) é instalado um **agente**, que abre a comunicação com o servidor. O plano de controle de cada cluster continua existindo: o Rancher fala com ele, não o substitui.\n\nRevisar: Apostila 06, §12.",
+  "tags": [
+    "reforco"
+  ],
+  "embaralhavel": true,
+  "status": "validada",
+  "validacao": {
+    "por": "autor",
+    "em": "2026-11-16",
+    "obs": "Inédita de reforço; conferida pelo autor (códigos e SQL conferidos por execução)."
+  },
+  "versao": 1
+});
+
+BANCO.push({
+  "id": "ESP-ARQ-V058",
+  "concursos": [
+    "banestes-2027-analista-ti"
+  ],
+  "banca_estilo": "FCC",
+  "bloco": "especificos",
+  "materia": "Desenvolvimento de Sistemas",
+  "eixo": "Arquitetura de sistemas",
+  "topico": "Arquiteturas cloud-native",
+  "ref_apostila": {
+    "modulo": "07",
+    "secao": "2",
+    "titulo": "Nuvem na prática: responsabilidade compartilhada, elasticidade, alta disponibilidade, serverless, custos e nuvem no setor bancário",
+    "link": "[[07 - Nuvem, TypeScript e Front-end moderno#2. Nuvem na prática: responsabilidade compartilhada, elasticidade, alta disponibilidade, serverless, custos e nuvem no setor bancário]]"
+  },
+  "origem": {
+    "tipo": "simulado",
+    "fonte": "Inédita de reforço (nov/2026) – Apostila 07 §2",
+    "id_pai": null,
+    "anulada": false
+  },
+  "formato": "multipla_5",
+  "dificuldade": 2,
+  "texto_base": null,
+  "enunciado": "Segundo a metodologia dos **doze fatores** (*Twelve-Factor App*), as configurações que variam entre ambientes, como endereços de banco de dados e credenciais, devem ser",
+  "imagem": null,
+  "alternativas": {
+    "A": "mantidas em arquivos versionados junto com o código, com as senhas de produção.",
+    "B": "definidas manualmente por um administrador a cada reinício da aplicação.",
+    "C": "armazenadas em variáveis de ambiente, separadas do código.",
+    "D": "gravadas em constantes no código-fonte.",
+    "E": "incluídas na imagem do contêiner, uma imagem para cada ambiente."
+  },
+  "gabarito": "C",
+  "comentario": "**Gabarito: C.** O fator **Configuração** exige separação estrita entre configuração e código: o mesmo artefato deve rodar em qualquer ambiente, e só a configuração muda. Isso também evita segredos no repositório.\n\nRevisar: Apostila 07, §2.",
+  "tags": [
+    "reforco"
+  ],
+  "embaralhavel": true,
+  "status": "validada",
+  "validacao": {
+    "por": "autor",
+    "em": "2026-11-16",
+    "obs": "Inédita de reforço; conferida pelo autor (códigos e SQL conferidos por execução)."
+  },
+  "versao": 1
+});
+
+BANCO.push({
+  "id": "ESP-ARQ-V059",
+  "concursos": [
+    "banestes-2027-analista-ti"
+  ],
+  "banca_estilo": "FCC",
+  "bloco": "especificos",
+  "materia": "Desenvolvimento de Sistemas",
+  "eixo": "Arquitetura de sistemas",
+  "topico": "Arquiteturas cloud-native",
+  "ref_apostila": {
+    "modulo": "07",
+    "secao": "2",
+    "titulo": "Nuvem na prática: responsabilidade compartilhada, elasticidade, alta disponibilidade, serverless, custos e nuvem no setor bancário",
+    "link": "[[07 - Nuvem, TypeScript e Front-end moderno#2. Nuvem na prática: responsabilidade compartilhada, elasticidade, alta disponibilidade, serverless, custos e nuvem no setor bancário]]"
+  },
+  "origem": {
+    "tipo": "simulado",
+    "fonte": "Inédita de reforço (nov/2026) – Apostila 07 §2",
+    "id_pai": null,
+    "anulada": false
+  },
+  "formato": "multipla_5",
+  "dificuldade": 2,
+  "texto_base": null,
+  "enunciado": "Para que uma aplicação cloud-native possa ser escalada horizontalmente e ter instâncias substituídas a qualquer momento, seus processos devem ser",
+  "imagem": null,
+  "alternativas": {
+    "A": "com estado em memória local, replicado manualmente entre as instâncias.",
+    "B": "vinculados a um servidor específico, por afinidade permanente de sessão.",
+    "C": "dependentes de arquivos gravados no disco local de cada instância.",
+    "D": "iniciados apenas uma vez e nunca reiniciados.",
+    "E": "sem estado, com os dados persistentes guardados em serviços de apoio, como banco de dados e cache."
+  },
+  "gabarito": "E",
+  "comentario": "**Gabarito: E.** Processos **sem estado** (*stateless*) e sem compartilhamento permitem criar, remover e substituir instâncias livremente. O que precisa persistir fica em **serviços de apoio** (*backing services*). Sessão em memória local e arquivos em disco local quebram a elasticidade.\n\nRevisar: Apostila 07, §2.",
+  "tags": [
+    "reforco"
+  ],
+  "embaralhavel": true,
+  "status": "validada",
+  "validacao": {
+    "por": "autor",
+    "em": "2026-11-16",
+    "obs": "Inédita de reforço; conferida pelo autor (códigos e SQL conferidos por execução)."
+  },
+  "versao": 1
+});
+
+BANCO.push({
+  "id": "ESP-ARQ-V060",
+  "concursos": [
+    "banestes-2027-analista-ti"
+  ],
+  "banca_estilo": "FCC",
+  "bloco": "especificos",
+  "materia": "Desenvolvimento de Sistemas",
+  "eixo": "Arquitetura de sistemas",
+  "topico": "Arquiteturas cloud-native",
+  "ref_apostila": {
+    "modulo": "07",
+    "secao": "2",
+    "titulo": "Nuvem na prática: responsabilidade compartilhada, elasticidade, alta disponibilidade, serverless, custos e nuvem no setor bancário",
+    "link": "[[07 - Nuvem, TypeScript e Front-end moderno#2. Nuvem na prática: responsabilidade compartilhada, elasticidade, alta disponibilidade, serverless, custos e nuvem no setor bancário]]"
+  },
+  "origem": {
+    "tipo": "simulado",
+    "fonte": "Inédita de reforço (nov/2026) – Apostila 07 §2",
+    "id_pai": null,
+    "anulada": false
+  },
+  "formato": "multipla_5",
+  "dificuldade": 2,
+  "texto_base": null,
+  "enunciado": "No conceito de **infraestrutura imutável**,",
+  "imagem": null,
+  "alternativas": {
+    "A": "a infraestrutura nunca pode ser atualizada depois da primeira implantação.",
+    "B": "os servidores e contêineres não são alterados depois de implantados: para mudar algo, gera-se uma nova imagem e substituem-se as instâncias.",
+    "C": "cada servidor acumula configurações próprias ao longo do tempo.",
+    "D": "as imagens são alteradas em execução por scripts de configuração.",
+    "E": "os servidores recebem correções e ajustes manuais diretamente em produção."
+  },
+  "gabarito": "B",
+  "comentario": "**Gabarito: B.** Na infraestrutura imutável, toda mudança passa pelo **pipeline**: nova imagem, nova implantação. Isso elimina a divergência de configuração entre servidores (*configuration drift*) e torna a reversão simples: basta voltar à imagem anterior.\n\nRevisar: Apostila 07, §2.",
+  "tags": [
+    "reforco"
+  ],
+  "embaralhavel": true,
+  "status": "validada",
+  "validacao": {
+    "por": "autor",
+    "em": "2026-11-16",
+    "obs": "Inédita de reforço; conferida pelo autor (códigos e SQL conferidos por execução)."
+  },
+  "versao": 1
+});
+
+BANCO.push({
+  "id": "ESP-ARQ-V061",
+  "concursos": [
+    "banestes-2027-analista-ti"
+  ],
+  "banca_estilo": "FCC",
+  "bloco": "especificos",
+  "materia": "Desenvolvimento de Sistemas",
+  "eixo": "Arquitetura de sistemas",
+  "topico": "Arquiteturas cloud-native",
+  "ref_apostila": {
+    "modulo": "07",
+    "secao": "2",
+    "titulo": "Nuvem na prática: responsabilidade compartilhada, elasticidade, alta disponibilidade, serverless, custos e nuvem no setor bancário",
+    "link": "[[07 - Nuvem, TypeScript e Front-end moderno#2. Nuvem na prática: responsabilidade compartilhada, elasticidade, alta disponibilidade, serverless, custos e nuvem no setor bancário]]"
+  },
+  "origem": {
+    "tipo": "simulado",
+    "fonte": "Inédita de reforço (nov/2026) – Apostila 07 §2",
+    "id_pai": null,
+    "anulada": false
+  },
+  "formato": "multipla_5",
+  "dificuldade": 2,
+  "texto_base": null,
+  "enunciado": "Em uma **malha de serviços** (*service mesh*), funções como cifragem mútua (mTLS), novas tentativas, balanceamento e coleta de telemetria são executadas",
+  "imagem": null,
+  "alternativas": {
+    "A": "por um único servidor central pelo qual passa todo o tráfego externo.",
+    "B": "por bibliotecas que cada equipe precisa programar dentro de seu serviço.",
+    "C": "pelo banco de dados compartilhado entre os serviços.",
+    "D": "por um proxy auxiliar (*sidecar*) implantado junto de cada serviço, fora do código da aplicação.",
+    "E": "pelo navegador do usuário final."
+  },
+  "gabarito": "D",
+  "comentario": "**Gabarito: D.** O ***sidecar*** intercepta o tráfego de entrada e de saída do serviço e aplica as políticas definidas no plano de controle da malha. Assim, preocupações de rede ficam **fora do código de negócio**. O ponto único de entrada do tráfego externo é o API Gateway, que tem outro papel.\n\nRevisar: Apostila 07, §2.",
+  "tags": [
+    "reforco"
+  ],
+  "embaralhavel": true,
+  "status": "validada",
+  "validacao": {
+    "por": "autor",
+    "em": "2026-11-16",
+    "obs": "Inédita de reforço; conferida pelo autor (códigos e SQL conferidos por execução)."
+  },
+  "versao": 1
+});
+
+BANCO.push({
+  "id": "ESP-ARQ-V062",
+  "concursos": [
+    "banestes-2027-analista-ti"
+  ],
+  "banca_estilo": "FCC",
+  "bloco": "especificos",
+  "materia": "Desenvolvimento de Sistemas",
+  "eixo": "Arquitetura de sistemas",
+  "topico": "Arquiteturas cloud-native",
+  "ref_apostila": {
+    "modulo": "07",
+    "secao": "2",
+    "titulo": "Nuvem na prática: responsabilidade compartilhada, elasticidade, alta disponibilidade, serverless, custos e nuvem no setor bancário",
+    "link": "[[07 - Nuvem, TypeScript e Front-end moderno#2. Nuvem na prática: responsabilidade compartilhada, elasticidade, alta disponibilidade, serverless, custos e nuvem no setor bancário]]"
+  },
+  "origem": {
+    "tipo": "simulado",
+    "fonte": "Inédita de reforço (nov/2026) – Apostila 07 §2",
+    "id_pai": null,
+    "anulada": false
+  },
+  "formato": "multipla_5",
+  "dificuldade": 2,
+  "texto_base": null,
+  "enunciado": "No modelo de **funções como serviço** (FaaS), associado à computação sem servidor (*serverless*),",
+  "imagem": null,
+  "alternativas": {
+    "A": "o provedor gerencia os servidores e a escala, inclusive até zero instâncias, e a cobrança é feita pelas execuções.",
+    "B": "o cliente gerencia o sistema operacional e a capacidade dos servidores.",
+    "C": "a função permanece em execução contínua, cobrada por hora, mesmo sem requisições.",
+    "D": "não existem servidores físicos envolvidos na execução do código.",
+    "E": "a função mantém estado em memória entre todas as execuções, de forma garantida."
+  },
+  "gabarito": "A",
+  "comentario": "**Gabarito: A.** Em *serverless* os servidores existem, mas são **invisíveis** para o cliente. As funções são acionadas por eventos, escalam automaticamente e não geram custo quando ociosas. Em troca, devem ser sem estado e podem sofrer atraso na primeira chamada (*cold start*).\n\nRevisar: Apostila 07, §2.",
+  "tags": [
+    "reforco"
+  ],
+  "embaralhavel": true,
+  "status": "validada",
+  "validacao": {
+    "por": "autor",
+    "em": "2026-11-16",
+    "obs": "Inédita de reforço; conferida pelo autor (códigos e SQL conferidos por execução)."
+  },
+  "versao": 1
+});
+
+BANCO.push({
+  "id": "ESP-PROG-V059",
+  "concursos": [
+    "banestes-2027-analista-ti"
+  ],
+  "banca_estilo": "FCC",
+  "bloco": "especificos",
+  "materia": "Desenvolvimento de Sistemas",
+  "eixo": "Programação",
+  "topico": "Uso responsável de assistentes de código com IA",
+  "ref_apostila": {
+    "modulo": "06",
+    "secao": "18",
+    "titulo": "Arquitetura e práticas complementares: hexagonal, legados, versionamento semântico, IA no desenvolvimento",
+    "link": "[[06 - Engenharia de Software, Requisitos e Desenvolvimento#18. Arquitetura e práticas complementares: hexagonal, legados, versionamento semântico, IA no desenvolvimento]]"
+  },
+  "origem": {
+    "tipo": "simulado",
+    "fonte": "Inédita de reforço (nov/2026) – Apostila 06 §18",
+    "id_pai": null,
+    "anulada": false
+  },
+  "formato": "multipla_5",
+  "dificuldade": 1,
+  "texto_base": null,
+  "enunciado": "Um assistente de código baseado em IA sugere o uso de uma biblioteca e de uma função que **não existem**, com aparência convincente. Esse fenômeno, que exige conferir as sugestões na documentação oficial, é conhecido como",
+  "imagem": null,
+  "alternativas": {
+    "A": "refatoração.",
+    "B": "regressão.",
+    "C": "sobrecarga.",
+    "D": "ofuscação.",
+    "E": "alucinação."
+  },
+  "gabarito": "E",
+  "comentario": "**Gabarito: E.** **Alucinação** é a geração de conteúdo plausível, porém falso. Em código, aparece como funções, parâmetros ou pacotes inexistentes. Instalar um pacote sugerido sem verificar se existe e se é confiável é um risco de segurança.\n\nRevisar: Apostila 06, §18.",
+  "tags": [
+    "reforco"
+  ],
+  "embaralhavel": true,
+  "status": "validada",
+  "validacao": {
+    "por": "autor",
+    "em": "2026-11-16",
+    "obs": "Inédita de reforço; conferida pelo autor (códigos e SQL conferidos por execução)."
+  },
+  "versao": 1
+});
+
+BANCO.push({
+  "id": "ESP-PROG-V060",
+  "concursos": [
+    "banestes-2027-analista-ti"
+  ],
+  "banca_estilo": "FCC",
+  "bloco": "especificos",
+  "materia": "Desenvolvimento de Sistemas",
+  "eixo": "Programação",
+  "topico": "Uso responsável de assistentes de código com IA",
+  "ref_apostila": {
+    "modulo": "06",
+    "secao": "18",
+    "titulo": "Arquitetura e práticas complementares: hexagonal, legados, versionamento semântico, IA no desenvolvimento",
+    "link": "[[06 - Engenharia de Software, Requisitos e Desenvolvimento#18. Arquitetura e práticas complementares: hexagonal, legados, versionamento semântico, IA no desenvolvimento]]"
+  },
+  "origem": {
+    "tipo": "simulado",
+    "fonte": "Inédita de reforço (nov/2026) – Apostila 06 §18",
+    "id_pai": null,
+    "anulada": false
+  },
+  "formato": "multipla_5",
+  "dificuldade": 2,
+  "texto_base": null,
+  "enunciado": "Um desenvolvedor de um banco quer ajuda de um assistente de IA para depurar uma consulta e pretende colar no *prompt* uma amostra real da tabela de clientes, com nome e CPF. A conduta adequada é",
+  "imagem": null,
+  "alternativas": {
+    "A": "colar os dados reais, desde que a conversa seja apagada depois.",
+    "B": "usar dados fictícios ou anonimizados e apenas ferramentas aprovadas pela organização.",
+    "C": "enviar os dados reais por uma conta pessoal, para não envolver a empresa.",
+    "D": "colar os dados reais, pois a LGPD não se aplica a ferramentas de IA.",
+    "E": "colar os dados reais, pois o assistente não armazena o que recebe."
+  },
+  "gabarito": "B",
+  "comentario": "**Gabarito: B.** Dados pessoais, segredos e código confidencial enviados a serviços externos podem ser retidos, usados em treinamento ou vazados. A LGPD e o sigilo bancário continuam valendo. O correto é **minimizar e anonimizar** os dados e seguir a política da organização sobre ferramentas autorizadas.\n\nRevisar: Apostila 06, §18.",
+  "tags": [
+    "reforco"
+  ],
+  "embaralhavel": true,
+  "status": "validada",
+  "validacao": {
+    "por": "autor",
+    "em": "2026-11-16",
+    "obs": "Inédita de reforço; conferida pelo autor (códigos e SQL conferidos por execução)."
+  },
+  "versao": 1
+});
+
+BANCO.push({
+  "id": "ESP-PROG-V061",
+  "concursos": [
+    "banestes-2027-analista-ti"
+  ],
+  "banca_estilo": "FCC",
+  "bloco": "especificos",
+  "materia": "Desenvolvimento de Sistemas",
+  "eixo": "Programação",
+  "topico": "Uso responsável de assistentes de código com IA",
+  "ref_apostila": {
+    "modulo": "06",
+    "secao": "18",
+    "titulo": "Arquitetura e práticas complementares: hexagonal, legados, versionamento semântico, IA no desenvolvimento",
+    "link": "[[06 - Engenharia de Software, Requisitos e Desenvolvimento#18. Arquitetura e práticas complementares: hexagonal, legados, versionamento semântico, IA no desenvolvimento]]"
+  },
+  "origem": {
+    "tipo": "simulado",
+    "fonte": "Inédita de reforço (nov/2026) – Apostila 06 §18",
+    "id_pai": null,
+    "anulada": false
+  },
+  "formato": "multipla_5",
+  "dificuldade": 2,
+  "texto_base": null,
+  "enunciado": "Quanto à **segurança** do código gerado por assistentes de IA, é correto afirmar que ele",
+  "imagem": null,
+  "alternativas": {
+    "A": "deve ser integrado diretamente ao ramo principal, para aproveitar o ganho de produtividade.",
+    "B": "é isento de vulnerabilidades, pois foi treinado com boas práticas.",
+    "C": "dispensa revisão de código quando os testes unitários passam.",
+    "D": "pode conter vulnerabilidades e deve passar pelas mesmas revisões, testes e análises de segurança aplicados ao código escrito por pessoas.",
+    "E": "não pode ser analisado por ferramentas de análise estática."
+  },
+  "gabarito": "D",
+  "comentario": "**Gabarito: D.** Modelos reproduzem padrões presentes nos dados de treinamento, inclusive padrões inseguros, como consultas montadas por concatenação. O código gerado entra no **mesmo fluxo de qualidade**: pull request, revisão por pares, testes, SAST e análise de dependências.\n\nRevisar: Apostila 06, §18.",
+  "tags": [
+    "reforco"
+  ],
+  "embaralhavel": true,
+  "status": "validada",
+  "validacao": {
+    "por": "autor",
+    "em": "2026-11-16",
+    "obs": "Inédita de reforço; conferida pelo autor (códigos e SQL conferidos por execução)."
+  },
+  "versao": 1
+});
+
+BANCO.push({
+  "id": "ESP-PROG-V062",
+  "concursos": [
+    "banestes-2027-analista-ti"
+  ],
+  "banca_estilo": "FCC",
+  "bloco": "especificos",
+  "materia": "Desenvolvimento de Sistemas",
+  "eixo": "Programação",
+  "topico": "Uso responsável de assistentes de código com IA",
+  "ref_apostila": {
+    "modulo": "06",
+    "secao": "18",
+    "titulo": "Arquitetura e práticas complementares: hexagonal, legados, versionamento semântico, IA no desenvolvimento",
+    "link": "[[06 - Engenharia de Software, Requisitos e Desenvolvimento#18. Arquitetura e práticas complementares: hexagonal, legados, versionamento semântico, IA no desenvolvimento]]"
+  },
+  "origem": {
+    "tipo": "simulado",
+    "fonte": "Inédita de reforço (nov/2026) – Apostila 06 §18",
+    "id_pai": null,
+    "anulada": false
+  },
+  "formato": "multipla_5",
+  "dificuldade": 2,
+  "texto_base": null,
+  "enunciado": "Em relação a **licenças e propriedade intelectual**, o uso responsável de assistentes de código com IA recomenda",
+  "imagem": null,
+  "alternativas": {
+    "A": "verificar a política da organização e a origem de trechos extensos sugeridos, que podem reproduzir código com licença restritiva.",
+    "B": "presumir que todo código sugerido está em domínio público.",
+    "C": "remover os avisos de licença dos arquivos gerados.",
+    "D": "atribuir a autoria do código à ferramenta, eximindo a equipe de responsabilidade.",
+    "E": "publicar o código gerado sob qualquer licença, sem análise."
+  },
+  "gabarito": "A",
+  "comentario": "**Gabarito: A.** Um assistente pode devolver trechos muito parecidos com código existente, sujeito a licenças que impõem obrigações. Organizações definem regras de uso, ativam filtros de similaridade quando disponíveis e mantêm a **responsabilidade humana** pelo que é entregue.\n\nRevisar: Apostila 06, §18.",
+  "tags": [
+    "reforco"
+  ],
+  "embaralhavel": true,
+  "status": "validada",
+  "validacao": {
+    "por": "autor",
+    "em": "2026-11-16",
+    "obs": "Inédita de reforço; conferida pelo autor (códigos e SQL conferidos por execução)."
+  },
+  "versao": 1
+});
+
+BANCO.push({
+  "id": "ESP-PROG-V063",
+  "concursos": [
+    "banestes-2027-analista-ti"
+  ],
+  "banca_estilo": "FCC",
+  "bloco": "especificos",
+  "materia": "Desenvolvimento de Sistemas",
+  "eixo": "Programação",
+  "topico": "Uso responsável de assistentes de código com IA",
+  "ref_apostila": {
+    "modulo": "06",
+    "secao": "18",
+    "titulo": "Arquitetura e práticas complementares: hexagonal, legados, versionamento semântico, IA no desenvolvimento",
+    "link": "[[06 - Engenharia de Software, Requisitos e Desenvolvimento#18. Arquitetura e práticas complementares: hexagonal, legados, versionamento semântico, IA no desenvolvimento]]"
+  },
+  "origem": {
+    "tipo": "simulado",
+    "fonte": "Inédita de reforço (nov/2026) – Apostila 06 §18",
+    "id_pai": null,
+    "anulada": false
+  },
+  "formato": "multipla_5",
+  "dificuldade": 1,
+  "texto_base": null,
+  "enunciado": "Constitui uso adequado de um assistente de código com IA no dia a dia de uma equipe de desenvolvimento",
+  "imagem": null,
+  "alternativas": {
+    "A": "substituir a revisão por pares pela resposta do assistente.",
+    "B": "desativar o pipeline de integração contínua para o código gerado.",
+    "C": "pedir rascunhos de testes e de código repetitivo e revisá-los criticamente antes de integrá-los.",
+    "D": "aceitar trechos que ninguém da equipe compreende, desde que compilem.",
+    "E": "delegar ao assistente a decisão final sobre requisitos e regras de negócio."
+  },
+  "gabarito": "C",
+  "comentario": "**Gabarito: C.** O assistente é útil para acelerar tarefas repetitivas, sugerir testes e explicar código. O julgamento continua humano: a equipe precisa **entender** o que integra, e requisitos, arquitetura e aprovação seguem com as pessoas.\n\nRevisar: Apostila 06, §18.",
+  "tags": [
+    "reforco"
+  ],
+  "embaralhavel": true,
+  "status": "validada",
+  "validacao": {
+    "por": "autor",
+    "em": "2026-11-16",
+    "obs": "Inédita de reforço; conferida pelo autor (códigos e SQL conferidos por execução)."
+  },
+  "versao": 1
+});
+
+BANCO.push({
+  "id": "ESP-PROG-V064",
+  "concursos": [
+    "banestes-2027-analista-ti"
+  ],
+  "banca_estilo": "FCC",
+  "bloco": "especificos",
+  "materia": "Desenvolvimento de Sistemas",
+  "eixo": "Programação",
+  "topico": "Acesso a banco de dados (JDBC)",
+  "ref_apostila": {
+    "modulo": "05",
+    "secao": "12",
+    "titulo": "ODBC/JDBC e particularidades Oracle e SQL Server",
+    "link": "[[05 - Bancos de Dados e Linguagens#12. ODBC/JDBC e particularidades Oracle e SQL Server]]"
+  },
+  "origem": {
+    "tipo": "simulado",
+    "fonte": "Inédita de reforço (nov/2026) – Apostila 05 §12",
+    "id_pai": null,
+    "anulada": false
+  },
+  "formato": "multipla_5",
+  "dificuldade": 1,
+  "texto_base": null,
+  "enunciado": "Em aplicações que acessam banco de dados, um ***pool* de conexões** serve para",
+  "imagem": null,
+  "alternativas": {
+    "A": "cifrar os dados gravados nas tabelas.",
+    "B": "replicar os dados entre dois servidores de banco.",
+    "C": "converter objetos em linhas de tabelas automaticamente.",
+    "D": "guardar em cache o resultado das consultas mais frequentes.",
+    "E": "reutilizar conexões já abertas, evitando o custo de abrir e fechar uma conexão a cada requisição."
+  },
+  "gabarito": "E",
+  "comentario": "**Gabarito: E.** Abrir uma conexão é caro (rede, autenticação, alocação de recursos). O *pool* mantém um conjunto de conexões prontas, que são **emprestadas e devolvidas** pela aplicação, e limita o total de conexões simultâneas. Converter objetos em linhas é papel do mapeamento objeto-relacional.\n\nRevisar: Apostila 05, §12.",
+  "tags": [
+    "reforco"
+  ],
+  "embaralhavel": true,
+  "status": "validada",
+  "validacao": {
+    "por": "autor",
+    "em": "2026-11-16",
+    "obs": "Inédita de reforço; conferida pelo autor (códigos e SQL conferidos por execução)."
+  },
+  "versao": 1
+});
+
+BANCO.push({
+  "id": "ESP-PROG-V065",
+  "concursos": [
+    "banestes-2027-analista-ti"
+  ],
+  "banca_estilo": "FCC",
+  "bloco": "especificos",
+  "materia": "Desenvolvimento de Sistemas",
+  "eixo": "Programação",
+  "topico": "Acesso a banco de dados (JDBC)",
+  "ref_apostila": {
+    "modulo": "05",
+    "secao": "12",
+    "titulo": "ODBC/JDBC e particularidades Oracle e SQL Server",
+    "link": "[[05 - Bancos de Dados e Linguagens#12. ODBC/JDBC e particularidades Oracle e SQL Server]]"
+  },
+  "origem": {
+    "tipo": "simulado",
+    "fonte": "Inédita de reforço (nov/2026) – Apostila 05 §12",
+    "id_pai": null,
+    "anulada": false
+  },
+  "formato": "multipla_5",
+  "dificuldade": 2,
+  "texto_base": null,
+  "enunciado": "Em Java, declarar `Connection`, `PreparedStatement` e `ResultSet` em um bloco ***try-with-resources*** garante que",
+  "imagem": null,
+  "alternativas": {
+    "A": "as exceções de SQL sejam ignoradas.",
+    "B": "esses recursos sejam fechados automaticamente ao fim do bloco, mesmo que ocorra uma exceção.",
+    "C": "a consulta seja executada em outra thread.",
+    "D": "os resultados da consulta fiquem em cache para a próxima execução.",
+    "E": "a transação seja confirmada automaticamente ao fim do bloco."
+  },
+  "gabarito": "B",
+  "comentario": "**Gabarito: B.** Recursos que implementam `AutoCloseable` são fechados na ordem inversa da declaração quando o bloco termina, com ou sem exceção. Isso evita vazamento de conexões. O bloco não confirma transações nem trata as exceções: elas continuam sendo lançadas.\n\nRevisar: Apostila 05, §12.",
+  "tags": [
+    "reforco"
+  ],
+  "embaralhavel": true,
+  "status": "validada",
+  "validacao": {
+    "por": "autor",
+    "em": "2026-11-16",
+    "obs": "Inédita de reforço; conferida pelo autor (códigos e SQL conferidos por execução)."
+  },
+  "versao": 1
+});
+
+BANCO.push({
+  "id": "ESP-PROG-V066",
+  "concursos": [
+    "banestes-2027-analista-ti"
+  ],
+  "banca_estilo": "FCC",
+  "bloco": "especificos",
+  "materia": "Desenvolvimento de Sistemas",
+  "eixo": "Programação",
+  "topico": "Acesso a banco de dados (JDBC)",
+  "ref_apostila": {
+    "modulo": "05",
+    "secao": "12",
+    "titulo": "ODBC/JDBC e particularidades Oracle e SQL Server",
+    "link": "[[05 - Bancos de Dados e Linguagens#12. ODBC/JDBC e particularidades Oracle e SQL Server]]"
+  },
+  "origem": {
+    "tipo": "simulado",
+    "fonte": "Inédita de reforço (nov/2026) – Apostila 05 §12",
+    "id_pai": null,
+    "anulada": false
+  },
+  "formato": "multipla_5",
+  "dificuldade": 2,
+  "texto_base": null,
+  "enunciado": "Para executar dois comandos `UPDATE` como **uma única transação** em JDBC, de modo que ambos sejam desfeitos se o segundo falhar, o programa deve",
+  "imagem": null,
+  "alternativas": {
+    "A": "fechar o `ResultSet` entre um comando e outro.",
+    "B": "manter a confirmação automática ativa e chamar `rollback()` depois do segundo comando.",
+    "C": "abrir uma conexão diferente para cada comando.",
+    "D": "chamar `setAutoCommit(false)` na conexão, executar os comandos e chamar `commit()`, ou `rollback()` em caso de erro.",
+    "E": "executar os dois comandos com `executeQuery`."
+  },
+  "gabarito": "D",
+  "comentario": "**Gabarito: D.** Por padrão, a conexão JDBC está em **confirmação automática**: cada comando é confirmado ao terminar, e não há o que desfazer depois. Desativando-a, os comandos passam a formar uma transação, encerrada por `commit()` ou `rollback()`.\n\nRevisar: Apostila 05, §12.",
+  "tags": [
+    "reforco"
+  ],
+  "embaralhavel": true,
+  "status": "validada",
+  "validacao": {
+    "por": "autor",
+    "em": "2026-11-16",
+    "obs": "Inédita de reforço; conferida pelo autor (códigos e SQL conferidos por execução)."
+  },
+  "versao": 1
+});
+
+BANCO.push({
+  "id": "ESP-PROG-V067",
+  "concursos": [
+    "banestes-2027-analista-ti"
+  ],
+  "banca_estilo": "FCC",
+  "bloco": "especificos",
+  "materia": "Desenvolvimento de Sistemas",
+  "eixo": "Programação",
+  "topico": "Acesso a banco de dados (JDBC)",
+  "ref_apostila": {
+    "modulo": "05",
+    "secao": "12",
+    "titulo": "ODBC/JDBC e particularidades Oracle e SQL Server",
+    "link": "[[05 - Bancos de Dados e Linguagens#12. ODBC/JDBC e particularidades Oracle e SQL Server]]"
+  },
+  "origem": {
+    "tipo": "simulado",
+    "fonte": "Inédita de reforço (nov/2026) – Apostila 05 §12",
+    "id_pai": null,
+    "anulada": false
+  },
+  "formato": "multipla_5",
+  "dificuldade": 1,
+  "texto_base": null,
+  "enunciado": "Uma ferramenta de **mapeamento objeto-relacional** (ORM), como o Hibernate ou o Entity Framework, tem a função de",
+  "imagem": null,
+  "alternativas": {
+    "A": "mapear classes e objetos da aplicação para tabelas e linhas do banco relacional, gerando os comandos SQL correspondentes.",
+    "B": "substituir o banco relacional por um banco orientado a documentos.",
+    "C": "eliminar a necessidade de índices nas tabelas.",
+    "D": "executar a aplicação dentro do servidor de banco de dados.",
+    "E": "impedir o uso de transações pela aplicação."
+  },
+  "gabarito": "A",
+  "comentario": "**Gabarito: A.** O ORM reduz o código repetitivo de acesso a dados: o desenvolvedor trabalha com objetos, e a ferramenta produz o SQL. O banco continua relacional, e continuam valendo cuidados com desempenho, como evitar um grande número de consultas desnecessárias.\n\nRevisar: Apostila 05, §12.",
+  "tags": [
+    "reforco"
+  ],
+  "embaralhavel": true,
+  "status": "validada",
+  "validacao": {
+    "por": "autor",
+    "em": "2026-11-16",
+    "obs": "Inédita de reforço; conferida pelo autor (códigos e SQL conferidos por execução)."
+  },
+  "versao": 1
+});
+
+BANCO.push({
+  "id": "ESP-BD-V026",
+  "concursos": [
+    "banestes-2027-analista-ti"
+  ],
+  "banca_estilo": "FCC",
+  "bloco": "especificos",
+  "materia": "Desenvolvimento de Sistemas",
+  "eixo": "Banco de Dados",
+  "topico": "Governança e qualidade de dados",
+  "ref_apostila": {
+    "modulo": "05",
+    "secao": "13",
+    "titulo": "Data Warehouse, OLAP e ETL",
+    "link": "[[05 - Bancos de Dados e Linguagens#13. Data Warehouse, OLAP e ETL]]"
+  },
+  "origem": {
+    "tipo": "simulado",
+    "fonte": "Inédita de reforço (nov/2026) – Apostila 05 §13",
+    "id_pai": null,
+    "anulada": false
+  },
+  "formato": "multipla_5",
+  "dificuldade": 1,
+  "texto_base": null,
+  "enunciado": "O mesmo cliente está cadastrado **três vezes** na base, com pequenas variações na grafia do nome. A dimensão de qualidade de dados afetada é a",
+  "imagem": null,
+  "alternativas": {
+    "A": "conformidade com o formato.",
+    "B": "disponibilidade.",
+    "C": "unicidade.",
+    "D": "completude.",
+    "E": "atualidade."
+  },
+  "gabarito": "C",
+  "comentario": "**Gabarito: C.** **Unicidade**: cada entidade do mundo real deve aparecer uma única vez. Registros duplicados distorcem contagens e análises. A correção passa por regras de identificação e por processos de deduplicação.\n\nRevisar: Apostila 05, §13.",
+  "tags": [
+    "reforco"
+  ],
+  "embaralhavel": true,
+  "status": "validada",
+  "validacao": {
+    "por": "autor",
+    "em": "2026-11-16",
+    "obs": "Inédita de reforço; conferida pelo autor (códigos e SQL conferidos por execução)."
+  },
+  "versao": 1
+});
+
+BANCO.push({
+  "id": "ESP-BD-V027",
+  "concursos": [
+    "banestes-2027-analista-ti"
+  ],
+  "banca_estilo": "FCC",
+  "bloco": "especificos",
+  "materia": "Desenvolvimento de Sistemas",
+  "eixo": "Banco de Dados",
+  "topico": "Governança e qualidade de dados",
+  "ref_apostila": {
+    "modulo": "05",
+    "secao": "13",
+    "titulo": "Data Warehouse, OLAP e ETL",
+    "link": "[[05 - Bancos de Dados e Linguagens#13. Data Warehouse, OLAP e ETL]]"
+  },
+  "origem": {
+    "tipo": "simulado",
+    "fonte": "Inédita de reforço (nov/2026) – Apostila 05 §13",
+    "id_pai": null,
+    "anulada": false
+  },
+  "formato": "multipla_5",
+  "dificuldade": 1,
+  "texto_base": null,
+  "enunciado": "Uma tabela de contratos contém linhas cujo código de cliente **não existe** na tabela de clientes. O problema de qualidade de dados é de",
+  "imagem": null,
+  "alternativas": {
+    "A": "completude.",
+    "B": "atualidade.",
+    "C": "unicidade.",
+    "D": "precisão numérica.",
+    "E": "integridade referencial."
+  },
+  "gabarito": "E",
+  "comentario": "**Gabarito: E.** A **integridade referencial** exige que todo valor de chave estrangeira corresponda a uma chave existente na tabela referenciada. Registros órfãos surgem quando a restrição não é declarada no banco ou quando cargas são feitas sem validação.\n\nRevisar: Apostila 05, §13.",
+  "tags": [
+    "reforco"
+  ],
+  "embaralhavel": true,
+  "status": "validada",
+  "validacao": {
+    "por": "autor",
+    "em": "2026-11-16",
+    "obs": "Inédita de reforço; conferida pelo autor (códigos e SQL conferidos por execução)."
+  },
+  "versao": 1
+});
+
+BANCO.push({
+  "id": "ESP-BD-V028",
+  "concursos": [
+    "banestes-2027-analista-ti"
+  ],
+  "banca_estilo": "FCC",
+  "bloco": "especificos",
+  "materia": "Desenvolvimento de Sistemas",
+  "eixo": "Banco de Dados",
+  "topico": "Governança e qualidade de dados",
+  "ref_apostila": {
+    "modulo": "05",
+    "secao": "13",
+    "titulo": "Data Warehouse, OLAP e ETL",
+    "link": "[[05 - Bancos de Dados e Linguagens#13. Data Warehouse, OLAP e ETL]]"
+  },
+  "origem": {
+    "tipo": "simulado",
+    "fonte": "Inédita de reforço (nov/2026) – Apostila 05 §13",
+    "id_pai": null,
+    "anulada": false
+  },
+  "formato": "multipla_5",
+  "dificuldade": 2,
+  "texto_base": null,
+  "enunciado": "Em governança de dados, um **catálogo de dados** é",
+  "imagem": null,
+  "alternativas": {
+    "A": "o conjunto de índices criados para acelerar as consultas.",
+    "B": "um inventário dos conjuntos de dados da organização, com metadados como significado, origem, responsável e classificação, que permite localizá-los e compreendê-los.",
+    "C": "um repositório de dados brutos em formato nativo.",
+    "D": "o registro das transações usado na recuperação do banco após falhas.",
+    "E": "uma cópia de segurança completa dos bancos de dados de produção."
+  },
+  "gabarito": "B",
+  "comentario": "**Gabarito: B.** O catálogo reúne **metadados técnicos e de negócio** (frequentemente com um glossário) e indica quem responde por cada conjunto. Repositório de dados brutos é o data lake; o registro de transações é o *log* do SGBD.\n\nRevisar: Apostila 05, §13.",
+  "tags": [
+    "reforco"
+  ],
+  "embaralhavel": true,
+  "status": "validada",
+  "validacao": {
+    "por": "autor",
+    "em": "2026-11-16",
+    "obs": "Inédita de reforço; conferida pelo autor (códigos e SQL conferidos por execução)."
+  },
+  "versao": 1
+});
+
+BANCO.push({
+  "id": "ESP-BD-V029",
+  "concursos": [
+    "banestes-2027-analista-ti"
+  ],
+  "banca_estilo": "FCC",
+  "bloco": "especificos",
+  "materia": "Desenvolvimento de Sistemas",
+  "eixo": "Banco de Dados",
+  "topico": "Governança e qualidade de dados",
+  "ref_apostila": {
+    "modulo": "05",
+    "secao": "13",
+    "titulo": "Data Warehouse, OLAP e ETL",
+    "link": "[[05 - Bancos de Dados e Linguagens#13. Data Warehouse, OLAP e ETL]]"
+  },
+  "origem": {
+    "tipo": "simulado",
+    "fonte": "Inédita de reforço (nov/2026) – Apostila 05 §13",
+    "id_pai": null,
+    "anulada": false
+  },
+  "formato": "multipla_5",
+  "dificuldade": 2,
+  "texto_base": null,
+  "enunciado": "A disciplina que busca manter uma **versão única e confiável** dos dados centrais do negócio, como clientes e produtos, compartilhada por todos os sistemas, é a gestão de",
+  "imagem": null,
+  "alternativas": {
+    "A": "dados não estruturados.",
+    "B": "metadados.",
+    "C": "dados transacionais.",
+    "D": "dados mestres (MDM).",
+    "E": "cópias de segurança."
+  },
+  "gabarito": "D",
+  "comentario": "**Gabarito: D.** **Dados mestres** descrevem as entidades centrais do negócio e são usados por vários sistemas. A gestão de dados mestres (*Master Data Management*) consolida as fontes em um registro de referência. **Metadados** são dados sobre os dados; **dados transacionais** registram eventos, como vendas e pagamentos.\n\nRevisar: Apostila 05, §13.",
+  "tags": [
+    "reforco"
+  ],
+  "embaralhavel": true,
+  "status": "validada",
+  "validacao": {
+    "por": "autor",
+    "em": "2026-11-16",
+    "obs": "Inédita de reforço; conferida pelo autor (códigos e SQL conferidos por execução)."
+  },
+  "versao": 1
+});
+
+BANCO.push({
+  "id": "ESP-SO-V044",
+  "concursos": [
+    "banestes-2027-analista-ti"
+  ],
+  "banca_estilo": "FCC",
+  "bloco": "especificos",
+  "materia": "Desenvolvimento de Sistemas",
+  "eixo": "Sistemas Operacionais",
+  "topico": "Virtualização de servidores",
+  "ref_apostila": {
+    "modulo": "04",
+    "secao": "13",
+    "titulo": "Virtualização e contêineres",
+    "link": "[[04 - Fundamentos, SO, Redes e Segurança#13. Virtualização e contêineres]]"
+  },
+  "origem": {
+    "tipo": "simulado",
+    "fonte": "Inédita de reforço (nov/2026) – Apostila 04 §13",
+    "id_pai": null,
+    "anulada": false
+  },
+  "formato": "multipla_5",
+  "dificuldade": 2,
+  "texto_base": null,
+  "enunciado": "Em um ambiente virtualizado, um ***snapshot*** de máquina virtual é",
+  "imagem": null,
+  "alternativas": {
+    "A": "um modelo usado apenas para criar novas máquinas virtuais.",
+    "B": "uma cópia de segurança completa e independente, guardada fora do ambiente.",
+    "C": "a migração da máquina virtual para outro servidor físico.",
+    "D": "um registro do estado da máquina em determinado momento, que permite voltar a esse ponto, mas não substitui a cópia de segurança.",
+    "E": "o aumento da memória alocada à máquina virtual."
+  },
+  "gabarito": "D",
+  "comentario": "**Gabarito: D.** O *snapshot* é útil antes de mudanças arriscadas, como uma atualização. Ele depende dos discos originais e fica no mesmo armazenamento: se este falhar, perde-se tudo. Por isso **não é backup**. O modelo para criar máquinas é o *template*.\n\nRevisar: Apostila 04, §13.",
+  "tags": [
+    "reforco"
+  ],
+  "embaralhavel": true,
+  "status": "validada",
+  "validacao": {
+    "por": "autor",
+    "em": "2026-11-16",
+    "obs": "Inédita de reforço; conferida pelo autor (códigos e SQL conferidos por execução)."
+  },
+  "versao": 1
+});
+
+BANCO.push({
+  "id": "ESP-SO-V045",
+  "concursos": [
+    "banestes-2027-analista-ti"
+  ],
+  "banca_estilo": "FCC",
+  "bloco": "especificos",
+  "materia": "Desenvolvimento de Sistemas",
+  "eixo": "Sistemas Operacionais",
+  "topico": "Virtualização de servidores",
+  "ref_apostila": {
+    "modulo": "04",
+    "secao": "13",
+    "titulo": "Virtualização e contêineres",
+    "link": "[[04 - Fundamentos, SO, Redes e Segurança#13. Virtualização e contêineres]]"
+  },
+  "origem": {
+    "tipo": "simulado",
+    "fonte": "Inédita de reforço (nov/2026) – Apostila 04 §13",
+    "id_pai": null,
+    "anulada": false
+  },
+  "formato": "multipla_5",
+  "dificuldade": 2,
+  "texto_base": null,
+  "enunciado": "O recurso de virtualização que move uma máquina virtual **em execução** de um servidor físico para outro, sem interrupção perceptível do serviço, é a",
+  "imagem": null,
+  "alternativas": {
+    "A": "migração ao vivo (*live migration*).",
+    "B": "clonagem.",
+    "C": "consolidação de servidores.",
+    "D": "paravirtualização.",
+    "E": "alocação dinâmica de disco (*thin provisioning*)."
+  },
+  "gabarito": "A",
+  "comentario": "**Gabarito: A.** A **migração ao vivo** transfere memória e estado da máquina virtual entre hospedeiros enquanto ela funciona; é usada para manutenção de hardware e balanceamento de carga. Clonagem cria uma cópia; consolidação é reunir várias cargas em menos servidores físicos.\n\nRevisar: Apostila 04, §13.",
+  "tags": [
+    "reforco"
+  ],
+  "embaralhavel": true,
+  "status": "validada",
+  "validacao": {
+    "por": "autor",
+    "em": "2026-11-16",
+    "obs": "Inédita de reforço; conferida pelo autor (códigos e SQL conferidos por execução)."
+  },
+  "versao": 1
+});
+
+BANCO.push({
+  "id": "ESP-SO-V046",
+  "concursos": [
+    "banestes-2027-analista-ti"
+  ],
+  "banca_estilo": "FCC",
+  "bloco": "especificos",
+  "materia": "Desenvolvimento de Sistemas",
+  "eixo": "Sistemas Operacionais",
+  "topico": "Virtualização de servidores",
+  "ref_apostila": {
+    "modulo": "04",
+    "secao": "13",
+    "titulo": "Virtualização e contêineres",
+    "link": "[[04 - Fundamentos, SO, Redes e Segurança#13. Virtualização e contêineres]]"
+  },
+  "origem": {
+    "tipo": "simulado",
+    "fonte": "Inédita de reforço (nov/2026) – Apostila 04 §13",
+    "id_pai": null,
+    "anulada": false
+  },
+  "formato": "multipla_5",
+  "dificuldade": 3,
+  "texto_base": null,
+  "enunciado": "Na **paravirtualização**,",
+  "imagem": null,
+  "alternativas": {
+    "A": "os sistemas convidados compartilham o núcleo do sistema hospedeiro.",
+    "B": "cada aplicação é executada em um processador físico dedicado.",
+    "C": "o sistema operacional convidado é modificado para se comunicar com o hipervisor por chamadas próprias, sem que o hardware seja totalmente emulado.",
+    "D": "o sistema operacional convidado executa sem alterações, sobre hardware totalmente emulado.",
+    "E": "não existe hipervisor, e os sistemas convidados acessam o hardware diretamente."
+  },
+  "gabarito": "C",
+  "comentario": "**Gabarito: C.** Na **virtualização completa**, o convidado não sabe que está virtualizado e roda sem modificações. Na **paravirtualização**, ele é adaptado e usa chamadas ao hipervisor (*hypercalls*), o que reduz a sobrecarga. Compartilhar o núcleo do hospedeiro é característica de contêineres.\n\nRevisar: Apostila 04, §13.",
+  "tags": [
+    "reforco"
+  ],
+  "embaralhavel": true,
+  "status": "validada",
+  "validacao": {
+    "por": "autor",
+    "em": "2026-11-16",
+    "obs": "Inédita de reforço; conferida pelo autor (códigos e SQL conferidos por execução)."
+  },
+  "versao": 1
+});
+
+BANCO.push({
+  "id": "ESP-SO-V047",
+  "concursos": [
+    "banestes-2027-analista-ti"
+  ],
+  "banca_estilo": "FCC",
+  "bloco": "especificos",
+  "materia": "Desenvolvimento de Sistemas",
+  "eixo": "Sistemas Operacionais",
+  "topico": "Containers em sistemas operacionais",
+  "ref_apostila": {
+    "modulo": "04",
+    "secao": "13",
+    "titulo": "Virtualização e contêineres",
+    "link": "[[04 - Fundamentos, SO, Redes e Segurança#13. Virtualização e contêineres]]"
+  },
+  "origem": {
+    "tipo": "simulado",
+    "fonte": "Inédita de reforço (nov/2026) – Apostila 04 §13",
+    "id_pai": null,
+    "anulada": false
+  },
+  "formato": "multipla_5",
+  "dificuldade": 1,
+  "texto_base": null,
+  "enunciado": "Em comparação com máquinas virtuais, os contêineres",
+  "imagem": null,
+  "alternativas": {
+    "A": "oferecem isolamento mais forte, pois cada um tem seu próprio núcleo.",
+    "B": "exigem um hipervisor do tipo 1 para cada contêiner.",
+    "C": "incluem um sistema operacional convidado completo em cada instância.",
+    "D": "permitem executar, no mesmo hospedeiro, núcleos de sistemas operacionais diferentes.",
+    "E": "iniciam mais rápido e consomem menos recursos, pois compartilham o núcleo do sistema hospedeiro, mas oferecem isolamento menos forte."
+  },
+  "gabarito": "E",
+  "comentario": "**Gabarito: E.** A máquina virtual virtualiza o **hardware** e traz um sistema operacional completo: mais isolamento, mais peso. O contêiner virtualiza o **sistema operacional**: processos isolados que usam o mesmo núcleo, o que o torna leve e rápido, mas com fronteira de segurança mais fina.\n\nRevisar: Apostila 04, §13.",
+  "tags": [
+    "reforco"
+  ],
+  "embaralhavel": true,
+  "status": "validada",
+  "validacao": {
+    "por": "autor",
+    "em": "2026-11-16",
+    "obs": "Inédita de reforço; conferida pelo autor (códigos e SQL conferidos por execução)."
+  },
+  "versao": 1
+});
