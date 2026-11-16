@@ -27,9 +27,23 @@
     });
   };
 
+  /* Aplica banco/topicos.js: troca o tópico original de cada questão pelo tema unificado
+     ({unidade: {tópico original: tema}}, gerado por tools/topicos.py). O nome original fica
+     em q.topico_original. Tópicos sem entrada no mapa permanecem como estão. */
+  D.aplicarTopicos = function () {
+    var mapa = window.TOPICOS || {};
+    (window.BANCO || []).forEach(function (q) {
+      if (!q || q.topico_original != null) return;
+      var m = mapa[q.eixo || q.materia];
+      var novo = m && Object.prototype.hasOwnProperty.call(m, q.topico) ? m[q.topico] : null;
+      if (novo && novo !== q.topico) { q.topico_original = q.topico; q.topico = novo; }
+    });
+  };
+
   D.init = function (idConfig) {
     var cfg = (window.CONFIGS || {})[idConfig];
     D.aplicarCorrecoes();
+    D.aplicarTopicos();
     D.config = cfg;
     var vistos = {};
     D.todas = [];

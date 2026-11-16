@@ -101,6 +101,18 @@ BANCO.push({
 - Um arquivo novo em `banco/` precisa de uma linha `<script src="banco/arquivo.js"></script>` no `index.html`
   (os três arquivos de variações já estão incluídos).
 
+## Temas unificados
+
+O campo `topico` das questões tem nomes muito variados (cerca de 560, vindos da importação, das
+variações e do reforço). Para o treino e a tela de desempenho, o app agrupa esses nomes em 136 temas:
+`banco/topicos.js` traz o mapa `{unidade: {tópico original: tema}}`, aplicado ao carregar
+(`FP.dados.aplicarTopicos`). O nome original fica em `q.topico_original`; os arquivos das questões
+não são alterados.
+
+O mapa é gerado por `python3 tools/topicos.py`, a partir das regras por unidade que estão no próprio
+script. Ao criar questões com um tópico novo, acrescente uma regra (ou reutilize um nome já mapeado)
+e rode o script; `python3 tools/topicos.py --conferir` falha se algum tópico ficar sem tema.
+
 ## Validação
 
 ```
