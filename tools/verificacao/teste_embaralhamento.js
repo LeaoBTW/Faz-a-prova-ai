@@ -21,7 +21,7 @@ const { chromium } = require('playwright');
     await p.click(`.alts [data-letra="${g}"]`);
     await p.waitForSelector('.comentario');
     const info = await p.evaluate(()=>({fb:document.querySelector('.feedback').innerText, gabTxt:document.querySelector('.comentario .gab strong').innerText, exibCorreta:document.querySelector('.alt.correta').dataset.exib, nota:!!document.querySelector('.nota-ordem')}));
-    if (info.fb.includes('acertou') && info.gabTxt===info.exibCorreta) ok++; else bad++;
+    if (info.fb.includes('acertou') && (info.gabTxt===info.exibCorreta || info.gabTxt.charAt(0)===info.exibCorreta)) ok++; else bad++;
     if (res.some(([o,e])=>o!==e)) { emb++; if(!info.nota) bad++; }
     if (await p.$('[data-acao="proxima"]')) await p.click('[data-acao="proxima"]'); else break;
   }

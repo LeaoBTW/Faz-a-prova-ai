@@ -37,7 +37,10 @@ Em qualquer navegador há o botão **Baixar nota .md** no resultado.
 3. Comece por um mini-simulado ou treino; faça o simulado completo com 4 h livres.
 4. Depois de cada simulado, baixe a nota `.md` (ou deixe gravar na pasta do vault) e revise as erradas
    pelo link da apostila.
-5. Exporte o histórico de vez em quando (Dados → Exportar).
+5. Em **Desempenho** veja os pontos fortes e fracos: acerto por matéria/eixo (ordenado pelos pontos que cada um
+   custa na prova), tópicos para reforçar, tópicos em que você vai bem e o que ainda não treinou, com botão
+   **Treinar** em cada linha. Fraco = abaixo da nota mínima do edital; forte = a partir da meta de nota.
+6. Exporte o histórico de vez em quando (Dados → Exportar).
 
 Atalhos na prova e no treino: teclas **A–E** (ou 1–5) marcam a alternativa; **← →** navegam.
 
@@ -104,6 +107,8 @@ banco/
   gerais-lp.js, gerais-rle.js, gerais-atualidades.js, gerais-etica.js
   esp-<eixo>.js            um arquivo por eixo dos Específicos
   variacoes-gerais.js, variacoes-esp-a.js, variacoes-esp-b.js   variações (agentes 2–4)
+  reforco.js                              inéditas de reforço para temas com poucas questões (tools/reforco/gerar.py)
+  topicos.js               mapa de temas unificados, aplicado ao carregar (tools/topicos.py)
   textos-base.js           textos compartilhados por várias questões
 img/                       figuras das questões
 tools/
