@@ -82,22 +82,30 @@ ARQ_CORRECOES = "correcoes.js"
 CAMPOS_CORRIGIVEIS = set(OBRIGATORIOS) - {"id"} | {"validacao", "banca_estilo"}
 
 
+def arquivos_correcoes(raiz):
+    """banco/correcoes.js primeiro, depois banco/correcoes-*.js (mesma ordem do index.html)."""
+    pasta = os.path.join(raiz, "banco")
+    extras = sorted(glob.glob(os.path.join(pasta, "correcoes-*.js")))
+    return [os.path.join(pasta, ARQ_CORRECOES)] + extras
+
+
 def carregar_correcoes(raiz):
-    """Lê banco/correcoes.js: CORRECOES.push({"id", "campos": {...}, "motivo"})."""
-    caminho = os.path.join(raiz, "banco", ARQ_CORRECOES)
+    """Lê banco/correcoes*.js: CORRECOES.push({"id", "campos": {...}, "motivo"})."""
     corr, erros = [], []
-    if not os.path.exists(caminho):
-        return corr, erros
-    with open(caminho, encoding="utf-8") as f:
-        txt = f.read()
-    for linha, js in extrair_chamadas(txt, "CORRECOES"):
-        try:
-            obj = json.loads(js)
-        except json.JSONDecodeError as e:
-            erros.append("%s:%d: correção não é JSON válido (%s)" % (ARQ_CORRECOES, linha, e))
+    for caminho in arquivos_correcoes(raiz):
+        if not os.path.exists(caminho):
             continue
-        obj["__arquivo"] = "%s:%d" % (ARQ_CORRECOES, linha)
-        corr.append(obj)
+        nome = os.path.basename(caminho)
+        with open(caminho, encoding="utf-8") as f:
+            txt = f.read()
+        for linha, js in extrair_chamadas(txt, "CORRECOES"):
+            try:
+                obj = json.loads(js)
+            except json.JSONDecodeError as e:
+                erros.append("%s:%d: correção não é JSON válido (%s)" % (nome, linha, e))
+                continue
+            obj["__arquivo"] = "%s:%d" % (nome, linha)
+            corr.append(obj)
     return corr, erros
 
 
@@ -134,7 +142,7 @@ def carregar(raiz, correcoes=True):
     questoes, textos, erros = [], [], []
     for caminho in sorted(glob.glob(os.path.join(raiz, "banco", "*.js"))):
         nome = os.path.basename(caminho)
-        if nome == ARQ_CORRECOES:
+        if nome == ARQ_CORRECOES or nome.startswith("correcoes-"):
             continue
         with open(caminho, encoding="utf-8") as f:
             txt = f.read()
