@@ -107,6 +107,8 @@ banco/
   gerais-lp.js, gerais-rle.js, gerais-atualidades.js, gerais-etica.js
   esp-<eixo>.js            um arquivo por eixo dos Específicos
   variacoes-gerais.js, variacoes-esp-a.js, variacoes-esp-b.js   variações (agentes 2–4)
+  reforco.js                              inéditas de reforço para temas com poucas questões (tools/reforco/gerar.py)
+  topicos.js               mapa de temas unificados, aplicado ao carregar (tools/topicos.py)
   textos-base.js           textos compartilhados por várias questões
 img/                       figuras das questões
 tools/
