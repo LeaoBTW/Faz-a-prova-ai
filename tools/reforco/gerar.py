@@ -19,7 +19,8 @@ import tempfile
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from comum import RAIZ, SECOES, EIXOS  # noqa: E402
 
-MODULOS = ["dados_proc_gov", "dados_prog_bd", "dados_web_arq_devops", "dados_so_redes_serv", "dados_seg_nuvem"]
+MODULOS = ["dados_proc_gov", "dados_prog_bd", "dados_web_arq_devops", "dados_so_redes_serv", "dados_seg_nuvem",
+           "dados_temas_menores"]
 # Último número V já usado por eixo nos outros arquivos do banco (nov/2026). Não alterar:
 # os ids das questões de reforço dependem destes valores.
 BASE = {"PROC": 55, "PROG": 38, "GOV": 66, "BD": 5, "WEB": 6, "SEG": 30, "ARQ": 45,
