@@ -206,7 +206,17 @@ REGRAS = {
 }
 
 
+MATERIAS_SO_TB = {"Matemática/Raciocínio Lógico e Quantitativo", "Atualidades do Mercado Financeiro",
+                  "Conhecimentos Bancários e Securitários", "Matemática Financeira",
+                  "Noções de Probabilidade e Estatística", "Noções de Informática e Comportamentos Digitais",
+                  "Vendas, Negociação e Atendimento"}
+
+
 def tema(unidade, topico):
+    # matérias que só existem no Técnico Bancário: os tópicos já vêm de uma lista fechada
+    # (tools/tecnico/comum.py) e ficam como estão
+    if unidade in MATERIAS_SO_TB:
+        return topico
     for padrao, nome in REGRAS.get(unidade, []):
         if re.search(padrao, topico):
             return nome

@@ -179,7 +179,7 @@
       var q = D.porId[i.id];
       var n = s.itens.map(function (x) { return x.id; }).indexOf(i.id) + 1;
       L.push("- **Q" + n + "** `" + q.id + "` – " + (q.eixo || q.materia) + " › " + q.topico + " · marcou **" + (D.exibida(q, s.id, i.resp) || "em branco") +
-        "**, gabarito **" + D.exibida(q, s.id, q.gabarito) + "** · " + q.origem.fonte + " · revisar " + q.ref_apostila.link);
+        "**, gabarito **" + D.exibida(q, s.id, q.gabarito) + "** · " + q.origem.fonte + (q.ref_apostila ? " · revisar " + q.ref_apostila.link : ""));
     });
     var marcadas = r.itens.filter(function (i) { return i.marcas && (i.marcas.revisar || i.marcas.suspeito || i.marcas.chutei); });
     if (marcadas.length) {
@@ -192,7 +192,7 @@
         if (i.marcas.chutei) m.push("chutei");
         if (i.marcas.revisar) m.push("revisar");
         if (i.marcas.suspeito) m.push("gabarito suspeito");
-        L.push("- `" + q.id + "` (" + m.join(", ") + ") – " + q.topico + " · " + (i.acertou ? "acertou" : "errou") + " · " + q.ref_apostila.link);
+        L.push("- `" + q.id + "` (" + m.join(", ") + ") – " + q.topico + " · " + (i.acertou ? "acertou" : "errou") + (q.ref_apostila ? " · " + q.ref_apostila.link : ""));
       });
     }
     var topErr = Object.keys(r.porTopico).map(function (k) { return [k, r.porTopico[k]]; })
@@ -235,7 +235,7 @@
       L.push("");
       susp.forEach(function (id) {
         var q = D.porId[id];
-        if (q) L.push("- `" + id + "` – " + q.origem.fonte + " – gabarito " + q.gabarito + " – " + q.ref_apostila.link);
+        if (q) L.push("- `" + id + "` – " + q.origem.fonte + " – gabarito " + q.gabarito + (q.ref_apostila ? " – " + q.ref_apostila.link : ""));
       });
     }
     return L.join("\n") + "\n";

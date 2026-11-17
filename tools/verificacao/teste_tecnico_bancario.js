@@ -30,7 +30,7 @@ const URL = 'file://' + process.cwd() + '/index.html';
   ok(info.n > 600, 'banco do Técnico tem ' + info.n + ' questões');
   ok(Object.keys(info.c).every(u => info.unidades.includes(u)), 'toda questão está numa matéria do edital: ' + JSON.stringify(info.c));
   ok(info.semEixo, 'nenhuma questão com eixo de TI');
-  ok(!info.c['Vendas, Negociação e Atendimento'], 'Vendas, Negociação e Atendimento ainda sem questões');
+  ok(info.c['Vendas, Negociação e Atendimento'] > 0, 'Vendas, Negociação e Atendimento tem questões: ' + info.c['Vendas, Negociação e Atendimento']);
   // simulado completo
   await p.click('[data-acao="simulado-completo"]'); await p.waitForSelector('[data-acao="entregar"]');
   const sim = await p.evaluate(() => { const ids = FP.store.perfil().emAndamento.itens.map(i => i.id); const c = {};

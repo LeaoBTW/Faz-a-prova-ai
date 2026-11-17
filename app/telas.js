@@ -73,6 +73,7 @@
   /* ------------------------------------------------------------------ */
   function refApostila(q) {
     var r = q.ref_apostila || {};
+    if (!r.link) return null; // questões só do Técnico Bancário podem não ter seção na apostila
     return h("div", { class: "ref" }, [
       h("span", null, "📖 Apostila " + r.modulo + " · §" + r.secao + (r.titulo ? " " + r.titulo : "")),
       " ",
@@ -1020,7 +1021,7 @@
       })) : h("p", { class: "mudo" }, "Nenhuma questão marcada como \"acho que o gabarito está errado\"."),
       susp.length ? botao("Baixar lista .md", function () {
         var L = ["# Gabaritos para conferir", ""].concat(susp.map(function (k) {
-          var q = D.porId[k]; return "- `" + k + "` – " + q.origem.fonte + " – gabarito " + q.gabarito + " – " + q.ref_apostila.link;
+          var q = D.porId[k]; return "- `" + k + "` – " + q.origem.fonte + " – gabarito " + q.gabarito + (q.ref_apostila ? " – " + q.ref_apostila.link : "");
         }));
         FP.baixar("Gabaritos para conferir.md", L.join("\n") + "\n", "text/markdown;charset=utf-8");
       }) : null]));
