@@ -387,7 +387,7 @@ São duas proposições (II e V). Quem marca 3 costuma incluir a sentença abert
 **Gabarito: A.** Dízima composta: seja x = 1,2333... Então 10x = 12,333... e 100x = 123,333...; subtraindo, 90x = 111, x = 111/90 = **37/30** (simplificando por 3). Conferência: 37 ÷ 30 = 1,2333...
 
 - **B:** 123/99 = 1,2424..., seria a geratriz se o período fosse "24".
-- **C:** 111/90 tem o mesmo valor, mas não está simplificada; a geratriz pedida é a fração irredutível 37/30.
+- **C:** 123/90 = 1,3666...; o numerador correto é 123 − 12 = 111 (subtrai-se a parte que não se repete), e 111/90 simplifica para 37/30.
 - **D:** 12/9 = 1,333...
 - **E:** 37/33 = 1,1212...
 
@@ -1098,4 +1098,12 @@ A ordem ajuda a conferir: simples (6.200) < composta anual (6.298,56) < contínu
 - **C:** 5,25% é a subtração simples (10,25 − 5), apenas uma aproximação.
 - **D:** 5,5% não corresponde a nenhuma conta.
 - **E:** 15,76% multiplica os fatores (1,1025 × 1,05 ≈ 1,1576) em vez de dividir.
+
+@@ RLE-0149
+**Gabarito: D.** O círculo completo tem 360° e representa 100%; o ângulo do setor é proporcional à participação: 0,18 × 360° = **64,8°** (cada 1% vale 3,6°).
+
+- **A:** 18° confunde porcentagem com graus.
+- **B:** 36° corresponde a 10% do total.
+- **C:** 54° corresponde a 15% (ou 18 × 3, esquecendo o 0,6).
+- **E:** 72° corresponde a 20%.
 

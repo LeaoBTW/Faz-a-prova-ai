@@ -1,0 +1,280 @@
+@@ ESP-SEG-0001
+**Gabarito: B.** Paulo removeu os nomes, trocou os identificadores, generalizou a data de nascimento em faixas e reduziu o endereço ao CEP para que o dado perca a possibilidade de associação, direta ou indireta, a um indivíduo. É a definição literal de **anonimização** (LGPD, art. 5º, XI).
+
+- **A:** Bloqueio é a suspensão temporária de qualquer operação de tratamento, com guarda do dado (art. 5º, XIII).
+- **C, D e E:** Difusão, classificação e extração são apenas exemplos de operações de tratamento listadas no art. 5º, X; nenhuma tem por objetivo impedir a identificação do titular.
+
+@@ ESP-SEG-0002
+**Gabarito: D.** Com placeholders, o comando SQL é enviado com marcadores e os valores seguem separados, como parâmetros. O banco os trata sempre como dados, nunca como parte do comando, o que impede **injeção de SQL**.
+
+- **A:** Duplicação se evita com chave primária ou restrição UNIQUE, e nem se aplica a uma remoção.
+- **B:** Integridade vem de restrições (chaves, CHECK) e transações, não da forma de passar valores.
+- **C:** Portabilidade pode ser um efeito colateral, mas não é a principal razão; o estilo do placeholder até varia entre drivers.
+
+@@ ESP-SEG-0003
+**Gabarito: C.** O código concatena a entrada do usuário no texto da consulta, permitindo **SQL injection** (por exemplo, `' OR '1'='1`). Consultas parametrizadas (*prepared statements*) separam código e dado: o valor nunca é interpretado como SQL.
+
+- **A:** Cifrar a coluna protege o dado em repouso, mas a consulta injetada continua sendo executada.
+- **B:** HTTPS protege o tráfego entre navegador e servidor; o ataque chega dentro desse canal.
+- **D:** Ocultar erros só dificulta; ainda há injeção cega.
+- **E:** O tamanho do campo não impede a injeção.
+
+@@ ESP-SEG-0004
+**Gabarito: E.** Assinar é calcular o hash do documento e cifrá-lo com a **chave privada do remetente**. Qualquer pessoa confere com a chave pública dele, obtendo autenticidade, integridade e não repúdio.
+
+- **A:** Cifrar com a chave pública do destinatário dá confidencialidade, não autenticidade.
+- **B:** Inverte as chaves: a privada assina e a pública verifica; a chave privada nunca é compartilhada.
+- **C:** Chave secreta compartilhada é criptografia simétrica.
+- **D:** É o contrário: a assinatura garante integridade e não oferece confidencialidade.
+
+@@ ESP-SEG-0005
+**Gabarito: A.** O sistema autenticou o usuário, mas não verificou se a conta 1002 pertence a ele. Acessar recurso alheio trocando o identificador (IDOR) é **Quebra de Controle de Acesso**, categoria A01 do OWASP Top 10 (2021).
+
+- **B:** Falhas criptográficas tratam de dados sem cifragem ou com algoritmos fracos.
+- **C:** Injeção ocorre quando dado não confiável é interpretado como comando (SQL, comandos do SO).
+- **D:** Refere-se ao uso de bibliotecas e componentes com vulnerabilidades conhecidas.
+- **E:** Trata da falta de logs e alertas para detectar ataques.
+
+@@ ESP-SEG-0006
+**Gabarito: B.** O **controlador** é quem toma as decisões sobre o tratamento (o banco); o **operador** é quem trata os dados em nome do controlador, seguindo suas instruções (a empresa de nuvem). LGPD, art. 5º, VI e VII.
+
+- **A:** Inverte os papéis.
+- **C e D:** O encarregado (DPO) é a pessoa indicada como canal de comunicação entre o controlador, os titulares e a ANPD; nem o banco nem a nuvem ocupam esse papel aqui.
+- **E:** Titular é a pessoa natural a quem os dados se referem (o cliente).
+
+@@ ESP-SEG-0007
+**Gabarito: A.** Pela Resolução CMN 4.893/2021, a política de segurança cibernética (e o plano de ação e de resposta a incidentes) deve ser aprovada pelo conselho de administração ou, na sua inexistência, pela diretoria da instituição.
+
+- **B:** A política deve ser divulgada aos funcionários e aos prestadores de serviço, e um resumo dela ao público.
+- **C:** A norma não proíbe a nuvem; estabelece requisitos para a contratação.
+- **D:** Cada instituição elabora e aprova a sua; o Banco Central fiscaliza.
+- **E:** Procedimentos de resposta a incidentes são obrigatórios; seguro não os dispensa.
+
+@@ ESP-SEG-0008
+**Gabarito: C.** **Não repúdio** (irretratabilidade) é a garantia de que o autor não pode negar a autoria de uma mensagem ou transação. É obtido com assinatura digital, pois só o autor possui a chave privada.
+
+- **A:** Confidencialidade garante acesso só a quem é autorizado.
+- **B:** Disponibilidade garante que a informação esteja acessível quando necessária.
+- **D:** Integridade garante que a informação não foi alterada indevidamente.
+- **E:** Legalidade é a conformidade com leis e normas.
+
+@@ ESP-SEG-0009
+**Gabarito: B.** O **worm** é um programa autônomo que se replica sozinho pela rede, explorando vulnerabilidades, sem arquivo hospedeiro e sem ação do usuário.
+
+- **A:** O vírus precisa se anexar a um arquivo ou programa hospedeiro e depende de sua execução.
+- **C:** O cavalo de Troia se disfarça de programa legítimo e não se replica.
+- **D:** O rootkit serve para esconder a presença do invasor e de outros malwares.
+- **E:** O spyware coleta informações do usuário (teclas, telas, hábitos).
+
+@@ ESP-SEG-0010
+**Gabarito: C.** No **CSRF** (*Cross-Site Request Forgery*), um site malicioso faz o navegador da vítima enviar uma requisição ao site em que ela está autenticada; o cookie de sessão vai junto e o servidor a aceita como legítima. Defesas: token anti-CSRF, cookies `SameSite` e confirmação da transação.
+
+- **A:** XSS injeta e executa script no navegador, dentro da página do site vulnerável.
+- **B:** SQL injection ataca o banco de dados pela entrada da aplicação.
+- **D:** Clickjacking engana o usuário para clicar em página sobreposta invisível (iframe).
+- **E:** Pharming redireciona para site falso, em geral adulterando o DNS.
+
+@@ ESP-SEG-0011
+**Gabarito: B.** Consultas parametrizadas (*prepared statements*) atacam a causa: o comando é compilado antes e os valores entram só como dados, sem chance de virar código SQL.
+
+- **A:** Ocultar erros ajuda pouco; a injeção cega (*blind*) funciona sem mensagens.
+- **C:** Criptografar o banco protege dados em repouso, não impede a execução da consulta injetada.
+- **D:** HTTPS protege o canal, não o conteúdo que a aplicação recebe.
+- **E:** Validação no navegador é contornável: o atacante envia a requisição direto ao servidor.
+
+@@ ESP-SEG-0012
+**Gabarito: C.** Copiar "o que foi alterado desde o último backup **completo**" define o backup **diferencial**, que é cumulativo. Para restaurar bastam o último completo e o último diferencial.
+
+- **A:** O diferencial sozinho não contém os dados que não mudaram.
+- **B:** Precisar do completo e de todos os diários desde então é a restauração do backup **incremental** (cada um copia só o que mudou desde o backup anterior).
+- **D:** Só o completo perderia as alterações da semana.
+- **E:** Completos antigos não são necessários.
+
+@@ ESP-SEG-0013
+**Gabarito: C.** A detecção por anomalia (comportamento) compara o tráfego com um perfil considerado normal; por isso percebe ataques novos, mas também acusa desvios legítimos, gerando mais falsos positivos.
+
+- **A:** O IDS é passivo: detecta e alerta. Quem bloqueia em linha é o IPS.
+- **B:** O IPS fica em linha e intervém no tráfego.
+- **D:** Assinaturas só reconhecem ataques já catalogados; não pegam *zero-day*.
+- **E:** IDS e IPS complementam o firewall, não o substituem.
+
+@@ ESP-SEG-0014
+**Gabarito: C.** Para sigilo, cifra-se com a **chave pública do destinatário**: só a chave privada de Bruno, que apenas ele possui, consegue decifrar.
+
+- **A:** Cifrar com a própria chave privada é a base da assinatura; qualquer um decifra com a chave pública de Ana.
+- **B:** Com a chave pública de Ana, só a própria Ana conseguiria ler.
+- **D:** Ana não tem acesso à chave privada de Bruno, que nunca é compartilhada.
+- **E:** Pelo mesmo motivo, nada pode ser derivado da chave privada de Bruno por Ana.
+
+@@ ESP-SEG-0015
+**Gabarito: B.** O emissor calcula o hash do documento e o cifra com sua **chave privada**; o resultado é a assinatura. O receptor decifra com a chave pública do emissor e compara com o hash que ele mesmo calcula.
+
+- **A:** Cifrar o documento com a chave pública do destinatário é sigilo, não assinatura.
+- **C:** A chave da AC serve para assinar certificados, e a AC assina com sua chave privada.
+- **D:** Descreve (mal) cifragem simétrica; enviar a chave junto anula o sigilo.
+- **E:** A assinatura dá autenticidade, integridade e não repúdio, mas não confidencialidade.
+
+@@ ESP-SEG-0016
+**Gabarito: C.** O SHA-256, da família SHA-2, gera um resumo de 256 bits e é uma função de mão única: não se recupera a entrada a partir do hash.
+
+- **A:** AES é **simétrico**, com chaves de 128, 192 ou 256 bits.
+- **B:** RSA é **assimétrico** e se baseia na dificuldade de fatorar números grandes; curvas elípticas são do ECC.
+- **D:** DES usa chave de 56 bits e é inseguro; 168 bits é o 3DES com três chaves.
+- **E:** MD5 tem colisões conhecidas e é rápido demais; para senhas usam-se bcrypt, scrypt, PBKDF2 ou Argon2, com sal.
+
+@@ ESP-SEG-0017
+**Gabarito: C.** O **ITI** (Instituto Nacional de Tecnologia da Informação), autarquia federal, é a Autoridade Certificadora Raiz da ICP-Brasil: emite os certificados das ACs de primeiro nível, credencia e fiscaliza as entidades da cadeia.
+
+- **A e B:** Serpro e Receita Federal atuam como autoridades certificadoras da cadeia, abaixo da raiz.
+- **D:** O Banco Central não exerce o papel de AC Raiz.
+- **E:** O CGI.br trata da governança da internet no Brasil; quem define as políticas da ICP-Brasil é o Comitê Gestor da ICP-Brasil, outro órgão.
+
+@@ ESP-SEG-0018
+**Gabarito: C.** A AR é a interface com o usuário: recebe as solicitações, identifica e valida os solicitantes e encaminha os pedidos de emissão ou revogação à AC a que está vinculada.
+
+- **A:** Emitir e revogar certificados é atribuição da AC.
+- **B:** A Lista de Certificados Revogados (LCR) é emitida e assinada pela AC.
+- **D:** A chave privada é gerada e mantida sob controle exclusivo do titular.
+- **E:** Quem credencia as ACs é a AC Raiz (ITI).
+
+@@ ESP-SEG-0019
+**Gabarito: B.** No certificado **A3**, o par de chaves é gerado e armazenado em hardware criptográfico (token, cartão inteligente ou HSM), de onde a chave privada não pode ser copiada.
+
+- **A:** Descreve o A1: chave em arquivo (software) e validade de até 1 ano.
+- **C:** Certificados A são de assinatura; carimbo do tempo usa certificado do tipo T.
+- **D:** A identificação do titular é sempre exigida, feita pela AR.
+- **E:** A AC Raiz só emite certificados para ACs, nunca para usuário final.
+
+@@ ESP-SEG-0020
+**Gabarito: C.** *Broken Access Control* é a A01 desde a edição 2021 e manteve o primeiro lugar na edição 2025.
+
+- **A:** *Injection* foi a primeira até 2017; caiu para A03 em 2021 e A05 em 2025.
+- **B:** *Cryptographic Failures* era A02 em 2021 e passou a A04 em 2025.
+- **D:** *Security Misconfiguration* subiu de A05 (2021) para A02 (2025).
+- **E:** *Software Supply Chain Failures* é novidade de 2025, em A03.
+
+**Atenção (edital 2027):** o edital cita o OWASP Top 10:2021, cuja ordem é A01 Broken Access Control, A02 Cryptographic Failures, A03 Injection, A04 Insecure Design, A05 Security Misconfiguration, A06 Vulnerable and Outdated Components, A07 Identification and Authentication Failures, A08 Software and Data Integrity Failures, A09 Security Logging and Monitoring Failures e A10 SSRF.
+
+@@ ESP-SEG-0021
+**Gabarito: B.** A API autentica o usuário, mas não confere se o objeto pedido (cliente 5502) pertence a ele. É **BOLA** (*Broken Object Level Authorization*), a API1 do OWASP API Security Top 10 2023, equivalente ao IDOR das aplicações web.
+
+- **A:** API2 trata de falhas na autenticação (tokens fracos, força bruta); aqui o usuário está autenticado corretamente.
+- **C:** API4 é consumo irrestrito de recursos (falta de limites de taxa, tamanho, custo).
+- **D:** API8 é configuração insegura (padrões inseguros, CORS permissivo, erros detalhados).
+- **E:** API10 é confiar sem validação em dados de APIs de terceiros.
+
+@@ ESP-SEG-0022
+**Gabarito: C.** **SAST** (*Static Application Security Testing*) analisa código-fonte, bytecode ou binário sem executar a aplicação (caixa-branca), e por isso roda cedo no pipeline, logo após o commit.
+
+- **A:** DAST testa a aplicação **em execução**, de fora para dentro (caixa-preta).
+- **B:** Pentest caixa-preta também exige o sistema rodando e não usa o código-fonte.
+- **D:** RASP é proteção em tempo de execução, embutida na aplicação.
+- **E:** Fuzzing envia entradas malformadas a um programa em execução.
+
+@@ ESP-SEG-0023
+**Gabarito: C.** No fluxo **Client Credentials**, a própria aplicação se autentica no servidor de autorização com seu `client_id` e `client_secret` e recebe o token de acesso, sem usuário envolvido: é o fluxo máquina a máquina.
+
+- **A:** Implicit era para aplicações no navegador e hoje é desaconselhado (o token trafega pela URL).
+- **B:** Password exige as credenciais de um usuário e também é desaconselhado.
+- **D:** Authorization Code envolve login e consentimento de um usuário; e a recomendação atual é usá-lo com PKCE.
+- **E:** Device Code é para dispositivos sem navegador ou teclado, com o usuário autorizando em outro aparelho.
+
+@@ ESP-SEG-0024
+**Gabarito: B.** O JWT assinado (JWS) tem três partes separadas por ponto: `header.payload.signature`, em Base64URL. Base64URL é codificação, não criptografia: quem obtém o token lê o payload; a assinatura garante apenas integridade e autenticidade.
+
+- **A:** O payload só é cifrado no JWE, não no JWS.
+- **C:** O algoritmo `none` (sem assinatura) deve ser rejeitado; aceitá-lo é uma vulnerabilidade clássica.
+- **D:** `exp` é a data de expiração; o emissor é `iss`.
+- **E:** HS256 é HMAC com SHA-256 e usa segredo simétrico compartilhado; par de chaves é com RS256 ou ES256.
+
+@@ ESP-SEG-0025
+**Gabarito: B.** As duas categorias novas da edição 2025 são A03 *Software Supply Chain Failures* (ampliação de "componentes vulneráveis e desatualizados" para toda a cadeia de suprimentos) e A10 *Mishandling of Exceptional Conditions* (tratamento inadequado de erros e condições excepcionais).
+
+- **A:** *Injection* existe desde as primeiras edições e o XSS foi incorporado a ela em 2021.
+- **C:** SSRF e *Insecure Design* são novidades de 2021; em 2025 o SSRF foi absorvido por *Broken Access Control*.
+- **D:** CSRF saiu da lista em 2017 e clickjacking nunca foi categoria própria.
+- **E:** São nomes de categorias da edição 2017.
+
+**Atenção (edital 2027):** o edital cita o OWASP Top 10:2021, cuja ordem é A01 Broken Access Control, A02 Cryptographic Failures, A03 Injection, A04 Insecure Design, A05 Security Misconfiguration, A06 Vulnerable and Outdated Components, A07 Identification and Authentication Failures, A08 Software and Data Integrity Failures, A09 Security Logging and Monitoring Failures e A10 SSRF.
+
+@@ ESP-SEG-0026
+**Gabarito: C.** Dado pessoal sensível (LGPD, art. 5º, II) é o dado sobre origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização religiosa, filosófica ou política, saúde, vida sexual, e o dado genético ou **biométrico**, quando vinculado a pessoa natural.
+
+- **A, B e E:** Conta-corrente, endereço e histórico financeiro são dados pessoais, mas não estão no rol de sensíveis.
+- **D:** CNPJ identifica pessoa jurídica; a LGPD protege dados de pessoas naturais.
+
+@@ ESP-SEG-0027
+**Gabarito: C.** **Operador** é a pessoa natural ou jurídica, de direito público ou privado, que realiza o tratamento de dados pessoais em nome do controlador (LGPD, art. 5º, VII).
+
+- **A:** O encarregado é o canal de comunicação entre controlador, titulares e ANPD.
+- **B:** O titular é a pessoa natural a quem os dados se referem.
+- **D:** A autoridade nacional (ANPD) zela pela lei, fiscaliza e aplica sanções.
+- **E:** "Agente de pesquisa" não é figura da LGPD; a lei fala em órgão de pesquisa, e os agentes de tratamento são controlador e operador.
+
+@@ ESP-SEG-0028
+**Gabarito: C.** O **legítimo interesse** do controlador (art. 7º, IX) não aparece no art. 11, que trata dos dados sensíveis; o mesmo vale para a proteção do crédito (art. 7º, X). O próprio art. 7º, IX já ressalva os direitos e liberdades fundamentais do titular.
+
+- **A:** Obrigação legal ou regulatória consta dos dois artigos (art. 11, II, "a").
+- **B:** Proteção da vida ou da incolumidade física também (art. 11, II, "e").
+- **D:** Exercício regular de direitos, inclusive em processo judicial, também (art. 11, II, "d").
+- **E:** Tutela da saúde também (art. 11, II, "f").
+
+@@ ESP-SEG-0029
+**Gabarito: B.** É o texto do art. 12 da LGPD: dado anonimizado não é dado pessoal, salvo quando a anonimização for revertida ou puder ser revertida com esforços razoáveis, usando meios próprios.
+
+- **A:** Dado pseudonimizado continua sendo dado pessoal, pois pode ser reassociado ao titular.
+- **C:** A pseudonimização é reversível por quem detém a informação adicional mantida em separado.
+- **D:** O CPF tem só 11 dígitos; um hash sem chave pode ser revertido testando todas as combinações.
+- **E:** A lei define pseudonimização no art. 13, § 4º.
+
+@@ ESP-SEG-0030
+**Gabarito: C.** LGPD, art. 52, II: multa simples de até 2% do faturamento da pessoa jurídica de direito privado, grupo ou conglomerado no Brasil no último exercício, excluídos os tributos, limitada no total a R$ 50 milhões por infração.
+
+- **A:** A base é o faturamento no Brasil e existe teto de R$ 50 milhões.
+- **B:** Esses são os parâmetros do GDPR europeu.
+- **D:** A multa diária (art. 52, III) também respeita o limite total de R$ 50 milhões; não é R$ 50 milhões por dia.
+- **E:** A lei não usa lucro líquido como base.
+
+@@ ESP-SEG-0031
+**Gabarito: C.** Princípio da **necessidade** (art. 6º, III): limitação do tratamento ao mínimo necessário para as finalidades, com dados pertinentes, proporcionais e não excessivos. É a "minimização de dados".
+
+- **A:** Adequação é a compatibilidade do tratamento com as finalidades informadas ao titular.
+- **B:** Finalidade exige propósitos legítimos, específicos, explícitos e informados.
+- **D:** Prevenção é adotar medidas para evitar danos decorrentes do tratamento.
+- **E:** Qualidade dos dados garante exatidão, clareza, relevância e atualização.
+
+@@ ESP-SEG-0032
+**Gabarito: A.** Na ISO 31000:2018, o "processo de avaliação de riscos" (*risk assessment*) é o conjunto de três etapas: **identificação**, **análise** e **avaliação** de riscos.
+
+- **B:** Planejamento, execução e encerramento são fases de gerenciamento de projetos.
+- **C:** Tratamento vem depois da avaliação; aceitar e transferir são opções de tratamento.
+- **D:** Monitoramento e análise crítica, e registro e relato, são atividades que acompanham todo o processo, fora da avaliação.
+- **E:** Prevenção, detecção e correção são tipos de controle, não etapas da norma.
+
+@@ ESP-SEG-0033
+**Gabarito: D.** O seguro divide com outra parte (a seguradora) as consequências financeiras do risco: é **compartilhar** o risco, assim como a terceirização. As quatro opções de tratamento da ISO/IEC 27005 são modificar, reter, evitar e compartilhar.
+
+- **A:** Modificar é aplicar controles para reduzir a probabilidade ou o impacto.
+- **B:** Reter é aceitar conscientemente o risco, sem ação adicional.
+- **C:** Evitar é abandonar a atividade ou condição que gera o risco.
+- **E:** Aceitar o risco residual é decisão tomada após o tratamento, não uma opção de tratamento.
+
+@@ ESP-SEG-0034
+**Gabarito: Certo.** A Revisão 3 do NIST SP 800-61 (2025) reorganizou as recomendações de resposta a incidentes segundo as seis funções do NIST CSF 2.0: Governar, Identificar, Proteger, Detectar, Responder e Recuperar. A Rev. 2 usava o ciclo de quatro fases: preparação; detecção e análise; contenção, erradicação e recuperação; e atividade pós-incidente.
+
+@@ ESP-SEG-0035
+**Gabarito: C.** As cinco fases da ISO/IEC 27035-1 são: planejar e preparar; detectar e reportar; **avaliar e decidir**; responder; e aprender lições. Na terceira, o evento é avaliado e classificado, e decide-se se constitui incidente de segurança da informação.
+
+- **A:** Planejar e preparar define política, plano e equipe antes de qualquer evento.
+- **B:** Detectar e reportar é perceber e registrar o evento.
+- **D:** Responder é conter, erradicar e recuperar, depois de confirmado o incidente.
+- **E:** Aprender lições é a melhoria feita após o encerramento.
+
+@@ ESP-SEG-0036
+**Gabarito: C.** A **ISO/IEC 27017** é o código de prática de controles de segurança da informação para serviços em nuvem: complementa a 27002 com orientações e controles adicionais para provedores e clientes.
+
+- **A:** A 27001 traz os requisitos do sistema de gestão de segurança da informação (SGSI), a norma certificável.
+- **B:** A 27005 trata da gestão de riscos de segurança da informação.
+- **D:** A 27035 trata da gestão de incidentes de segurança.
+- **E:** A ISO 22301 é de gestão de continuidade de negócios.
+
