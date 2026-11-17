@@ -140,8 +140,10 @@ Bancários; LGPD e golpes digitais em Informática). Quem decide é `tools/tecni
 `banco/tecnico-bancario.js` (`{id: sigla da matéria}`); o app aplica numa cópia da questão, então o perfil de
 TI continua igual. Depois de mudar questões ou regras, rode `python3 tools/tecnico_bancario.py` (o CI roda com
 `--conferir`). Questões criadas só para o Técnico usam `"concursos": ["banestes-2026-tecnico-bancario"]` e o nome
-da matéria do Técnico. Quando uma matéria não tem questões suficientes, o sorteio completa com outras do mesmo bloco
-e avisa.
+da matéria do Técnico: são geradas por `tools/tecnico/gerar.py` a partir de `tools/tecnico/dados_*.py`
+(320 inéditas de Vendas, Bancários/Securitários, Informática e Estatística em `banco/tb-ineditas.js`, e a prova
+real FGV 2023 do cargo em `banco/tb-prova-2023.js`, no modo "Refazer prova real"). Ao todo o perfil tem cerca de
+1.100 questões. Questões da prova de 2023 que dependem de figura ficam só no modo prova real.
 
 ## Adicionar outro concurso
 

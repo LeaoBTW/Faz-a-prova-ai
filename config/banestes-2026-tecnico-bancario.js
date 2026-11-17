@@ -52,7 +52,11 @@ window.CONFIGS["banestes-2026-tecnico-bancario"] = {
 
   // Sem resultado anterior comparável (o concurso de 2022/2023 foi da FGV, com outra prova).
   historico: null,
-  provas_reais: [],
+  // Prova real do cargo (FGV, 2023): banco/tb-prova-2023.js, gerado por tools/tecnico/gerar.py
+  provas_reais: [
+    { id: "banestes-2023-tb", nome: "Banestes 2023 – Técnico Bancário (FGV)", questoes: 70, tempo_min: 240,
+      observacao: "Banca FGV e edital anterior (Informática em Word/Excel; sem Atualidades, Ética, Matemática Financeira e Estatística como matérias próprias). Anuladas: Q4, Q16, Q43 e Q46 (contam como acerto). Q15, Q17, Q18, Q25 e Q31 dependem de figuras que não foram transcritas." }
+  ],
 
   caderno: { intervalos_dias: [1, 3, 7], acertos_para_sair: 2 }
 };

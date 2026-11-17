@@ -217,6 +217,9 @@ def tema(unidade, topico):
     # (tools/tecnico/comum.py) e ficam como estão
     if unidade in MATERIAS_SO_TB:
         return topico
+    # o tópico já é o nome de um tema (ex.: questões da prova real do Técnico Bancário)
+    if topico in {nome for _, nome in REGRAS.get(unidade, [])}:
+        return topico
     for padrao, nome in REGRAS.get(unidade, []):
         if re.search(padrao, topico):
             return nome

@@ -42,6 +42,14 @@ const URL = 'file://' + process.cwd() + '/index.html';
   ok(depois.n === antes.n && depois.u === antes.u && depois.u === 'Raciocínio Lógico e Estatística', 'voltar ao perfil de TI mantém banco e matérias originais (' + depois.n + ')');
   await p.selectOption('#perfil', 'Técnico'); await p.waitForTimeout(300);
   ok(await p.evaluate(() => FP.dados.unidade(FP.dados.porId['RLE-0001'])) === info.mf, 'e o Técnico de novo reclassifica (' + info.mf + ')');
+  // prova real FGV 2023
+  await p.goto(URL + '#/'); await p.waitForSelector('[data-acao="prova-banestes-2023-tb"]');
+  await p.click('[data-acao="prova-banestes-2023-tb"]'); await p.waitForSelector('[data-acao="entregar"]');
+  const pr = await p.evaluate(() => { const ids = FP.store.perfil().emAndamento.itens.map(i => i.id); return { n: ids.length, prim: ids[0], ult: ids[ids.length - 1] }; });
+  ok(pr.n === 70 && pr.prim === 'TB23-001' && pr.ult === 'TB23-070', 'Refazer prova real FGV 2023: 70 questões na ordem ' + JSON.stringify(pr));
+  const fig = await p.evaluate(() => FP.dados.todas.filter(q => q.tags.includes('figura-ausente')).map(q => q.status));
+  ok(fig.length && fig.every(s => s !== 'validada'), 'questões sem figura ficam fora de treino e simulados');
+  await p.evaluate(() => { FP.store.perfil().emAndamento = null; FP.store.salvar(); });
   await p.goto(URL + '#/treino'); await p.waitForSelector('#f-unidade');
   const ops = await p.$$eval('#f-unidade option', xs => xs.map(x => x.textContent));
   ok(ops.some(t => /Matemática Financeira/.test(t)) && ops.some(t => /Conhecimentos Bancários/.test(t)), 'treino lista as matérias do Técnico');

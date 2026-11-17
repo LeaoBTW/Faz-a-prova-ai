@@ -79,7 +79,9 @@ def montar_prova(q, info):
         ("enunciado", q["enun"]), ("imagem", q["imagem"]), ("alternativas", q["alternativas"]),
         ("gabarito", None if q["anulada"] and q["gabarito"] not in LETRAS else q["gabarito"]),
         ("comentario", q["comentario"]),
-        ("tags", ["tecnico-bancario", "prova-2023"] + q["tags"]), ("embaralhavel", False), ("status", "validada"),
+        ("tags", ["tecnico-bancario", "prova-2023"] + q["tags"]), ("embaralhavel", False),
+        # sem a figura não dá para resolver: fica só no modo "Refazer prova real", fora de treino e simulados
+        ("status", "duvida" if "figura-ausente" in q["tags"] else "validada"),
         ("validacao", {"por": "autor", "em": DATA, "obs": q["obs"] or "Transcrita da prova e do gabarito definitivo da FGV."}),
         ("versao", 1),
     ])
