@@ -40,6 +40,22 @@
     });
   };
 
+  /* banco/<concurso>.js pode reaproveitar questões de outro concurso: window.CLASSIFICACAO[id] =
+     {id da questão: sigla da matéria}. Devolve {id: {bloco, materia}} já resolvido pela config. */
+  D.classificacao = function (cfg) {
+    var bruto = (window.CLASSIFICACAO || {})[cfg.id] || {}, porSigla = {}, out = {};
+    cfg.blocos.forEach(function (b) { b.materias.forEach(function (m) { porSigla[m.sigla] = { bloco: b.id, materia: m.nome }; }); });
+    Object.keys(bruto).forEach(function (id) { if (porSigla[bruto[id]]) out[id] = porSigla[bruto[id]]; });
+    return out;
+  };
+  /* Questões validadas do banco que valem para um concurso (contagem da tela de perfil). */
+  D.contarBanco = function (cfg) {
+    var classif = (window.CLASSIFICACAO || {})[cfg.id] || {};
+    return (window.BANCO || []).filter(function (q) {
+      return q && q.status === "validada" && (classif[q.id] || !q.concursos || q.concursos.indexOf(cfg.id) >= 0);
+    }).length;
+  };
+
   D.init = function (idConfig) {
     var cfg = (window.CONFIGS || {})[idConfig];
     D.aplicarCorrecoes();
@@ -47,11 +63,16 @@
     D.config = cfg;
     var vistos = {};
     D.todas = [];
+    var classif = D.classificacao(cfg);
     (window.BANCO || []).forEach(function (q) {
       if (!q || !q.id) return;
       if (vistos[q.id]) { D.duplicadas.push(q.id); return; }
-      if (q.concursos && q.concursos.indexOf(cfg.id) < 0) return;
+      var m = classif[q.id];
+      if (!m && q.concursos && q.concursos.indexOf(cfg.id) < 0) return;
       vistos[q.id] = true;
+      // questão de outro concurso reaproveitada: cópia com a matéria deste concurso
+      // (o objeto original fica intacto para quando o perfil trocar de concurso)
+      if (m) q = Object.assign({}, q, { bloco: m.bloco, materia: m.materia, eixo: null, materia_original: q.eixo || q.materia });
       D.todas.push(q);
     });
     D.porId = vistos;

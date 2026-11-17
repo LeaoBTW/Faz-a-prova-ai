@@ -16,6 +16,20 @@ GERAIS = {
 
 MATERIA_ESPECIFICOS = "Desenvolvimento de Sistemas"
 
+# Banestes 2026 – Técnico Bancário (questões só deste concurso: ids TB-<SIGLA>-0001 e TB23-001)
+CONCURSO_TB = "banestes-2026-tecnico-bancario"
+MATERIAS_TB = {
+    "LP": ("Língua Portuguesa", "gerais"),
+    "MAT": ("Matemática/Raciocínio Lógico e Quantitativo", "gerais"),
+    "ATU": ("Atualidades do Mercado Financeiro", "gerais"),
+    "ETI": ("Ética, Compliance e ESG", "gerais"),
+    "CB": ("Conhecimentos Bancários e Securitários", "especificos"),
+    "MF": ("Matemática Financeira", "especificos"),
+    "PE": ("Noções de Probabilidade e Estatística", "especificos"),
+    "INF": ("Noções de Informática e Comportamentos Digitais", "especificos"),
+    "VNA": ("Vendas, Negociação e Atendimento", "especificos"),
+}
+
 # 12 eixos do Anexo IV: sigla -> (nome, arquivo, questões por prova)
 EIXOS = {
     "PROC": ("Processo de desenvolvimento de software", "esp-processo.js", 7),
