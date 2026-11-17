@@ -1,0 +1,869 @@
+@@ LP-0001
+**Gabarito: B.** É a única frase sem duplo sentido nem incoerência: "voltar com nova disposição após o intervalo" só admite uma leitura. O enunciado dá o modelo do defeito ("marcar sob pressão" dito no lugar de "marcar com pressão").
+
+- **A:** "só jogou porque foi regularizado" faz da regularização a única causa de ele jogar, como se bastasse o registro para ser escalado.
+- **C:** É impossível perder "o mesmo gol" de outra partida; o que se repete é um gol parecido.
+- **D:** O possessivo "sua" é ambíguo: a tática é do técnico ou do jogador?
+- **E:** "os atrasados" pode ser lido como salários atrasados ou como complemento mal construído, e "numa única parcela" contradiz a ideia de parcelamento.
+
+@@ LP-0002
+**Gabarito: C.** O observador declara estar "do lado de fora e diante da porta central", e por isso só descreve o que se vê desse ponto: a porta, o friso e as janelas da fachada. A limitação da descrição decorre do lugar físico de onde ele olha.
+
+- **A:** Nada no trecho indica estado emocional ou problema psicológico do observador.
+- **B:** Ele até arrisca hipóteses sobre o estilo da época; não é falta de conhecimento que restringe a descrição.
+- **D:** Não há menção a pressa ou a pouco tempo.
+- **E:** Não há sinal de desinteresse: ele descreve com detalhe tudo o que alcança ver.
+
+@@ LP-0003
+**Gabarito: D.** A primeira frase qualifica a época como "perigosa" e a segunda justifica o alarme (o homem tem poder sobre a natureza sem ter controle sobre si). O convencimento se faz pela ameaça, isto é, pela intimidação pelo medo.
+
+- **A:** Não há testemunho de autoridade citado como argumento; o teólogo é o próprio autor da frase.
+- **B:** Não há dados nem elementos científicos.
+- **C:** O texto não fala em extinção da espécie nem em irresponsabilidade "de muitos".
+- **E:** A segunda frase explica a primeira (por que a época é perigosa); não se opõe a ela.
+
+@@ LP-0004
+**Gabarito: E.** Para Chesterton, a sensação de que o mundo piorou vem de as coberturas jornalísticas terem "melhorado muito": hoje se noticia mais e melhor o que sempre aconteceu. Melhorar a cobertura é fazê-la com mais amplitude e precisão.
+
+- **A:** A frase fala em melhora da cobertura, não em exploração de temas escabrosos.
+- **B:** O autor nega justamente que os fatos ruins tenham aumentado.
+- **C:** Ele não diz que o mundo piorou pouco, e sim que não piorou.
+- **D:** A frase não trata de crimes nem de mudança de pauta da imprensa.
+
+@@ LP-0005
+**Gabarito: B.** É a única frase sem vocabulário negativo: "grandes novidades" valoriza o novo. Na canção de Cazuza o verso é irônico (museu e novidade se contradizem), mas, isolado como na questão, é o único que pode ser lido como visão positiva.
+
+- **A:** "arco-íris de caos" associa a modernidade à desordem.
+- **C:** "objetivos confusos" é crítica à época, apesar dos "meios poderosos".
+- **D:** "asilo de lunáticos" é imagem claramente negativa.
+- **E:** Afirma que a confusão é o estado normal de quem pensa hoje.
+
+@@ LP-0006
+**Gabarito: A.** Inferência é uma conclusão plausível tirada do que foi dito. Se o governo quer arrecadar mais, é razoável concluir que pretende combater a sonegação, um dos meios diretos de aumentar a arrecadação.
+
+- **B:** Chuva forte no verão brasileiro não leva a maior procura pelo inverno europeu.
+- **C:** Assalto a banco na capital não permite concluir que haverá mais agências no interior.
+- **D:** Corrosão pede manutenção e recuperação dos viadutos, não necessariamente a construção de novos.
+- **E:** O calendário escolar (aulas até dezembro) nada diz sobre a qualidade da educação.
+
+@@ LP-0007
+**Gabarito: A.** Em "Se Leonardo da Vinci terminou a sua carreira como músico...", o "se" introduz um fato dado como certo e equivale a "já que", "uma vez que": valor de causa.
+
+- **B:** "Se fossem livres" é hipótese: valor de condição, não de explicação.
+- **C:** "ir para Nova York" indica destino (lugar), não finalidade.
+- **D:** Em "saber se ele soa bem", o "se" é conjunção integrante (interrogativa indireta), sem valor condicional.
+- **E:** "com muito orgulho" indica modo, não companhia.
+
+@@ LP-0008
+**Gabarito: E.** A regra pede que não se use presente para fato de passado distante, e o título usa o pretérito perfeito: "Índice subiu 20% há cinco anos". Regra e título combinam.
+
+- **A:** "serão vendidos" é voz passiva analítica, justamente o que a regra desaconselha.
+- **B:** "Polícia é acusada" atribui à instituição o que seria ato de integrantes dela.
+- **C:** "inaugura [...] daqui a dois anos" usa o presente para ação distante no futuro.
+- **D:** "Um morador de rua" é impreciso: não identifica de quem se trata.
+
+@@ LP-0009
+**Gabarito: B.** *Backup* é a cópia de segurança de arquivos, e a tradução dada ("cópia de arquivo") corresponde a esse sentido.
+
+- **A:** *Airbag* é a bolsa inflável que protege os ocupantes em colisões, não freio manual.
+- **C:** *Cartoon* é desenho humorístico ou desenho animado, não cartaz publicitário.
+- **D:** *On-line* significa conectado à rede, sem relação com mensagens secretas.
+- **E:** *Playback* é a reprodução de som previamente gravado, não a decoração.
+
+@@ LP-0010
+**Gabarito: C.** Entrar em greve logo depois de receber aumento contraria o esperado, relação que pede conector concessivo: "Embora a Prefeitura tenha concedido aumento [...], os professores decidiram entrar em greve".
+
+- **A:** "logo" (conclusão) faz da greve consequência do aumento, o que é ilógico.
+- **B:** "uma vez que" (causa) diz que a greve ocorre por causa do aumento.
+- **D:** Inverte a concessão: o aumento (anteontem) é anterior à greve (hoje), não pode ter sido dado "apesar" dela.
+- **E:** "de modo que" (consequência) repete a incoerência de A.
+
+@@ LP-0011
+**Gabarito: A.** Em "falava inglês ou francês com facilidade", o senhor domina as duas línguas: o "ou" é inclusivo e equivale a "e" (adição).
+
+- **B:** Comprará um carro só: alternativa com exclusão.
+- **C:** "Ou... ou..." repetido marca alternância enfática e excludente.
+- **D:** "Rui Barbosa, ou a Águia de Haia" traz outra denominação do mesmo ser: valor explicativo (equivalência).
+- **E:** "ou seremos reprovados" equivale a "senão": indica a consequência de não cumprir o que se propõe.
+
+@@ LP-0012
+**Gabarito: D.** A frase reúne as duas exigências: usa termo do campo lexical da economia ("comércio") e apresenta visão negativa (o comércio "opera contra os fracos").
+
+- **A:** Fala da dificuldade de entender o presente; não condena a economia.
+- **B:** O tema é a inevitabilidade da morte e dos impostos, não uma avaliação da economia.
+- **C:** Critica a visão estreita do economista e amplia o problema; não é visão negativa da economia.
+- **E:** É ironia sobre os economistas e ainda chama a economia de "muito útil".
+
+@@ LP-0013
+**Gabarito: C.** Roberto chegou atrasado e perdeu as cenas que explicariam a recusa da heroína. A falha está no receptor, a quem faltam informações prévias (conhecimentos) para interpretar a mensagem.
+
+- **A:** O código (a língua e a linguagem do filme) é o mesmo para emissor e receptor.
+- **B:** Não há duplo sentido na cena; falta contexto.
+- **D:** A mensagem não é densa: seria compreendida por quem viu o início.
+- **E:** Roberto quer entender; o problema não é falta de colaboração.
+
+@@ LP-0014
+**Gabarito: D.** A expressão vaga "certos gêneros de filmes" é esclarecida pelo trecho entre parênteses, marcado por "por exemplo": terror e ficção científica. A estratégia é a exemplificação.
+
+- **A:** Não há enumeração de aspectos da realidade, só dois exemplos de uma categoria.
+- **B:** Não há números; "grande estresse" é quantificação imprecisa.
+- **C:** Escolha de vocabulário adequado é genérica e não é o recurso que se destaca na frase.
+- **E:** Nenhum conceito é definido ou explicado; apenas se dão exemplos.
+
+@@ LP-0015
+**Gabarito: E.** A frase responde às perguntas básicas da informação: o quê (o rio transbordou), onde (rio Gavião, RS), quando (tarde de ontem, 28) e por quê (as chuvas).
+
+- **A:** Não diz qual deputado nem qual projeto.
+- **B:** Não diz que encontro é nem onde ocorrerá.
+- **C:** Traz só uma localização, e genérica.
+- **D:** Não identifica o pianista nem a sonata e acrescenta opinião ("certamente agradará").
+
+@@ LP-0016
+**Gabarito: A.** O texto defende uma tese (a neutralidade no jornalismo é uma "impostura perigosa"), sustenta-a com argumentos de autoridade (Philip Meyer, Cláudio Abramo) e fecha com conclusão ("Em resumo"). É a estrutura do tipo dissertativo-argumentativo.
+
+- **B:** Não há personagens agindo em tempo e espaço, nem sequência de fatos narrados.
+- **C:** O texto não constrói o retrato de um objeto, lugar ou pessoa.
+- **D:** Não dá instruções nem ordens ao leitor, marca do texto injuntivo.
+
+@@ LP-0017
+**Gabarito: B.** A tese está no primeiro parágrafo: a pretensa neutralidade é "uma impostura perigosa que pode comprometer a base democrática do jornalismo". Insistir na imparcialidade, portanto, prejudica a informação.
+
+- **A:** O texto nega que o jornalista deva pairar acima de tudo; ele é pessoa real, com lealdades.
+- **C:** Não há consenso: o texto mostra autores que desmascaram o mito da neutralidade.
+- **D:** O texto pede transparência sobre as próprias crenças, não fidelidade à reportagem antes de si mesmo e dos chefes.
+
+@@ LP-0018
+**Gabarito: C.** O texto usa retomadas anafóricas explícitas, como "essa pretensa neutralidade", "esse mito", "essa ideia" e "Ele" (Cláudio Abramo), que garantem a coesão referencial e evitam repetições. (A redação da alternativa tem falha de concordância: o correto seria "foram utilizados termos".)
+
+- **A:** Sem operadores como "No entanto" e "a fim de", o sentido e a progressão do parágrafo se perdem.
+- **B:** Há conectivos ligando parágrafos: "No entanto", "também", "Em resumo".
+- **D:** Há repertório sociocultural: Philip Meyer, Katherine McAdams e Cláudio Abramo.
+
+@@ LP-0019
+**Gabarito: D.** "renomado jornalista brasileiro" vem entre vírgulas e explica o substantivo anterior, "Cláudio Abramo": é aposto explicativo.
+
+- **A:** O sujeito simples é "Cláudio Abramo"; o trecho grifado apenas o explica.
+- **B:** Não indica o instrumento com que se pratica a ação.
+- **C:** O adjunto adnominal se liga diretamente ao nome, sem pausa (como "renomado" em relação a "jornalista"); a expressão inteira, isolada por vírgulas, é aposto.
+
+@@ LP-0020
+**Gabarito: D.** Regra: usa-se vírgula para separar termos coordenados de mesma função em uma enumeração ("Livros, discos, vídeos"). A banca chama esses termos de "sujeitos compostos"; a rigor é uma frase nominal, sem verbo expresso, mas a regra da vírgula é a mesma.
+
+- **A:** Sem as vírgulas a enumeração se desfaz e a pontuação fica incorreta.
+- **B:** "à mancheia" é locução adverbial com núcleo feminino, caso de crase obrigatória (como "à vontade", "às pressas").
+- **C:** Um termo não pode ser ao mesmo tempo indeterminado, inexistente e elíptico; os termos estão expressos.
+
+@@ LP-0021
+**Gabarito: D.** A estrofe dialoga com outros textos e autores: Fernando Pessoa, Guimarães Rosa ("o Rosa") e, no jogo "a rosa", alusões a outras obras e canções. É intertextualidade, ou seja, vários textos retomados e reescritos dentro de um só.
+
+- **A:** Guimarães Rosa é brasileiro (mineiro de Cordisburgo); só Fernando Pessoa é português.
+- **B:** Há intertextualidade evidente nas referências a Pessoa e a Rosa.
+- **C:** Amor e amizade não são sinônimos: o texto os compara em uma analogia (a poesia está para a prosa como o amor está para a amizade) e ainda os hierarquiza ("esta lhe é superior").
+
+@@ LP-0022
+**Gabarito: A.** A ideia central está nos versos "Minha pátria é minha língua" e "A língua é minha pátria": a identidade do falante está na língua, que ultrapassa fronteiras políticas (Portugal, Brasil, Luanda, Moçambique).
+
+- **B:** O texto não compara graus de dificuldade entre línguas (e "Rússia" é país, não língua).
+- **C:** São citados nomes estrangeiros, como Luís de Camões e Fernando Pessoa (portugueses) e Chevalier.
+- **D:** Os estrangeirismos aparecem como parte da mistura linguística, mas não são "a maior representação" da língua nem a base das figuras de linguagem.
+
+@@ LP-0023
+**Gabarito: C.** O texto expõe fatos atuais de interesse público (data de estreia, elenco, direção) em linguagem objetiva e impessoal, sem opinião do autor: características do gênero notícia.
+
+- **A:** Não há tese nem defesa de ponto de vista, logo não é dissertativo-argumentativo.
+- **B:** A justificativa é falsa: ponto de vista do autor e entrevista não são requisitos que definam a reportagem; o texto é curto e factual, por isso é notícia.
+- **D:** Foi publicado em portal jornalístico e usa linguagem formal, não coloquial.
+
+@@ LP-0024
+**Gabarito: B.** As três afirmativas extrapolam ou contradizem o texto.
+
+- **I:** Falsa. Arraes garantiu que "a trama será original", apenas "respeitando o universo criado por Ariano Suassuna"; não é totalmente baseada no livro.
+- **II:** Falsa. O texto nada diz sobre a reação de Suassuna (extrapolação).
+- **III:** Falsa. O segundo filme é dirigido por Guel Arraes **e** Flávia Lacerda, e a declaração sobre trama original vale só para o novo longa. Além disso, "no qual" está mal empregado (o correto seria "o qual" ou "que").
+
+@@ LP-0025
+**Gabarito: C.** Em "É possível que não possamos comparecer", a oração iniciada por "que" funciona como sujeito de "é possível": oração subordinada substantiva subjetiva (teste: "Isso é possível"). O mesmo ocorre em "É importante que saibamos...".
+
+- **A:** "de que essa foi a melhor decisão" completa o nome "certeza": completiva nominal.
+- **B:** Também é subjetiva, mas reduzida de infinitivo ("não irmos"), sem conjunção; a do enunciado é desenvolvida.
+- **D:** "de que tudo se resolva" completa o nome "desejo": completiva nominal.
+
+@@ LP-0026
+**Gabarito: C.** Só a afirmativa III está correta.
+
+- **I:** Falsa. O pronome relativo retoma um termo antecedente (o substantivo "arboviroses"), não uma oração; e a oração que ele introduz vem depois de vírgula, portanto é adjetiva **explicativa**, não restritiva.
+- **II:** Falsa. A invariabilidade de "que" não impede a troca por um relativo variável: "que" pode ser substituído por "o qual" e flexões, desde que concorde com o antecedente.
+- **III:** Verdadeira. Nos dois casos, "que" é pronome relativo (equivale a "o qual" e flexões) e introduz oração adjetiva.
+
+@@ LP-0027
+**Questão anulada.** Pedia a alternativa incorreta, mas há duas. (A) é incorreta: "tenha vindo" é uma locução verbal (um só predicado), e as orações do período são subordinadas ("que o mosquito tenha vindo", "que partiam"), não coordenadas. (D) também é incorreta: só "vem ocorrendo" tem o principal no gerúndio; em "tenha vindo", "vindo" é particípio (tempo composto com "ter").
+
+- **B:** Correta: o trecho tem 4 períodos, cada um encerrado por ponto.
+- **C:** Correta: em "associadas à introdução" a crase é obrigatória ("associadas" pede a preposição "a" e "introdução" admite o artigo "a").
+
+@@ LP-0028
+**Gabarito: D.** A alternativa incorreta inverte a regra: os prefixos tônicos *pré-*, *pós-* e *pró-* levam acento **e** hífen (pré-escolar, pós-graduação); as formas átonas *pre-*, *pos-*, *pro-* se aglutinam, sem acento e sem hífen (prever, pospor, promover). E isso não é novidade do Acordo Ortográfico.
+
+- **A:** Correta: "hífen" é paroxítona terminada em -n; o plural "hifens" termina em -ens e não se acentua.
+- **B:** Correta: "história" pode ser vista como paroxítona terminada em ditongo crescente ou como proparoxítona aparente (his-tó-ri-a).
+- **C:** Correta: o Acordo eliminou o acento do i e do u tônicos depois de ditongo decrescente nas paroxítonas (feiura, baiuca, bocaiuva).
+
+@@ LP-0029
+**Gabarito: A.** "Cotidiano" e "quotidiano" são formas variantes registradas no vocabulário oficial; a primeira é a mais usada no Brasil. (A alternativa termina com um "porém" solto, falha de redação da banca que não altera a resposta.)
+
+- **B:** "Catorze" e "quatorze" são ambas aceitas, mas "quatorze" é de uso brasileiro; em Portugal a forma corrente é "catorze".
+- **C:** *Akademía* é palavra grega (o jardim de Academo, onde Platão ensinava); ao português chegou pelo latim *academia*.
+- **D:** *Alter ego* é expressão latina ("outro eu"), não grega.
+
+@@ LP-0030
+**Gabarito: B.** Neologismo literário (ou estilístico) é a palavra criada por escritores, poetas e compositores para obter efeito expressivo, como os inventos verbais de Guimarães Rosa.
+
+- **A:** Neologismo popular nasce do uso espontâneo dos falantes (gírias, por exemplo), não de um grupo específico; *youtuber* e *influencer* são empréstimos do inglês.
+- **C:** O estrangeirismo não precisa manter a grafia original: muitos são aportuguesados (sutiã, balé).
+- **D:** O nome usual é neologismo científico ou técnico; "de ficção científica" não é classificação.
+
+@@ LP-0031
+**Gabarito: B.** "Barateado" é verbo de mudança de estado e carrega um pressuposto: se o Pix barateou as transferências, antes elas custavam mais.
+
+- **A:** O texto diz que os golpes cresceram "no mesmo período", sem afirmar relação de causa.
+- **C:** Generalização indevida: crescimento dos golpes não significa que todos foram vítimas.
+- **D:** Contradiz o texto, que afirma que os golpes cresceram.
+- **E:** Extrapola: pede "atenção redobrada", não o abandono do Pix.
+
+@@ LP-0032
+**Gabarito: C.** O conectivo conclusivo "Diante disso" e a posição no último parágrafo indicam conclusão. A frase é opinativa e propositiva ("é urgente que as escolas ensinem"): retoma a tese na forma de proposta de solução.
+
+- **A:** A contextualização do tema aparece na introdução.
+- **B:** Não há número nem dado de pesquisa.
+- **D:** Nenhum especialista ou instituição é citado.
+- **E:** Contra-argumentar é rebater posição contrária, o que o trecho não faz.
+
+@@ LP-0033
+**Gabarito: B.** "Voltar a" é marcador de pressuposição: indica que a ação já ocorreu antes, foi interrompida e recomeçou. Logo, o banco cobrava a tarifa, parou e retomou a cobrança.
+
+- **A:** Se nunca tivesse cobrado, não poderia "voltar a" cobrar.
+- **C:** É juízo de valor que a frase não traz.
+- **D:** É suposição sobre o futuro, não informação implícita na frase.
+- **E:** Cobrança sem interrupção é incompatível com a ideia de retorno.
+
+@@ LP-0034
+**Gabarito: C.** O autor apresenta a opinião dos especialistas e em seguida a rejeita ("Discordo"). É a posição contrária, trazida ao texto para ser refutada. A tese do autor é a de que o papel-moeda continua essencial onde há pouca conectividade.
+
+- **A:** A tese do autor é oposta à dos especialistas.
+- **B:** Argumento de autoridade reforça a tese; aqui a autoridade é contestada.
+- **D:** A fala abre o trecho como ponto de partida; não o conclui.
+- **E:** "Dez anos" é previsão, não dado estatístico.
+
+@@ LP-0035
+**Gabarito: C.** "Contudo" é conjunção coordenativa adversativa (ideia de oposição), assim como "entretanto", "mas", "porém", "todavia" e "no entanto".
+
+- **A:** "Portanto" é conclusiva.
+- **B:** "Porquanto" é explicativa ou causal (equivale a "porque"); não confundir com "conquanto", que é concessiva.
+- **D:** "Conforme" é conformativa.
+- **E:** "Logo" é conclusiva.
+
+@@ LP-0036
+**Gabarito: A.** Em "A, mas B", a informação que prevalece é B ("exige atualização constante"). Na reescrita concessiva, o "embora" (com verbo no subjuntivo) deve recair sobre a ideia mais fraca, A: "Embora o sistema seja seguro, exige atualização constante".
+
+- **B:** Inverte a ênfase: passa a prevalecer "é seguro".
+- **C:** Transforma a oposição em causa.
+- **D:** "Portanto" cria relação de conclusão.
+- **E:** "Se" cria relação de condição.
+
+@@ LP-0037
+**Gabarito: C.** Paródia é a retomada de um texto com deformação e intenção crítica ou humorística. Oswald troca as "palmeiras" por "palmares" e inverte o tom ufanista de Gonçalves Dias.
+
+- **A:** A paráfrase reescreve o texto mantendo o mesmo sentido.
+- **B:** Citação é a transcrição literal de trecho alheio, com indicação da fonte.
+- **D:** Epígrafe é a citação posta na abertura de uma obra ou capítulo.
+- **E:** Plágio é a apropriação indevida de obra alheia como se fosse própria; aqui a referência é declarada e recriadora.
+
+@@ LP-0038
+**Gabarito: C.** "Desde que" com verbo no subjuntivo ("cumpra") exprime condição e equivale a "contanto que", "caso".
+
+- **A:** Indica tempo quando vem com indicativo: "desde que você chegou".
+- **B:** Causa se exprime com "porque", "já que", "visto que".
+- **D:** Concessão se exprime com "embora", "ainda que", "mesmo que".
+- **E:** Finalidade se exprime com "para que", "a fim de que".
+
+@@ LP-0039
+**Gabarito: B.** Na retomada de dois termos já citados, "este/esta" refere-se ao mais próximo (o último mencionado, Marta) e "aquele/aquela" ao mais distante (o primeiro, Pedro). O gênero confirma: "esta" é feminino, "aquele" é masculino.
+
+- **A:** Inverte a ordem da referência.
+- **C, D e E:** "Vaga" não é retomada por nenhum dos pronomes: não faz sentido a vaga ser "aprovada" ou "reprovado", e "aquele" (masculino) não concorda com "vaga".
+
+@@ LP-0040
+**Gabarito: C.** O tipo injuntivo (ou instrucional) orienta o leitor a agir: verbos no imperativo ("verifique", "faça", "não forneça") e sequência de passos.
+
+- **A:** Narração relata fatos em sequência temporal, com personagens.
+- **B:** Descrição caracteriza seres, objetos ou ambientes.
+- **D:** Argumentação defende uma tese com argumentos.
+- **E:** Exposição explica um assunto de forma impessoal, sem dar ordens.
+
+@@ LP-0041
+**Gabarito: B.** Gêneros são as formas concretas de texto que circulam socialmente (notícia, editorial, receita, conto, bula). Tipos são as sequências linguísticas, em número limitado: narração, descrição, injunção, exposição e argumentação.
+
+- **A:** "Narração" é tipo; conto e crônica são gêneros.
+- **C:** Os três são tipos.
+- **D:** "Argumentação" é tipo.
+- **E:** "Exposição" e "narração" são tipos; só verbete é gênero.
+
+@@ LP-0042
+**Gabarito: B.** O trecho define um conceito ("é um regime em que...") com verbo no presente atemporal, linguagem impessoal e sem tomada de posição: sequência expositiva.
+
+- **A:** Não há fatos em sequência temporal nem personagens.
+- **C:** Não há tese defendida nem juízo de valor.
+- **D:** Não há ordens ou instruções ao leitor.
+- **E:** Não há troca de falas entre interlocutores.
+
+@@ LP-0043
+**Gabarito: D.** Há juízo de valor ("estratégia equivocada") seguido de justificativa introduzida por "pois": tese mais argumento, marca da argumentação.
+
+- **A:** Narração: fatos em sequência temporal ("foi fundado", "ampliou").
+- **B:** Injunção: verbos no imperativo ("abra", "preencha").
+- **C:** Descrição: caracterização de um ambiente.
+- **E:** Exposição: definição de um conceito.
+
+@@ LP-0044
+**Gabarito: C.** O narrador onisciente narra em terceira pessoa e conhece o interior das personagens: pensamentos, sentimentos, passado e futuro.
+
+- **A:** O narrador personagem participa da história e narra em primeira pessoa.
+- **B:** O observador, também em terceira pessoa, relata só o que se vê de fora, sem acesso ao pensamento.
+- **D:** O narrador testemunha é personagem secundária que conta, em primeira pessoa, o que presenciou.
+- **E:** O narrador protagonista conta a própria história em primeira pessoa.
+
+@@ LP-0045
+**Gabarito: C.** O texto anuncia um produto comercial (a conta Jovem Poupador) e usa o imperativo ("Abra", "ensine") para levar o leitor a contratá-lo: texto publicitário.
+
+- **A:** Texto normativo estabelece regras (leis, regulamentos).
+- **B:** A propaganda divulga ideias, causas ou comportamentos, sem fim comercial; aqui se vende um produto.
+- **D:** Texto divinatório faz previsões (horóscopo, por exemplo).
+- **E:** Texto didático tem a finalidade de ensinar um conteúdo.
+
+@@ LP-0046
+**Gabarito: B.** O texto não vende nada: difunde um comportamento de interesse social (doar sangue), com imperativo e argumento ("pode salvar até quatro vidas"). Propaganda divulga ideias e condutas; publicidade promove produtos e serviços.
+
+- **A:** Não há produto nem fim comercial.
+- **C:** Doar sangue não é obrigação legal; o texto convida, não impõe norma.
+- **D:** Não há previsão de futuro de base mística; "pode salvar" é informação.
+- **E:** A linguagem é denotativa e a finalidade é prática, não estética.
+
+@@ LP-0047
+**Gabarito: B.** O texto divinatório (horóscopo) faz previsões com o futuro do presente ("trará"), apoia-se em base mística (a Lua no signo) e dá conselhos ao leitor no imperativo ("Fique atento").
+
+- **A:** Os verbos estão no futuro e no imperativo, e a linguagem não é técnica.
+- **C:** Artigos e incisos são marca do texto normativo.
+- **D:** Não há narração nem primeira pessoa; o texto se dirige ao leitor.
+- **E:** Não define conceitos nem tem base científica.
+
+@@ LP-0048
+**Gabarito: C.** O texto não literário (notícia, manual, contrato) tem finalidade prática e busca objetividade: linguagem predominantemente denotativa e, em geral, uma só leitura possível.
+
+- **A:** Há versos não literários, como jingles e versinhos mnemônicos.
+- **B:** A literatura também é lírica (poemas) e dramática (peças).
+- **D:** O texto literário pode usar denotação; o que o define é o trabalho estético com a linguagem.
+- **E:** A crônica é gênero híbrido e muitas vezes literário (Rubem Braga, Fernando Sabino).
+
+@@ LP-0049
+**Gabarito: B.** A divisão em artigos ("Art. 3º") e a linguagem impositiva ("Compete ao candidato") são marcas do texto normativo, como leis, regulamentos e editais.
+
+- **A:** O texto didático explica um conteúdo para ensinar; não fixa obrigações.
+- **C:** Não promove produto ou serviço.
+- **D:** Não há elaboração estética nem linguagem conotativa.
+- **E:** Não faz previsões.
+
+@@ LP-0050
+**Gabarito: B.** Na interrogação indireta, a pergunta vem embutida em uma oração subordinada a um verbo como "saber", "perguntar", "ignorar", e a frase termina com ponto final: "Ninguém sabe quem apagou o arquivo".
+
+- **A:** Interrogação direta, com ponto de interrogação.
+- **C:** Interrogação direta.
+- **D:** Frase imperativa.
+- **E:** Frase exclamativa.
+
+@@ LP-0051
+**Gabarito: D.** A frase optativa exprime desejo, em geral com verbo no subjuntivo e expressões como "oxalá", "tomara", "Deus queira": "Oxalá o mercado se recupere".
+
+- **A:** A declarativa afirma um fato; aqui só se deseja que ele ocorra.
+- **B:** Não há pergunta.
+- **C:** A imperativa dá ordem, pedido ou conselho ao interlocutor.
+- **E:** A frase tem verbo ("se recupere"), portanto não é nominal.
+
+@@ LP-0052
+**Gabarito: B.** Conta-se uma oração para cada verbo ou locução verbal. "deveria ter avisado" é uma só locução (auxiliares + principal), núcleo da 1ª oração; "ficaria" é o verbo da 2ª, a subordinada "de que o sistema ficaria fora do ar".
+
+- **A:** Ignora a oração subordinada com "ficaria".
+- **C, D e E:** Contam separadamente os verbos da locução ("deveria", "ter", "avisado"), que formam um único núcleo verbal.
+
+@@ LP-0053
+**Gabarito: C.** O enunciado tem sentido completo e não tem verbo: é frase nominal. Frase é qualquer enunciado de sentido completo; oração é a que se organiza em torno de um verbo.
+
+- **A:** Período exige ao menos uma oração (um verbo); aqui não há nenhuma.
+- **B:** Sem verbo não há oração, com ou sem sujeito.
+- **D:** Não há pergunta.
+- **E:** Frase não exige verbo ("Silêncio!", "Fogo!").
+
+@@ LP-0054
+**Gabarito: A.** A pergunta retórica não espera resposta: o autor a usa para provocar o leitor e reforçar a crítica (ninguém aguenta tanta burocracia). É recurso argumentativo.
+
+- **B:** É interrogação direta, com ponto de interrogação.
+- **C:** Não exprime desejo.
+- **D:** Não há ordem nem proibição.
+- **E:** Há verbo ("aguenta"), logo não é frase nominal.
+
+@@ LP-0055
+**Gabarito: B.** O termo tem núcleo substantivo ("instituição"), refere-se a outro substantivo ("O Banestes") para explicá-lo e vem isolado por vírgulas: aposto explicativo.
+
+- **A:** Vocativo é chamamento do interlocutor ("Clientes, atenção").
+- **C:** O predicativo do sujeito se liga ao sujeito por meio do verbo ("O Banestes é uma instituição capixaba").
+- **D:** O adjunto adnominal acompanha o nome sem pausa ("o banco capixaba").
+- **E:** O aposto especificativo não vem entre vírgulas e individualiza o nome ("o rio Doce", "o banco Banestes").
+
+@@ LP-0056
+**Gabarito: C.** Em "Sabe-se que...", o "se" é partícula apassivadora (voz passiva sintética) e a oração "que o sistema voltará em breve" é o sujeito: "Isso é sabido".
+
+- **A:** Objetiva direta: completa o verbo transitivo direto "espero" ("Espero isso").
+- **B:** Completiva nominal: completa o substantivo "certeza".
+- **D:** Predicativa: vem depois de verbo de ligação ("O problema é isso").
+- **E:** Adjetiva restritiva, introduzida por pronome relativo.
+
+@@ LP-0057
+**Gabarito: C.** Para achar a função do relativo, troque-o pelo antecedente na oração adjetiva: "falei-lhe **do projeto**". O verbo "falar" rege a preposição "de" (falar de algo), e o termo preposicionado é objeto indireto. Por isso a preposição aparece antes do relativo: "de que".
+
+- **A:** O sujeito de "falei" é "eu" (oculto).
+- **B:** O objeto direto não seria preposicionado.
+- **D:** O relativo completa o verbo; não se liga a um nome.
+- **E:** Complemento nominal completa nome (substantivo, adjetivo, advérbio), não verbo.
+
+@@ LP-0058
+**Gabarito: C.** Regra: adjunto adverbial deslocado para o início da frase ("No último trimestre") é separado por vírgula, e não se separam por vírgula sujeito e verbo, nem verbo e complemento.
+
+- **A:** Vírgula entre o sujeito e o verbo.
+- **B:** Vírgula separa o núcleo do sujeito do seu adjunto ("do setor de tecnologia").
+- **D:** Vírgula entre o verbo e o objeto direto.
+- **E:** As vírgulas isolam "de tecnologia", que é parte restritiva do sujeito, e quebram a expressão "setor de tecnologia".
+
+@@ LP-0059
+**Gabarito: D.** Com verbo transitivo indireto ("precisar de"), o "se" é índice de indeterminação do sujeito e o verbo fica na 3ª pessoa do singular: "Precisa-se de analistas".
+
+- **A:** "Haver" no sentido de "existir" é impessoal e transmite a impessoalidade ao auxiliar: "Deve haver soluções".
+- **B:** "Fazer" indicando tempo decorrido é impessoal: "Faz dez anos".
+- **C:** Com verbo transitivo direto, o "se" é apassivador e o verbo concorda com o sujeito paciente: "Vendem-se apartamentos".
+- **E:** "Haver" impessoal fica no singular: "Houve muitas reclamações".
+
+@@ LP-0060
+**Gabarito: A.** Cada locução verbal vale por um verbo e forma uma oração: "estavam aguardando" (estar + gerúndio) e "voltou a funcionar" (voltar a + infinitivo). São duas orações, ligadas por "quando".
+
+- **B:** Conta cada verbo das locuções como uma oração.
+- **C:** Trata só uma das expressões como locução.
+- **D:** Ignora que há dois núcleos verbais e uma conjunção temporal.
+- **E:** Acerta o número de orações, mas nega as locuções.
+
+@@ LP-0061
+**Gabarito: C.** Sem vírgulas, a oração adjetiva é restritiva: só os candidatos que estudaram com antecedência foram aprovados. Entre vírgulas, torna-se explicativa e passa a valer para todos: os candidatos (todos) estudaram com antecedência e foram aprovados.
+
+- **A:** O sentido muda, de parte para a totalidade.
+- **B:** A frase continua correta; só diz outra coisa.
+- **D:** A oração continua adjetiva (explicativa).
+- **E:** O "que" continua pronome relativo, retomando "candidatos".
+
+@@ LP-0062
+**Gabarito: B.** Na passagem ao discurso indireto: a fala vira oração introduzida por "que"; a 1ª pessoa passa à 3ª (eu, ele); o futuro do presente passa ao futuro do pretérito (corrigirei, corrigiria); e o advérbio se ajusta (amanhã, no dia seguinte).
+
+- **A:** Mantém "eu" e o futuro do presente.
+- **C:** Mantém o futuro do presente e "amanhã".
+- **D:** Os dois-pontos mantêm estrutura de discurso direto; falta o "que".
+- **E:** "corrigiu" transforma promessa futura em fato passado.
+
+@@ LP-0063
+**Gabarito: C.** No discurso indireto livre, o pensamento da personagem se mistura à voz do narrador: sem verbo de elocução, sem aspas ou travessão, sem "que", mas com a 3ª pessoa e as marcas emotivas da personagem (exclamação, interrogação, futuro do pretérito "diria").
+
+- **A:** O discurso direto teria aspas ou travessão e 1ª pessoa ("O que direi ao conselho?").
+- **B:** O indireto teria verbo de dizer e conjunção ("pensou que...").
+- **D:** Não se transcreve texto de outra fonte.
+- **E:** Aposto é termo da oração que explica um nome, não modo de reproduzir falas.
+
+@@ LP-0064
+**Gabarito: B.** A pergunta de resposta sim ou não vira oração interrogativa indireta introduzida por "se"; "você" passa a "ele"; o pretérito perfeito ("trouxe") passa ao mais-que-perfeito ("tinha trazido"); e some o ponto de interrogação.
+
+- **A:** Usa "que" em vez de "se" e não ajusta o tempo verbal.
+- **C:** Mantém "você" e o pretérito perfeito.
+- **D:** Os dois-pontos não cabem no discurso indireto.
+- **E:** Mantém o ponto de interrogação e usa o imperfeito ("trazia"), que muda o sentido.
+
+@@ LP-0065
+**Gabarito: B.** As aspas marcam que as palavras são do entrevistado, e não do jornal: a responsabilidade pelo conteúdo fica com a fonte, o que também dá credibilidade ao relato.
+
+- **A:** O jornalista continua presente: escolhe, recorta e contextualiza a citação.
+- **C:** A citação não dá caráter literário à notícia.
+- **D:** O indireto livre dispensa aspas e verbo de dizer; é outra técnica.
+- **E:** O editorial expressa a opinião do veículo; citar uma fonte não muda o gênero.
+
+@@ LP-0066
+**Gabarito: C.** A função conativa (ou apelativa) centra-se no receptor e procura influenciar seu comportamento: tratamento direto ("Você") e imperativos ("Troque", "ganhe").
+
+- **A:** A referencial informa objetivamente, com foco no assunto.
+- **B:** A emotiva centra-se no emissor e em seus sentimentos (1ª pessoa).
+- **D:** A fática testa ou mantém o canal ("alô", "entendeu?").
+- **E:** A metalinguística usa o código para falar do próprio código.
+
+@@ LP-0067
+**Gabarito: B.** Quando o código fala de si mesmo (um poema sobre o fazer poético, um dicionário, um filme sobre cinema), predomina a função metalinguística.
+
+- **A:** A fática testa ou mantém o contato.
+- **C:** A referencial informa sobre o mundo exterior, de modo objetivo.
+- **D:** A conativa busca convencer o receptor.
+- **E:** A emotiva destaca os sentimentos do emissor; pode aparecer no poema, mas o que o define aqui é tratar da própria poesia.
+
+@@ LP-0068
+**Gabarito: C.** Cumprimentos e fórmulas sociais servem só para abrir e manter o contato entre os interlocutores, sem informação nova: função fática, centrada no canal.
+
+- **A:** A poética trabalha a forma da mensagem (ritmo, sonoridade, imagens).
+- **B:** A referencial transmite informação sobre o assunto.
+- **D:** A metalinguística explica o código.
+- **E:** A conativa tenta influenciar o receptor, com ordens e apelos.
+
+@@ LP-0069
+**Gabarito: C.** O jargão é a linguagem própria de um grupo profissional; variações ligadas a grupos sociais (profissão, escolaridade, idade) são diastráticas.
+
+- **A:** Diacrônica é a variação ao longo do tempo (vossa mercê, você).
+- **B:** Diatópica é a variação regional (mandioca, aipim, macaxeira).
+- **D:** Diamésica é a variação conforme o meio, fala ou escrita.
+- **E:** Arcaísmo é palavra em desuso, o oposto desses termos recentes.
+
+@@ LP-0070
+**Gabarito: B.** Para a sociolinguística, o critério é a adequação: usa-se a variedade que convém à situação comunicativa, ao interlocutor e ao gênero (formal em um ofício, informal em uma conversa).
+
+- **A:** Todas as variedades são legítimas do ponto de vista linguístico; a padrão é a de prestígio, exigida em situações formais.
+- **C:** Variação regional não é erro; tratá-la assim é preconceito linguístico.
+- **D:** A escrita também varia (um bilhete não se escreve como um contrato).
+- **E:** A gíria é variação diastrática (de grupo social); diacrônica é a variação histórica.
+
+@@ LP-0071
+**Gabarito: C.** Canal é o meio físico pelo qual a mensagem chega ao receptor; no anúncio impresso, é o jornal em papel.
+
+- **A:** O código é a língua portuguesa escrita, mais as imagens.
+- **B:** O referente é o assunto: o produto ou serviço anunciado.
+- **D:** O emissor é o banco anunciante.
+- **E:** O receptor é o leitor do jornal.
+
+@@ LP-0072
+**Gabarito: B.** Emissor e receptor usam o mesmo código (o português), mas os termos técnicos não fazem parte do repertório do cliente. Essa diferença de vocabulário é um ruído semântico, que impede a compreensão.
+
+- **A:** O canal existe: o contrato escrito.
+- **C:** O referente existe: as condições do contrato.
+- **D:** Feedback é a resposta do receptor; não é ele que causa a incompreensão.
+- **E:** O contrato usa linguagem verbal.
+
+@@ LP-0073
+**Gabarito: B.** Segundo Jakobson, cada função se centra em um elemento da comunicação: emissor, emotiva; receptor, conativa; mensagem, poética; código, metalinguística; canal, fática; referente (contexto), referencial.
+
+- **A:** O código corresponde à função metalinguística.
+- **C:** O canal corresponde à função fática.
+- **D:** A mensagem corresponde à função poética.
+- **E:** O emissor corresponde à função emotiva.
+
+@@ LP-0074
+**Gabarito: C.** Repetir a informação de duas formas é redundância intencional: se uma delas estiver ilegível, rasurada ou adulterada, a outra preserva a mensagem. É um modo de compensar ruídos.
+
+- **A:** Ruído é o que atrapalha a comunicação; a repetição é a defesa contra ele.
+- **B:** Feedback é a resposta do receptor ao emissor.
+- **D:** Metalinguagem é o código falando do código.
+- **E:** Algarismos e palavras são sinais escritos convencionais; o que a questão destaca é a repetição, não o tipo de código.
+
+@@ LP-0075
+**Gabarito: C.** Na parassíntese, prefixo e sufixo se juntam ao radical ao mesmo tempo: e- + mud(o) + -ecer. Teste: tirando um dos afixos, a palavra não existe ("emudo", "mudecer").
+
+- **A:** in- + feliz + -mente é derivação prefixal e sufixal: "infeliz" e "felizmente" existem.
+- **B:** des- + leal: derivação prefixal.
+- **D:** feliz + -(i)dade: derivação sufixal.
+- **E:** re- + fazer: derivação prefixal.
+
+@@ LP-0076
+**Gabarito: A.** Na derivação regressiva, a palavra nova surge por redução da primitiva, em geral substantivos abstratos de ação tirados de verbos: pescar, pesca; atacar, ataque; debater, debate.
+
+- **B:** Composição por aglutinação: plano + alto, água + ardente, em + boa + hora.
+- **C:** Redução vocabular (abreviação) de motocicleta, fotografia, metropolitano.
+- **D:** Composição por justaposição.
+- **E:** Derivação imprópria: verbos usados como substantivos ("o jantar", "o olhar").
+
+@@ LP-0077
+**Gabarito: A.** Na derivação imprópria (ou conversão), a palavra muda de classe sem mudar de forma. O advérbio "não", precedido de artigo ("o não"), passa a funcionar como substantivo.
+
+- **B:** A regressiva reduz a palavra primitiva (pescar, pesca).
+- **C:** A composição une dois ou mais radicais.
+- **D:** O hibridismo junta elementos de línguas diferentes.
+- **E:** A abreviação encurta a palavra (fotografia, foto).
+
+@@ LP-0078
+**Gabarito: C.** Hibridismo é a palavra formada por elementos de línguas diferentes: "sambódromo" une *samba* (origem africana) e o grego *drómos* (pista de corrida); "burocracia" une o francês *bureau* (escritório) e o grego *krátos* (poder).
+
+- **A:** A aglutinação é composição com perda fonética (planalto), sem exigir línguas diferentes.
+- **B:** A parassíntese acrescenta prefixo e sufixo ao mesmo tempo (entardecer).
+- **D:** A onomatopeia imita sons (tique-taque).
+- **E:** A regressiva reduz a palavra primitiva (atacar, ataque).
+
+@@ LP-0079
+**Gabarito: C.** "Bacen" (Banco Central) é acrônimo: formado por partes das palavras e lido como palavra. A convenção usual é grafar só com inicial maiúscula as siglas pronunciáveis com mais de três letras (Bacen, Petrobras, Unesco).
+
+- **A:** O plural de siglas leva "s" minúsculo sem apóstrofo: CPFs.
+- **B:** Símbolos de unidades não têm plural nem ponto: 10 km.
+- **D:** A abreviatura mantém o acento se ele cai na parte conservada: pág., séc.
+- **E:** "Moto" é redução vocabular de "motocicleta", não sigla.
+
+@@ LP-0080
+**Gabarito: C.** É o futuro do pretérito de distanciamento, típico do jornalismo: apresenta o fato como hipótese ainda não confirmada e deixa a responsabilidade com a fonte ("Segundo fontes do mercado").
+
+- **A:** Ação habitual no passado se exprime com o pretérito imperfeito ("registrava").
+- **B:** Ordem se exprime com o imperativo.
+- **D:** Fato concluído e certo pediria o pretérito perfeito ("registrou").
+- **E:** O futuro do pretérito de polidez aparece em pedidos ("Gostaria de um café").
+
+@@ LP-0081
+**Gabarito: B.** "Vender" é transitivo direto: o "se" é pronome apassivador, "carros usados" é sujeito paciente e o verbo vai ao plural (carros usados são vendidos). "Tratar de" é transitivo indireto: o "se" é índice de indeterminação do sujeito e o verbo fica no singular.
+
+- **A:** Inverte as duas classificações.
+- **C:** Não há ação reflexiva (os carros não vendem a si mesmos) nem conjunção.
+- **D:** Parte integrante ocorre em verbos pronominais, como "queixar-se" e "arrepender-se".
+- **E:** Verbo transitivo indireto não admite voz passiva; por isso "trata-se" não é apassivado.
+
+@@ LP-0082
+**Gabarito: C.** "Possivelmente" é modalizador epistêmico de dúvida (quase asseverativo): apresenta o conteúdo como hipótese, não como certeza.
+
+- **A:** "Evidentemente" exprime certeza (asseverativo).
+- **B:** "Obrigatoriamente" exprime obrigação (deôntico).
+- **D:** "Lamentavelmente" exprime avaliação afetiva do falante.
+- **E:** "Certamente" exprime certeza.
+
+@@ LP-0083
+**Gabarito: B.** A modalização deôntica situa o conteúdo no campo do dever: obrigação, permissão, proibição. Em um regulamento, "deve apresentar" significa "é obrigado a apresentar".
+
+- **A:** Seria epistêmica se indicasse probabilidade ("Ele deve estar no trânsito").
+- **C:** A avaliativa exprime juízo de valor ou sentimento ("felizmente").
+- **D:** A asseverativa afirma certeza ("sem dúvida").
+- **E:** A delimitadora restringe o alcance da afirmação ("do ponto de vista técnico").
+
+@@ LP-0084
+**Gabarito: B.** "Meio" modificando adjetivo ("preocupada") equivale a "um pouco": é advérbio e fica invariável, mesmo diante de palavra feminina.
+
+- **A:** "Meia" é numeral fracionário e concorda com "dúzia".
+- **C:** "Bastantes" é pronome indefinido (equivale a "muitas") e concorda com "razões"; só é advérbio quando modifica verbo, adjetivo ou advérbio.
+- **D:** "Sós" é adjetivo (equivale a "sozinhos") e varia; "só" advérbio equivale a "somente".
+- **E:** "Alto" é adjetivo, predicativo do sujeito.
+
+@@ LP-0085
+**Gabarito: B.** Pronome que funciona como sujeito de infinitivo fica no caso reto: "para **eu** revisar" (quem revisa sou eu). Depois de preposição, sem verbo de que seja sujeito, usa-se o oblíquo tônico: "fácil para **mim**".
+
+- **A:** Inverte os dois casos ("mim" não pode ser sujeito).
+- **C:** "para mim revisar" é o erro clássico.
+- **D:** "fácil para eu" está errado: pronome reto não fecha a frase regido de preposição.
+- **E:** "me" é oblíquo átono e não vem depois de preposição.
+
+@@ LP-0086
+**Gabarito: B.** Metonímia é a troca de um termo por outro com o qual tem relação de proximidade. "Brasília" (o lugar, sede do poder) está no lugar do governo federal (a instituição).
+
+- **A:** A metáfora se baseia em semelhança, em comparação implícita.
+- **C:** Hipérbole é exagero intencional.
+- **D:** Antítese aproxima ideias opostas.
+- **E:** Eufemismo suaviza uma expressão desagradável.
+
+@@ LP-0087
+**Gabarito: C.** "Sessão" é o tempo de duração de uma reunião ou espetáculo; "seção" (ou "secção") é parte, divisão; "cessão" é ato de ceder.
+
+- **A:** O correto é "deferiu" (atendeu, concedeu); "diferir" é adiar ou ser diferente.
+- **B:** O correto é "vultoso" (volumoso, de grande vulto); "vultuoso" é termo médico (rosto inchado e vermelho).
+- **D:** O correto é "infringiu" (violou); "infligir" é aplicar pena ou castigo.
+- **E:** O correto é "iminente" (prestes a acontecer); "eminente" é ilustre, elevado.
+
+@@ LP-0088
+**Gabarito: B.** O possessivo de 3ª pessoa "seu" pode referir-se a qualquer dos dois termos anteriores: relatório do analista ou do gerente. Desfaz-se a ambiguidade com "dele" ou reescrevendo a frase ("o relatório do gerente").
+
+- **A:** "Analista" tem sentido claro na frase.
+- **C:** A regência está correta: explicar algo a alguém.
+- **D:** O "que" é conjunção integrante (introduz o objeto direto de "explicou"), não pronome relativo.
+- **E:** Nenhuma vírgula resolveria a dupla referência.
+
+@@ LP-0089
+**Gabarito: C.** Hiperônimo é o termo de sentido mais amplo, que engloba outros. "Ferramenta" é categoria geral que inclui o "Pix"; retomar por hiperônimo é recurso de coesão lexical.
+
+- **A:** Hipônimo é o termo específico; seria o caminho inverso (do geral para o particular).
+- **B:** Antonímia é relação de sentidos opostos.
+- **D:** Parônimos são palavras parecidas na forma e diferentes no sentido (eminente, iminente).
+- **E:** Homônimos têm a mesma pronúncia ou grafia e sentidos diferentes (sessão, seção).
+
+@@ LP-0090
+**Gabarito: A.** Paradoxo é a união de ideias contraditórias em uma mesma afirmação sobre o mesmo ser: o silêncio (ausência de som) é ao mesmo tempo grito. A frase também contém metáfora, mas ela não está entre as opções.
+
+- **B:** Sinestesia mistura sensações de sentidos diferentes ("voz doce").
+- **C:** Aliteração é a repetição de sons consonantais.
+- **D:** Catacrese é a metáfora desgastada pelo uso ("pé da mesa").
+- **E:** Pleonasmo é a repetição de uma ideia ("subir para cima").
+
+@@ LP-0091
+**Gabarito: B.** O VOLP (Vocabulário Ortográfico da Língua Portuguesa), da Academia Brasileira de Letras, registra a grafia oficial, a classe gramatical e a flexão das palavras, e admite formas variantes (cotidiano e quotidiano, por exemplo).
+
+- **A:** Não é dicionário: não traz definições.
+- **C:** Continua em vigor e foi atualizado conforme o Acordo de 1990.
+- **D:** É publicado pela ABL, não pelo Banco Central.
+- **E:** Registra palavras de qualquer origem, inclusive estrangeirismos.
+
+@@ LP-0092
+**Gabarito: C.** Neologismo literário é a palavra criada por um autor com intenção expressiva. Bandeira funde "te" + "adorar" em um verbo novo para brincar com o nome "Teodora".
+
+- **A:** Arcaísmo é palavra antiga, em desuso; aqui há criação.
+- **B:** Estrangeirismo vem de outra língua; os elementos são portugueses.
+- **D:** Latinismo é palavra ou expressão latina usada em português.
+- **E:** Empréstimo semântico é dar a uma palavra existente um sentido tomado de outra língua.
+
+@@ LP-0093
+**Gabarito: B.** *Upload* conserva a grafia e a pronúncia inglesas (estrangeirismo não adaptado, que se destaca em itálico). "Deletou" vem do inglês *delete*, já aportuguesado com a terminação verbal "-ar" e conjugado normalmente.
+
+- **A, C e D:** Não há latinismo nem arcaísmo: são termos recentes, vindos do inglês.
+- **E:** "Deletar" está adaptado à morfologia do português, portanto não é estrangeirismo "não adaptado".
+
+@@ LP-0094
+**Gabarito: A.** No neologismo semântico, uma palavra já existente ganha sentido novo: *mouse* ("rato", em inglês) passou a nomear o dispositivo apontador. Em português o termo é também estrangeirismo, mas o que a questão destaca é o sentido novo.
+
+- **B:** Arcaísmo é sentido ou palavra em desuso, o oposto do caso.
+- **C:** A palavra é inglesa, não latina.
+- **D:** Parônimos são palavras parecidas na forma, de sentidos diferentes.
+- **E:** A palavra não foi encurtada.
+
+@@ LP-0095
+**Gabarito: B.** *Ipsis litteris* significa "com as mesmas letras", isto é, literalmente, e está bem empregado e bem grafado.
+
+- **A:** *Grosso modo* ("de modo aproximado") não admite a preposição "a".
+- **C:** A forma latina é *per capita*, sem acento.
+- **D:** O correto é *sine die* ("sem data marcada").
+- **E:** O correto é *sine qua non* ("sem a qual não").
+
+@@ LP-0096
+**Gabarito: B.** Arcaísmos são palavras ou construções que caíram em desuso: "asinha" (depressa), "ledo" (alegre) e "mui" (muito).
+
+- **A:** Neologismos são palavras novas.
+- **C:** Estrangeirismos vêm de outras línguas; estas são formas antigas do próprio português.
+- **D:** Latinismos são palavras ou expressões latinas usadas como tais (*habeas corpus*).
+- **E:** Gírias são expressões informais de grupos, em geral recentes.
+
+@@ LP-0097
+**Gabarito: A.** Pelo Acordo Ortográfico: ditongos abertos *ei* e *oi* de paroxítonas perderam o acento (ideia, heroico); o hiato *oo* perdeu o circunflexo (voo); e o *i* e o *u* tônicos depois de ditongo, em paroxítonas, também (feiura).
+
+- **B:** As quatro estão na grafia antiga.
+- **C:** "heróico" mantém o acento abolido.
+- **D:** "vôo" e "feiúra" estão na grafia antiga.
+- **E:** "idéia" mantém o acento abolido.
+
+Atenção: oxítonas e monossílabos continuam acentuados (herói, papéis, céu).
+
+@@ LP-0098
+**Gabarito: A.** Regras do hífen com prefixos: vogais iguais se separam (anti-inflacionário, micro-ondas); vogais diferentes se juntam (autoescola); prefixo terminado em vogal + palavra iniciada por *r* ou *s* junta e dobra a consoante (antissocial).
+
+- **B:** Erra as quatro.
+- **C:** Erra "auto-escola" e "anti-social".
+- **D:** Erra "antiinflacionário" e "microondas".
+- **E:** Erra "microondas".
+
+@@ LP-0099
+**Gabarito: B.** O plural usual é "hifens", sem acento: paroxítonas terminadas em *-ens* não se acentuam (itens, jovens, polens), embora as terminadas em *-n* sejam acentuadas (hífen, pólen).
+
+- **A:** "hífens" contraria justamente a regra do *-ens*.
+- **C:** "Hífenes" também é plural registrado e é proparoxítona; a banca, porém, cobra a forma "hifens", que é a usual e a que a regra de acentuação explica.
+- **D:** A forma está certa, mas a palavra é paroxítona (hi-fens), não oxítona.
+- **E:** Grafia errada, e a palavra tem duas sílabas.
+
+@@ LP-0100
+**Gabarito: C.** Usa-se crase na indicação de hora determinada: "às 14h" (preposição "a" + artigo "as"; compare com "ao meio-dia").
+
+- **A:** Não há crase antes de verbo: "começou a chover".
+- **B:** Não há crase antes de palavra masculina: "a cavalo".
+- **D:** Não há crase antes de pronome pessoal: "a ela".
+- **E:** "Vitória" (cidade) não admite artigo: "volto de Vitória", logo "fui a Vitória". Haveria crase com o nome especificado ("à Vitória dos meus avós").
+
+@@ LP-0101
+**Gabarito: B.** Regra do hiato: acentuam-se o *i* e o *u* tônicos que formam hiato com a vogal anterior e ficam sozinhos na sílaba ou seguidos de *s*: sa-í-da, pa-ís, ba-ú. (Exceções: antes de *nh*, como "rainha", e depois de ditongo em paroxítona, como "feiura".)
+
+- **A:** "saída" é paroxítona; "país" e "baú" são oxítonas.
+- **C:** Oxítonas terminadas em *i* e *u* não levam acento por essa regra (caqui, urubu).
+- **D:** Não há ditongo: as vogais ficam em sílabas separadas.
+- **E:** Só "saída" é paroxítona, e não termina em ditongo.
+
+@@ LP-0102
+**Gabarito: C.** O VOLP registra as duas formas de cada par. As grafias com *qu* ficam mais próximas da origem latina (*quotidianus*, *quattuordecim*); "cotidiano" e "catorze" refletem a pronúncia simplificada.
+
+- **A:** As formas com *qu* também são aceitas.
+- **B:** As formas com *c* são igualmente corretas e, no caso de "cotidiano", mais usadas no Brasil.
+- **D:** "Quotidiano" é palavra portuguesa de origem latina.
+- **E:** São variantes gráficas da mesma palavra, com o mesmo sentido.
+
+@@ LP-0103
+**Gabarito: B.** "Ter" e "vir" na 3ª pessoa do plural levam acento circunflexo diferencial: eles **têm**, eles **vêm** (singular: tem, vem). "Ver" no plural é **veem**, sem acento desde o Acordo Ortográfico (assim como creem, leem, deem).
+
+- **A:** "tem" e "vem" são singular.
+- **C:** "vem" é singular e "vêem" é a grafia antiga.
+- **D:** "tem" é singular e "vêm" é do verbo vir, não de ver.
+- **E:** Troca os verbos: "veem à reunião" e "vêm problema" não fazem sentido.
+
+@@ LP-0104
+**Gabarito: E.** No fim da frase (antes de pausa forte), usa-se "por quê", separado e com acento: "Você saiu cedo por quê?".
+
+- **A:** Correta: "por que" separado em pergunta direta.
+- **B:** Correta: "por que" separado em pergunta indireta (equivale a "por que motivo").
+- **C:** Correta: "porque" junto é conjunção causal ou explicativa.
+- **D:** Correta: "porquê" junto e acentuado é substantivo (equivale a "motivo") e vem com artigo.
+
+@@ LP-0105
+**Gabarito: B.** Na voz passiva, o verbo "ser" assume o tempo do verbo da ativa e o particípio concorda com o novo sujeito. "Havia aprovado" é pretérito mais-que-perfeito composto, logo: "As novas regras **tinham (haviam) sido aprovadas** pela diretoria".
+
+- **A:** "foram aprovadas" corresponde ao pretérito perfeito ("aprovou").
+- **C:** "haviam aprovado" continua na voz ativa.
+- **D:** "teriam sido" é futuro do pretérito composto ("teria aprovado").
+- **E:** "eram aprovadas" corresponde ao imperfeito ("aprovava").
+
+@@ LP-0106
+**Gabarito: C.** Hipótese irreal no passado: pretérito mais-que-perfeito do subjuntivo ("tivesse encontrado") combina com futuro do pretérito composto ("teria sido refeito").
+
+- **A:** Imperfeito do subjuntivo pede futuro do pretérito: "corrigiria".
+- **B:** "Caso" exige subjuntivo presente ou imperfeito: "caso reclame, analisará" ou "caso reclamasse, analisaria".
+- **D:** Com "voltarão", o correto é futuro do subjuntivo: "quando o servidor reiniciar".
+- **E:** Verbo principal no pretérito pede imperfeito do subjuntivo: "que revisassem".
+
+@@ LP-0107
+**Gabarito: C.** Em composto de substantivo + adjetivo (ou numeral), os dois elementos vão ao plural: obras-primas.
+
+- **A:** Verbo + substantivo: só o segundo varia, "guarda-chuvas".
+- **B:** Advérbio + particípio: só o segundo varia, "abaixo-assinados".
+- **D:** Verbo + substantivo: "beija-flores".
+- **E:** Prefixo + substantivo: "vice-presidentes".
+
+@@ LP-0108
+**Gabarito: B.** O futuro do subjuntivo de "ver" é "vir": "quando você vir os resultados" (já "vier" é do verbo "vir").
+
+- **A:** "Propor" segue "pôr": "se a empresa propuser".
+- **C:** "Intervir" segue "vir": "o diretor interveio".
+- **D:** "Reaver" segue "haver" nas formas em que este tem a letra *v*: "reouveram".
+- **E:** "Mediar" segue "odiar" (como ansiar, remediar, incendiar): "eu medeio".
+
+@@ LP-0109
+**Gabarito: A.** O superlativo absoluto sintético erudito parte do radical latino: amicíssimo (*amicus*), paupérrimo (*pauper*), celebérrimo (*celeber*).
+
+- **B:** "amiguíssimo" e "pobríssimo" são formas populares.
+- **C:** "pobríssimo" e "negríssimo" são populares (eruditas: paupérrimo, nigérrimo).
+- **D:** "magríssimo" é popular (erudita: macérrimo).
+- **E:** "docíssimo" e "negríssimo" são populares (eruditas: dulcíssimo, nigérrimo).
+
+@@ LP-0110
+**Gabarito: C.** "Conquanto" é conjunção concessiva, sinônima de "embora", e também pede verbo no subjuntivo.
+
+- **A:** "Porquanto" é causal ou explicativa (equivale a "porque").
+- **B:** "Desde que" com subjuntivo exprime condição.
+- **D:** "Mesmo que" é concessiva, mas exige subjuntivo ("mesmo que estivesse"); "estava" é indicativo.
+- **E:** "Contanto que" exprime condição.
+
+@@ LP-0111
+**Gabarito: Errado.** "Haver" no sentido de "existir" é impessoal (não tem sujeito) e fica na 3ª pessoa do singular; na locução verbal, essa impessoalidade passa ao auxiliar. O correto é "**Deve haver** soluções para o problema". Com "existir", que tem sujeito, o plural é obrigatório: "Devem existir soluções".
+
+@@ LP-0112
+**Gabarito: Errado.** As pistas situam o texto antes de 1994, não depois. O cruzado foi a moeda brasileira de 1986 a 1989 (seguido do cruzado novo, até 1990), e o telex é tecnologia de comunicação que caiu em desuso com o fax e a internet. O real só entrou em circulação em julho de 1994. Palavras que nomeiam realidades de uma época ajudam a datar o texto.
+
+@@ LP-0113
+**Gabarito: Certo.** "Alface" é substantivo feminino (a alface); "champanha" (ou champanhe) e "eclipse" são masculinos (o champanha, o eclipse). São casos clássicos de gênero que a fala costuma trocar, como também "o dó", "o guaraná", "a cal" e "a omoplata".
+

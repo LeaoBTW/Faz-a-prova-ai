@@ -1,0 +1,265 @@
+@@ ESP-SO-0001
+**Gabarito: D.** O sistema operacional é o conjunto de programas que gerencia os recursos do computador (processador, memória, dispositivos de E/S, arquivos) e serve de intermediário entre o hardware, os aplicativos e o usuário.
+
+- **A:** Criar gráficos e imagens é função de aplicativos (editores de imagem), não do sistema operacional.
+- **B:** O sistema operacional é software, não um dispositivo de hardware.
+- **C:** Interface para acessar a internet é o navegador, um aplicativo que roda sobre o sistema operacional.
+
+@@ ESP-SO-0002
+**Gabarito: E.** As quatro condições de Coffman, que precisam ocorrer juntas para haver deadlock, são: exclusão mútua, posse e espera, **não** preempção e espera circular. A preempção de recursos pelo sistema operacional é o oposto de uma delas e, na verdade, é uma forma de prevenir ou resolver o deadlock.
+
+- **A:** Exclusão mútua: o recurso só pode ser usado por um processo de cada vez.
+- **B:** Posse e espera: o processo segura recursos enquanto aguarda outros.
+- **C:** Não preempção: o recurso só é liberado voluntariamente por quem o detém.
+- **D:** Espera circular: há uma cadeia fechada de processos, cada um esperando recurso do seguinte.
+
+@@ ESP-SO-0003
+**Gabarito: C.** O PC (*Program Counter*, contador de programa) guarda o endereço da próxima instrução a ser buscada e é incrementado a cada busca.
+
+- **A:** O IR (registrador de instrução) guarda a instrução que está sendo decodificada e executada.
+- **B:** O MAR (registrador de endereço de memória) guarda o endereço que está sendo acessado na memória; na busca ele recebe o valor do PC, mas é de uso geral para qualquer acesso.
+- **D:** O MBR (registrador de dados de memória) guarda o dado lido ou a escrever na memória.
+- **E:** O ACC (acumulador) guarda operandos e resultados da unidade aritmética.
+
+@@ ESP-SO-0004
+**Gabarito: B.** Pela localidade espacial, posições vizinhas à que acabou de ser acessada tendem a ser usadas em seguida (vetores, instruções em sequência). Por isso a cache traz um bloco inteiro de palavras a cada falta.
+
+- **A:** A cache usa SRAM, mais rápida e mais cara; DRAM é a tecnologia da memória principal.
+- **C:** É o contrário: quanto mais perto da CPU, menor, mais rápido e mais caro por bit.
+- **D:** Os registradores estão no topo da hierarquia, dentro da CPU, acima da L1.
+- **E:** No *write-through* toda escrita vai à cache e à memória principal ao mesmo tempo; quem adia a escrita é o *write-back*.
+
+@@ ESP-SO-0005
+**Gabarito: B.** Com n bits de endereço há 2ⁿ endereços, e cada um identifica um byte: 2²⁴ = 16.777.216 bytes = 2⁴ × 2²⁰ = **16 MiB**.
+
+- **A:** 24 MB confunde o número de bits com a capacidade.
+- **C:** 4 GiB é 2³², barramento de 32 bits.
+- **D:** 64 KiB é 2¹⁶, barramento de 16 bits.
+- **E:** 1 MiB é 2²⁰, barramento de 20 bits.
+
+@@ ESP-SO-0006
+**Gabarito: C.** No DMA (acesso direto à memória), a CPU só informa ao controlador o endereço e a quantidade de dados; o controlador faz a transferência do bloco direto com a memória e gera uma única interrupção ao final.
+
+- **A:** Na E/S programada, a CPU comanda a transferência e fica presa testando o estado do dispositivo.
+- **B:** *Polling* é essa consulta repetida ao dispositivo (espera ocupada).
+- **D:** E/S mapeada em memória é uma forma de endereçar os registradores dos dispositivos, não uma técnica de transferência.
+- **E:** Interrupção de software (*trap*) é gerada por instrução do programa, como nas chamadas de sistema.
+
+@@ ESP-SO-0007
+**Gabarito: C.** O RAID 5 distribui a paridade entre os discos e consome o equivalente a um disco: capacidade útil = (n - 1) × tamanho = 3 × 1 TB = 3 TB, tolerando a falha de um disco qualquer.
+
+- **A:** RAID 0 (distribuição sem redundância) daria 4 TB, mas não tolera falha alguma.
+- **B:** RAID 1 (espelhamento) duplica os dados; nunca aproveitaria 3 dos 4 TB.
+- **D:** RAID 6 usa dupla paridade: (n - 2) = 2 TB úteis, tolerando duas falhas.
+- **E:** RAID 10 (espelhamento mais distribuição) aproveita metade: 2 TB.
+
+@@ ESP-SO-0008
+**Gabarito: D.** Um processo bloqueado, quando o evento que esperava ocorre (fim de E/S, por exemplo), vai para a fila de **prontos**. Só o escalonador escolhe quem passa de pronto a executando; não existe passagem direta de bloqueado para executando.
+
+- **A:** Pronto → executando: o escalonador despacha o processo.
+- **B:** Executando → bloqueado: o processo pede E/S ou espera um evento.
+- **C:** Bloqueado → pronto: o evento esperado aconteceu.
+- **E:** Executando → pronto: preempção (fim do quantum ou chegada de processo mais prioritário).
+
+@@ ESP-SO-0009
+**Gabarito: C.** As threads de um processo compartilham o espaço de endereçamento: código, dados globais, *heap* e recursos como arquivos abertos. Cada thread tem só o que define seu fluxo de execução: contador de programa, registradores e pilha.
+
+- **A e B:** Pilha, contador de programa e registradores são individuais de cada thread.
+- **D:** Registradores não são compartilhados; fazem parte do contexto de cada thread.
+- **E:** Espaço de endereçamento próprio é característica de processos, não de threads do mesmo processo.
+
+@@ ESP-SO-0010
+**Gabarito: A.** No SJF (menor job primeiro) a ordem é P2 (4), P4 (5), P1 (8), P3 (9). Cada processo espera a soma dos bursts anteriores:
+
+- P2: 0
+- P4: 4
+- P1: 4 + 5 = 9
+- P3: 9 + 8 = 17
+
+Média = (0 + 4 + 9 + 17) / 4 = 30 / 4 = **7,5**. Pelo FCFS, na ordem P1, P2, P3, P4, as esperas seriam 0, 8, 12 e 21, com média 10,25 (alternativa E). O SJF dá a menor espera média possível.
+
+@@ ESP-SO-0011
+**Gabarito: D.** Se todo processo pede recursos em ordem crescente de numeração, nenhum processo que detém o recurso de número maior pode esperar por um de número menor: o ciclo de espera não se fecha.
+
+- **A:** Eliminar a exclusão mútua exigiria tornar os recursos compartilháveis, o que nem sempre é possível.
+- **B:** Posse e espera é eliminada exigindo que o processo peça todos os recursos de uma vez.
+- **C:** Não preempção é eliminada permitindo tomar recursos de um processo.
+- **E:** Inanição (*starvation*) não é condição de deadlock.
+
+@@ ESP-SO-0012
+**Gabarito: B.** Se o quantum for maior que qualquer burst, nenhum processo é interrompido: cada um roda até o fim, na ordem de chegada, que é o comportamento do FCFS.
+
+- **A:** O Round-Robin é preemptivo: ao fim do quantum o processo volta para o fim da fila.
+- **C:** Quem minimiza o tempo médio de espera é o SJF; o RR privilegia o tempo de resposta.
+- **D:** Cada preempção exige troca de contexto (por isso quantum muito pequeno gera sobrecarga).
+- **E:** É o algoritmo típico de sistemas de tempo compartilhado.
+
+@@ ESP-SO-0013
+**Gabarito: B.** Na paginação, a memória é dividida em quadros de tamanho fixo; a última página do processo raramente fica cheia, e a sobra **dentro** dela é fragmentação interna. Na segmentação, os segmentos têm tamanho variável e, com alocações e liberações, surgem buracos **entre** eles: fragmentação externa.
+
+- **A:** Ordem invertida.
+- **C:** A segmentação pura aloca o tamanho exato do segmento, sem sobra interna.
+- **D:** A paginação não tem fragmentação externa: qualquer quadro livre serve.
+- **E:** A paginação tem fragmentação interna, e a da segmentação é externa.
+
+@@ ESP-SO-0014
+**Gabarito: A.** O deslocamento precisa endereçar cada byte da página: 4 KB = 2¹² bytes, logo **12 bits**. Os bits restantes do endereço identificam a página: 32 - 12 = 20 bits, ou seja, **2²⁰** páginas (cerca de 1 milhão).
+
+- **B:** Valores trocados entre deslocamento e número de página.
+- **C:** 10 bits de deslocamento corresponderiam a páginas de 1 KB.
+- **D:** 2³² é o total de bytes endereçáveis, não de páginas.
+- **E:** 4 bits de deslocamento seriam páginas de 16 bytes.
+
+@@ ESP-SO-0015
+**Gabarito: B.** Sequência 1, 2, 3, 1, 4, 2, 5 com 3 quadros:
+
+- **FIFO** (sai a página carregada há mais tempo): 1, 2 e 3 são faltas; 1 é acerto; 4 é falta (sai 1); 2 é acerto; 5 é falta (sai 2). Total: **5**.
+- **LRU** (sai a página usada há mais tempo): 1, 2 e 3 são faltas; 1 é acerto; 4 é falta (sai 2, pois 1 acabou de ser usada); 2 é falta (sai 3); 5 é falta (sai 1). Total: **6**.
+
+A diferença está no acerto da página 1, que no LRU a "renova" e faz a página 2 ser a vítima. Nesta sequência o LRU perde do FIFO, o que pode acontecer em casos particulares.
+
+@@ ESP-SO-0016
+**Gabarito: B.** Anomalia de Belady: em certos algoritmos, tipicamente o FIFO, dar mais quadros a um processo pode aumentar o número de faltas de página. Algoritmos de pilha, como LRU e ótimo, não sofrem disso.
+
+- **A:** *Thrashing* é a paginação excessiva, quando o sistema gasta mais tempo trocando páginas do que executando.
+- **C:** Fragmentação externa são buracos de memória livre entre áreas alocadas.
+- **D:** Localidade de referência é a tendência de acessar posições próximas ou recentes.
+- **E:** *Working set* é o conjunto de páginas que o processo usou em uma janela recente de tempo.
+
+@@ ESP-SO-0017
+**Gabarito: C.** É a afirmativa incorreta: o algoritmo ótimo substitui a página que demorará mais a ser usada, o que exige conhecer as referências futuras. Não é implementável na prática; serve apenas de referência teórica para comparar os outros algoritmos.
+
+- **A:** Correta: só parte do programa precisa estar na memória física a cada momento.
+- **B:** Correta: a falta de página (*page fault*) gera uma exceção, e o sistema operacional carrega a página do disco.
+- **D:** Correta: a TLB é uma cache de traduções de página para quadro, que evita consultar a tabela de páginas.
+- **E:** Correta: é a definição de *thrashing*.
+
+@@ ESP-SO-0018
+**Gabarito: C.** O FAT32 limita o tamanho de cada arquivo a 4 GB (menos 1 byte), por mais espaço livre que haja no volume. A solução é formatar o pendrive em exFAT ou NTFS.
+
+- **A:** O NTFS aceita arquivos muito maiores que 6 GB.
+- **B:** O exFAT foi criado justamente para mídias removíveis sem o limite de 4 GB.
+- **D:** O ext4 (Linux) também aceita arquivos enormes.
+- **E:** O ReFS é o sistema de arquivos da Microsoft para grandes volumes em servidores, sem esse limite.
+
+@@ ESP-SO-0019
+**Gabarito: B.** A MFT (*Master File Table*) tem ao menos um registro para cada arquivo e diretório do volume NTFS, com seus atributos; arquivos bem pequenos cabem no próprio registro (dados residentes).
+
+- **A:** A FAT é a tabela de alocação dos sistemas FAT16/FAT32/exFAT.
+- **C:** A tabela de i-nodes é a estrutura equivalente em sistemas Unix/Linux (ext4).
+- **D:** O superbloco guarda os metadados gerais de um sistema de arquivos Unix/Linux.
+- **E:** A GPT é um esquema de particionamento do disco, não uma estrutura do sistema de arquivos.
+
+@@ ESP-SO-0020
+**Gabarito: B.** O *hard link* é outro nome para o mesmo i-node: os dados só são liberados quando o último nome é removido, então `rel2` continua funcionando. O link simbólico guarda apenas o caminho `relatorio.txt`; removido esse nome, `rel3` aponta para algo que não existe (link quebrado).
+
+- **A:** Só o simbólico deixa de funcionar.
+- **C:** Papéis invertidos.
+- **D:** O simbólico depende do nome original.
+- **E:** A remoção é permitida: `rm` apenas apaga um nome e decrementa o contador de links do i-node.
+
+@@ ESP-SO-0021
+**Gabarito: C.** O *journaling* registra em um diário (*journal*) as alterações antes de aplicá-las. Após uma queda de energia ou travamento, basta reprocessar o diário para deixar o sistema de arquivos consistente, sem verificar o disco inteiro (`fsck`, `chkdsk`).
+
+- **A:** Criptografia é outra função (EFS e BitLocker no Windows, LUKS no Linux).
+- **B:** Compactação é recurso opcional e independente.
+- **D:** O diário não guarda cópias dos arquivos; não substitui backup.
+- **E:** Não trata de fragmentação.
+
+@@ ESP-SO-0022
+**Gabarito: D.** O nome do arquivo fica na entrada de diretório, que associa o nome ao número do i-node. É por isso que um mesmo i-node pode ter vários nomes (*hard links*).
+
+- **A, B, C e E:** Tudo isso está no i-node, que guarda os metadados do arquivo: tipo e permissões, UID e GID, tamanho, datas, contador de links e os ponteiros para os blocos de dados.
+
+@@ ESP-SO-0023
+**Gabarito: C.** A floresta reúne uma ou mais árvores de domínios com esquema, partição de configuração e catálogo global comuns; é o limite de segurança do Active Directory.
+
+- **A:** Site representa a topologia física (sub-redes IP bem conectadas) e orienta a replicação e o logon.
+- **B:** Unidade organizacional (UO) é um contêiner dentro de um domínio, usado para delegar administração e aplicar GPOs.
+- **D:** Domínio raiz é apenas o primeiro domínio criado na floresta.
+- **E:** Partição é uma divisão do banco do diretório para fins de replicação (esquema, configuração, domínio).
+
+@@ ESP-SO-0024
+**Gabarito: B.** A ordem é **LSDOU**: Local, Site, Domínio, Unidade Organizacional (das UOs mais externas para as mais internas). Em caso de conflito vale a última aplicada, isto é, a da UO mais próxima do objeto, salvo quando uma GPO é marcada como imposta (*Enforced*).
+
+- **A, C, D e E:** Todas alteram a sequência. A diretiva local é sempre a primeira (e a mais fraca), e as de UO são as últimas.
+
+@@ ESP-SO-0025
+**Gabarito: C.** A reserva vincula um endereço IP do escopo ao endereço MAC do dispositivo: toda vez que a impressora pedir endereço, receberá o mesmo.
+
+- **A:** Exclusão retira endereços do escopo para que o servidor **não** os distribua (útil para IPs configurados manualmente).
+- **B:** Superescopo agrupa vários escopos para administrar várias sub-redes lógicas na mesma rede física.
+- **D:** A opção 006 informa os servidores DNS aos clientes.
+- **E:** O agente de retransmissão (*relay agent*) encaminha as requisições DHCP entre sub-redes.
+
+@@ ESP-SO-0026
+**Gabarito: B.** Das cinco funções FSMO, duas são únicas na floresta: **Schema Master** (alterações no esquema) e **Domain Naming Master** (inclusão e remoção de domínios). As outras três existem uma vez em cada domínio: RID Master, PDC Emulator e Infrastructure Master.
+
+- **A:** As duas são funções de domínio.
+- **C:** Também são as duas de domínio.
+- **D:** PDC Emulator é de domínio.
+- **E:** Infrastructure Master é de domínio.
+
+@@ ESP-SO-0027
+**Gabarito: C.** No acesso pela rede, aplicam-se as duas permissões (de compartilhamento e NTFS) e vale a **mais restritiva**: entre Leitura e Controle Total, fica Leitura.
+
+- **A:** Controle Total só valeria no acesso local (logado na própria máquina), em que a permissão de compartilhamento não se aplica.
+- **B e E:** Modificar e Gravação excedem o que o compartilhamento permite.
+- **D:** O usuário tem acesso: ambas as permissões concedem pelo menos leitura.
+
+@@ ESP-SO-0028
+**Gabarito: A.** Cada dígito octal soma r = 4, w = 2 e x = 1, na ordem dono, grupo e outros: 6 = rw-, 4 = r--, 0 = ---. Resultado: `rw-r-----`.
+
+- **B:** `rwxr-----` é 740.
+- **C:** `rw-rw----` é 660.
+- **D:** `r--rw----` é 460 (dígitos do dono e do grupo trocados).
+- **E:** `rw-r--r--` é 644.
+
+@@ ESP-SO-0029
+**Gabarito: B.** `/etc` guarda os arquivos de configuração do sistema, e `/var/log` os registros (logs); `/var` é o lugar dos dados variáveis.
+
+- **A:** `/conf` e `/log` não fazem parte do FHS.
+- **C:** `/usr` guarda programas e bibliotecas; `/tmp`, arquivos temporários.
+- **D:** `/sys` e `/proc` são sistemas de arquivos virtuais com informações do kernel, dos dispositivos e dos processos.
+- **E:** `/opt` recebe pacotes de software adicionais; `/srv`, dados de serviços oferecidos pelo sistema.
+
+@@ ESP-SO-0030
+**Gabarito: B.** O pipe (`|`) liga a saída de um comando à entrada do seguinte: `ps aux` lista os processos, `grep java` deixa passar só as linhas que contêm "java" e `wc -l` conta essas linhas. Em geral a contagem inclui a linha do próprio `grep`.
+
+- **A:** Encerrar processos é com `kill`, `pkill` ou `killall`.
+- **C:** O resultado é apenas um número, não as colunas de uso de memória.
+- **D:** Nenhum arquivo é criado; para isso seria o redirecionamento `>`.
+- **E:** Os comandos são encadeados; independentes seriam se separados por `;`.
+
+@@ ESP-SO-0031
+**Gabarito: C.** Com o *sticky bit* em um diretório, só o dono do arquivo, o dono do diretório ou o root podem apagar ou renomear os arquivos dele, mesmo que todos tenham permissão de escrita. É o caso do `/tmp`: `drwxrwxrwt` (modo 1777).
+
+- **A:** SUID faz o executável rodar com as permissões do dono do arquivo.
+- **B:** SGID faz o executável rodar com o grupo do arquivo; em diretório, os arquivos criados herdam o grupo.
+- **D:** `umask` é a máscara que define as permissões padrão de novos arquivos.
+- **E:** `noexec` é opção de montagem que impede a execução de binários no sistema de arquivos.
+
+@@ ESP-SO-0032
+**Gabarito: A.** A umask retira permissões do valor base, que é 777 para diretórios: 777 com máscara 027 resulta em **750** (`rwxr-x---`): nada sai do dono, o grupo perde escrita e os outros perdem tudo.
+
+- **B:** 640 é o resultado para **arquivos**, cuja base é 666.
+- **C:** 755 é o resultado da umask 022.
+- **D:** 700 é o resultado da umask 077.
+- **E:** 027 é a própria máscara, não a permissão resultante.
+
+@@ ESP-SO-0033
+**Gabarito: B.** Hipervisor tipo 1 (*bare-metal*) roda diretamente sobre o hardware, sem sistema operacional hospedeiro por baixo: VMware ESXi, Microsoft Hyper-V, Xen.
+
+- **A:** VirtualBox e VMware Workstation são tipo 2: rodam como aplicativos sobre um sistema operacional hospedeiro.
+- **C:** Docker é plataforma de contêineres e Kubernetes é orquestrador; não são hipervisores.
+- **D:** Parallels Desktop é tipo 2 (macOS), e o QEMU sozinho é emulador que roda sobre um sistema hospedeiro.
+- **E:** VMware Fusion e VirtualBox são tipo 2.
+
+@@ ESP-SO-0034
+**Gabarito: B.** Na paravirtualização, o kernel do sistema convidado é alterado: ele "sabe" que é virtualizado e, em vez de executar instruções privilegiadas, pede os serviços ao hipervisor por *hypercalls*. O exemplo clássico é o Xen.
+
+- **A:** Convidado sem modificação é a virtualização total (completa).
+- **C:** Emular todas as instruções por software é emulação, bem mais lenta.
+- **D:** O hipervisor existe e é quem atende às *hypercalls*.
+- **E:** Contêineres compartilham o kernel do hospedeiro; são outra técnica.
+

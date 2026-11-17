@@ -1,0 +1,175 @@
+@@ ESP-REDES-0001
+**Gabarito: B.** O HTTP é um protocolo da **camada de aplicação** (camada 7 do OSI), a que reúne os protocolos usados diretamente pelos programas do usuário (HTTP, SMTP, FTP, DNS). O enunciado reproduz a descrição clássica de Tanenbaum para essa camada.
+
+- **A:** A apresentação (6) trata da sintaxe e da semântica dos dados: conversão de formatos, compressão e criptografia.
+- **C:** O transporte (4) cuida da comunicação fim a fim entre processos (TCP, UDP); o HTTP roda sobre ele.
+- **D:** O enlace (2) entrega quadros entre nós vizinhos, com endereços MAC e detecção de erros.
+
+@@ ESP-REDES-0002
+**Gabarito: B.** Estabelecer, gerenciar e encerrar sessões (diálogos) entre aplicações, incluindo controle de diálogo e sincronização, é a função da **camada de sessão** (camada 5 do OSI).
+
+- **A:** A apresentação (6) cuida do formato dos dados: codificação, compressão e criptografia.
+- **C:** A física (1) transmite bits pelo meio: sinais, conectores e taxas.
+- **D:** A rede (3) faz endereçamento lógico e roteamento de pacotes entre redes.
+
+@@ ESP-REDES-0003
+**Gabarito: C.** Estão corretas I e III.
+
+- **I (certa):** O TCP é orientado a conexão e a abre com o *three-way handshake*: SYN, SYN-ACK, ACK.
+- **II (errada):** O UDP não garante entrega nem ordem; quem faz isso é o TCP, e por isso é ele o preferido em transferência de arquivos.
+- **III (certa):** O UDP tem cabeçalho de apenas 8 bytes, sem conexão nem retransmissão, o que serve a streaming, voz e consultas DNS comuns.
+
+Assim, caem as alternativas que incluem II (B, D e E) e a A, que omite a III.
+
+@@ ESP-REDES-0004
+**Gabarito: B.** A camada de **apresentação** (6) trata da representação dos dados: conversão de formatos e codificações, compressão e criptografia.
+
+- **A:** A sessão (5) controla o diálogo entre aplicações e a sincronização.
+- **C:** A aplicação (7) oferece os protocolos usados pelos programas (HTTP, SMTP, DNS).
+- **D:** O transporte (4) faz a entrega fim a fim, com segmentação e controle de fluxo e de erros.
+- **E:** O enlace (2) monta quadros e entrega entre nós adjacentes.
+
+@@ ESP-REDES-0005
+**Gabarito: B.** Cada porta de um switch é um domínio de colisão separado: 24 portas, 24 domínios. Já o broadcast é propagado por todas as portas da mesma VLAN; sem VLANs configuradas, há **1** domínio de broadcast.
+
+- **A:** Inverte os dois conceitos.
+- **C:** Haveria 24 domínios de broadcast só se cada porta estivesse em uma VLAN diferente (ou em um roteador).
+- **D:** Um único domínio de colisão é característica do **hub**.
+- **E:** O switch segmenta os domínios de colisão, não os elimina da contagem.
+
+@@ ESP-REDES-0006
+**Gabarito: C.** As redes Wi-Fi (IEEE 802.11) usam **CSMA/CA** (*collision avoidance*): a estação escuta o meio, espera um tempo aleatório e aguarda confirmação (ACK), pois o rádio não consegue detectar colisão enquanto transmite.
+
+- **A:** CSMA/CD (detecção de colisão) é da Ethernet cabeada em half-duplex.
+- **B:** Passagem de token é do Token Ring e do FDDI.
+- **D:** TDMA divide o canal em fatias de tempo; é usado em redes celulares como o GSM.
+- **E:** ALOHA puro transmite sem escutar o meio; é o precursor histórico, não o método do 802.11.
+
+@@ ESP-REDES-0007
+**Gabarito: C.** Wi-Fi 6 é o padrão **802.11ax** (2,4 e 5 GHz); o Wi-Fi 6E é a extensão dele para a faixa de 6 GHz. O Wi-Fi 7 é o 802.11be.
+
+- **A:** 802.11n é o Wi-Fi 4 (2,4 e 5 GHz).
+- **B:** 802.11ac é o Wi-Fi 5 (apenas 5 GHz).
+- **D:** 802.11g opera em 2,4 GHz, até 54 Mbps.
+- **E:** 802.11b opera em 2,4 GHz, até 11 Mbps.
+
+@@ ESP-REDES-0008
+**Gabarito: B.** O WPA3-Personal troca o PSK do WPA2 pelo **SAE** (*Simultaneous Authentication of Equals*, o handshake "Dragonfly"), que impede ataques de dicionário offline sobre o handshake capturado e oferece sigilo futuro (*forward secrecy*).
+
+- **A:** RC4 com vetor de inicialização de 24 bits é o WEP.
+- **C:** O WPA3-Enterprise usa justamente o 802.1X para autenticação.
+- **D:** Em redes abertas, o OWE (Wi-Fi Enhanced Open) acrescenta criptografia mesmo sem senha.
+- **E:** TKIP é do WPA original; o WPA3 usa AES (CCMP/GCMP).
+
+@@ ESP-REDES-0009
+**Gabarito: A.** /27 corresponde à máscara 255.255.255.224, com blocos de 32 endereços: 0, 32, 64, 96, 128, 160... O host .140 cai no bloco 128 a 159. Rede: 10.20.30.128; broadcast (último endereço do bloco): **10.20.30.159**; hosts úteis: .129 a .158.
+
+- **B:** .143 seria o broadcast com /28 (blocos de 16).
+- **C:** .191 seria o broadcast com /26 (bloco 128 a 191).
+- **D:** .255 seria o broadcast com /25 ou /24.
+- **E:** .127 é o broadcast do bloco anterior em /25 ou /26; o host .140 não pertence a ele.
+
+@@ ESP-REDES-0010
+**Gabarito: C.** As faixas privadas da RFC 1918 são 10.0.0.0/8, 172.16.0.0/12 (de 172.16.0.0 a 172.31.255.255) e 192.168.0.0/16. O endereço 172.20.5.4 está na segunda.
+
+- **A:** 172.32.x.x fica logo depois do fim da faixa (que termina em 172.31).
+- **B:** 192.169.x.x não é 192.168.x.x; é público.
+- **D:** 169.254.0.0/16 é link-local (APIPA, RFC 3927), não faz parte da RFC 1918.
+- **E:** 11.0.0.1 é público; a faixa privada é só 10.0.0.0/8.
+
+@@ ESP-REDES-0011
+**Gabarito: B.** Hosts úteis = 2ⁿ − 2, com n bits de host. Para 60 hosts são necessários 6 bits: 2⁶ − 2 = 62. Sobram 26 bits de rede: /26, máscara **255.255.255.192**.
+
+- **A:** /25 dá 126 hosts; atende, mas desperdiça endereços.
+- **C:** /27 dá só 30 hosts.
+- **D:** /28 dá 14 hosts.
+- **E:** /29 dá 6 hosts.
+
+@@ ESP-REDES-0012
+**Gabarito: E.** Regras de abreviação: zeros à esquerda de cada grupo podem ser omitidos e **uma única** sequência de grupos zerados pode virar "::". O endereço tem duas sequências de dois grupos zerados; comprimir a primeira dá a forma B e comprimir a segunda dá a forma C. As duas são válidas (a RFC 5952 recomenda, em caso de empate, comprimir a primeira, ou seja, a forma B).
+
+- **A:** Usa "::" duas vezes, o que é proibido por tornar o endereço ambíguo.
+- **B e C:** Cada uma é válida, mas isoladamente é resposta incompleta diante da E.
+- **D:** Elimina dois grupos de zeros sem "::", ficando com menos de 8 grupos: é outro endereço (inválido).
+
+@@ ESP-REDES-0013
+**Gabarito: D.** A incorreta é a D: o IPv6 **não tem broadcast**. A descoberta de vizinhos (NDP) usa mensagens ICMPv6 enviadas por multicast (por exemplo, para o endereço *solicited-node*).
+
+- **A:** Correta: endereços de 128 bits (contra 32 do IPv4).
+- **B:** Correta: o NDP assume a resolução de endereços feita pelo ARP no IPv4.
+- **C:** Correta: link-local usa o prefixo fe80::/10.
+- **E:** Correta: o cabeçalho base é fixo em 40 bytes; opções vão em cabeçalhos de extensão.
+
+@@ ESP-REDES-0014
+**Gabarito: B.** Portas padrão: 22 = SSH, 53 = DNS, 143 = IMAP e 443 = HTTPS.
+
+- **A:** Telnet é porta 23 e POP3 é 110.
+- **C:** DHCP usa 67 e 68 (UDP) e HTTP é 80.
+- **D:** FTP usa 21 (controle) e 20 (dados); SMTP é 25.
+- **E:** SNMP usa 161 e 162 (UDP) e LDAPS é 636.
+
+@@ ESP-REDES-0015
+**Gabarito: B.** O TCP é orientado a conexão e a estabelece com o *three-way handshake*: o cliente envia SYN, o servidor responde SYN-ACK e o cliente confirma com ACK.
+
+- **A:** O UDP não garante entrega nem ordem.
+- **C:** O DNS usa UDP na maioria das consultas e TCP em transferências de zona e respostas grandes (porta 53 em ambos).
+- **D:** O cabeçalho UDP tem 8 bytes; 20 bytes é o mínimo do cabeçalho TCP.
+- **E:** Para voz em tempo real prefere-se o UDP: retransmissões do TCP aumentam a latência.
+
+@@ ESP-REDES-0016
+**Gabarito: B.** O **ESP** (*Encapsulating Security Payload*) cifra a carga útil, dando confidencialidade (além de autenticação e integridade). No modo **túnel**, o pacote IP original inteiro é encapsulado em um novo pacote com novo cabeçalho IP, como nas VPNs site a site.
+
+- **A e D:** O AH só oferece autenticação e integridade, sem criptografia.
+- **C:** O IKE negocia chaves e associações de segurança; não cifra o tráfego de dados.
+- **E:** O ESP está certo, mas o modo transporte protege apenas a carga útil e mantém o cabeçalho IP original.
+
+@@ ESP-REDES-0017
+**Gabarito: C.** O **ARP** resolve um endereço IPv4 no endereço MAC correspondente dentro da rede local. Como não tem autenticação, aceita respostas forjadas: é o *ARP spoofing* (envenenamento de cache), base de ataques *man-in-the-middle*.
+
+- **A:** ICMP leva mensagens de controle e erro (ping, destino inalcançável).
+- **B:** DHCP distribui configuração IP aos hosts.
+- **D:** DNS traduz nomes em endereços IP; também sofre envenenamento de cache, mas não lida com MAC.
+- **E:** NDP faz o papel do ARP no IPv6, não no IPv4.
+
+@@ ESP-REDES-0018
+**Gabarito: C.** Nas normas de cabeamento estruturado (ANSI/TIA-568, ABNT NBR 14565), o canal horizontal em par trançado tem no máximo **100 m**: até 90 m de enlace permanente mais até 10 m de cordões (de equipamento e de área de trabalho).
+
+- **A:** 55 m é o alcance aproximado de 10GBASE-T sobre Cat 6.
+- **B:** 90 m é só o enlace permanente, sem os cordões.
+- **D e E:** 150 m e 300 m excedem o limite do par trançado; distâncias assim pedem fibra óptica.
+
+@@ ESP-REDES-0019
+**Gabarito: D.** O **Cat 6A** (classe EA) é especificado até 500 MHz e suporta 10GBASE-T em canal de 100 m.
+
+- **A:** Cat 5 vai a 100 MHz, para 100 Mbps.
+- **B:** Cat 5e, também de 100 MHz, suporta 1 Gbps.
+- **C:** Cat 6 vai a 250 MHz; chega a 10 Gbps só em distâncias reduzidas (cerca de 55 m).
+- **E:** Cat 3 vai a 16 MHz, usado em telefonia e 10 Mbps.
+
+@@ ESP-REDES-0020
+**Gabarito: Errado.** A descrição é da fibra **monomodo**: núcleo fino (cerca de 9 µm), fonte laser, um único modo de propagação e, por isso, baixa dispersão e alcance de dezenas de quilômetros. A multimodo tem núcleo mais largo (50 ou 62,5 µm), usa LED ou VCSEL, sofre dispersão modal e é indicada para curtas distâncias, como dentro de prédios e data centers.
+
+@@ ESP-REDES-0021
+**Gabarito: A.** A RFC 2544 define a metodologia de *benchmarking* de dispositivos de interconexão de redes, com os testes de vazão (*throughput*), latência, taxa de perda de quadros e quadros *back-to-back* (rajada), além de recuperação de sistema e de reset.
+
+- **B:** Jitter de voz, MOS e eco são métricas de qualidade de VoIP.
+- **C:** Disponibilidade web e tempo de resposta HTTP são monitoração de aplicações.
+- **D:** Atenuação, NEXT e perda de retorno são testes de certificação de cabeamento metálico.
+- **E:** Cobertura e interferência são tema de *site survey* de redes sem fio.
+
+@@ ESP-REDES-0022
+**Gabarito: C.** O **IEEE 802.1X** define o controle de acesso à rede baseado em porta: o suplicante se autentica via EAP junto ao autenticador (switch ou AP), que consulta um servidor de autenticação (em geral RADIUS) antes de liberar a porta.
+
+- **A:** 802.1D é o Spanning Tree Protocol (pontes).
+- **B:** 802.1Q é a marcação de VLANs (*tagging*).
+- **D:** 802.3af é Power over Ethernet (PoE).
+- **E:** 802.11ax é o Wi-Fi 6.
+
+@@ ESP-REDES-0023
+**Gabarito: B.** Em SDN, o plano de controle (decisão de encaminhamento) é separado do plano de dados (encaminhamento dos pacotes) e fica centralizado em um controlador programável, que comanda os equipamentos por interfaces como o OpenFlow.
+
+- **A:** Virtualizar funções de rede (firewall, balanceador) em servidores comuns é NFV, conceito complementar, mas distinto.
+- **C:** SDN não substitui o IP; continua encaminhando pacotes IP.
+- **D:** Os switches continuam existindo como plano de dados.
+- **E:** SDN independe do meio físico.
+

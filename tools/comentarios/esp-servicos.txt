@@ -1,0 +1,97 @@
+@@ ESP-SERV-0001
+**Gabarito: B.** O Prometheus usa o modelo *pull*: o servidor consulta periodicamente (*scrape*) endpoints HTTP dos alvos, em geral `/metrics`, onde a aplicação ou um *exporter* expõe as métricas em formato texto.
+
+- **A:** SNMP trap é envio (*push*) do dispositivo ao gerente, típico de ferramentas como o Zabbix; no Prometheus, SNMP só entra via exporter.
+- **C:** Ler logs com grok é função do Logstash; Prometheus trata de métricas, não de logs.
+- **D:** Ele não consulta bancos de aplicações por SQL; guarda os dados em seu próprio banco de séries temporais.
+- **E:** O Pushgateway é exceção, para jobs de curta duração que não vivem o bastante para serem raspados.
+
+@@ ESP-SERV-0002
+**Gabarito: B.** O pipeline do Logstash tem três etapas: *input*, *filter* e *output*. É no **filter** que os eventos são analisados, transformados e enriquecidos, com plugins como `grok` (extrai campos de texto), `mutate`, `date` e `geoip`.
+
+- **A:** *Input* recebe os eventos das fontes (arquivos, Beats, syslog, filas).
+- **C:** *Output* envia os eventos ao destino, como o Elasticsearch.
+- **D:** *Codec* apenas codifica e decodifica o formato dos dados na entrada ou na saída (JSON, multiline).
+- **E:** *Index* não é etapa do Logstash; é a estrutura de armazenamento do Elasticsearch.
+
+@@ ESP-SERV-0003
+**Gabarito: Errado.** O Grafana é uma ferramenta de **visualização**: monta painéis (*dashboards*) e alertas consultando fontes de dados externas. Ele não armazena as métricas; o banco de séries temporais é o próprio Prometheus (ou InfluxDB, Elasticsearch e outros), que o Grafana usa como *data source*. As duas ferramentas se complementam, uma não substitui a outra.
+
+@@ ESP-SERV-0004
+**Gabarito: B.** No Zabbix, a **trigger** é a expressão lógica avaliada sobre os valores coletados que define quando há um problema (por exemplo, uso de CPU acima de 90% por 5 minutos) e muda o estado para PROBLEM.
+
+- **A:** Item é a métrica coletada de um host; a trigger é avaliada sobre ele.
+- **C:** Template é um conjunto reutilizável de itens, triggers e gráficos aplicado a vários hosts.
+- **D:** Host group apenas agrupa hosts para organização e permissões.
+- **E:** Proxy coleta dados em nome do servidor em redes remotas.
+
+@@ ESP-SERV-0005
+**Gabarito: B.** Os três pilares da observabilidade são **logs** (registros de eventos), **métricas** (valores numéricos ao longo do tempo) e **traces** (o caminho de uma requisição pelos serviços).
+
+- **A:** É a tríade CID da segurança da informação.
+- **C:** São recursos de infraestrutura que podem virar métricas, não os pilares.
+- **D:** Latência, tráfego e erros são três dos quatro "sinais de ouro" do SRE (falta a saturação).
+- **E:** São componentes de arquitetura de ferramentas de monitoração, como o Zabbix.
+
+@@ ESP-SERV-0006
+**Gabarito: C.** O **SIP** (*Session Initiation Protocol*) é o protocolo de sinalização do IETF, em texto e parecido com o HTTP, com métodos como INVITE (inicia a chamada), ACK, BYE (encerra) e REGISTER.
+
+- **A:** H.323 também faz sinalização, mas é uma recomendação da ITU-T, com mensagens binárias.
+- **B:** RTP transporta a mídia (voz e vídeo), não sinaliza.
+- **D:** MGCP é protocolo de controle de gateways de mídia, no modelo mestre e escravo.
+- **E:** RTCP acompanha o RTP com estatísticas de qualidade (perda, jitter).
+
+@@ ESP-SERV-0007
+**Gabarito: C.** A classe **EF** (*Expedited Forwarding*, DSCP 46) oferece baixa latência, baixo jitter e baixa perda, e é a marcação padrão para voz.
+
+- **A:** Best Effort (DSCP 0) é o tráfego sem prioridade.
+- **B:** AF11 é uma classe de encaminhamento assegurado de baixa prioridade, usada para dados.
+- **D:** CS1 costuma marcar tráfego de prioridade inferior (*scavenger*).
+- **E:** AF41 é normalmente usada para vídeo interativo, não para voz.
+
+@@ ESP-SERV-0008
+**Gabarito: Certo.** O IGMP (*Internet Group Management Protocol*) funciona entre os hosts IPv4 e o roteador da rede local: o host avisa que quer entrar em um grupo multicast ou sair dele, e o roteador passa a encaminhar o tráfego desse grupo para o segmento. Entre roteadores, o roteamento multicast usa protocolos como o PIM. No IPv6, o papel do IGMP é do MLD.
+
+@@ ESP-SERV-0009
+**Gabarito: C.** A **VXLAN** encapsula quadros Ethernet (camada 2) em UDP (porta 4789), criando redes sobrepostas sobre uma rede IP. Seu identificador, o VNI, tem 24 bits: cerca de 16 milhões de segmentos.
+
+- **A:** A VLAN 802.1Q não é overlay e tem ID de 12 bits (4.094 VLANs utilizáveis).
+- **B:** MPLS comuta por rótulos de 20 bits, inseridos entre as camadas 2 e 3, sem UDP.
+- **D:** GRE encapsula diretamente sobre IP (protocolo 47), sem UDP nem identificador de 24 bits.
+- **E:** PPPoE encapsula PPP em Ethernet, usado em acesso de banda larga.
+
+@@ ESP-SERV-0010
+**Gabarito: C.** O MPM **event** deriva do worker (vários processos com várias threads) e acrescenta uma thread dedicada a escutar as conexões *keep-alive* ociosas, liberando as threads de trabalho para outras requisições.
+
+- **A:** O prefork usa um processo por conexão, sem threads.
+- **B:** O worker usa threads, mas cada conexão keep-alive prende uma thread enquanto fica aberta.
+- **D:** O winnt é o MPM do Windows: um processo com várias threads.
+- **E:** O itk é um MPM de terceiros, baseado no prefork, que executa cada host virtual com usuário próprio.
+
+@@ ESP-SERV-0011
+**Gabarito: B.** No IIS, cada **pool de aplicativos** (*application pool*) roda em processos de trabalho próprios (`w3wp.exe`), com identidade e reciclagem independentes. Uma falha ou comprometimento em um pool não afeta os demais.
+
+- **A:** VirtualHost é a diretiva do Apache para hospedar vários sites.
+- **C:** Binding associa o site a IP, porta e nome de host.
+- **D:** `.htaccess` é o arquivo de configuração por diretório do Apache; no IIS o equivalente é o `web.config`.
+- **E:** MPM é o módulo de multiprocessamento do Apache.
+
+@@ ESP-SERV-0012
+**Gabarito: Certo.** O WildFly (antigo JBoss AS) é o projeto comunitário de código aberto, com ciclos rápidos de lançamento. O JBoss EAP (*Enterprise Application Platform*) é o produto da Red Hat construído a partir dele, estabilizado e vendido com assinatura de suporte, correções e certificações. A relação é a mesma que existe entre Fedora e RHEL.
+
+@@ ESP-SERV-0013
+**Gabarito: B.** No modo **domain**, um *domain controller* guarda a configuração central e a distribui aos *host controllers* de cada máquina, que gerenciam as instâncias organizadas em *server groups*.
+
+- **A:** No standalone, cada instância é um processo independente, com configuração própria.
+- **C:** "Cluster-only" não é modo de operação; clustering é um recurso que pode ser usado em standalone ou em domain.
+- **D:** Embedded executa o servidor dentro de outro processo, usado em testes e ferramentas.
+- **E:** Bootable JAR empacota aplicação e servidor em um único JAR executável.
+
+@@ ESP-SERV-0014
+**Gabarito: B.** O Tomcat é um **contêiner de servlets** (contêiner web): implementa só parte das especificações Jakarta EE, como Servlet, JSP (Jakarta Pages), Expression Language e WebSocket. Não traz, por exemplo, EJB nem JMS.
+
+- **A:** Servidor Jakarta EE completo é o caso do WildFly e do JBoss EAP.
+- **C:** Não é banco de dados; apenas pode oferecer *pools* de conexão a bancos.
+- **D:** Não é balanceador de carga; costuma ficar atrás de um (Apache httpd, nginx, HAProxy).
+- **E:** Não tem relação com serviço de e-mail.
+

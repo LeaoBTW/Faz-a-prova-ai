@@ -1,0 +1,488 @@
+@@ ATU-0001
+**Gabarito: A.** O SFN transfere recursos de quem poupa para quem precisa por meio de quatro mercados: **monetário** (liquidez de curtíssimo prazo), **de crédito** (empréstimos e financiamentos), **de capitais** (ações e títulos de longo prazo) e **cambial** (troca de moedas). Só essa alternativa abrange o sistema inteiro.
+
+- **B:** Bancos comerciais são apenas um dos operadores, ligados sobretudo ao mercado de crédito.
+- **C:** O banco central regula e supervisiona; não é o canal da transferência de recursos.
+- **D:** As bolsas são só um ambiente de negociação do mercado de capitais.
+- **E:** A CVM é supervisora do mercado de valores mobiliários, não intermediária.
+
+@@ ATU-0002
+**Gabarito: C.** O BCB **executa** a política monetária (operações de mercado aberto, compulsório, redesconto) seguindo as diretrizes formuladas pelo CMN, além de emitir moeda e supervisionar as instituições financeiras.
+
+- **A:** A política fiscal (receitas e despesas públicas) é do Ministério da Fazenda e do Tesouro Nacional.
+- **B:** As bolsas de valores são reguladas pela CVM.
+- **D:** O superávit primário é meta fiscal, definida na lei de diretrizes orçamentárias e perseguida pelo governo.
+- **E:** Ofertas públicas iniciais de ações (IPO) são registradas e reguladas pela CVM.
+
+@@ ATU-0003
+**Gabarito: C.** Definida a meta da Selic, o BCB atua no **mercado aberto** (*open market*): compra e vende títulos públicos federais, em geral por operações compromissadas, para ajustar a liquidez das reservas bancárias e manter a Selic diária perto da meta.
+
+- **A:** Quem emite títulos públicos é o Tesouro Nacional.
+- **B:** A Lei de Responsabilidade Fiscal proíbe o BCB de emitir títulos próprios desde 2002.
+- **D:** A gestão da dívida pública é do Tesouro.
+- **E:** O BCB de fato administra as reservas internacionais, mas isso é política cambial, não o instrumento para cumprir a meta da Selic.
+
+@@ ATU-0004
+**Questão anulada.** As lotéricas atuam como **correspondentes no País**, contratadas por instituições financeiras (no caso, a Caixa). As regras dessa atividade são fixadas pelo CMN (Resolução 3.954/2011, substituída pela Resolução CMN 4.935/2021) e a supervisão cabe ao Banco Central. Como a norma é do CMN e a fiscalização é do BCB, as alternativas B e E são ambas defensáveis, e a rigor o correspondente é contratado pela instituição financeira, sem autorização caso a caso. Para a prova, guarde: quem regulamenta correspondentes é o CMN; quem supervisiona é o BCB.
+
+@@ ATU-0005
+**Questão anulada.** O enunciado fala em "fiscalização", mas o CMN é órgão **normativo**: não fiscaliza nada, apenas fixa diretrizes. Ele define a meta de inflação (D seria a resposta se o verbo fosse "fixar"); a meta da Selic é definida pelo Copom (C); a Selic diária resulta das operações do BCB no mercado aberto (B); o CDI é taxa de mercado entre bancos (A); e o superávit primário é meta fiscal (E). Sem alternativa correta, a questão foi anulada.
+
+@@ ATU-0006
+**Gabarito: A.** Selic diária (8%) acima da meta (6,25%) indica falta de dinheiro nas reservas bancárias. O BCB **compra** títulos, pagando em reservas: a liquidez aumenta e a taxa cai até a meta. Regra: comprar títulos injeta moeda e derruba os juros; vender títulos enxuga moeda e eleva os juros.
+
+- **B:** Vender títulos retira reservas e empurraria a taxa ainda mais para cima.
+- **C:** Reduzir a oferta de moeda também eleva os juros.
+- **D:** O ajuste é feito com reservas bancárias no mercado aberto, não com impressão de cédulas.
+- **E:** Superávit primário é política fiscal, fora da alçada da mesa do BCB.
+
+@@ ATU-0007
+**Gabarito: B.** O SFN tem três órgãos normativos: **CMN** (moeda, crédito, capitais e câmbio), **CNSP** (seguros privados) e **CNPC** (previdência complementar fechada).
+
+- **A:** A Casa da Moeda apenas fabrica cédulas e moedas; o BCB é supervisor.
+- **C:** Susep e BCB são entidades supervisoras.
+- **D:** BCB e CVM são supervisores, vinculados ao CMN.
+- **E:** Caixas econômicas e bolsas de valores são operadores.
+
+@@ ATU-0008
+**Gabarito: E.** No Comunicado 31.379/2017, o BCB alertou que as moedas virtuais não são emitidas nem garantidas por autoridade monetária, não têm garantia de conversão em moeda soberana e não são lastreadas em ativo real: seu valor decorre exclusivamente da confiança dos indivíduos no emissor.
+
+- **A:** Não há garantia de conversão em moedas soberanas.
+- **B:** Não são emitidas nem garantidas por autoridade monetária.
+- **C:** Não têm lastro em ativos reais de qualquer espécie.
+- **D:** Base monetária é conceito da moeda oficial (papel-moeda emitido mais reservas bancárias), sem relação com criptomoedas.
+
+@@ ATU-0009
+**Gabarito: B.** Os operadores são as instituições que lidam diretamente com o público como intermediários financeiros: bancos, caixas econômicas, cooperativas de crédito, corretoras, seguradoras, bolsas.
+
+- **A:** Quem verifica o cumprimento das regras são as entidades supervisoras.
+- **C:** BCB e CVM são supervisores, não operadores.
+- **D:** Quem cria as regras de funcionamento do sistema são os órgãos normativos (CMN, CNSP, CNPC).
+
+@@ ATU-0010
+**Questão anulada.** Nenhuma alternativa traz competência do BCB.
+
+- **A:** Formular a política da moeda e do crédito é do CMN; o BCB a executa.
+- **B:** Intermediar recursos entre poupadores e tomadores e custodiar depósitos é papel dos bancos (operadores).
+- **C:** Normatizar e desenvolver o mercado de valores mobiliários é da CVM.
+- **D:** O BCB executa a política monetária, mas não a fiscal, que é do Ministério da Fazenda e do Tesouro.
+
+@@ ATU-0011
+**Gabarito: D.** O compulsório é a parcela dos depósitos que os bancos devem manter recolhida no BCB. Serve para controlar a liquidez (reduz o multiplicador bancário) e funciona como colchão de liquidez: em crises, como em 2008 e 2020, o BCB reduziu alíquotas e liberou esses recursos aos bancos, por decisão própria.
+
+- **A:** Crédito a microempreendedores e imobiliário é crédito direcionado, não finalidade do compulsório.
+- **B:** A liberação é decisão do BCB e não depende de calamidade pública nem de decreto federal.
+- **C:** O compulsório não é fonte exclusiva de crédito rural.
+
+A função mais citada em prova é o controle da liquidez e da expansão do crédito.
+
+@@ ATU-0012
+**Gabarito: A.** A **SEP** faz empréstimo entre pessoas (*peer-to-peer*) por plataforma eletrônica: aproxima credores e devedores e pode captar recursos do público, sempre vinculados à operação de empréstimo. A **SCD** concede crédito por plataforma eletrônica apenas com capital próprio, sem captar do público.
+
+- **B:** Inverte os papéis: quem atua como *peer-to-peer lending* é a SEP.
+- **C:** Nenhuma das duas tem essas funções; ambas são fintechs de crédito.
+- **D:** Não agem da mesma forma. O limite de R$ 15 mil existe, mas vale por credor em relação a um mesmo devedor na SEP, e não é o que as distingue.
+
+@@ ATU-0013
+**Gabarito: B.** O CDI (Certificado de Depósito Interbancário) é o título emitido por instituições financeiras para lastrear empréstimos de curtíssimo prazo entre elas. A taxa média dessas operações (taxa DI) é referência para aplicações de renda fixa.
+
+- **A:** O CDB capta recursos do público (depósito a prazo), é transferível.
+- **C:** A LTN (Tesouro Prefixado) é título público emitido pelo Tesouro Nacional.
+- **D:** O RDB também capta do público, mas é intransferível.
+
+@@ ATU-0014
+**Gabarito: C.** No CDC, o bem financiado costuma ficar em alienação fiduciária: o cliente tem a posse, e a financeira detém a propriedade até a quitação, podendo retomá-lo em caso de inadimplência.
+
+- **A:** Não existe essa faixa fixa de prazos; eles variam conforme o bem e a instituição.
+- **B:** Isso vale para o CDC prefixado; no pós-fixado as prestações variam com o indexador.
+- **D:** Arrendamento com valor residual garantido (VRG) é o leasing; o CDC é financiamento, e o bem já é comprado em nome do cliente.
+
+@@ ATU-0015
+**Gabarito: D.** Na classificação da CVM, o fundo de renda fixa tem como principal fator de risco a variação da taxa de juros, de índice de preços, ou de ambos.
+
+- **A:** A variação do preço das ações é o fator de risco dos fundos de ações.
+- **B:** Vários fatores de risco, sem compromisso de concentração, definem os fundos multimercado.
+- **C:** Inadimplência é risco de crédito: existe em fundos de crédito privado, mas não é o que define a classe renda fixa.
+
+@@ ATU-0016
+**Gabarito: A.** O banco comercial é o intermediário financeiro clássico: capta depósitos à vista (só ele, a Caixa, cooperativas de crédito e bancos múltiplos com carteira comercial podem) e a prazo, e empresta a pessoas e empresas, sobretudo no curto e médio prazo.
+
+- **B:** O banco de investimento não capta depósitos à vista; capta a prazo e por repasses, para financiar médio e longo prazo.
+- **C:** O banco múltiplo reúne ao menos duas carteiras, sendo uma delas comercial ou de investimento; não se limita a câmbio.
+- **D:** O banco de câmbio faz operações de câmbio e de crédito vinculadas a elas (como financiamento à exportação e importação), não capital de giro ou fixo.
+
+@@ ATU-0017
+**Gabarito: A.** O Índice de Basileia é a razão entre o patrimônio de referência (capital) e os ativos ponderados pelo risco. Mede a solvência: se o banco tem capital próprio suficiente para absorver perdas. No Brasil, o mínimo de patrimônio de referência é de 8% dos ativos ponderados, além dos adicionais de capital.
+
+- **B:** Não mede internacionalização nem capacidade cambial.
+- **C:** Não é indicador de conformidade (compliance) com normas do BCB e da CVM.
+- **D:** Não tem relação com o recolhimento compulsório, que é instrumento de política monetária.
+
+@@ ATU-0018
+**Gabarito: C.** A questão pede o que **não** é tendência. O movimento atual é de inclusão financeira (bancos digitais, Pix, Open Finance, microcrédito), que amplia o acesso ao crédito, e não de concentração da oferta nas classes mais ricas.
+
+- **A:** É tendência: fintechs e bancos digitais aumentaram a competição.
+- **B:** É tendência: há cada vez mais produtos e instrumentos de intermediação.
+- **D:** É tendência: os canais digitais de atendimento vêm sendo ampliados.
+
+@@ ATU-0019
+**Gabarito: B.** O CMN é o órgão normativo máximo do SFN: formula a política da moeda e do crédito, fixa as diretrizes das políticas monetária, creditícia e cambial e define a meta de inflação. Não executa nem fiscaliza.
+
+- **A:** Regular o mercado de capitais é atribuição da CVM.
+- **C:** Fiscalizar instituições financeiras é atribuição do BCB.
+- **D:** O orçamento público é política fiscal, a cargo do Executivo e do Congresso.
+
+@@ ATU-0020
+**Gabarito: C.** O CMN tem três membros: o Ministro da Fazenda (que o preside), o Ministro do Planejamento e Orçamento e o Presidente do Banco Central.
+
+- **A:** O Presidente da República não integra o CMN; falta o Presidente do BCB.
+- **B:** A Casa Civil não faz parte do CMN.
+- **D:** O Ministério da Economia existiu de 2019 a 2022; em 2023 foi desmembrado, e voltaram os ministérios da Fazenda e do Planejamento. Naquele período, o CMN era composto pelo Ministro da Economia, pelo Presidente do BCB e pelo Secretário Especial de Fazenda.
+
+@@ ATU-0021
+**Questão anulada.** O principal objetivo do Copom é **definir a meta da taxa Selic**, opção que não aparece.
+
+- **A:** Fiscalizar instituições financeiras é função do BCB como supervisor, não do comitê.
+- **B:** As metas de inflação são fixadas pelo CMN; o Copom usa a Selic para cumpri-las.
+- **C:** O mercado de capitais é regulado pela CVM.
+- **D:** As reservas internacionais são administradas pelo BCB, não pelo Copom.
+
+@@ ATU-0022
+**Gabarito: C.** Na política monetária, o BCB controla a quantidade de moeda e a liquidez da economia, por meio da emissão de moeda, das operações de mercado aberto, do compulsório e do redesconto. (O enunciado diz que o BCB "formula" a política monetária; a rigor, as diretrizes são do CMN e o BCB executa.)
+
+- **A:** Fiscalizar instituições é função de supervisão do BCB, não de política monetária.
+- **B:** O mercado de capitais é regulado pela CVM.
+- **D:** O orçamento público é política fiscal, do Executivo.
+
+@@ ATU-0023
+**Gabarito: D.** A CVM (Lei 6.385/1976) regulamenta, fiscaliza e desenvolve o mercado de valores mobiliários: companhias abertas, ações, debêntures, fundos, bolsas. Também julga e pune irregularidades em processos administrativos sancionadores, como no caso Americanas.
+
+- **A:** Estabilidade macroeconômica é objetivo das políticas monetária e fiscal (BCB, CMN, Fazenda).
+- **B:** O câmbio é supervisionado pelo BCB.
+- **C:** Normas para serviços financeiros e bancários são do CMN e do BCB.
+
+@@ ATU-0024
+**Gabarito: C.** Criptoativos se apoiam em *blockchain*: um registro distribuído, protegido por criptografia, que valida e grava as transações sem autoridade central.
+
+- **A:** São descentralizados: não há controle governamental sobre as transações.
+- **B:** As transações ocorrem diretamente entre as partes (*peer-to-peer*), sem intermediário tradicional.
+- **D:** A volatilidade é alta, um dos principais riscos desses ativos.
+
+@@ ATU-0025
+**Gabarito: D.** Open banking (hoje Open Finance) é o compartilhamento padronizado de dados e serviços entre instituições autorizadas pelo BCB, por meio de APIs, sempre com o consentimento do cliente, que é o dono dos dados.
+
+- **A:** A integração é entre as instituições participantes, não dos sistemas de gestão dos bancos com o BCB.
+- **B:** Não é plataforma internacional de câmbio ou de comércio exterior.
+- **C:** Não é sistema do BCB para crédito subsidiado; o BCB apenas regula o ecossistema.
+
+@@ ATU-0026
+**Gabarito: A.** O Copom, formado pelo presidente e pelos diretores do Banco Central, define a meta da taxa Selic, em oito reuniões por ano, para cumprir a meta de inflação.
+
+- **B:** Fiscalizar o mercado de valores mobiliários é atribuição da CVM.
+- **C:** A meta de inflação é fixada pelo CMN, que é o órgão normativo máximo do SFN; o Copom é um comitê do BCB.
+- **D:** Autorizar o funcionamento de bancos é atribuição do BCB, não do comitê.
+- **E:** O FGC é entidade privada, sem fins lucrativos, mantida pelas próprias instituições associadas.
+
+@@ ATU-0027
+**Gabarito: A.** O Open Finance se baseia no consentimento: só com autorização expressa do cliente, para finalidade e prazo determinados, uma instituição pode receber de outra os dados cadastrais e transacionais dele.
+
+- **B:** Sem autorização não há compartilhamento; os dados pertencem ao cliente (e são protegidos por sigilo bancário e pela LGPD).
+- **C:** Open Finance e Pix são iniciativas distintas, que convivem; o Pix continua sendo o pagamento instantâneo.
+- **D:** É regulado pelo CMN e pelo BCB e envolve bancos, cooperativas, instituições de pagamento e outras.
+- **E:** Vai muito além de taxas públicas: abrange dados de clientes e serviços, como a iniciação de pagamentos.
+
+@@ ATU-0028
+**Gabarito: B.** O FGC garante depósitos e títulos emitidos por instituições financeiras: depósitos à vista, poupança, CDB, RDB, LCI, LCA, letras de câmbio, entre outros. O limite é de R$ 250 mil por CPF ou CNPJ e por conglomerado, com teto de R$ 1 milhão a cada quatro anos.
+
+- **A:** Fundos e ações são investimentos de risco do próprio investidor, sem cobertura.
+- **C:** Títulos públicos são garantidos pelo Tesouro Nacional, não pelo FGC.
+- **D:** Debêntures são dívida de empresas, e criptoativos não têm garantia alguma.
+- **E:** Previdência privada (PGBL e VGBL) não tem cobertura do FGC.
+
+@@ ATU-0029
+**Gabarito: C.** A Selic é a taxa básica: quando sobe, o crédito fica mais caro, consumo e investimento caem, a demanda agregada diminui e a pressão sobre os preços se reduz. É política monetária contracionista.
+
+- **A:** Descreve o efeito de uma **queda** da Selic.
+- **B:** O objetivo e o efeito esperado são o oposto: conter a inflação.
+- **D:** Títulos pós-fixados atrelados à Selic ou ao CDI passam a render **mais**.
+- **E:** O compulsório é outro instrumento, alterado por decisão própria do BCB, sem ligação automática com a Selic.
+
+@@ ATU-0030
+**Gabarito: C.** A Susep supervisiona seguros, resseguros, capitalização e previdência complementar **aberta** (planos como PGBL e VGBL, vendidos a qualquer pessoa).
+
+- **A:** A Previc supervisiona a previdência **fechada** (fundos de pensão).
+- **B:** A CVM supervisiona o mercado de valores mobiliários.
+- **D:** O Banco Central supervisiona instituições financeiras e de pagamento.
+- **E:** O CNPC é órgão normativo (não supervisor) da previdência fechada.
+
+@@ ATU-0031
+**Gabarito: C.** O CNSP é o órgão normativo dos seguros privados, da capitalização e da previdência complementar aberta; a supervisão desse ramo cabe à Susep.
+
+- **A:** O CMN é órgão normativo; os supervisores do ramo de moeda e crédito são o BCB e a CVM.
+- **B:** A Previc é supervisora; o normativo da previdência fechada é o CNPC.
+- **D:** O Copom é um comitê do Banco Central; o órgão normativo máximo é o CMN.
+- **E:** Os fundos de pensão têm o CNPC como normativo e a Previc como supervisora.
+
+@@ ATU-0032
+**Gabarito: B.** No mercado de capitais, o investidor compra diretamente os títulos do emissor (ações, debêntures). Não há um banco entre os dois assumindo o risco: se o emissor não pagar, a perda é do investidor.
+
+- **A:** Captar e emprestar em nome próprio, assumindo o risco, é a intermediação típica do mercado de **crédito**.
+- **C:** Curtíssimo prazo é característica do mercado monetário; o de capitais é de médio e longo prazo.
+- **D:** Instituições financeiras participam como prestadoras de serviço: coordenação de ofertas, corretagem, custódia.
+- **E:** Controle da liquidez é função do mercado monetário.
+
+@@ ATU-0033
+**Gabarito: Errado.** No mercado secundário, os títulos já emitidos são negociados entre investidores: o dinheiro pago pelo comprador vai para o vendedor, não para a companhia. A empresa só capta recursos no mercado **primário**, quando emite as ações (como em um IPO). O secundário cumpre outro papel: dar liquidez aos papéis.
+
+@@ ATU-0034
+**Gabarito: Certo.** O mercado monetário reúne operações de curto e curtíssimo prazo, muitas de um dia, com títulos públicos. É nele que o Banco Central faz as operações de mercado aberto (compromissadas), regulando a liquidez das reservas bancárias para manter a Selic efetiva próxima da meta definida pelo Copom.
+
+@@ ATU-0035
+**Gabarito: B.** Pela Lei 9.069/1995 (art. 8º), o CMN tem três membros: Ministro da Fazenda (presidente do conselho), Ministro do Planejamento e Orçamento e presidente do Banco Central.
+
+- **A:** O presidente da CVM não integra o CMN; ele participa da Comoc, comissão técnica que assessora o conselho.
+- **C:** O Presidente da República não faz parte do CMN.
+- **D:** Presidente e diretores do BCB formam o Copom, não o CMN.
+- **E:** O presidente do BNDES não integra o conselho.
+
+@@ ATU-0036
+**Gabarito: C.** O CMN é normativo: fixa a meta de inflação e o intervalo de tolerância, que o Banco Central deve cumprir.
+
+- **A:** Executar a política monetária com operações de mercado aberto é do Banco Central.
+- **B:** A meta da Selic é definida pelo Copom, que se reúne a cada 45 dias, aproximadamente.
+- **D:** Fiscalizar companhias abertas é da CVM.
+- **E:** Recursos contra penalidades aplicadas pelo BCB e pela CVM são julgados pelo CRSFN (Conselho de Recursos do Sistema Financeiro Nacional).
+
+@@ ATU-0037
+**Gabarito: Certo.** O Decreto 12.079/2024 instituiu a meta contínua de inflação, em vigor desde 2025: a apuração deixou de seguir o ano-calendário e passou a considerar a inflação acumulada em 12 meses, mês a mês. A meta é tida como descumprida se esse índice ficar fora do intervalo de tolerância por seis meses consecutivos, caso em que o presidente do BCB deve explicar as razões em carta aberta ao Ministro da Fazenda.
+
+@@ ATU-0038
+**Gabarito: C.** A previdência complementar **aberta** tem o CNSP como órgão normativo e a Susep como supervisora, a mesma estrutura dos seguros e da capitalização.
+
+- **A:** O CNPC é o normativo da previdência **fechada** (fundos de pensão).
+- **B:** A Previc é supervisora, e também só da previdência fechada.
+- **D:** O CMN normatiza moeda, crédito, capitais e câmbio.
+- **E:** A CVM é supervisora do mercado de valores mobiliários.
+
+@@ ATU-0039
+**Gabarito: Certo.** O Banco Central exerce a Secretaria-Executiva do CMN: organiza as reuniões, prepara as pautas e publica as resoluções aprovadas pelo conselho. Além disso, o presidente do BCB é um dos três membros do CMN e o BCB coordena a Comoc, comissão técnica de assessoramento.
+
+@@ ATU-0040
+**Gabarito: B.** Para conter a inflação, a política monetária deve ser contracionista. No mercado aberto, isso significa **vender** títulos públicos: os bancos pagam com reservas, a liquidez cai e os juros sobem.
+
+- **A:** Comprar títulos injeta moeda na economia (expansionista).
+- **C:** Reduzir o compulsório libera recursos para os bancos emprestarem; além disso, não é operação de mercado aberto.
+- **D:** Reduzir a taxa de redesconto barateia o socorro de liquidez aos bancos (expansionista) e também é outro instrumento.
+- **E:** Emitir papel-moeda aumenta a quantidade de moeda.
+
+@@ ATU-0041
+**Gabarito: C.** O Copom é a própria Diretoria Colegiada do Banco Central (presidente e oito diretores) e define a meta da taxa Selic.
+
+- **A:** Os membros do CMN são dois ministros e o presidente do BCB; o Copom é formado só por dirigentes do BCB.
+- **B:** A meta de inflação e o intervalo de tolerância são fixados pelo CMN.
+- **D:** São oito reuniões por ano (a cada 45 dias, aproximadamente), com dois dias de duração.
+- **E:** Pela LC 179/2021, o BCB é autarquia de natureza especial, sem vinculação a ministério.
+
+@@ ATU-0042
+**Gabarito: Certo.** O art. 1º da LC 179/2021 (lei da autonomia do Banco Central) fixa como objetivo fundamental assegurar a estabilidade de preços. O parágrafo único acrescenta, sem prejuízo desse objetivo, outros três: zelar pela estabilidade e pela eficiência do sistema financeiro, suavizar as flutuações do nível de atividade econômica e fomentar o pleno emprego.
+
+@@ ATU-0043
+**Gabarito: C.** A Selic efetiva (ou Selic diária) é a taxa média ponderada das operações compromissadas de um dia, lastreadas em títulos públicos federais e registradas no sistema Selic.
+
+- **A:** A taxa fixada pelo Copom é a **meta** Selic; a efetiva é a que se verifica no mercado e costuma ficar muito próxima dela.
+- **B:** A média das operações interbancárias com CDI é a taxa DI.
+- **D:** A taxa de redesconto é a cobrada pelo BCB nos empréstimos de liquidez aos bancos.
+- **E:** A poupança rende TR mais um percentual que depende da Selic, mas não é a Selic.
+
+@@ ATU-0044
+**Gabarito: Errado.** O mandato do presidente do Banco Central é de quatro anos, mas começa em 1º de janeiro do **terceiro** ano do mandato do Presidente da República (LC 179/2021). O descasamento é intencional: evita que cada novo governo troque de imediato o comando do BCB e reforça a autonomia da instituição. É permitida uma recondução.
+
+@@ ATU-0045
+**Gabarito: D.** A Lei 6.385/1976 (art. 2º) exclui do conceito de valor mobiliário os títulos da dívida pública e os títulos cambiais de responsabilidade de instituição financeira, exceto as debêntures. O CDB é título de captação bancária, sob a alçada do Banco Central.
+
+- **A:** Ações são valores mobiliários.
+- **B:** Debêntures também.
+- **C:** Cotas de fundos de investimento em valores mobiliários estão na lista da lei.
+- **E:** Contratos de opção e outros derivativos também são valores mobiliários.
+
+@@ ATU-0046
+**Gabarito: B.** Pelo art. 6º da Lei 6.385/1976, a CVM é dirigida por um presidente e quatro diretores, nomeados pelo Presidente da República após aprovação do Senado, com mandato de cinco anos, vedada a recondução (renova-se um quinto do colegiado a cada ano).
+
+- **A:** Presidente e oito diretores, com mandato de quatro anos, é a composição da Diretoria do Banco Central.
+- **C:** O colegiado formado por ministros (com o presidente do BCB) é o CMN.
+- **D:** O mandato é de cinco anos e não há recondução.
+- **E:** Os dirigentes são nomeados pelo Presidente da República, não eleitos pelo mercado.
+
+@@ ATU-0047
+**Gabarito: Errado.** Está invertido. As ações **ordinárias** (ON) dão direito a voto nas assembleias. As **preferenciais** (PN) dão prioridade no recebimento de dividendos ou no reembolso do capital e, em regra, não têm voto ou o têm com restrições.
+
+@@ ATU-0048
+**Gabarito: C.** A Susep fiscaliza seguradoras, resseguradoras, sociedades de capitalização e entidades abertas de previdência complementar.
+
+- **A:** Fundos de pensão (previdência fechada) são fiscalizados pela Previc.
+- **B:** Companhias abertas são fiscalizadas pela CVM.
+- **D:** Cooperativas de crédito são fiscalizadas pelo Banco Central.
+- **E:** Bolsas de valores são fiscalizadas pela CVM.
+
+@@ ATU-0049
+**Gabarito: Certo.** Pelo art. 5º da Lei 6.385/1976 (redação da Lei 10.411/2002), a CVM é entidade autárquica em regime especial, vinculada ao Ministério da Fazenda, com personalidade jurídica e patrimônio próprios, autoridade administrativa independente, ausência de subordinação hierárquica, mandato fixo e estabilidade de seus dirigentes, além de autonomia financeira e orçamentária.
+
+@@ ATU-0050
+**Gabarito: B.** O banco múltiplo deve ter no mínimo duas carteiras, e uma delas tem de ser comercial ou de investimento (requisito clássico, vindo da Resolução CMN 2.099/1994). As carteiras possíveis são: comercial, de investimento, de desenvolvimento, de crédito imobiliário, de arrendamento mercantil e de crédito, financiamento e investimento.
+
+- **A:** Uma só carteira não forma banco múltiplo.
+- **C:** Bastam duas, e a de desenvolvimento é exclusiva de bancos públicos.
+- **D:** Não servem duas quaisquer: uma precisa ser comercial ou de investimento.
+- **E:** Não é preciso operar todas.
+
+@@ ATU-0051
+**Gabarito: B.** Só as instituições chamadas monetárias (ou bancárias) captam depósitos à vista e, com isso, criam moeda escritural: bancos comerciais, bancos múltiplos com carteira comercial, Caixa Econômica Federal e cooperativas de crédito.
+
+- **A:** Bancos de investimento e financeiras não captam depósitos à vista.
+- **C:** BNDES e bancos de desenvolvimento se financiam com recursos de longo prazo e repasses.
+- **D:** Corretoras e distribuidoras intermedeiam títulos e valores mobiliários.
+- **E:** A SCD opera só com capital próprio, sem captar do público.
+
+@@ ATU-0052
+**Gabarito: Errado.** A carteira de desenvolvimento só pode ser operada por banco **público**. Bancos múltiplos privados podem ter as demais carteiras (comercial, investimento, crédito imobiliário, arrendamento mercantil e crédito, financiamento e investimento), mas não essa, e nenhuma autorização do Banco Central afasta a restrição.
+
+@@ ATU-0053
+**Gabarito: B.** A Caixa é empresa pública federal com funções próprias: agente operador do FGTS, monopólio do penhor civil, administração das loterias federais e papel central no crédito habitacional e no pagamento de benefícios sociais.
+
+- **A:** Emitir papel-moeda é competência do Banco Central.
+- **C:** A meta de inflação é fixada pelo CMN.
+- **D:** As cooperativas de crédito são fiscalizadas pelo Banco Central.
+- **E:** Coordenar ofertas públicas é atividade de bancos de investimento, corretoras e distribuidoras, sem exclusividade de ninguém.
+
+@@ ATU-0054
+**Gabarito: Certo.** O Banestes S.A. (Banco do Estado do Espírito Santo) é sociedade de economia mista, de capital aberto, organizada como banco múltiplo. Seu estatuto social (arts. 1º e 7º) determina que o Estado do Espírito Santo mantenha o controle acionário, com no mínimo 51% do capital votante.
+
+@@ ATU-0055
+**Gabarito: B.** Regra da Lei 12.703/2012 para depósitos feitos a partir de 4 de maio de 2012: se a meta Selic estiver **acima de 8,5% ao ano**, a poupança rende 0,5% ao mês + TR; se estiver em 8,5% ou abaixo, rende 70% da meta Selic + TR. Com a Selic em 13,75%, vale a primeira regra.
+
+- **A:** 70% da Selic + TR só se aplica com Selic igual ou inferior a 8,5%.
+- **C:** A poupança não é atrelada ao CDI.
+- **D:** IPCA mais juros é a remuneração de títulos como o Tesouro IPCA+.
+- **E:** A TR é só uma parte da remuneração.
+
+@@ ATU-0056
+**Gabarito: D.** Cotas de fundos de investimento não têm cobertura do FGC. O fundo é um condomínio com patrimônio separado do administrador, e o cotista assume o risco dos ativos da carteira.
+
+- **A:** O CDB é coberto.
+- **B:** A LCA é coberta, assim como a LCI.
+- **C:** A poupança é coberta.
+- **E:** A letra de câmbio, título de captação das financeiras, também é coberta.
+
+O limite é de R$ 250 mil por CPF ou CNPJ e por conglomerado financeiro.
+
+@@ ATU-0057
+**Gabarito: Certo.** No *vendor*, a empresa vendedora vende a prazo, mas recebe à vista do banco; o comprador paga ao banco, a prazo e com juros, e a vendedora costuma ser a garantidora da operação. No *compror* ocorre o inverso: quem contrata o financiamento é a empresa compradora, para pagar à vista seus fornecedores.
+
+@@ ATU-0058
+**Gabarito: B.** No desconto de duplicatas, o banco adianta o valor dos títulos a vencer, descontados os juros, e mantém o direito de regresso: se o sacado não pagar, cobra da empresa que descontou.
+
+- **A:** Factoring é fomento mercantil, feito por empresa não financeira, com compra definitiva dos créditos e, em regra, sem regresso.
+- **C:** *Hot money* é empréstimo de curtíssimo prazo para cobrir necessidades de caixa.
+- **D:** No compror, o banco financia as compras da empresa junto a seus fornecedores.
+- **E:** Conta garantida é limite de crédito rotativo vinculado à conta-corrente da empresa.
+
+@@ ATU-0059
+**Gabarito: Certo.** O art. 1.368-C do Código Civil (incluído pela Lei 13.874/2019, a Lei da Liberdade Econômica) define o fundo de investimento como comunhão de recursos constituída sob a forma de condomínio de natureza especial. A regulação e a fiscalização cabem à CVM, hoje pela Resolução CVM 175/2022, o marco regulatório dos fundos.
+
+@@ ATU-0060
+**Gabarito: C.** Política fiscal é a que usa receitas (tributos) e despesas públicas. É contracionista quando aumenta impostos e corta gastos, reduzindo a demanda agregada.
+
+- **A:** Selic é instrumento de política monetária, e reduzi-la é medida expansionista.
+- **B:** Aumentar o compulsório é contracionista, mas é política monetária.
+- **D:** Vender títulos no mercado aberto é política monetária contracionista.
+- **E:** Desvalorização do câmbio é política cambial.
+
+@@ ATU-0061
+**Gabarito: B.** Basileia II (2004) se apoia em três pilares: Pilar 1, requisitos mínimos de capital (para riscos de crédito, de mercado e operacional); Pilar 2, processo de revisão pela supervisão; Pilar 3, disciplina de mercado (transparência e divulgação de informações).
+
+- **A:** Crédito e mercado são tipos de risco tratados no Pilar 1, não os pilares.
+- **C e D:** Capital principal, índice de alavancagem e índices de liquidez (LCR e NSFR) são inovações de Basileia III.
+- **E:** São temas de governança e conformidade, não os pilares do acordo.
+
+@@ ATU-0062
+**Gabarito: Certo.** Risco operacional é a possibilidade de perdas decorrentes de falha, deficiência ou inadequação de processos internos, pessoas e sistemas, ou de eventos externos. Falhas de TI e ataques cibernéticos entram nessa definição, que também inclui fraudes internas e externas e o risco legal.
+
+@@ ATU-0063
+**Gabarito: B.** No Regime de Administração Especial Temporária (Decreto-Lei 2.321/1987), o Banco Central afasta os administradores e nomeia um conselho diretor, mas a instituição **continua funcionando normalmente**.
+
+- **A:** O encerramento das atividades ocorre na liquidação extrajudicial.
+- **C:** O FGC paga os depositantes quando há intervenção ou liquidação, não no RAET.
+- **D:** A suspensão da exigibilidade das obrigações é efeito da intervenção; no RAET as atividades seguem normais.
+- **E:** Quem decreta os regimes especiais é o Banco Central.
+
+@@ ATU-0064
+**Gabarito: Certo.** *Spread* é a diferença entre a taxa que o banco cobra nos empréstimos e a que paga na captação. Nas decomposições do Relatório de Economia Bancária do Banco Central, a inadimplência aparece historicamente como um dos maiores componentes, ao lado das despesas administrativas, dos tributos e FGC e da margem financeira (lucro).
+
+@@ ATU-0065
+**Gabarito: C.** O DICT (Diretório de Identificadores de Contas Transacionais) é a base do Banco Central que liga cada chave Pix aos dados da conta. A liquidação ocorre no SPI (Sistema de Pagamentos Instantâneos), em tempo real e em moeda de banco central.
+
+- **A:** O Pix funciona 24 horas por dia, todos os dias do ano.
+- **B:** É criado, gerido e operado pelo Banco Central, não pela Febraban nem pela B3.
+- **D:** As chaves podem ser CPF, CNPJ, e-mail, número de celular ou chave aleatória.
+- **E:** Pessoas jurídicas usam normalmente (a chave CNPJ existe para isso).
+
+@@ ATU-0066
+**Gabarito: B.** O consentimento é o núcleo do Open Finance: deve ser dado pelo cliente para finalidades determinadas, com prazo definido, e pode ser revogado a qualquer momento.
+
+- **A:** Sem autorização do titular não há compartilhamento.
+- **C:** O modelo é compatível com a LGPD, que tem o consentimento como uma das bases legais de tratamento de dados.
+- **D:** Participam instituições públicas e privadas.
+- **E:** A participação obrigatória alcança as instituições de maior porte (segmentos S1 e S2); para as demais, é voluntária.
+
+@@ ATU-0067
+**Gabarito: Certo.** A Lei 14.478/2022 é o marco legal dos ativos virtuais. O Decreto 11.563/2023 designou o Banco Central como regulador e supervisor das prestadoras de serviços de ativos virtuais, regulamentadas pelas Resoluções BCB 519, 520 e 521, de 2025. A lei preservou a competência da CVM sobre os ativos que se enquadrem como valores mobiliários.
+
+@@ ATU-0068
+**Gabarito: B.** Para Clayton Christensen, a inovação disruptiva começa com produtos mais simples, baratos ou acessíveis, voltados a clientes ignorados pelos líderes; com o tempo, melhora e toma o mercado principal. É o caminho das fintechs e dos bancos digitais.
+
+- **A:** Melhorar produtos para os clientes mais exigentes é inovação de sustentação.
+- **C:** Disrupção não depende de uma tecnologia específica.
+- **D:** Cortar custos internos sem mudar a oferta é ganho de eficiência.
+- **E:** Fusão de grandes bancos é consolidação de mercado, não inovação.
+
+@@ ATU-0069
+**Gabarito: Certo.** O Mecanismo Especial de Devolução (MED) original só permitia bloquear recursos na conta que recebeu o Pix fraudulento, e os golpistas costumam esvaziá-la em minutos. O MED 2.0 segue o caminho do dinheiro por várias contas sucessivas, o que amplia a chance de bloqueio e devolução. Tornou-se obrigatório para os participantes em 2 de fevereiro de 2026.
+
+@@ ATU-0070
+**Gabarito: C.** Prêmio é o preço do seguro: o valor que o segurado paga à seguradora para ter a cobertura.
+
+- **A:** Sinistro é a ocorrência do evento coberto (o acidente, o roubo).
+- **B:** Indenização é o que a seguradora paga ao segurado ou beneficiário quando há sinistro.
+- **D:** Franquia é a parte do prejuízo que fica por conta do segurado.
+- **E:** Apólice é o documento que formaliza o contrato de seguro.
+
+@@ ATU-0071
+**Gabarito: B.** O atrativo do PGBL é deduzir as contribuições, até 12% da renda bruta tributável, o que só existe na declaração **completa**. Quem declara no modelo simplificado não aproveita a dedução e deve preferir o VGBL, em que o IR no resgate incide apenas sobre os rendimentos.
+
+- **A:** No PGBL o IR incide sobre o valor total resgatado (contribuições mais rendimentos).
+- **C:** A dedução de 12% não vale no modelo simplificado.
+- **D:** O VGBL não é isento: tributa os rendimentos.
+- **E:** Plano fechado (fundo de pensão) é restrito a empregados de uma empresa ou a associados de uma entidade.
+
+@@ ATU-0072
+**Gabarito: Certo.** Na tabela regressiva (Lei 11.053/2004), a alíquota do IR cai conforme o tempo de acumulação: 35% até 2 anos, 30% de 2 a 4, 25% de 4 a 6, 20% de 6 a 8, 15% de 8 a 10 e 10% acima de 10 anos. A tributação é definitiva na fonte. A alternativa é a tabela progressiva, que segue as faixas do IR mensal.
+
+@@ ATU-0073
+**Gabarito: C.** A Resolução CVM 30/2021 trata da *suitability*: verificar se o produto é adequado ao perfil do cliente. Se o cliente ordenar operação inadequada, a instituição deve, antes da primeira operação com aquela categoria de ativo, alertá-lo da inadequação, com as causas da divergência, e obter declaração expressa de que está ciente.
+
+- **A:** A norma não manda recusar: a decisão final é do cliente.
+- **B:** O alerta e a declaração são formalidades obrigatórias.
+- **D:** O Coaf recebe comunicações de suspeita de lavagem de dinheiro, não de inadequação de perfil.
+- **E:** Alterar o perfil para "encaixar" a operação é irregular; o perfil decorre das informações do cliente.
+
+@@ ATU-0074
+**Gabarito: Certo.** A Resolução CMN 4.966/2021 adota o modelo de perda esperada em três estágios. Estágio 1: sem aumento significativo do risco de crédito desde a concessão, provisão pela perda esperada em 12 meses. Estágio 2: aumento significativo do risco, provisão pela perda esperada em toda a vida do instrumento. Estágio 3: ativo com problema de recuperação de crédito, também com perda esperada para a vida toda.
+
+@@ ATU-0075
+**Gabarito: C.** Condicionar o fornecimento de um produto ou serviço à compra de outro é venda casada, prática abusiva proibida pelo art. 39, I, do Código de Defesa do Consumidor. A regulação do CMN sobre relacionamento com clientes (Resolução 4.949/2021) também exige tratamento justo e adequado.
+
+- **A:** *Bancassurance* é a venda lícita de seguros, previdência e capitalização pelo canal bancário, sem imposição.
+- **B:** *Suitability* é a adequação do produto ao perfil do cliente.
+- **D:** Cosseguro é a divisão de um mesmo risco entre seguradoras.
+- **E:** Portabilidade é a transferência de uma operação ou de um plano para outra instituição.
+

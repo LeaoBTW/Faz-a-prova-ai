@@ -1,0 +1,618 @@
+@@ ESP-PROG-0001
+**Gabarito: A.** No Bubble Sort, cada passada compara vizinhos e troca os que estão fora de ordem, levando o maior elemento ainda não posicionado para o fim. É o que se vê: após a 1ª passada o 16 está no fim; após a 2ª, o 14 é o penúltimo; e os demais elementos só se deslocam uma posição por vez.
+
+- **B:** O Insertion Sort mantém um prefixo ordenado que cresce a cada passo; a 1ª passada só trocaria 16 e 8, dando [8, 16, 6, 14, 12, 4].
+- **C:** O QuickSort particiona em torno de um pivô, não percorre o array todo trocando vizinhos.
+- **D:** O Selection Sort faz uma única troca por passada (o menor vai para o início, ou o maior para o fim).
+- **E:** O Shellsort compara elementos distantes (com saltos decrescentes).
+
+@@ ESP-PROG-0002
+**Gabarito: A.** Na tabela hash, a função de dispersão calcula diretamente a posição do elemento a partir da chave. Com chaves inteiras únicas e sequenciais quase não há colisões, e o acesso custa tempo constante, O(1), independentemente de haver um milhão de registros.
+
+- **B:** O(log N) é o custo da busca binária ou em árvore balanceada.
+- **C:** O(N) é o da busca sequencial (ou o pior caso do hash, com todas as chaves colidindo).
+- **D:** O(N log N) é típico de ordenação eficiente (Merge Sort, Heapsort).
+- **E:** O(N²) é típico de ordenações simples (Bubble, Selection, Insertion).
+
+@@ ESP-PROG-0003
+**Gabarito: E.** Em complemento a dois, parte-se do valor positivo, invertem-se os bits e soma-se 1: +31 = 011111; invertido, 100000; mais 1, **100001**. Conferindo de outro modo: 2⁶ - 31 = 33 = 100001.
+
+- **A:** 000001 é +1.
+- **B:** 011110 é +30.
+- **C:** 011111 é +31 (bit de sinal 0, número positivo).
+- **D:** 100000 é -32, o menor valor de 6 bits; é também o complemento a um de 31 (faltou somar 1).
+
+@@ ESP-PROG-0004
+**Gabarito: D.** A lista começa como [20] (tamanho 1). Enquanto o tamanho é menor que 10, acrescenta-se `len(L) ** 2`: com tamanho 1 entra 1, com 2 entra 4, e assim até tamanho 9, quando entra 81. Aí a lista tem 10 elementos e é retornada: [20, 1, 4, 9, 16, 25, 36, 49, 64, 81].
+
+- **A e B:** Perdem o 20, que é o elemento inicial e nunca é removido.
+- **C:** Tem só 9 elementos; o laço só para com 10 (`len(L) >= n`).
+- **E:** Pula o 1, que entra quando o tamanho é 1 (1² = 1).
+
+@@ ESP-PROG-0005
+**Gabarito: C.** `xpto()` devolve um objeto com `next()` que mantém `n` por closure. A cada chamada, se n < 10, soma 2 e devolve n/2: os valores são 1, 2, 3, 4 e 5 (n = 2, 4, 6, 8, 10). Na sexta chamada n = 10, a condição falha e vem `done: true`, encerrando o laço. Saída: `1/2/3/4/5/`.
+
+- **A:** O -1 só aparece no objeto final, que não é concatenado.
+- **B:** O incremento ocorre antes do cálculo, então o primeiro valor é 1, não 0.
+- **D e E:** Os valores saem em ordem crescente; nada no código inverte a sequência.
+
+@@ ESP-PROG-0006
+**Gabarito: B.** O `Main` faz `new Pessoa()` e usa a propriedade `Nome`. A classe deve se chamar `Pessoa` e ter a propriedade com os acessores na sintaxe do C#: `get { return nome; }` e `set { nome = value; }` (`value` é o parâmetro implícito do set).
+
+- **A:** Sintaxe correta, mas a classe se chama `Exemplo`; `Pessoa` continuaria sem definição.
+- **C:** Faltam as chaves no corpo dos acessores.
+- **D:** Acessores não têm parênteses nem parâmetros declarados.
+- **E:** `public get string` não existe: o tipo é declarado na propriedade, não no acessor.
+
+@@ ESP-PROG-0007
+**Gabarito: C.** PyQt é o conjunto de *bindings* Python para o framework Qt, usado para criar interfaces gráficas de desktop: janelas, botões, menus, caixas de diálogo e o tratamento de seus eventos.
+
+- **A:** Interface de linha de comando se faz com módulos como `argparse` ou `click`.
+- **B:** Comunicação cliente-servidor em aplicações web é papel de frameworks e bibliotecas web (Django, Flask, `requests`).
+- **D:** APIs RESTful em Python são criadas com Flask, FastAPI ou Django REST Framework.
+
+@@ ESP-PROG-0008
+**Gabarito: D.** O laço vai de i = 0 a i = 9 (`i < 10`), ou seja, percorre só os valores 0 a 9 do vetor, e imprime os pares seguidos de espaço: `0 2 4 6 8`. O zero é par (0 % 2 == 0).
+
+- **A:** Esquece o 0 e inclui o 10, que está em v[10], fora do laço.
+- **B:** Seria a saída (sem o 0) se o laço fosse até 20.
+- **C:** Imprime todos os elementos, ignorando o `if` e o limite do laço; além disso, o separador é espaço, não vírgula.
+
+O trecho omite o `#include <iostream>`, o `using namespace std` e a chave final, mas a intenção é clara.
+
+@@ ESP-PROG-0009
+**Gabarito: A.** Com polimorfismo, o código cliente trabalha com a superclasse ou interface e a implementação concreta é escolhida em tempo de execução. O cliente não depende das classes concretas (menor acoplamento), e novas implementações entram sem alterar o que já existe.
+
+- **B:** Coesão diz respeito ao foco das responsabilidades dentro de uma classe; não é o ganho característico do polimorfismo.
+- **C:** Java não permite herança múltipla de classes (só de interfaces), e polimorfismo não trata disso.
+- **D:** Métodos estáticos são resolvidos em tempo de compilação e não são polimórficos (não há sobrescrita de método estático).
+
+@@ ESP-PROG-0010
+**Gabarito: A.** Para a banca, a herança é uma forma de abstração: a superclasse (muitas vezes abstrata) reúne o que é comum, e as subclasses especializam. A redação é imprecisa (em geral se diz que a herança é um mecanismo que apoia a abstração), mas é a única alternativa que relaciona os dois conceitos de modo aceitável.
+
+- **B:** Inverte a relação: abstração é o conceito mais amplo, não um caso de herança.
+- **C:** Não são independentes: classes abstratas e interfaces só fazem sentido quando herdadas/implementadas.
+- **D:** Não são excludentes: usam-se juntas o tempo todo.
+
+@@ ESP-PROG-0011
+**Gabarito: D.** O código é ASP clássico: os delimitadores `<% %>`, os objetos `Request` (`Request.Form`, `Request.ServerVariables`) e `Response.Write`, e a sintaxe VBScript (`Dim`, `If ... Then ... End If`, concatenação com `&`).
+
+- **A:** Em Java (JSP) também há `<% %>`, mas o código interno seria Java: `request.getParameter("nome")`, ponto e vírgula, chaves.
+- **B:** C++ não é embutido em HTML dessa forma nem tem `Dim` ou `End If`.
+- **C:** Python não usa `Dim`, `Then` nem `End If`; os blocos são definidos por indentação.
+
+@@ ESP-PROG-0012
+**Gabarito: C.** IDE é *Integrated Development Environment*, Ambiente de Desenvolvimento Integrado: reúne em um só programa editor de código, compilador ou interpretador, depurador e outras ferramentas (ex.: Eclipse, IntelliJ, Visual Studio).
+
+- **A, B e D:** "Instalado", "Inspecionado" e "Interpretado" são traduções inventadas para o "I", que vem de *Integrated*.
+
+@@ ESP-PROG-0013
+**Gabarito: B.** `sacar(30)` deixa o saldo em 70. Em `sacar(80)`, como 80 > 70, a exceção é lançada **antes** da subtração, e o saldo continua 70. O `catch` imprime "Erro " e o `finally`, que sempre executa, imprime o saldo: `Erro 70.0`.
+
+- **A:** Ignora que a exceção é capturada e o `catch` imprime "Erro ".
+- **C:** Supõe que o segundo saque foi feito apesar da exceção.
+- **D:** Supõe o saque indevido e ainda ignora o `catch`.
+- **E:** Esquece que o primeiro saque, válido, já foi efetivado.
+
+@@ ESP-PROG-0014
+**Gabarito: C.** O valor padrão `v=[]` é criado uma única vez, na definição da função, e é compartilhado entre as chamadas. Na primeira chamada `v` vira `["ana"]`; na segunda, `["ana", "caio"]`, e `len(v)` é **2**. Para "caio", `d.get("caio", 0) + 10` dá **10**, e o dicionário passa a ter **3** chaves.
+
+- **A:** Supõe uma lista nova a cada chamada (daria 1).
+- **B:** Além disso, esquece que "caio" foi inserido no dicionário.
+- **D:** `get` devolve 0, mas o valor gravado é 0 + 10.
+- **E:** `d.get(k, 0)` não lança `KeyError`, e a chave já existe quando é lida no `print`.
+
+@@ ESP-PROG-0015
+**Gabarito: E.** Redefinir na subclasse um método herdado, com a mesma assinatura, é **sobrescrita** (*override*, resolvida em tempo de execução). Ter na mesma classe métodos de mesmo nome com listas de parâmetros diferentes é **sobrecarga** (*overload*, resolvida em compilação).
+
+- **A:** Os dois termos certos, em ordem trocada.
+- **B:** Encapsulamento é ocultar o estado interno; herança múltipla é herdar de várias superclasses. Nenhum dos dois é descrito.
+- **C:** O primeiro está certo, mas o segundo recurso é sobrecarga.
+- **D:** O primeiro é sobrescrita; polimorfismo paramétrico são os tipos genéricos (`List<T>`).
+
+@@ ESP-PROG-0016
+**Gabarito: D.** O Strategy define uma família de algoritmos, encapsula cada um em uma classe com interface comum e permite trocá-los em tempo de execução. Cada forma de tarifa (Pix, TED, DOC) vira uma estratégia, sem `if`/`switch` espalhados.
+
+- **A:** Singleton garante uma única instância de uma classe.
+- **B:** Adapter converte a interface de uma classe em outra esperada pelo cliente.
+- **C:** Composite trata objetos individuais e composições em árvore de modo uniforme.
+- **E:** Facade oferece uma interface simplificada para um subsistema.
+
+@@ ESP-PROG-0017
+**Gabarito: B.** É o enunciado do Princípio da Inversão de Dependência (DIP), que se completa com: abstrações não devem depender de detalhes; detalhes devem depender de abstrações.
+
+- **A:** SRP: uma classe deve ter um único motivo para mudar.
+- **C:** LSP: objetos de uma subclasse devem poder substituir os da superclasse sem quebrar o programa.
+- **D:** ISP: clientes não devem depender de métodos que não usam (interfaces pequenas e específicas).
+- **E:** OCP: entidades abertas para extensão e fechadas para modificação.
+
+@@ ESP-PROG-0018
+**Gabarito: E.** `git revert <hash>` cria um novo commit que aplica o inverso das alterações do commit indicado. O histórico publicado fica intacto, por isso é a opção segura em ramo compartilhado.
+
+- **A:** `git reset --hard HEAD~1` apaga o commit do histórico local e descarta as alterações; exigiria push forçado.
+- **B:** `git commit --amend` substitui o último commit por outro, reescrevendo o histórico.
+- **C:** `git rebase -i` edita, junta ou remove commits, também reescrevendo o histórico.
+- **D:** `git stash` guarda temporariamente alterações ainda não commitadas.
+
+@@ ESP-PROG-0019
+**Gabarito: A.** O ciclo do TDD é vermelho, verde, refatorar: escreve-se um teste que falha (o código ainda não existe), depois o código mínimo para ele passar e, por fim, melhora-se o código mantendo os testes passando.
+
+- **B:** No TDD o teste vem **antes** do código de produção.
+- **C:** Só se refatora código que já existe e já passa nos testes.
+- **D:** O ciclo é incremental, um pequeno teste de cada vez, não tudo de uma vez.
+- **E:** Descreve desenvolvimento tradicional com teste manual, sem automação nem teste primeiro.
+
+@@ ESP-PROG-0020
+**Gabarito: D.** Com boa função de dispersão e fator de carga controlado, a tabela hash busca em tempo médio constante, O(1).
+
+- **A:** A busca binária é O(log n), mas exige vetor **ordenado**.
+- **B:** O Quicksort é O(n log n) no caso médio; no pior caso (pivôs ruins) é O(n²).
+- **C:** Pilha é LIFO: o último a entrar é o primeiro a sair. A descrição é de fila (FIFO).
+- **E:** Uma árvore binária de busca desbalanceada pode degenerar em lista, e a busca chega a O(n); O(log n) só é garantido em árvores balanceadas (AVL, rubro-negra).
+
+@@ ESP-PROG-0021
+**Gabarito: C.** O analisador léxico (*scanner*) lê os caracteres do fonte e os agrupa em tokens (identificadores, palavras reservadas, números, operadores), descartando espaços e comentários.
+
+- **A:** A análise sintática (*parser*) verifica se a sequência de tokens obedece à gramática e monta a árvore sintática.
+- **B:** A análise semântica verifica o significado: tipos compatíveis, variáveis declaradas, escopo.
+- **D:** A análise de fluxo é técnica usada na otimização de código.
+- **E:** A otimização melhora o código intermediário, bem depois da formação dos tokens.
+
+@@ ESP-PROG-0022
+**Gabarito: C.** Estão corretas I e III.
+
+- **I (certa):** o ligador (*linker*) junta os módulos objeto e as bibliotecas e resolve as referências externas (chamadas a funções definidas em outros módulos), gerando o executável.
+- **II (errada):** quem gera um executável antes da execução é o compilador (com o ligador). O interpretador traduz e executa o programa diretamente, instrução a instrução, sem produzir executável independente.
+- **III (certa):** o `javac` gera bytecode, executado pela JVM, que interpreta e também compila para código nativo, em tempo de execução, os trechos mais usados (JIT).
+
+@@ ESP-PROG-0023
+**Gabarito: C.** Verificar se um identificador foi declarado (e com que tipo) é tarefa da análise semântica, que consulta a tabela de símbolos.
+
+- **A:** A léxica só forma tokens; o nome da variável é um identificador válido.
+- **B:** A sintática só confere a estrutura; `x = y + 1;` obedece à gramática mesmo que `y` não exista.
+- **D:** A geração de código só ocorre depois que o programa passou pelas análises.
+- **E:** Java é compilada e de tipagem estática: o erro aparece na compilação ("cannot find symbol"), não na execução.
+
+@@ ESP-PROG-0024
+**Gabarito: B.** O compilador C# gera CIL (*Common Intermediate Language*), antes chamada MSIL. O CLR carrega esse código e o compilador JIT o converte em código nativo durante a execução.
+
+- **A:** Bytecode Java é o código intermediário da plataforma Java, executado pela JVM.
+- **C:** Assembly x86 é código de máquina de um processador específico, resultado do JIT, não o código intermediário.
+- **D:** WebAssembly é formato binário executado por navegadores.
+- **E:** P-code é o código intermediário de compiladores Pascal antigos (UCSD Pascal).
+
+@@ ESP-PROG-0025
+**Gabarito: B.** Firmware é software gravado em memória não volátil (ROM, EEPROM, flash) que controla o hardware em baixo nível. BIOS e UEFI são os exemplos clássicos.
+
+- **A:** É software, não hardware (hardware programável seria um FPGA, por exemplo).
+- **C:** O sistema operacional é carregado depois, pelo firmware; são camadas diferentes.
+- **D:** Está em roteadores, impressoras, SSDs, celulares, TVs e praticamente todo dispositivo eletrônico.
+- **E:** DRAM é volátil; o firmware precisa sobreviver ao desligamento.
+
+@@ ESP-PROG-0026
+**Gabarito: A.** Hexadecimal: 172 ÷ 16 = 10, resto 12; 10 = A e 12 = C, logo **AC**. Octal: 172 ÷ 8 = 21, resto 4; 21 ÷ 8 = 2, resto 5; lendo de trás para a frente, **254** (conferindo: 2 × 64 + 5 × 8 + 4 = 172). Pelo binário: 1010 1100 = 010 101 100 = 254.
+
+- **B:** BC₁₆ e 274₈ valem 188.
+- **C:** Hexadecimal certo, octal errado (274₈ = 188).
+- **D:** CA₁₆ = 202: dígitos invertidos.
+- **E:** AB₁₆ e 253₈ valem 171.
+
+@@ ESP-PROG-0027
+**Gabarito: C.** +37 = 0010 0101. Invertendo os bits: 1101 1010. Somando 1: **1101 1011**. Conferindo: -128 + 64 + 16 + 8 + 2 + 1 = -37.
+
+- **A:** 1010 0101 é -37 em sinal-magnitude (só liga o bit de sinal).
+- **B:** 1101 1010 é o complemento de 1 (faltou somar 1); em complemento de 2 vale -38.
+- **D:** 0010 0101 é +37.
+- **E:** 1110 0101 vale -27.
+
+@@ ESP-PROG-0028
+**Gabarito: B.** Precisão simples (32 bits): 1 bit de sinal, 8 de expoente (com excesso, ou *bias*, de 127) e 23 de fração (mantissa).
+
+- **A:** 1, 11 e 52 é a precisão dupla (64 bits, *bias* 1023).
+- **C, D e E:** Não correspondem a nenhum formato do padrão; o sinal ocupa sempre 1 bit, e na precisão simples a divisão é 8 + 23.
+
+@@ ESP-PROG-0029
+**Gabarito: C.** No UTF-8, os códigos de 0 a 127 ocupam um único byte, igual ao do ASCII; por isso todo texto ASCII é também UTF-8 válido.
+
+- **A:** O UTF-8 tem tamanho variável, de 1 a 4 bytes por caractere.
+- **B:** O ASCII padrão tem 7 bits e 128 caracteres, sem acentos (os acentuados estão em extensões de 8 bits, como ISO 8859-1).
+- **D:** Unicode é o repertório que atribui um número (*code point*) a cada caractere; UTF-8 é uma das formas de codificar esses números em bytes.
+- **E:** O UTF-32 é fixo em 4 bytes; de 1 a 4 bytes é o UTF-8.
+
+@@ ESP-PROG-0030
+**Gabarito: B.** 0111 0000 = 112 e 0011 0000 = 48. A soma, 160, não cabe na faixa de 8 bits com sinal (-128 a 127). O padrão obtido, 1010 0000, tem bit de sinal 1 e seria lido como -96: dois positivos gerando um negativo é o sinal de **overflow**.
+
+- **A:** 160 só seria válido em 8 bits **sem** sinal.
+- **C:** Não há carry para fora do bit mais significativo aqui; e carry não é o mesmo que overflow.
+- **D:** -96 é o padrão que aparece, mas é um resultado incorreto.
+- **E:** A soma é feita normalmente; apenas o resultado estoura a faixa.
+
+@@ ESP-PROG-0031
+**Gabarito: A.** Pilha é LIFO; acompanhando (topo à direita):
+
+```
+push(A) -> A
+push(B) -> A B
+pop()   -> A        (sai B)
+push(C) -> A C
+push(D) -> A C D
+pop()   -> A C      (sai D)
+push(E) -> A C E
+```
+
+Topo **E**, com **3** elementos. Em B, o D já foi removido; em C, a contagem ignora os dois `pop` (5 inserções menos 2 remoções dá 3); em D, A é a base, não o topo (confusão com fila); em E, esquece o último `push`.
+
+@@ ESP-PROG-0032
+**Gabarito: C.** A árvore fica: raiz 50; à esquerda 30, com filhos 20 e 40; à direita 70, com filhos 60 e 80. Pós-ordem visita subárvore esquerda, subárvore direita e depois a raiz: 20, 40, 30, 60, 80, 70, 50.
+
+- **A:** É o percurso em ordem (esquerda, raiz, direita), que em uma BST dá as chaves ordenadas.
+- **B:** É a pré-ordem (raiz, esquerda, direita).
+- **D:** É o percurso em nível (largura), que aqui coincide com a ordem de inserção.
+- **E:** É a ordem decrescente (em ordem invertido).
+
+@@ ESP-PROG-0033
+**Gabarito: D.** É a afirmativa incorreta: a função de dispersão espalha as chaves sem preservar ordem, então a tabela hash não serve para consultas por faixa nem para percorrer em ordem. Para isso usam-se árvores (BST balanceada, B+).
+
+- **A:** Correta: é a definição de colisão.
+- **B:** Correta: no encadeamento separado, cada posição guarda uma lista com as chaves que colidiram (a alternativa é o endereçamento aberto).
+- **C:** Correta: O(1) em média; O(n) se todas as chaves caírem na mesma posição.
+- **E:** Correta: fator de carga = elementos / posições; quanto mais cheia a tabela, mais colisões.
+
+@@ ESP-PROG-0034
+**Gabarito: B.** Inserindo 10, 20 e 30, a árvore vira uma "escada" para a direita: o nó 10 fica com fator de balanceamento fora do limite (caso direita-direita). Corrige-se com uma rotação simples à esquerda em torno do 10: o 20 sobe para a raiz, com 10 à esquerda e 30 à direita.
+
+- **A:** Rotação dupla é para os casos em "zigue-zague" (esquerda-direita ou direita-esquerda), como 10, 30, 20.
+- **C:** Rotação simples à direita corrige o caso esquerda-esquerda (ex.: 30, 20, 10).
+- **D:** Divisão de nó é operação de árvore B, não de AVL.
+- **E:** Sem rotação, a diferença de alturas no nó 10 seria 2, violando a regra da AVL.
+
+@@ ESP-PROG-0035
+**Gabarito: B.** Com índices a partir de 0: pai(i) = ⌊(i - 1) / 2⌋ e filhos em 2i + 1 e 2i + 2. Para i = 4: pai = ⌊3 / 2⌋ = **1**; filhos = **9 e 10**.
+
+- **A:** Usa as fórmulas de índice inicial 1 (pai = ⌊i / 2⌋ = 2; filhos 2i e 2i + 1 = 8 e 9).
+- **C:** Pai pela fórmula de base 1, filhos pela de base 0.
+- **D:** Pai certo, filhos pela fórmula de base 1.
+- **E:** 3 é o irmão do nó 4 (ambos filhos do índice 1), não o pai.
+
+@@ ESP-PROG-0036
+**Gabarito: C.** O termo de maior crescimento é 5n³, pois n³ cresce mais rápido que n² log n. Desprezando constantes e termos menores, f(n) é Θ(n³), limite justo (superior e inferior).
+
+- **A:** n³ cresce mais que n², então f não é O(n²).
+- **B:** Θ(n² log n) considera só o segundo termo, que é dominado por n³.
+- **D:** Ω(n⁴) exigiria crescer pelo menos como n⁴; f é O(n⁴), mas não Ω(n⁴).
+- **E:** n log n é muito menor que n³.
+
+@@ ESP-PROG-0037
+**Gabarito: C.** O merge sort é Θ(n log n) em todos os casos e é estável (mantém a ordem relativa de chaves iguais), ao custo de memória auxiliar O(n).
+
+- **A:** Quicksort tem pior caso O(n²) e, nas implementações usuais, não é estável.
+- **B:** Heapsort garante O(n log n), mas não é estável.
+- **D:** Selection sort é O(n²) sempre e, na forma usual, não é estável.
+- **E:** Insertion sort é estável, mas O(n²) no pior caso.
+
+@@ ESP-PROG-0038
+**Gabarito: A.** A busca binária descarta metade do vetor a cada comparação. Como 4.096 = 2¹², são cerca de 12 divisões; no pior caso, ⌊log₂ n⌋ + 1 = 13 comparações.
+
+- **B:** 64 é a raiz quadrada de 4.096.
+- **C:** 2.048 é a metade do vetor (média de uma busca sequencial).
+- **D:** 4.096 é o pior caso da busca sequencial.
+- **E:** 24 é o dobro de log₂ n, sem relação com o algoritmo.
+
+@@ ESP-PROG-0039
+**Gabarito: C.** O laço externo divide `i` por 2 a cada volta, partindo de n: executa cerca de log₂ n vezes. Para cada volta, o interno executa n vezes. Total: n × log n, ou seja, O(n log n).
+
+- **A:** O(n) conta só o laço interno.
+- **B:** O(log n) conta só o externo.
+- **D:** O(n²) valeria se o externo também fosse linear (`i--`).
+- **E:** Nada no trecho cresce exponencialmente.
+
+@@ ESP-PROG-0040
+**Gabarito: B.** Estão corretas I e II.
+
+- **I (certa):** com o vetor já ordenado, o insertion sort faz uma comparação por elemento e nenhum deslocamento: O(n).
+- **II (certa):** se o pivô é sempre o menor ou o maior elemento (ex.: vetor já ordenado com pivô na ponta), as partições ficam com 0 e n - 1 elementos e o custo é O(n²).
+- **III (errada):** a busca binária depende de acesso direto ao elemento do meio. Em lista encadeada, chegar ao meio custa O(n), e a vantagem se perde.
+
+@@ ESP-PROG-0041
+**Gabarito: B.** `7 // 2` é divisão inteira: 3. `7 % 2` é o resto: 1. `7 / 2` é a divisão real, que em Python 3 sempre dá float: 3.5. `2 ** 3` é potência: 8.
+
+- **A:** Trata `/` como divisão inteira (comportamento do Python 2 com inteiros).
+- **C:** Trata `//` como divisão real e `**` como multiplicação (2 × 3 = 6).
+- **D:** `//` arredonda para baixo (piso), não para cima.
+- **E:** O resto de 7 por 2 é 1, e 2³ é 8 (9 seria 3²).
+
+@@ ESP-PROG-0042
+**Gabarito: Errado.** É o contrário: listas (`[1, 2]`) são mutáveis, aceitam `append`, remoção e atribuição por índice; tuplas (`(1, 2)`) são imutáveis, e tentar alterar um elemento gera `TypeError`. Por serem imutáveis, tuplas podem servir de chave de dicionário (se seus elementos também forem imutáveis).
+
+@@ ESP-PROG-0043
+**Gabarito: B.** `b = a` não copia: os dois nomes apontam para a mesma lista, então o `append(4)` aparece em ambos (4 elementos). `c = a[:]` cria uma cópia (rasa) nesse momento, com 4 elementos; o `append(5)` afeta só `c`, que fica com 5.
+
+- **A:** Supõe que `b` é cópia independente de `a`.
+- **C:** Esquece o `append(5)` em `c`.
+- **D:** Supõe que `c` também é a mesma lista de `a`.
+- **E:** Ignora o `append(4)` feito por meio de `b`.
+
+@@ ESP-PROG-0044
+**Gabarito: B.** No Qt/PyQt, os widgets emitem **sinais** (como `clicked`) e os métodos que os tratam são os **slots**; a ligação é feita com `botao.clicked.connect(self.metodo)`.
+
+- **A:** Listeners e adapters são o modelo de eventos do Java (Swing/AWT).
+- **C:** Callbacks de DOM pertencem ao JavaScript no navegador.
+- **D:** Delegates são o mecanismo de eventos do .NET (C#).
+- **E:** Eventos de banco de dados (triggers) não têm relação com interface gráfica.
+
+@@ ESP-PROG-0045
+**Gabarito: C.** Na consulta parametrizada, o SQL leva o marcador `?` e os valores vão em uma tupla separada, no segundo argumento de `execute`. O driver trata o valor como dado, nunca como código SQL.
+
+- **A:** Concatenação de strings: a entrada vira parte do comando (injeção).
+- **B:** A f-string tem o mesmo problema: interpola o valor no texto do SQL.
+- **D:** O operador `%` formata a string antes de enviá-la; também é interpolação.
+- **E:** Tem o `?`, mas concatena o valor em vez de passá-lo como parâmetro (e o comando fica inválido).
+
+@@ ESP-PROG-0046
+**Gabarito: B.** O valor padrão `lst=[]` é criado uma só vez, na definição da função, e reaproveitado. `f(1)` deixa a lista padrão com 1 elemento (retorna 1); `f(2)` usa a mesma lista, agora com 2 (retorna 2); `f(3, [])` recebe uma lista nova, com 1 elemento (retorna 1).
+
+- **A:** Supõe uma lista nova a cada chamada.
+- **C:** Supõe que a terceira chamada também usa a lista padrão.
+- **D:** Não corresponde a nenhum cenário: a lista nova tem só o 3.
+- **E:** O código é válido; valor padrão mutável é armadilha, não erro.
+
+@@ ESP-PROG-0047
+**Gabarito: C.** A classe abstrata não pode ser instanciada, mas pode ter construtores (chamados pelas subclasses via `super`), atributos e métodos concretos, além dos abstratos.
+
+- **A:** Java só permite herança simples de classes (`extends` de uma única classe), abstrata ou não.
+- **B:** Atributos de interface são sempre `public static final`, isto é, constantes.
+- **D:** Interface não é instanciável; `new` só com uma classe que a implemente (ou classe anônima).
+- **E:** Uma classe pode ser declarada `abstract` sem ter método abstrato algum; o inverso é que vale: tendo método abstrato, a classe tem de ser abstrata.
+
+@@ ESP-PROG-0048
+**Gabarito: Errado.** `protected` libera o acesso para as classes do **mesmo pacote** e também para as subclasses, mesmo de outros pacotes. Ele é mais permissivo que o acesso padrão (sem modificador), que vale só dentro do pacote. Ordem do mais restrito ao mais aberto: `private`, padrão (pacote), `protected`, `public`.
+
+@@ ESP-PROG-0049
+**Gabarito: B.** A variável é do tipo A, mas o objeto é um B. Na sobrescrita vale o tipo do objeto (ligação dinâmica): `obj.nome()` devolve "B". O objeto é instância de B e, por herança, também de A: os dois `instanceof` dão `true`. Concatenando: `Btruetrue`.
+
+- **A e C:** Usam o método da classe da variável (A), como se a ligação fosse estática.
+- **D:** Todo B também é um A; `obj instanceof A` é verdadeiro.
+- **E:** Atribuir um B a uma variável A (upcast) e concatenar boolean com String são operações válidas.
+
+@@ ESP-PROG-0050
+**Gabarito: D.** `TreeSet` é um `Set` (sem duplicados) implementado com árvore rubro-negra, que mantém os elementos na ordem natural (crescente) ou na de um `Comparator`.
+
+- **A:** `ArrayList` aceita duplicados e mantém a ordem de inserção.
+- **B:** `HashSet` não aceita duplicados, mas não garante ordem alguma.
+- **C:** `LinkedList` aceita duplicados e mantém a ordem de inserção.
+- **E:** `HashMap` guarda pares chave-valor, sem ordem (o mapa ordenado é o `TreeMap`).
+
+@@ ESP-PROG-0051
+**Gabarito: B.** Exceções verificadas (*checked*) herdam de `Exception` sem passar por `RuntimeException`; o compilador obriga a capturá-las ou declará-las com `throws`. `IOException` e `SQLException` são os exemplos típicos.
+
+- **A:** `NullPointerException` e `ArithmeticException` são `RuntimeException` (não verificadas).
+- **C:** `ClassCastException` e `IllegalArgumentException` também são `RuntimeException`.
+- **D:** `OutOfMemoryError` e `StackOverflowError` são `Error`, não verificados.
+- **E:** `IOException` é verificada, mas `NumberFormatException` é `RuntimeException`.
+
+@@ ESP-PROG-0052
+**Gabarito: B.** `s1 == s2` compara referências: o literal está no pool de strings e `new String` cria outro objeto, logo `false`. `equals` compara o conteúdo: `true`. `7 / 2` entre inteiros trunca: 3. Em Java o resto tem o sinal do **dividendo**: `7 % -3` = 1 (7 = (-2) × (-3) + 1).
+
+- **A:** `==` só daria `true` se as duas variáveis apontassem para o mesmo objeto.
+- **C:** Divisão entre `int` não gera 3.5, e o resto não é -1.
+- **D:** `equals` compara conteúdo, que é igual.
+- **E:** -1 seria o resto de `-7 % 3`; aqui o dividendo é positivo.
+
+@@ ESP-PROG-0053
+**Gabarito: C.** `p` guarda o endereço de `a` e `r` é uma referência (outro nome) para `a`: os três acessam a mesma posição de memória. `*p = 8` faz a = 8; `r = r + 2` faz a = 10. Tanto `a` quanto `*p` valem 10.
+
+- **A:** Ignora as duas alterações, como se `p` e `r` fossem cópias.
+- **B:** Considera só a escrita pelo ponteiro e ignora a soma feita pela referência.
+- **D:** `a` e `*p` são a mesma variável; não podem ter valores diferentes.
+- **E:** Soma 2 ao valor original (5), ignorando `*p = 8`.
+
+@@ ESP-PROG-0054
+**Gabarito: Certo.** Em C++ a ligação padrão é estática: sem `virtual`, a chamada por ponteiro (ou referência) da classe base executa a versão da base, decidida pelo tipo do ponteiro em tempo de compilação. Com `virtual` na base, a escolha é feita em tempo de execução, pelo tipo real do objeto (via tabela de funções virtuais), e roda a versão da derivada.
+
+@@ ESP-PROG-0055
+**Gabarito: B.** `= 0` declara uma função virtual pura (sem implementação obrigatória na classe). Basta uma para a classe ser abstrata: não pode ser instanciada, e as derivadas precisam implementar a função para serem concretas.
+
+- **A:** `final` impede herança ou sobrescrita; é o oposto do que a classe abstrata pede.
+- **C:** Classe template é declarada com `template <typename T>`.
+- **D:** C++ não tem a construção "interface"; uma classe abstrata pode ter atributos e métodos concretos.
+- **E:** `struct` é uma classe com membros públicos por padrão; nada tem a ver com virtual pura.
+
+@@ ESP-PROG-0056
+**Gabarito: C.** O que é alocado com `new[]` deve ser liberado com `delete[]`, que desaloca o vetor inteiro (e chama o destrutor de cada elemento, quando há).
+
+- **A:** `free` faz par com `malloc`, não com `new`.
+- **B:** `delete` sem colchetes é para objeto único alocado com `new`; usá-lo em vetor tem comportamento indefinido.
+- **D:** Atribuir `nullptr` só perde o endereço; a memória continua alocada (vazamento).
+- **E:** `dispose` não existe em C++ (lembra o Pascal e o `Dispose` do .NET).
+
+@@ ESP-PROG-0057
+**Gabarito: B.** `x` é passado por valor: a função incrementa uma cópia e `a` continua 1. `y` é passado por referência (`int&`): o incremento atinge `b`, que vira 2. Como não há separador, a saída é `12`.
+
+- **A:** Supõe os dois parâmetros por valor.
+- **C:** Troca os papéis: quem muda é `b`, não `a`.
+- **D:** Supõe os dois parâmetros por referência.
+- **E:** O código é válido.
+
+@@ ESP-PROG-0058
+**Gabarito: B.** É uma propriedade autoimplementada com acessores de visibilidades diferentes: o `get` herda o `public` da propriedade e o `set` é `private`. Qualquer classe lê; só a própria classe altera.
+
+- **A:** Há `get` público, então pode ser lida (somente escrita seria ter apenas `set`).
+- **C:** Na propriedade autoimplementada o compilador cria o campo de apoio automaticamente.
+- **D:** `private` exclui também as classes derivadas; para elas seria `protected set`.
+- **E:** A propriedade não é constante: a própria classe pode atribuir valores a ela.
+
+@@ ESP-PROG-0059
+**Gabarito: Errado.** O código entre `<% %>` é executado **no servidor** (IIS) antes do envio da resposta. O navegador recebe apenas o HTML resultante e nunca vê o código ASP. O que roda no navegador é script de cliente, como o JavaScript em `<script>`.
+
+@@ ESP-PROG-0060
+**Gabarito: B.** No ASP clássico, `Request.Form("campo")` lê os campos enviados no corpo da requisição POST.
+
+- **A:** `Request.QueryString` lê os parâmetros da URL, usados no método GET.
+- **C:** `Response` é o objeto de saída (ex.: `Response.Write`); não tem coleção `Form`.
+- **D:** `Session` guarda dados da sessão do usuário entre requisições.
+- **E:** `Server` oferece utilitários do servidor (`Server.MapPath`, `Server.CreateObject`).
+
+@@ ESP-PROG-0061
+**Gabarito: B.** Em C# os métodos não são virtuais por padrão: a base precisa marcar o método com `virtual` (ou `abstract`) e a derivada, com `override`.
+
+- **A:** `abstract` na base até permite sobrescrita, mas `new` na derivada apenas **oculta** o método, sem ligação dinâmica.
+- **C:** `sealed` impede a sobrescrita.
+- **D:** Métodos `static` pertencem à classe e não podem ser sobrescritos.
+- **E:** Ordem invertida.
+
+@@ ESP-PROG-0062
+**Gabarito: B.** A diretiva `using Namespace;` no início do arquivo permite usar os tipos do namespace pelo nome simples (ex.: `Console` em vez de `System.Console`).
+
+- **A:** Um namespace pode estar espalhado por vários assemblies, e um assembly pode conter vários namespaces.
+- **C:** Namespaces podem ser aninhados (ex.: `System.Collections.Generic`).
+- **D:** Em C# o namespace é só organização lógica; não precisa refletir a estrutura de pastas.
+- **E:** A instrução `using (...) { }` garante o descarte (`Dispose`) de um recurso ao fim do bloco; não importa namespaces.
+
+@@ ESP-PROG-0063
+**Gabarito: C.** `<%# ... %>` é a expressão de vinculação de dados (*data binding*), avaliada quando o controle executa `DataBind()`; `Eval("Nome")` lê o campo Nome do item atual.
+
+- **A:** Comentário de servidor é `<%-- ... --%>`.
+- **B:** Diretiva é `<%@ ... %>` (ex.: `<%@ Page ... %>`).
+- **D:** Inclusão de arquivo é `<!-- #include file="..." -->`.
+- **E:** Escrita com codificação HTML é `<%: ... %>` (e `<%= ... %>` escreve sem codificar).
+
+@@ ESP-PROG-0064
+**Gabarito: B.** Teste de mesa, começando com x = 10 e y = 3:
+
+- 1ª volta: x = 10 - 3 = 7; y = 4.
+- 2ª volta: x = 7 - 4 = 3; y = 5.
+- 3ª volta: x = 3 - 5 = -2; y = 6.
+
+Como -2 > 0 é falso, o laço termina e a saída é **-2 6**. O teste só acontece no início de cada volta, por isso x chega a ficar negativo. A alternativa C corresponde a uma 4ª volta indevida; as demais vêm de erros de conta ou de parar o laço cedo demais.
+
+@@ ESP-PROG-0065
+**Gabarito: C.** O `do...while` testa a condição no final; o bloco executa ao menos uma vez.
+
+- **A:** O `enquanto` testa antes de entrar; se a condição já for falsa, executa zero vezes.
+- **B:** O `repita...até` testa no final (e repete até a condição ficar **verdadeira**).
+- **D:** O `para` é indicado justamente quando o número de repetições é conhecido.
+- **E:** A programação estruturada dispensa o `goto`: sequência, seleção e repetição bastam.
+
+@@ ESP-PROG-0066
+**Gabarito: B.** `17 // 5` = 3 e `17 % 5` = 2 (17 = 3 × 5 + 2). Em Python a divisão inteira arredonda para baixo, em direção a menos infinito: -17 / 5 = -3,4, cujo piso é **-4**.
+
+- **A:** -3 seria o truncamento em direção a zero, que é o comportamento de C e Java, não do Python.
+- **C e D:** `//` não devolve parte fracionária com operandos inteiros.
+- **E:** 17 // 5 é 3, não 4 (não arredonda para cima).
+
+@@ ESP-PROG-0067
+**Gabarito: Errado.** Java passa tudo **por valor**. No caso de objetos, o que se copia é a referência: parâmetro e variável do chamador apontam para o mesmo objeto, mas são variáveis distintas. `param = new Conta()` muda só a cópia local; a variável original continua apontando para o objeto antigo. Já alterar o estado do objeto pelo parâmetro (`param.depositar(10)`) é visível ao chamador.
+
+@@ ESP-PROG-0068
+**Gabarito: B.** É a recursão de Fibonacci com g(0) = g(1) = 1. Subindo: g(2) = 1 + 1 = 2; g(3) = 2 + 1 = 3; g(4) = 3 + 2 = 5; g(5) = 5 + 3 = **8**.
+
+- **A:** 5 é g(4), ou o Fibonacci de 5 na versão que começa com F(0) = 0.
+- **C:** 13 é g(6).
+- **D:** 3 é g(3).
+- **E:** 1 é só o caso base.
+
+@@ ESP-PROG-0069
+**Gabarito: B.** Sobrecarga (*overloading*): mesmo nome, assinaturas diferentes (número, tipo ou ordem dos parâmetros), na mesma classe; o compilador escolhe a versão pelos argumentos.
+
+- **A:** Sobrescrita é redefinir na subclasse um método herdado, com a mesma assinatura.
+- **C:** Herança múltipla é uma classe herdar de mais de uma superclasse.
+- **D:** Encapsulamento é ocultar o estado interno e expor operações controladas.
+- **E:** Agregação é uma associação todo-parte entre objetos.
+
+@@ ESP-PROG-0070
+**Gabarito: Errado.** A descrição é da **agregação** (losango vazio na UML): a parte existe sem o todo e pode ser compartilhada, como um professor em vários departamentos. Na **composição** (losango cheio), a parte pertence a um único todo e tem o ciclo de vida preso a ele: destruído o todo, as partes também são, como os itens de um pedido.
+
+@@ ESP-PROG-0071
+**Gabarito: E.** É o DIP (*Dependency Inversion Principle*), o "D" do SOLID: depender de abstrações (interfaces), não de implementações concretas.
+
+- **A:** SRP: uma classe deve ter uma única responsabilidade (um só motivo para mudar).
+- **B:** OCP: aberto para extensão, fechado para modificação.
+- **C:** LSP: subtipos devem poder substituir seus tipos base.
+- **D:** ISP: várias interfaces específicas são melhores que uma interface geral.
+
+@@ ESP-PROG-0072
+**Gabarito: C.** **Acoplamento** mede a dependência entre módulos: quanto menor, menos uma mudança se propaga. **Coesão** mede o quanto os elementos de um módulo servem a um mesmo propósito: quanto maior, mais fácil entender e manter.
+
+- **A:** Acerta a coesão, erra o acoplamento.
+- **B:** Acerta o acoplamento, erra a coesão.
+- **D:** É a pior combinação possível.
+- **E:** Acoplamento de conteúdo (um módulo mexe no interior de outro) e coesão coincidental (elementos sem relação) são os piores níveis de cada escala.
+
+@@ ESP-PROG-0073
+**Gabarito: Certo.** Pelo LSP, o código que usa a superclasse deve continuar funcionando quando recebe um objeto da subclasse. Se a subclasse falha onde a superclasse funcionava (endurece as pré-condições ou lança exceções inesperadas), ela não é substituível. Exemplo clássico: uma subclasse `Pinguim` que lança exceção no método `voar()` herdado de `Ave`.
+
+@@ ESP-PROG-0074
+**Gabarito: C.** Coesão temporal: os elementos estão juntos só porque rodam no mesmo momento (inicialização, encerramento), não porque cooperem em uma função.
+
+- **A:** Funcional (a melhor): todos os elementos contribuem para uma única tarefa bem definida.
+- **B:** Sequencial: a saída de um elemento é a entrada do seguinte.
+- **D:** Comunicacional: os elementos operam sobre os mesmos dados.
+- **E:** Coincidental (a pior): elementos agrupados sem relação alguma.
+
+@@ ESP-PROG-0075
+**Gabarito: B.** O Decorator envolve o objeto em outro com a mesma interface, que acrescenta comportamento antes ou depois de delegar a chamada. Os decoradores podem ser empilhados em tempo de execução, evitando uma explosão de subclasses.
+
+- **A:** O Adapter converte uma interface em outra; não acrescenta responsabilidades.
+- **C:** A Facade dá uma interface única e simples a um subsistema.
+- **D:** O Proxy tem a mesma interface do objeto real, mas serve para controlar o acesso a ele (remoto, sob demanda, proteção).
+- **E:** O Composite monta hierarquias todo-parte tratadas de modo uniforme.
+
+@@ ESP-PROG-0076
+**Gabarito: Errado.** Esses cinco são exatamente os padrões **criacionais** (tratam da criação de objetos). Os estruturais são sete: Adapter, Bridge, Composite, Decorator, Facade, Flyweight e Proxy. Os outros onze são comportamentais.
+
+@@ ESP-PROG-0077
+**Gabarito: C.** O Observer define uma dependência um-para-muitos: quando o sujeito (a conta) muda de estado, todos os observadores registrados (app, antifraude, e-mail) são notificados automaticamente, sem que a conta conheça suas classes concretas.
+
+- **A:** Strategy troca algoritmos intercambiáveis.
+- **B:** Singleton garante instância única.
+- **D:** Builder separa a construção passo a passo de um objeto complexo.
+- **E:** Visitor acrescenta operações a uma estrutura de objetos sem alterar suas classes.
+
+@@ ESP-PROG-0078
+**Gabarito: B.** No Template Method, a superclasse traz o método que fixa a sequência de passos, e as subclasses implementam ou redefinem alguns desses passos. Baseia-se em herança.
+
+- **A:** O Strategy troca o algoritmo **inteiro**, por composição, não passos de um esqueleto.
+- **C:** O State muda o comportamento do objeto conforme seu estado interno.
+- **D:** O Command encapsula uma requisição como objeto (filas, desfazer).
+- **E:** O Chain of Responsibility passa a requisição por uma cadeia de tratadores.
+
+@@ ESP-PROG-0079
+**Gabarito: C.** `git fetch` baixa os commits do remoto e atualiza as referências remotas (`origin/main`), sem tocar no branch local nem no diretório de trabalho.
+
+- **A:** `git pull` é fetch seguido de merge (ou rebase): integra automaticamente.
+- **B:** `git push` envia os commits locais ao remoto.
+- **D:** `git merge` integra um branch em outro, mas não baixa nada.
+- **E:** `git commit` grava as alterações preparadas no repositório local.
+
+@@ ESP-PROG-0080
+**Gabarito: C.** No Git Flow, o hotfix nasce de `main` (o código de produção), recebe a correção e é integrado de volta em `main` (com tag de versão) e em `develop`.
+
+- **A:** Feature é para funcionalidades novas, a partir de `develop`.
+- **B:** Release prepara uma versão e é criado a partir de `develop`, não de `main`.
+- **D:** `develop` é ramo permanente de integração, não é criado a partir de feature.
+- **E:** O tipo está certo, mas a origem não: `develop` contém código ainda não liberado.
+
+@@ ESP-PROG-0082
+**Gabarito: C.** A pirâmide tem base larga de testes de unidade (rápidos, baratos e estáveis), uma camada intermediária de testes de serviço/integração e um topo estreito de testes de interface (lentos, caros e frágeis).
+
+- **A:** É a pirâmide invertida (o antipadrão "casquinha de sorvete").
+- **B:** A proposta é justamente de quantidades diferentes por camada.
+- **D:** A pirâmide trata de testes automatizados em todas as camadas.
+- **E:** Testes de aceitação são apenas uma parte, perto do topo.
+
+@@ ESP-PROG-0083
+**Gabarito: B.** O hotfix parte de `main`, onde está o código de produção, e ao final é integrado em `main` (gerando nova versão) e também em `develop`, para que a correção não se perca na próxima release.
+
+- **A:** Feature serve a funcionalidades novas e não vai direto para produção.
+- **C:** Release nasce de `develop` e é integrado em `main` e `develop`.
+- **D:** `develop` é o ramo de integração; não vai diretamente para produção.
+- **E:** "Trunk" é termo do desenvolvimento baseado em tronco, outro modelo; e não se dispensa revisão.
+
+@@ ESP-PROG-0084
+**Gabarito: C.** Código sugerido por IA pode conter erros, vulnerabilidades ou dependências inadequadas: deve passar pela mesma revisão, testes e análise de segurança do código escrito por pessoas, e os prompts não devem conter dados sensíveis.
+
+- **A:** Expor dados reais de clientes viola o sigilo bancário e a LGPD.
+- **B:** O modelo erra; a responsabilidade pelo código continua sendo da equipe.
+- **D:** A ferramenta precisa ser homologada pela instituição (segurança, privacidade, licenças).
+- **E:** Credenciais nunca vão no código nem em prompts; ficam em cofres de segredos.
+

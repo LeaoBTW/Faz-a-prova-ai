@@ -15,3 +15,5 @@ jobs:
           python-version: "3.12"
       - name: Validar esquema, ids e gabaritos
         run: python3 tools/validar_banco.py
+      - name: Conferir comentários revisados
+        run: python3 tools/comentarios/montar.py --conferir
