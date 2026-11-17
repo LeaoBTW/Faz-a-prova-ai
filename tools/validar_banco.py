@@ -24,6 +24,8 @@ RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RE_ID_GERAL = re.compile(r"^(LP|RLE|ATU|ETI)-(V?\d{3,4})$")
 RE_ID_ESP = re.compile(r"^ESP-(%s)-(V?\d{3,4})$" % "|".join(C.EIXOS))
 PREFIXO_MATERIA = {v[2]: v[0] for v in C.GERAIS.values()}
+RE_ID_TB = re.compile(r"^(TB-(%s)-\d{4}|TB23-\d{3})$" % "|".join(C.MATERIAS_TB))
+BLOCO_TB = {v[0]: v[1] for v in C.MATERIAS_TB.values()}
 
 OBRIGATORIOS = ["id", "concursos", "bloco", "materia", "eixo", "topico", "ref_apostila", "origem",
                 "formato", "dificuldade", "texto_base", "enunciado", "imagem", "alternativas",
@@ -146,15 +148,15 @@ def carregar(raiz, correcoes=True):
             continue
         with open(caminho, encoding="utf-8") as f:
             txt = f.read()
-        var = "TEXTOS_BASE" if nome == "textos-base.js" else "BANCO"
-        for linha, js in extrair_chamadas(txt, var):
-            try:
-                obj = json.loads(js)
-            except json.JSONDecodeError as e:
-                erros.append("%s:%d: objeto não é JSON válido (%s)" % (nome, linha, e))
-                continue
-            obj["__arquivo"] = "%s:%d" % (nome, linha)
-            (textos if var == "TEXTOS_BASE" else questoes).append(obj)
+        for var in ("BANCO", "TEXTOS_BASE"):
+            for linha, js in extrair_chamadas(txt, var):
+                try:
+                    obj = json.loads(js)
+                except json.JSONDecodeError as e:
+                    erros.append("%s:%d: objeto não é JSON válido (%s)" % (nome, linha, e))
+                    continue
+                obj["__arquivo"] = "%s:%d" % (nome, linha)
+                (textos if var == "TEXTOS_BASE" else questoes).append(obj)
     if correcoes:
         corr, e1 = carregar_correcoes(raiz)
         erros += e1 + aplicar_correcoes(questoes, corr)
@@ -187,9 +189,24 @@ def validar(questoes, textos, raiz):
             erro("id repetido (também em %s)" % vistos[qid])
         vistos[qid] = q["__arquivo"]
         bloco, materia, eixo = q.get("bloco"), q.get("materia"), q.get("eixo")
-        if bloco not in C.BLOCOS:
+        so_tb = (q.get("concursos") or []) == [C.CONCURSO_TB]
+        if so_tb:
+            # questão criada só para o Técnico Bancário: matéria do edital de nível médio, sem eixo,
+            # ref_apostila opcional (a apostila é do Analista de TI)
+            m = RE_ID_TB.match(qid)
+            if not m:
+                erro("id fora do padrão do Técnico Bancário (TB-VNA-0001, TB23-001)")
+            elif m.group(2) and C.MATERIAS_TB[m.group(2)][0] != materia:
+                erro("sigla do id não bate com a matéria %r" % materia)
+            if materia not in BLOCO_TB:
+                erro("matéria do Técnico Bancário inválida: %r" % materia)
+            elif BLOCO_TB[materia] != bloco:
+                erro("bloco deve ser %r" % BLOCO_TB[materia])
+            if eixo is not None:
+                erro("questão do Técnico Bancário não tem eixo")
+        elif bloco not in C.BLOCOS:
             erro("bloco inválido: %r" % bloco)
-        if bloco == "gerais":
+        elif bloco == "gerais":
             m = RE_ID_GERAL.match(qid)
             if not m:
                 erro("id fora do padrão dos Gerais (LP-0001, RLE-V001...)")
@@ -209,14 +226,16 @@ def validar(questoes, textos, raiz):
                 erro("id fora do padrão dos Específicos (ESP-BD-0001, ESP-BD-V001...)")
             elif C.SIGLA_POR_EIXO[eixo] != m.group(1):
                 erro("sigla do id não bate com o eixo %r" % eixo)
-        if C.CONCURSO not in (q.get("concursos") or []):
-            erro("concursos deve incluir %r" % C.CONCURSO)
+        if not so_tb and C.CONCURSO not in (q.get("concursos") or []):
+            erro("concursos deve incluir %r ou ser só [%r]" % (C.CONCURSO, C.CONCURSO_TB))
         if not str(q.get("topico") or "").strip():
             erro("tópico vazio")
         if not str(q.get("enunciado") or "").strip():
             erro("enunciado vazio")
         ref = q.get("ref_apostila")
-        if not isinstance(ref, dict) or not all(ref.get(k) for k in ("modulo", "secao", "link")):
+        if so_tb and ref is None:
+            pass
+        elif not isinstance(ref, dict) or not all(ref.get(k) for k in ("modulo", "secao", "link")):
             erro("ref_apostila precisa de modulo, secao e link")
         elif not re.match(r"^\[\[.+#.+\]\]$", ref["link"]):
             erro("ref_apostila.link deve ser um link wiki [[arquivo#seção]]")
