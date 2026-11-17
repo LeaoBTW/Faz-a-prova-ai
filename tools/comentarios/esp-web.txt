@@ -1,0 +1,610 @@
+@@ ESP-WEB-0001
+**Gabarito: C.** `document.getElementById('demo')` procura o elemento cujo atributo `id` vale `demo`. Só `<p id="demo">` atende; o `innerHTML` desse parágrafo passa a mostrar a data e hora correntes devolvidas por `Date()`.
+
+- **A:** `"demo"` solto na tag não define atributo nenhum; o HTML é inválido.
+- **B:** Por classe seria `getElementsByClassName('demo')` ou `querySelector('.demo')`.
+- **D:** `js` não é atributo HTML e não é consultado por `getElementById`.
+- **E:** `onclick` é um tratador de evento (código executado no clique), não um identificador.
+
+@@ ESP-WEB-0002
+**Gabarito: B.** Ajax (*Asynchronous JavaScript and XML*) permite que o JavaScript da página troque dados com o servidor em segundo plano (com `XMLHttpRequest` ou `fetch`) e atualize apenas parte da página, sem recarregá-la inteira.
+
+- **A:** Criptografia em trânsito é papel do TLS (HTTPS).
+- **C:** Ajax não é mecanismo de segurança; proteção contra ataques envolve validação, WAF e boas práticas de codificação.
+- **D:** Login em duas etapas é autenticação multifator (MFA).
+- **E:** Ajax não controla aplicativos multiplataforma; é só uma técnica de comunicação assíncrona no navegador.
+
+@@ ESP-WEB-0003
+**Gabarito: A.** GET, POST e PUT são métodos definidos no HTTP. A lista completa do padrão inclui ainda HEAD, DELETE, CONNECT, OPTIONS, TRACE e PATCH.
+
+- **B:** SEND não é método HTTP.
+- **C:** READ e WRITE não existem no HTTP (ler é GET; gravar é POST ou PUT).
+- **D:** SET e WRITE não existem.
+- **E:** Nenhum dos três (SEND, INPUT, OUTPUT) é método HTTP.
+
+@@ ESP-WEB-0004
+**Gabarito: D.** A estrutura básica do Ajax com `XMLHttpRequest` é: criar o objeto, definir o tratador `onload` (o que fazer quando a resposta chegar), chamar `open(método, url)` para configurar a requisição e `send()` para enviá-la.
+
+- **A:** A requisição até é enviada, mas não há `onload`: a resposta nunca é tratada, logo a estrutura está incompleta.
+- **B:** A classe `HttpRequest` não existe; o nome correto é `XMLHttpRequest`.
+- **C:** Troca os papéis: `open` é método (não se atribui função a ele), os parâmetros vão em `open` e não em `send`, e `onload` é um tratador chamado pelo navegador.
+- **E:** `XMLRequest` não existe e `onload` não recebe método e URL.
+
+@@ ESP-WEB-0005
+**Gabarito: D.** O asterisco `*` é o seletor universal do CSS: casa com qualquer elemento. Exemplo: `* { box-sizing: border-box; }`.
+
+- **A:** `#` seleciona por id (`#menu`).
+- **B:** `%` não é seletor; é unidade de medida relativa.
+- **C:** `&` não é seletor do CSS clássico; é o seletor de aninhamento (referência ao pai) em Sass e no CSS Nesting.
+- **E:** `@` inicia regras especiais (*at-rules*), como `@media`, `@import` e `@font-face`.
+
+@@ ESP-WEB-0006
+**Gabarito: B.** Um elemento XML pode conter atributos (na tag de abertura), texto e outros elementos (filhos), ou ainda uma mistura deles, e também pode ser vazio.
+
+- **A:** "Formato" não é componente de um elemento XML; a apresentação fica por conta de CSS ou XSLT.
+- **C:** XML não tem arrays; listas são representadas pela repetição de elementos. Array é estrutura do JSON.
+- **D:** Inclui "formato" e omite os atributos.
+- **E:** Inclui arrays e omite os atributos.
+
+@@ ESP-WEB-0007
+**Gabarito: D.** No jQuery os seletores seguem o CSS: `#x1` é o elemento de `id="x1"`. `.click(função)` registra o tratador do clique, e `$("#x2").html(...)` substitui o conteúdo HTML do elemento de `id="x2"`.
+
+- **A:** Seleção por tag seria `$("x1")` e `$("x2")`, sem prefixo.
+- **B:** Seleção por classe seria `$(".x1")`.
+- **C:** A origem está certa, mas o destino é por id (`#x2`), não por classe (`.x2`).
+- **E:** A origem está certa, mas o destino não é por tag.
+
+@@ ESP-WEB-0008
+**Gabarito: C.** O Ajax não é uma tecnologia nova, e sim a combinação de recursos que já existem no navegador (lado cliente): JavaScript, o objeto `XMLHttpRequest` (ou `fetch`), o DOM, HTML/CSS e XML ou JSON como formato dos dados.
+
+- **A:** As tecnologias do Ajax são do lado cliente; o servidor pode usar qualquer linguagem, C# inclusive, mas isso não faz parte do Ajax.
+- **B:** Java não faz parte do Ajax (Java não é JavaScript), e não há "tecnologias híbridas" na definição.
+- **D:** HTML é interpretado no navegador, não é tecnologia do lado servidor.
+
+@@ ESP-WEB-0009
+**Gabarito: B.** A validação pode ser feita no cliente (atributos HTML5 como `required`, `pattern`, `type="email"`, ou JavaScript), o que dá resposta rápida ao usuário, e deve ser repetida no servidor, porque a do cliente pode ser contornada.
+
+- **A:** O formulário convive com qualquer outro conteúdo da página e não é o único meio de falar com o servidor (há links e Ajax).
+- **C:** É preciso indicar para onde e como enviar: atributos `action` e `method` do `<form>`, mais um botão de envio ou script.
+- **D:** A tag `sendtoserver` não existe em HTML.
+
+@@ ESP-WEB-0010
+**Gabarito: C.** Estão corretas I e IV.
+
+- **I, correta:** `@font-face` declara uma fonte e o endereço do arquivo (`src: url(...)`); o navegador a baixa quando precisa.
+- **II, errada:** a regra não descontinua nenhuma família de fontes; as fontes do sistema seguem disponíveis.
+- **III, errada:** `font-family` continua valendo, inclusive com a lista de fontes alternativas (*fallback*), como em `font-family: MinhaFonte, Arial, sans-serif`.
+- **IV, correta:** além de `url(...)`, o `src` aceita `local(...)`, que usa a fonte já instalada no computador do usuário, se existir. (A regra não "cria" fontes, mas a banca aceitou a redação.)
+
+@@ ESP-WEB-0011
+**Gabarito: A.** A primeira definição (especialistas avaliando com base em diretrizes e heurísticas) é a **inspeção de usabilidade**; a segunda (usuários interagindo com o sistema em ambiente controlado) é o **teste de usabilidade**. A alternativa A é a única que reúne os dois métodos, ainda que em ordem inversa à das definições (o enunciado não diz "respectivamente").
+
+- **B:** Pensar em voz alta é um protocolo usado dentro do teste com usuários, não a avaliação por especialistas.
+- **C:** Análise de tarefas decompõe o trabalho do usuário em passos; não é interação em ambiente controlado.
+- **D:** Questionários de satisfação colhem a opinião dos usuários após o uso; não correspondem a nenhuma das definições.
+
+@@ ESP-WEB-0012
+**Gabarito: A.** Estão corretas I, III e IV.
+
+- **I, correta:** GET é seguro (não altera estado) e idempotente.
+- **II, errada:** POST **não** é idempotente; repetir a requisição pode criar dois recursos (dois Pix, dois pedidos).
+- **III, correta:** PUT substitui o recurso pelo conteúdo enviado; repetir a mesma requisição deixa o servidor no mesmo estado.
+- **IV, correta:** 201 Created indica criação de recurso, em geral com o cabeçalho `Location`.
+
+Idempotente é o método cujo efeito no servidor é o mesmo com uma ou com várias requisições iguais: GET, HEAD, OPTIONS, PUT e DELETE.
+
+@@ ESP-WEB-0013
+**Gabarito: D.** A tela de confirmação antes de uma ação de difícil reversão é o exemplo típico da heurística de **prevenção de erros**: melhor que uma boa mensagem de erro é um projeto que evita que o problema aconteça.
+
+- **A:** Flexibilidade e eficiência de uso trata de atalhos e personalização para usuários experientes.
+- **B:** Estética e design minimalista pede que só se mostre informação relevante.
+- **C:** Reconhecimento em vez de memorização pede opções visíveis, para o usuário não ter de lembrar informações de uma tela para outra.
+- **E:** Ajuda e documentação trata de material de apoio fácil de achar.
+
+@@ ESP-WEB-0014
+**Gabarito: D.** O `useEffect` roda **depois** que a renderização é aplicada à tela. Com o array de dependências `[contaId]`, ele roda após a primeira renderização (montagem) e de novo apenas quando `contaId` muda.
+
+- **A:** Efeitos nunca rodam antes da renderização; e o efeito se repete se `contaId` mudar.
+- **B:** Isso valeria sem array de dependências. Aqui, `setSaldo` provoca nova renderização, mas `contaId` não mudou, então o efeito não roda de novo.
+- **C:** Na desmontagem roda só a função de limpeza devolvida pelo efeito, que aqui nem existe.
+- **E:** A função passada ao `useEffect` não pode ser `async`, mas pode fazer chamadas assíncronas dentro dela, como este `fetch` com `.then`.
+
+@@ ESP-WEB-0015
+**Gabarito: E.** Estão corretas I, II e IV.
+
+- **I, correta:** todo JavaScript válido é TypeScript válido; os tipos são checados na compilação e apagados no JavaScript gerado.
+- **II, correta:** `[(ngModel)]` (a "banana na caixa") combina property binding `[]` e event binding `()`.
+- **III, errada:** `*ngIf` e `*ngFor` são diretivas **estruturais**: adicionam e removem elementos do DOM. Diretivas de atributo (como `ngClass` e `ngStyle`) é que alteram aparência ou comportamento.
+- **IV, correta:** `providedIn: 'root'` registra o serviço no injetor raiz, como singleton da aplicação.
+
+@@ ESP-WEB-0016
+**Gabarito: B.** **403 Forbidden**: o servidor sabe quem é o cliente (está autenticado), mas ele não tem permissão para a operação. É falha de autorização.
+
+- **A:** 401 Unauthorized indica falta de autenticação ou credenciais inválidas.
+- **C:** 404 Not Found indica recurso inexistente (às vezes usado para esconder a existência do recurso, mas não é o mais adequado aqui).
+- **D:** 500 é erro interno do servidor, e aqui o servidor funcionou corretamente.
+- **E:** 302 é redirecionamento temporário.
+
+@@ ESP-WEB-0017
+**Gabarito: B.** O **WSDL** (*Web Services Description Language*) é o contrato do serviço SOAP, em XML: descreve as operações, as mensagens e os tipos de dados, o protocolo de ligação e o endereço do serviço.
+
+- **A:** UDDI é o registro (catálogo) para publicar e descobrir serviços.
+- **C:** XSLT é linguagem de transformação de documentos XML.
+- **D:** JSON Schema descreve a estrutura de documentos JSON, fora do mundo SOAP.
+- **E:** O Envelope é o elemento raiz de cada mensagem SOAP (contém Header e Body), não a descrição do serviço.
+
+@@ ESP-WEB-0018
+**Gabarito: B.** **201 Created**: a requisição teve sucesso e um novo recurso foi criado; é a resposta típica de um POST de criação, com o cabeçalho `Location` apontando para o recurso.
+
+- **A:** 200 OK é sucesso genérico.
+- **C:** 204 No Content é sucesso sem corpo na resposta (comum em DELETE).
+- **D:** 301 Moved Permanently é redirecionamento permanente.
+- **E:** 304 Not Modified diz que a cópia em cache do cliente continua válida.
+
+@@ ESP-WEB-0019
+**Gabarito: Errado.** O POST não criptografa nada: apenas envia os dados no corpo da requisição, em vez de na URL como o GET. Em HTTP puro, o corpo trafega em texto claro e pode ser lido por quem interceptar o tráfego. Só o TLS (HTTPS) cifra a comunicação. A vantagem do POST é não deixar os dados expostos na URL, no histórico do navegador e nos logs.
+
+@@ ESP-WEB-0020
+**Gabarito: C.** Método **seguro** é o que não altera o estado do servidor (só leitura). **Idempotente** é aquele em que repetir a requisição produz o mesmo estado final. PUT e DELETE alteram estado (não seguros), mas repetir não muda o resultado (idempotentes).
+
+- **A:** GET e HEAD são seguros (e idempotentes).
+- **B:** POST e PATCH não são seguros nem idempotentes.
+- **D:** OPTIONS e TRACE são seguros.
+- **E:** PUT atende, mas POST não é idempotente.
+
+@@ ESP-WEB-0022
+**Gabarito: B.** Um cookie com **HttpOnly** não pode ser lido por JavaScript (`document.cookie`); assim, um script injetado por XSS não consegue roubar o cookie de sessão.
+
+- **A:** `Secure` faz o cookie ser enviado apenas em conexões HTTPS.
+- **C:** `SameSite` controla o envio do cookie em requisições vindas de outros sites; mitiga CSRF.
+- **D:** `Domain` define para quais hosts o cookie é enviado.
+- **E:** `Max-Age` define o tempo de vida do cookie, em segundos.
+
+@@ ESP-WEB-0023
+**Gabarito: D.** A origem é o trio **esquema + host + porta**. `https://app.banco.com.br/conta?x=1` mantém `https`, `app.banco.com.br` e a porta 443 implícita; caminho e query string não fazem parte da origem.
+
+- **A:** Muda o esquema (`http`), e com ele a porta padrão (80).
+- **B:** Muda o host (`api` em vez de `app`); subdomínio diferente é outra origem.
+- **C:** Muda a porta (8443 em vez de 443).
+- **E:** Muda o host (`banco.com.br` não é igual a `app.banco.com.br`).
+
+@@ ESP-WEB-0024
+**Gabarito: B.** Para enviar arquivos, o formulário precisa de `method="post"` (o conteúdo vai no corpo da requisição) e `enctype="multipart/form-data"`, que divide o corpo em partes, uma por campo, e transporta o conteúdo binário do arquivo.
+
+- **A:** Com GET os dados vão na URL; só o nome do arquivo seria enviado. `text/plain` não transporta arquivos.
+- **C:** Formulários HTML só aceitam `get` e `post` (e `dialog`); `put` não é valor válido.
+- **D:** `multiple` apenas permite selecionar vários arquivos no `<input>`; não define a codificação do envio.
+- **E:** `application/json` não é um `enctype` válido de formulário HTML.
+
+@@ ESP-WEB-0025
+**Gabarito: Certo.** Campo `disabled` fica desabilitado: não recebe foco, não pode ser editado e **não** entra nos dados enviados. Campo `readonly` só não pode ser editado pelo usuário: continua recebendo foco e seu valor **é** enviado normalmente na submissão.
+
+@@ ESP-WEB-0026
+**Gabarito: C.** `<article>` representa um conteúdo completo e autocontido, que faria sentido sozinho se fosse distribuído ou reutilizado: notícia, postagem de blog, comentário.
+
+- **A:** `<section>` é um agrupamento temático de conteúdo, em geral com título, que faz parte de algo maior.
+- **B:** `<aside>` é conteúdo tangencial ao principal, como uma barra lateral.
+- **D:** `<div>` é contêiner genérico, sem significado semântico.
+- **E:** `<main>` marca o conteúdo principal da página, único por documento.
+
+@@ ESP-WEB-0027
+**Gabarito: B.** O HTML5 acrescentou os tipos `email`, `url`, `tel`, `search`, `number`, `range`, `color`, `date`, `time`, `datetime-local`, `month` e `week`, com validação e controles nativos.
+
+- **A:** `text`, `password` e `hidden` já existiam no HTML 4.
+- **C:** `checkbox`, `radio` e `file` já existiam.
+- **D:** `submit`, `reset` e `image` já existiam.
+- **E:** Só `number` é do HTML5; `button` e `text` são antigos.
+
+@@ ESP-WEB-0028
+**Gabarito: B.** Com `defer`, o script é baixado em paralelo com a análise do HTML e executado só depois que o documento foi todo analisado, na ordem em que os scripts aparecem na página.
+
+- **A:** Com `async` o download também é paralelo, mas o script executa assim que chega, interrompendo a análise e sem garantia de ordem.
+- **C:** `lazy` não é atributo de `<script>` (existe `loading="lazy"` para imagens e iframes).
+- **D:** Scripts `type="module"` são diferidos por padrão, mas o atributo que define esse comportamento, e que a questão pede, é `defer`.
+- **E:** `nomodule` marca um script alternativo para navegadores sem suporte a módulos.
+
+@@ ESP-WEB-0029
+**Gabarito: D.** Com `content-box` (o padrão), `width` mede só o conteúdo; padding e borda são somados por fora. Largura visível = 300 + 2 × 20 (padding) + 2 × 2 (borda) = **344px**. A margem fica fora da borda e não entra.
+
+De onde vêm os distratores: 300 seria a largura com `box-sizing: border-box`; 322 soma padding e borda de um lado só; 340 esquece a borda; 364 inclui indevidamente as margens (344 + 20), que é o espaço total ocupado no layout.
+
+@@ ESP-WEB-0030
+**Gabarito: Certo.** A especificidade é comparada por colunas (IDs, classes, elementos), da esquerda para a direita. `#rodape a` vale (1,0,1) e `.menu .item .link a` vale (0,3,1). A coluna dos IDs decide primeiro: um ID vence qualquer quantidade de classes, pois não há "vai um" entre colunas.
+
+@@ ESP-WEB-0031
+**Gabarito: C.** `justify-content` distribui os itens ao longo do **eixo principal**, que com `flex-direction: row` é o horizontal (`flex-start`, `center`, `space-between` etc.).
+
+- **A:** `align-items` alinha os itens no eixo transversal (aqui, o vertical).
+- **B:** `align-content` distribui as **linhas** no eixo transversal, e só tem efeito quando há quebra de linha.
+- **D:** `flex-wrap` define se os itens quebram para outra linha.
+- **E:** `align-self` sobrescreve o `align-items` para um item específico.
+
+@@ ESP-WEB-0032
+**Gabarito: C.** `@font-face` define uma família de fonte e indica onde está o arquivo (`src: url(...)`); o navegador baixa a fonte e a usa mesmo que ela não esteja instalada no computador do usuário.
+
+- **A:** `@import` importa outra folha de estilos.
+- **B:** `@media` aplica estilos conforme características do dispositivo (media queries).
+- **D:** `@keyframes` define as etapas de uma animação.
+- **E:** `@supports` aplica estilos só se o navegador suportar determinada propriedade.
+
+@@ ESP-WEB-0033
+**Gabarito: B.** O combinador `>` seleciona apenas filhos diretos: `ul.menu > li` pega os `<li>` imediatamente dentro de `<ul class="menu">`, e não os de listas aninhadas.
+
+- **A:** O espaço é o combinador de descendente: pega `<li>` em qualquer nível, inclusive de sublistas.
+- **C:** `+` seleciona o irmão imediatamente seguinte ao `ul.menu`.
+- **D:** `~` seleciona os irmãos seguintes ao `ul.menu`.
+- **E:** O espaço entre `ul` e `.menu` muda o sentido: procura `<li>` dentro de um elemento de classe `menu` que esteja dentro de um `<ul>`.
+
+@@ ESP-WEB-0034
+**Gabarito: C.** Margens verticais adjacentes de blocos em fluxo normal **colapsam**: em vez de se somarem, prevalece a maior. Entre 25px e 40px, o espaço é de 40px. (Margens horizontais não colapsam, nem as de itens flex ou grid.)
+
+De onde vêm os distratores: 15 é a diferença (40 − 25); 25 é a menor margem; 65 é a soma, o que ocorreria sem colapso; 32,5 é a média.
+
+@@ ESP-WEB-0035
+**Gabarito: B.** O operador `+` com uma string faz concatenação: `"5" + 3` resulta na string `"53"`. Os operadores `-` e `*` só existem para números, então a string é convertida: `"5" - 3` é `2` e `"5" * 3` é `15`.
+
+- **A:** Só valeria se `+` somasse numericamente; com string ele concatena.
+- **C:** Inverte os tipos: o primeiro resultado é string, e subtração e multiplicação devolvem números.
+- **D:** `NaN` só apareceria se a string não fosse numérica em uma operação aritmética (por exemplo, `"a" - 3`).
+- **E:** Novamente trata `+` como soma numérica.
+
+@@ ESP-WEB-0036
+**Gabarito: Errado.** `const` impede apenas a **reatribuição** da variável (ela não pode passar a apontar para outro valor). O objeto referenciado continua mutável: é possível alterar, criar e remover propriedades. Exemplo: `const c = {saldo: 1}; c.saldo = 2;` funciona; `c = {}` gera `TypeError`. Para impedir alterações no objeto usa-se `Object.freeze` (que é raso).
+
+@@ ESP-WEB-0037
+**Gabarito: C.** O laço de eventos executa primeiro todo o código síncrono ("início", "fim"). Com a pilha vazia, esvazia a fila de **microtarefas** (callbacks de Promise: "promise") e só depois pega a próxima **macrotarefa** (callback do `setTimeout`, mesmo com 0 ms: "timeout").
+
+- **A:** `setTimeout(..., 0)` não executa na hora; apenas agenda o callback.
+- **B:** Inverte a prioridade: microtarefas vêm antes das macrotarefas.
+- **D:** O `.then` nunca roda de forma síncrona; espera o código atual terminar.
+- **E:** Mesmo motivo: "promise" não pode sair antes do código síncrono.
+
+@@ ESP-WEB-0038
+**Gabarito: A.** Toda função `async` retorna uma Promise: se o código devolve um valor comum, ele é embrulhado em uma Promise resolvida; se lança exceção, a Promise é rejeitada.
+
+- **B:** `await` suspende só a função `async`; a thread principal segue livre para outras tarefas.
+- **C:** `try/catch` é justamente a forma usual de tratar rejeições com `await`.
+- **D:** Podem ser declarações, expressões de função, métodos ou arrow functions.
+- **E:** Retornam sempre uma Promise; ela resolve com `undefined` apenas se não houver `return`.
+
+@@ ESP-WEB-0039
+**Gabarito: D.** `var` tem escopo de função: o `var a = 2` dentro do `if` redeclara a mesma variável `a` e muda seu valor para 2. `let b` tem escopo de bloco e não existe fora do `if`; `typeof` aplicado a identificador não declarado devolve `"undefined"`, sem lançar erro.
+
+- **A:** Trata `var` como se tivesse escopo de bloco e `b` como visível fora do bloco.
+- **B:** Acerta o `a`, mas `b` não é visível fora do bloco.
+- **C:** Acerta o `b`, mas o `var a` do bloco é a mesma variável da função.
+- **E:** Haveria `ReferenceError` em `console.log(b)`, mas `typeof b` é seguro.
+
+@@ ESP-WEB-0040
+**Gabarito: D.** `querySelectorAll(seletor)` devolve uma `NodeList` **estática** com todos os elementos que casam com o seletor CSS; ela não se atualiza se o DOM mudar depois.
+
+- **A:** `getElementById` devolve um único elemento, pelo id.
+- **B:** `getElementsByClassName` busca por classe (não por seletor CSS) e devolve uma `HTMLCollection` viva.
+- **C:** `querySelector` aceita seletor CSS, mas devolve só o primeiro elemento encontrado.
+- **E:** `getElementsByTagName` busca por nome de tag e devolve coleção viva.
+
+@@ ESP-WEB-0041
+**Gabarito: E.** `readyState` 4 (DONE) indica operação concluída; a resposta completa está disponível (normalmente se testa junto `status === 200`).
+
+- **A:** 0 (UNSENT): objeto criado, `open()` ainda não chamado.
+- **B:** 1 (OPENED): `open()` já foi chamado.
+- **C:** 2 (HEADERS_RECEIVED): `send()` chamado, cabeçalhos da resposta recebidos.
+- **D:** 3 (LOADING): corpo da resposta sendo recebido.
+
+@@ ESP-WEB-0042
+**Gabarito: Errado.** Há dois erros de sintaxe. JSON exige **aspas duplas** em chaves e strings (aspas simples não valem), e não admite **vírgula final** depois do último par. O correto é `{"banco": "Banestes", "ativo": true}`. O texto dado é um literal de objeto JavaScript válido, mas `JSON.parse` o rejeitaria.
+
+@@ ESP-WEB-0043
+**Gabarito: B.** É a **delegação de eventos**: o tratador fica no ancestral `#menu`, que já existe, e o segundo argumento (`"li"`) filtra o alvo. Como o clique sobe (*bubbling*) até `#menu`, itens criados depois também são atendidos.
+
+- **A:** Liga o tratador só aos `li` existentes no momento da chamada.
+- **C:** `.bind()` (obsoleto) também liga apenas aos elementos atuais, e ainda pega todos os `li` da página.
+- **D:** `.one()` executa o tratador uma única vez por elemento, e só nos existentes.
+- **E:** `.trigger()` dispara o evento, não registra tratador.
+
+@@ ESP-WEB-0044
+**Gabarito: B.** A Promise do `fetch` só é rejeitada quando a requisição não se completa (falha de rede, por exemplo). Respostas 404 ou 500 **resolvem** normalmente; o código precisa testar `response.ok` (verdadeiro para status 200 a 299) ou `response.status`.
+
+- **A:** Um 404 resolve a Promise, com `response.ok` igual a `false`.
+- **C:** `onreadystatechange` é do `XMLHttpRequest`; o `fetch` é baseado em Promises.
+- **D:** Basta passar `{ method: "POST", body: ... }` no segundo argumento.
+- **E:** Retorna um objeto `Response`; o JSON é obtido com `response.json()`, que devolve outra Promise.
+
+@@ ESP-WEB-0045
+**Gabarito: A.** JSON tem exatamente seis tipos de valor: string, number, boolean (`true`/`false`), `null`, objeto e array.
+
+- **B:** Não há tipo data (datas vão como string), nem função, nem `undefined`.
+- **C:** Faltam boolean, `null`, objeto e array.
+- **D:** `undefined` e `NaN` não existem em JSON.
+- **E:** JSON não admite comentários.
+
+@@ ESP-WEB-0046
+**Gabarito: B.** `JSON.stringify` trata `undefined` conforme o lugar: como valor de propriedade de objeto, a propriedade é **omitida** (some o `b`); dentro de array, vira **`null`**, para preservar as posições. Resultado: `{"a":1,"c":[null]}`.
+
+- **A:** `undefined` não existe em JSON e nunca aparece na saída.
+- **C:** A propriedade `b` é omitida, não convertida em `null`.
+- **D:** O elemento do array é convertido em `null`, não removido.
+- **E:** Não há erro; funções e símbolos recebem o mesmo tratamento de `undefined`.
+
+@@ ESP-WEB-0047
+**Gabarito: B.** **Bem formado** é o documento que segue as regras de sintaxe do XML. **Válido** é o bem formado que, além disso, obedece a uma DTD ou a um XML Schema. Logo, todo válido é bem formado.
+
+- **A:** O inverso não vale: um documento pode ter sintaxe correta e violar o esquema, ou nem ter esquema.
+- **C:** XML diferencia maiúsculas de minúsculas: `<Conta>` e `<conta>` são elementos distintos.
+- **D:** Valores de atributos sempre vêm entre aspas (simples ou duplas).
+- **E:** Deve haver exatamente um elemento raiz.
+
+@@ ESP-WEB-0048
+**Gabarito: Certo.** No modelo de conteúdo de uma DTD, a vírgula indica sequência obrigatória (primeiro `titular`, depois `saldo`), `+` indica uma ou mais ocorrências e `?` indica zero ou uma. Os outros símbolos são `*` (zero ou mais) e `|` (escolha). Logo, `conta` tem um ou mais `titular`, seguidos opcionalmente de um `saldo`.
+
+@@ ESP-WEB-0049
+**Gabarito: B.** O XSD oferece um sistema rico de tipos (`xs:integer`, `xs:decimal`, `xs:date`, além de restrições como faixas e padrões) e suporte a namespaces. A DTD trata praticamente tudo como texto e não conhece namespaces.
+
+- **A:** É o contrário: o XSD é escrito em XML (o que é outra vantagem); a DTD é que tem sintaxe própria.
+- **C:** Declarar entidades gerais é recurso da DTD, que o XSD não tem.
+- **D:** O XSD controla cardinalidade com precisão, por `minOccurs` e `maxOccurs`.
+- **E:** Boa formação é só sintaxe e não depende de esquema; o esquema serve para a validade.
+
+@@ ESP-WEB-0050
+**Gabarito: B.** `//lancamento` seleciona os elementos `lancamento` em qualquer nível; o predicado `[@tipo='D']` filtra pelo **atributo** `tipo` (atributos levam `@`); `/descricao` desce ao filho.
+
+- **A:** Sem `@`, `tipo` é lido como um elemento filho chamado `tipo`, que não existe.
+- **C:** Sintaxe incorreta: o caminho começa na raiz, que é `extrato` e não `lancamento`, e a comparação não está em um predicado.
+- **D:** O atributo `tipo` pertence a `lancamento`, não a `descricao`.
+- **E:** Não filtra por tipo, e em XPath as posições começam em 1: `[0]` não seleciona nada.
+
+@@ ESP-WEB-0051
+**Gabarito: C.** `xs:all` permite os elementos filhos em **qualquer ordem**, cada um no máximo uma vez (e todos obrigatórios, a menos que tenham `minOccurs="0"`).
+
+- **A:** `xs:sequence` exige os filhos na ordem declarada.
+- **B:** `xs:choice` permite apenas um dentre os filhos declarados.
+- **D:** `xs:group` só define um grupo nomeado e reutilizável de elementos.
+- **E:** `xs:any` é um curinga que aceita elementos não declarados no esquema.
+
+@@ ESP-WEB-0052
+**Gabarito: B.** O **SAX** (*Simple API for XML*) lê o documento do início ao fim e dispara eventos (início de elemento, texto, fim de elemento) para o programa tratar. Não monta árvore em memória; por isso é rápido e adequado a arquivos grandes, mas só de leitura e sem voltar atrás.
+
+- **A:** O DOM carrega o documento inteiro em memória como uma árvore navegável e alterável.
+- **C:** XPath é linguagem para localizar nós em um documento.
+- **D:** XSLT é linguagem para transformar XML em outros formatos.
+- **E:** DTD define a estrutura permitida de um documento, para validação.
+
+@@ ESP-WEB-0053
+**Gabarito: C.** O `binding` pega a interface abstrata (o `portType` e suas operações) e define como ela trafega na prática: protocolo (SOAP sobre HTTP) e formato/estilo das mensagens.
+
+- **A:** `types` define os tipos de dados, normalmente em XML Schema.
+- **B:** `message` define as mensagens trocadas (as partes de entrada e saída).
+- **D:** `service` agrupa um conjunto de `port`.
+- **E:** `port` associa um `binding` a um endereço de rede (o *endpoint*).
+
+@@ ESP-WEB-0054
+**Gabarito: Errado.** Está invertido. Em uma mensagem SOAP, o `Envelope` (elemento raiz) e o `Body` (carga útil: a chamada ou a resposta) são **obrigatórios**. O `Header` é **opcional** e, quando existe, vem antes do `Body`, levando metadados como segurança e transação. O elemento `Fault`, para erros, aparece dentro do `Body`.
+
+@@ ESP-WEB-0055
+**Gabarito: D.** O PUT altera o estado do servidor (cria ou substitui o recurso), logo não é seguro; mas enviar a mesma requisição várias vezes deixa o recurso no mesmo estado final, logo é idempotente. O DELETE está na mesma situação.
+
+- **A:** GET é seguro e idempotente.
+- **B:** HEAD é seguro e idempotente (igual ao GET, sem o corpo da resposta).
+- **C:** POST não é seguro nem idempotente.
+- **E:** OPTIONS é seguro e idempotente.
+
+@@ ESP-WEB-0056
+**Gabarito: C.** O registro UDDI é organizado como uma lista telefônica. As **páginas verdes** trazem as informações técnicas: como invocar o serviço, com interfaces, endereços e referências às especificações (como o WSDL).
+
+- **A:** As páginas brancas trazem os dados da empresa: nome, endereço, contatos, identificadores.
+- **B:** As páginas amarelas classificam empresas e serviços por categoria (ramo de atividade, tipo de produto, localização).
+- **D:** Páginas azuis não existem no UDDI.
+- **E:** Páginas de rosto também não existem no UDDI.
+
+@@ ESP-WEB-0058
+**Gabarito: Certo.** Fielding definiu seis restrições para o REST: cliente-servidor, ausência de estado (*stateless*: cada requisição traz tudo o que o servidor precisa), cache, interface uniforme, sistema em camadas e código sob demanda. Esta última (o servidor envia código executável ao cliente, como JavaScript) é a única **opcional**.
+
+@@ ESP-WEB-0059
+**Gabarito: B.** Seguir as regras de sintaxe do XML (raiz única, tags fechadas e bem aninhadas, atributos entre aspas, respeito a maiúsculas e minúsculas) torna o documento **bem formado**. Como não foi conferido contra um esquema, não se pode chamá-lo de válido.
+
+- **A:** Válido é o documento bem formado que também obedece a uma DTD ou a um XSD.
+- **C:** O documento cumpre a sintaxe, logo não é malformado; e sua validade nem foi testada.
+- **D:** Canônico é o XML normalizado pelo padrão C14N, usado para comparação e assinatura.
+- **E:** Assinado é o que recebeu assinatura digital (XML Signature).
+
+@@ ESP-WEB-0060
+**Gabarito: B.** O XSLT faz escolha múltipla com `xsl:choose`: cada `xsl:when` testa uma condição e `xsl:otherwise` é o caso padrão.
+
+- **A:** `xsl:if` existe, mas é condição simples, sem "senão"; `xsl:else` não existe.
+- **C:** `xsl:for-each` percorre um conjunto de nós e `xsl:sort` os ordena; são repetição, não seleção.
+- **D:** `xsl:template` define uma regra de transformação e `xsl:apply-templates` a aplica aos nós.
+- **E:** `xsl:switch` e `xsl:case` não existem.
+
+@@ ESP-WEB-0061
+**Gabarito: B.** A ISO 9241-11 define usabilidade pela tríade **eficácia** (o usuário consegue atingir o objetivo, com exatidão e completude), **eficiência** (recursos gastos para isso, como tempo e esforço) e **satisfação**, sempre em um **contexto de uso** específico.
+
+- **A:** São características de qualidade de produto de software (ISO 9126/25010).
+- **C:** São atributos de usabilidade de Nielsen (aprendizado, memorização, erros, eficiência, satisfação).
+- **D:** São princípios e heurísticas de projeto de interface.
+- **E:** São os pilares da segurança da informação.
+
+@@ ESP-WEB-0062
+**Gabarito: Errado.** Pedir confirmação **antes** de uma ação destrutiva evita que o erro aconteça: é a heurística 5, **prevenção de erros**. A heurística 9 (ajudar os usuários a reconhecer, diagnosticar e se recuperar de erros) trata do que vem **depois** do erro: mensagens em linguagem clara, que indiquem o problema com precisão e sugiram uma solução.
+
+@@ ESP-WEB-0063
+**Gabarito: B.** No protocolo "pensar em voz alta" (*think aloud*), o usuário executa as tarefas dizendo o que pensa, o que espera e o que o confunde, e o avaliador observa. É técnica de teste com usuários.
+
+- **A:** A avaliação heurística é inspeção feita por especialistas (em geral 3 a 5), sem usuários.
+- **C:** O percurso cognitivo segue um roteiro de tarefas e ações definido de antemão.
+- **D:** Testes de usabilidade podem ser feitos com protótipos, até de papel, e quanto mais cedo melhor.
+- **E:** A escala de severidade de Nielsen vai de 0 (não é problema) a 4 (catástrofe); 1 é o problema cosmético.
+
+@@ ESP-WEB-0064
+**Gabarito: B.** O TypeScript é um superconjunto do JavaScript (todo JS válido é TS válido), acrescenta tipagem estática opcional e é transpilado para JavaScript pelo compilador `tsc`.
+
+- **A:** Os navegadores não executam TypeScript; executam o JavaScript gerado. Ele não substitui o JS.
+- **C:** Há inferência de tipos: `let x = 5` já é `number` sem anotação.
+- **D:** A verificação é só em tempo de compilação; os tipos são apagados e não existem em execução.
+- **E:** Foi criado pela Microsoft (Anders Hejlsberg); o Angular, do Google, apenas o adota.
+
+@@ ESP-WEB-0065
+**Gabarito: C.** `unknown` aceita qualquer valor, mas não permite nenhuma operação sobre ele antes de um estreitamento de tipo (*narrowing*), por exemplo `if (typeof v === "string") { t = v.length; }`, ou de uma asserção (`v as string`).
+
+- **A:** Seria o comportamento com `any`, que desliga a verificação.
+- **B:** O código nem compila; e, em execução, `"123".length` seria 3.
+- **D:** `unknown` é o tipo de topo: recebe qualquer valor, inclusive string.
+- **E:** O TypeScript não faz conversão de valores; só verifica tipos.
+
+@@ ESP-WEB-0066
+**Gabarito: Certo.** O sistema de tipos do TypeScript é **estrutural** (*duck typing*): a compatibilidade é decidida pela forma do objeto, isto é, pelas propriedades e métodos que ele tem, e não pelo nome do tipo. Se o objeto possui tudo o que a interface exige, pode ser atribuído a ela, mesmo que sua classe não declare `implements`. (Em Java e C#, de tipagem nominal, isso não compilaria.)
+
+@@ ESP-WEB-0067
+**Gabarito: C.** `Partial<T>` cria um tipo com as mesmas propriedades de `T`, todas opcionais (`?`). É útil, por exemplo, em atualizações parciais.
+
+- **A:** `Required<T>` faz o oposto: torna todas obrigatórias.
+- **B:** `Readonly<T>` torna todas somente leitura.
+- **D:** `Pick<T, K>` seleciona algumas propriedades e exige o segundo parâmetro com as chaves.
+- **E:** `Record<K, T>` cria um tipo de objeto com chaves `K` e valores `T`; também exige dois parâmetros.
+
+@@ ESP-WEB-0068
+**Gabarito: C.** O modificador `private` do TypeScript só existe na compilação: o compilador acusa acessos indevidos, mas os tipos são apagados e, no JavaScript gerado, o campo é uma propriedade comum, acessível. Privacidade real em execução se obtém com os campos privados do ECMAScript (`#campo`).
+
+- **A:** É o contrário; isso valeria para `#campo`.
+- **B:** Subclasses acessam membros `protected`, não `private`.
+- **D:** `readonly` impede a reatribuição após a inicialização; não restringe visibilidade.
+- **E:** `private` pode ser usado em qualquer classe.
+
+@@ ESP-WEB-0069
+**Gabarito: B.** Em uma SPA, o navegador carrega uma única página (HTML, CSS e JavaScript) e, a partir daí, o JavaScript atualiza o conteúdo e troca as "telas" sem recarregar, buscando dados em APIs, em geral em JSON.
+
+- **A:** Descreve a aplicação multipágina tradicional (MPA).
+- **C:** O roteamento no cliente (History API) dá uma URL diferente a cada tela.
+- **D:** Descreve a geração de site estático (SSG), e mesmo assim sem JavaScript não haveria SPA.
+- **E:** Descreve renderização exclusiva no servidor (SSR puro), o oposto da SPA.
+
+@@ ESP-WEB-0070
+**Gabarito: B.** O **Service Worker** é um script que roda em segundo plano, separado da página, e intercepta as requisições de rede (evento `fetch`). Assim pode responder com o cache, o que permite funcionamento offline, além de notificações push e sincronização em segundo plano. Exige HTTPS.
+
+- **A:** O Web App Manifest é um JSON com nome, ícones, cores e modo de exibição; permite instalar o app.
+- **C:** DOM virtual é técnica de renderização de bibliotecas como o React.
+- **D:** WebSocket é canal de comunicação bidirecional persistente com o servidor.
+- **E:** Local Storage guarda pares chave-valor no navegador; não intercepta requisições.
+
+@@ ESP-WEB-0071
+**Gabarito: Errado.** A primeira parte está certa: o Node.js usa E/S não bloqueante com event loop em uma única thread principal. Por isso mesmo ele é indicado para cargas com **muita E/S** (APIs, acesso a banco, rede, arquivos) e **não** para uso intensivo de CPU: um cálculo pesado na thread principal trava o event loop e atrasa todas as outras requisições. Para CPU, usam-se *worker threads* ou processos separados.
+
+@@ ESP-WEB-0072
+**Gabarito: C.** O til (`~`) fixa MAJOR e MINOR e libera apenas o PATCH: `~4.18.2` equivale a `>=4.18.2 <4.19.0`.
+
+- **A:** Qualquer 4.x.x a partir de 4.18.2 é o que o circunflexo (`^4.18.2`) permite.
+- **B:** Versão exata seria `"4.18.2"`, sem prefixo.
+- **D:** Seria `>4.18.2`, que aceitaria até a 5.x.
+- **E:** Nem `~` nem `^` permitem troca de MAJOR.
+
+@@ ESP-WEB-0073
+**Gabarito: C.** No **SSR** (*server-side rendering*) o servidor monta o HTML a cada requisição, e a página aparece rápido e já com conteúdo. Na **hidratação**, o JavaScript carregado no navegador associa os tratadores de eventos e o estado a esse HTML, tornando-o interativo.
+
+- **A:** No CSR o HTML é gerado no navegador; tree shaking é a remoção de código não usado do bundle.
+- **B:** No SSG o HTML é gerado uma vez, no build, e não a cada requisição.
+- **D:** Polyfill é código que implementa um recurso moderno em navegadores antigos.
+- **E:** Code splitting divide o bundle em partes carregadas sob demanda.
+
+@@ ESP-WEB-0074
+**Gabarito: B.** A cada mudança de estado, o React gera uma nova árvore de elementos (o DOM virtual, em memória), compara com a anterior (*diffing*) e aplica no DOM real só as diferenças. Esse processo é a **reconciliação**.
+
+- **A:** Two-way data binding é a ligação nos dois sentidos, típica do Angular (`ngModel`); no React o fluxo de dados é unidirecional.
+- **C:** Injeção de dependência é o mecanismo de fornecimento de serviços, marca do Angular.
+- **D:** Hidratação é ativar no cliente o HTML gerado no servidor (SSR).
+- **E:** Service Worker é o proxy de rede das PWAs.
+
+@@ ESP-WEB-0075
+**Gabarito: C.** O array de dependências diz quando o efeito deve rodar de novo. Vazio (`[]`), não há dependência que mude: o efeito roda uma única vez, depois da primeira renderização (montagem). (Em desenvolvimento com `StrictMode`, o React executa o efeito duas vezes de propósito; em produção, uma.)
+
+- **A:** Efeitos sempre rodam depois da renderização, nunca antes.
+- **B:** Rodar após toda renderização é o comportamento **sem** o array de dependências.
+- **D:** Na desmontagem roda apenas a função de limpeza devolvida pelo efeito.
+- **E:** Array vazio não impede a execução inicial.
+
+@@ ESP-WEB-0076
+**Gabarito: Errado.** Props são **somente leitura**: o fluxo de dados no React é unidirecional, do pai para o filho. O filho não deve alterá-las. Para mudar um dado que pertence ao pai, o pai passa por prop uma função (callback, como `onChange`); o filho a chama, o pai atualiza seu estado e o novo valor desce como prop na próxima renderização.
+
+@@ ESP-WEB-0077
+**Gabarito: C.** JSX é uma extensão de sintaxe: aceita qualquer **expressão** JavaScript entre chaves e é transformado, por ferramentas como o Babel, em chamadas de função (`React.createElement` ou o runtime `jsx`).
+
+- **A:** O navegador não entende JSX; ele precisa ser transpilado.
+- **B:** Usa-se `className`, porque `class` é palavra reservada do JavaScript.
+- **D:** `for` e `if` são instruções, não expressões; dentro do JSX usa-se `map` e o operador ternário.
+- **E:** É o contrário: componentes começam com maiúscula; minúscula é interpretada como tag HTML.
+
+@@ ESP-WEB-0078
+**Gabarito: C.** Regras dos hooks: chamá-los só no nível superior (nunca dentro de condições, laços ou funções aninhadas) e só em componentes de função ou hooks personalizados. O React identifica cada hook pela **ordem** das chamadas; um `useState` dentro de `if` pode mudar essa ordem de uma renderização para outra.
+
+- **A:** Chamada no nível superior do componente: correto.
+- **B:** Hooks personalizados (nome iniciado por `use`) podem chamar outros hooks.
+- **D:** `useContext` em componente de função é uso normal.
+- **E:** Pode haver vários `useState` em sequência; a ordem se mantém.
+
+@@ ESP-WEB-0079
+**Gabarito: D.** `[(ngModel)]` (a "banana na caixa") combina property binding `[ ]`, que leva o valor do componente para a tela, com event binding `( )`, que traz a alteração da tela para o componente: ligação nos dois sentidos. Requer o `FormsModule`.
+
+- **A:** Interpolação é `{{ valor }}`, só do componente para a tela.
+- **B:** Property binding é `[propriedade]="valor"`, um sentido só.
+- **C:** Event binding é `(evento)="metodo()"`, da tela para o componente.
+- **E:** Diretivas estruturais são as com `*`, como `*ngIf`; `ngModel` é diretiva de atributo.
+
+@@ ESP-WEB-0080
+**Gabarito: B.** Diretivas estruturais mudam a estrutura do DOM, criando ou removendo elementos, e são escritas com `*`: `*ngIf` (condicional) e `*ngFor` (repetição), além de `*ngSwitchCase`. Nas versões recentes do Angular há também a sintaxe de blocos `@if` e `@for`.
+
+- **A:** `ngClass` e `ngStyle` são diretivas de atributo: alteram aparência, não a estrutura.
+- **C:** `@Input` e `@Output` são decoradores para comunicação entre componentes pai e filho.
+- **D:** `ngOnInit` e `ngOnDestroy` são métodos do ciclo de vida.
+- **E:** `routerLink` e `router-outlet` são recursos do roteador.
+
+@@ ESP-WEB-0081
+**Gabarito: Certo.** `providedIn: 'root'` registra o serviço no injetor raiz da aplicação. Como o injetor cria uma instância e a reutiliza, todos os componentes e serviços que o injetam recebem o mesmo objeto (singleton). Essa forma de registro também permite *tree shaking*: se ninguém injetar o serviço, ele fica fora do bundle.
+
+@@ ESP-WEB-0082
+**Gabarito: E.** `ngOnDestroy` é chamado logo antes de o Angular destruir o componente; é o lugar de fazer `unsubscribe`, cancelar timers e liberar recursos, evitando vazamento de memória. (O pipe `async` no template cancela a assinatura sozinho.)
+
+- **A:** `ngOnInit` roda uma vez, na inicialização, depois do primeiro `ngOnChanges`; é onde se carregam os dados.
+- **B:** `ngOnChanges` roda quando mudam as propriedades `@Input`.
+- **C:** `ngAfterViewInit` roda depois que a view do componente e de seus filhos foi inicializada.
+- **D:** `ngDoCheck` roda a cada ciclo de detecção de mudanças.
+
+@@ ESP-WEB-0083
+**Gabarito: C.** `switchMap` mapeia cada valor para um novo Observable interno e, quando chega um valor novo, **cancela a assinatura do anterior**. Só a resposta do último termo digitado chega à tela, o que elimina a condição de corrida. Em buscas, costuma vir com `debounceTime` e `distinctUntilChanged`.
+
+- **A:** `map` apenas transforma cada valor emitido.
+- **B:** `filter` deixa passar só os valores que atendem a uma condição.
+- **D:** `tap` executa efeitos colaterais (como log) sem alterar o fluxo.
+- **E:** `catchError` trata erros do fluxo.
+
+@@ ESP-WEB-0084
+**Gabarito: B.** Os quatro princípios das WCAG formam a sigla POUR: **perceptível** (a informação chega por algum sentido do usuário), **operável** (a interface pode ser usada, inclusive só com teclado), **compreensível** (conteúdo e operação são entendidos) e **robusto** (funciona com diferentes agentes e tecnologias assistivas).
+
+- **A:** São propriedades da segurança da informação.
+- **C:** Lista inventada; responsividade e segurança não são princípios das WCAG.
+- **D:** São qualidades de usabilidade, não os princípios das WCAG.
+- **E:** São canais sensoriais e cognitivos, não os princípios.
+
+@@ ESP-WEB-0085
+**Gabarito: B.** O critério 2.5.8, Tamanho do alvo (mínimo), novo na WCAG 2.2 e de nível AA, pede alvos de pelo menos **24 × 24 pixels CSS**, com exceções (por exemplo, espaçamento suficiente entre alvos, links em meio a texto, controle nativo do navegador).
+
+- **A:** 16 × 16 não consta do critério.
+- **C:** 44 × 44 pixels CSS é o critério 2.5.5, Tamanho do alvo (melhorado), de nível AAA, vindo da WCAG 2.1.
+- **D:** 48 × 48 é recomendação de guias de design de plataformas móveis, e as WCAG medem em pixels CSS, não físicos.
+- **E:** As WCAG não usam centímetros.
+
+@@ ESP-WEB-0086
+**Gabarito: Certo.** A ABNT NBR 17225:2025, norma brasileira de acessibilidade em conteúdo e aplicações web, baseia-se nas WCAG, mas organiza seus itens de outra forma: em **requisitos** (obrigatórios para a conformidade) e **recomendações** (boas práticas), em vez dos níveis de conformidade A, AA e AAA.
+
+@@ ESP-WEB-0087
+**Gabarito: C.** O critério 1.4.3, Contraste (mínimo), de nível AA, exige razão de contraste de pelo menos **4,5:1** entre texto de tamanho normal e fundo.
+
+- **A:** 2:1 não é limite de nenhum critério de contraste.
+- **B:** 3:1 é o mínimo AA para texto grande (18 pt, ou 14 pt em negrito) e para componentes de interface e elementos gráficos.
+- **D:** 7:1 é o exigido para texto normal no nível AAA (critério 1.4.6).
+- **E:** 10:1 não é exigido em nenhum nível.
+
+@@ ESP-WEB-0088
+**Gabarito: C.** O critério 4.1.1, Análise (*Parsing*), foi declarado obsoleto e removido na WCAG 2.2: navegadores e tecnologias assistivas atuais lidam bem com erros de marcação, e os problemas que restam já são cobertos por outros critérios.
+
+- **A:** 1.1.1 Conteúdo não textual (alternativa em texto) continua valendo, nível A.
+- **B:** 2.1.1 Teclado continua, nível A.
+- **D:** 1.4.3 Contraste (mínimo) continua, nível AA.
+- **E:** 2.4.7 Foco visível continua, nível AA.

@@ -1,0 +1,508 @@
+@@ ESP-PROC-0001
+**Gabarito: E.** A coluna X traz as marcas do **Scrum**: ritmo em sprints, papéis definidos (Product Owner, Scrum Master, Developers), entrega ao fim de cada sprint e mudanças evitadas durante a sprint. A coluna Y traz as do **Kanban**: fluxo contínuo, nenhum papel obrigatório, entrega contínua e mudanças a qualquer momento.
+
+- **A:** Crystal não se organiza obrigatoriamente em sprints com papéis fixos, e Scrum não é fluxo contínuo sem papéis.
+- **B:** XP tem iterações e papéis, mas Crystal não é o método do fluxo contínuo sem funções.
+- **C:** Kanban é a coluna Y, não a X; Lean é uma filosofia (eliminar desperdício), não um método com esse quadro.
+- **D:** Lean não prescreve sprints nem papéis, e XP trabalha em iterações curtas, não em fluxo contínuo sem funções.
+
+@@ ESP-PROC-0002
+**Gabarito: B.** Requisito funcional descreve um serviço que o sistema deve oferecer, algo que o usuário faz por meio dele. Conferir os documentos enviados é uma função que o sistema interno precisa disponibilizar a Marta.
+
+- **A:** "Analítico" não é categoria de requisito na engenharia de requisitos.
+- **C:** Proteção (*security*) é atributo de qualidade, logo requisito não funcional.
+- **D:** Requisito de produto, na classificação de Sommerville, é um tipo de requisito não funcional (desempenho, usabilidade, confiabilidade).
+- **E:** Confiança (*dependability*) também é atributo de qualidade, não uma função.
+
+@@ ESP-PROC-0003
+**Gabarito: C.** Para a banca, um campo que aceita qualquer sequência de caracteres deixa de prevenir erros do usuário, e prevenção de erros é um atributo de **usabilidade** (heurística de Nielsen; "proteção contra erro do usuário" na ISO 25010). A mesma falha também poderia ser lida como problema de integridade dos dados, mas o gabarito oficial é usabilidade.
+
+- **A:** Manutenibilidade é a facilidade de modificar o software, nada tem a ver com a entrada de dados.
+- **B:** Reparabilidade é a facilidade de corrigir o sistema depois de uma falha.
+- **D:** Confiabilidade é o sistema funcionar sem falhas ao longo do tempo; aqui nada falha, o sistema só aceita dado mal formado.
+- **E:** Vulnerabilidade é uma fraqueza de segurança, não uma categoria de requisito.
+
+@@ ESP-PROC-0004
+**Gabarito: B.** O **diagrama de atividades** modela o fluxo de controle e o fluxo de dados (objetos) de um procedimento passo a passo, como um fluxo de trabalho. É o indicado para detalhar um caso de uso regido por procedimentos e normas organizacionais.
+
+- **A:** O diagrama de sequência mostra a troca de mensagens entre objetos ao longo do tempo, não o procedimento com decisões e fluxo de dados.
+- **C:** O diagrama de temporização mostra a mudança de estado dos objetos em uma escala de tempo.
+- **D:** Causa e efeito (Ishikawa) é ferramenta de qualidade, não é diagrama da UML.
+- **E:** Não existe diagrama de ocorrências na UML 2.5.1.
+
+@@ ESP-PROC-0005
+**Gabarito: D.** O *brainstorming* é uma técnica de elicitação em grupo que complementa as entrevistas: as partes interessadas expõem livremente ideias sobre o sistema e depois ajudam a priorizá-las.
+
+- **A:** A frase é verdadeira, mas diagrama de sequência é modelagem de projeto, não técnica de levantamento.
+- **B:** O protótipo serve para validar requisitos com os **usuários**, não com os desenvolvedores.
+- **C:** Também é verdadeira em si, mas modelagem de processos de negócio representa fluxos da organização, não otimiza o resultado das entrevistas.
+
+@@ ESP-PROC-0006
+**Gabarito: A.** JAD (*Joint Application Development*) consiste em oficinas (workshops) estruturadas, conduzidas por um facilitador, nas quais usuários e desenvolvedores discutem o projeto e definem juntos os requisitos.
+
+- **B:** Descrição vaga, mais próxima do próprio RAD; a JAD trata de levantar requisitos, não de acelerar a implementação.
+- **C:** A colaboração vem das sessões conjuntas, não do fato de se estabelecer um cronograma.
+- **D:** A JAD não se baseia em entrevistas nem em usuários interagindo só entre si: é reunião conjunta de usuários **e** desenvolvedores.
+
+@@ ESP-PROC-0007
+**Gabarito: B.** Validar é confirmar que os requisitos (e o sistema construído a partir deles) atendem às necessidades reais do cliente e às expectativas do usuário: "estamos construindo o produto certo?".
+
+- **A:** Levantar necessidades é elicitação, e o objetivo não é eliminar requisitos.
+- **C:** Comparar a implementação com o que foi especificado é **verificação** ("estamos construindo certo o produto?").
+- **D:** Garantir recursos humanos é assunto de gerência de projetos, não de engenharia de requisitos.
+
+@@ ESP-PROC-0008
+**Gabarito: D.** Requisitos não funcionais envolvem várias áreas (negócio, segurança, infraestrutura, usuários) e exigem negociação entre elas. Os workshops colaborativos reúnem todos na mesma sessão e, por isso, a banca os considera os mais apropriados para desempenho, segurança e usabilidade.
+
+- **A:** A análise de documentos mostra o que já está registrado, e requisitos de qualidade raramente estão documentados.
+- **B:** A entrevista ouve uma pessoa por vez e tende a se concentrar nas funções que ela usa.
+- **C:** Questionários têm perguntas fechadas e não permitem discutir restrições e conflitos.
+
+@@ ESP-PROC-0009
+**Gabarito: D.** Cenários e histórias de uso descrevem, passo a passo, a interação de um ator com o sistema para atingir um objetivo. Essa é a base da técnica de **casos de uso**.
+
+- **A:** Entrevista é conversa de perguntas e respostas com o interessado, sem a estrutura de cenários.
+- **B:** Na observação (etnografia) o analista acompanha o trabalho real do usuário, sem descrever cenários.
+- **C:** Na prototipação constrói-se uma versão preliminar do sistema para o usuário experimentar.
+
+@@ ESP-PROC-0010
+**Gabarito: C.** A matriz de rastreabilidade liga cada requisito à sua origem (quem pediu, qual necessidade) e aos artefatos derivados: projeto, código e casos de teste. Com ela se faz análise de impacto de mudanças e se confere se todo requisito foi implementado e testado.
+
+- **A:** Custos são tratados no gerenciamento de custos do projeto, não na matriz.
+- **B:** Priorização usa outras técnicas, como MoSCoW ou valor de negócio.
+- **D:** A matriz pode ajudar a perceber lacunas, mas não é metodologia de correção de inconsistências; isso é papel da análise e da validação de requisitos.
+
+@@ ESP-PROC-0011
+**Gabarito: A.** A dificuldade clássica é construir um protótipo que represente bem o sistema final: como ele é simplificado (sem desempenho, segurança ou tratamento de erros reais), pode passar uma ideia errada e gerar expectativas falsas no usuário.
+
+- **B:** Protótipos devem ser baratos e rápidos; em geral reduzem o custo total ao evitar retrabalho.
+- **C:** Falta de apoio da equipe não é dificuldade própria da técnica.
+- **D:** A limitação para mostrar requisitos não funcionais vem da natureza simplificada do protótipo, não das linguagens de programação.
+
+@@ ESP-PROC-0012
+**Gabarito: D.** Classe (estrutura estática), objeto (instâncias específicas) e componente (partes físicas e suas interfaces) são os três diagramas estruturais que o enunciado descreve.
+
+- **A:** O diagrama de atividade é comportamental.
+- **B:** O diagrama de caso de uso é comportamental.
+- **C:** Pacote, perfil e classe são todos estruturais, mas a lista não inclui os diagramas de objeto (instâncias) e de componente (componentes físicos) citados no enunciado.
+
+@@ ESP-PROC-0013
+**Gabarito: A.** Elicitação (ou levantamento) é a atividade de descobrir e entender os requisitos junto às partes interessadas.
+
+- **B:** Engenharia de requisitos é o processo inteiro: elicitação, análise, especificação, validação e gerência.
+- **C:** Requisitos funcionais são um tipo de requisito (o que o sistema faz), não uma atividade.
+- **D:** Requisitos não funcionais são outro tipo de requisito (qualidades e restrições).
+
+@@ ESP-PROC-0014
+**Gabarito: D.** O Guia do Scrum 2020 associa um compromisso a cada artefato: Backlog do Produto, Meta do Produto; Backlog da Sprint, Meta da Sprint; Incremento, **Definição de Pronto** (descrição formal do estado do Incremento quando atende às medidas de qualidade exigidas).
+
+- **A:** A Meta do Produto é o compromisso do Backlog do Produto.
+- **B:** A Meta da Sprint é o compromisso do Backlog da Sprint.
+- **C:** Visão do Produto não é termo do Guia 2020.
+- **E:** Critério de aceite pertence a cada item (história), não é compromisso de artefato no Guia.
+
+@@ ESP-PROC-0015
+**Gabarito: A.** Limitar o WIP (trabalho em progresso) em cada coluna é a prática central do Kanban: com menos itens abertos, cada um termina mais rápido (menor tempo de ciclo) e a etapa que trava fica visível, pois o limite impede que se puxe trabalho novo.
+
+- **B:** Pontos de história são prática comum em times Scrum; o Kanban não exige estimativa.
+- **C:** Iterações de duração fixa são do Scrum; o Kanban trabalha em fluxo contínuo.
+- **D:** Scrum Master é papel do Scrum; o Kanban não prescreve papéis.
+- **E:** Iniciar mais tarefas ao mesmo tempo aumenta o WIP e o tempo de ciclo, o oposto do que se quer.
+
+@@ ESP-PROC-0016
+**Gabarito: B.** Na **composição** a parte depende do todo: não existe sem ele e é destruída junto. A notação é o losango preenchido na extremidade do todo (`Pedido`).
+
+- **A:** Na agregação (losango vazio) a parte existe independentemente do todo.
+- **C:** Generalização é herança ("é um"); `ItemPedido` não é um tipo de `Pedido`.
+- **D:** Dependência indica apenas que um elemento usa o outro, sem relação todo-parte nem ciclo de vida comum.
+- **E:** Realização liga uma classe à interface que ela implementa.
+
+@@ ESP-PROC-0017
+**Gabarito: C.** **«include»** indica comportamento obrigatório, sempre executado pelo caso base ("Autenticar com token"). **«extend»** indica comportamento opcional, executado só sob uma condição ("Agendar Pix", quando há data futura).
+
+- **A:** Traz os dois relacionamentos na ordem invertida.
+- **B:** Generalização é herança entre casos de uso (um é versão especializada do outro), não execução obrigatória de uma etapa.
+- **D:** O primeiro está certo, mas agendar não é uma especialização de "Realizar Pix" no sentido pedido: é um comportamento condicional, logo «extend».
+- **E:** Associação liga ator a caso de uso, não um caso de uso a outro.
+
+@@ ESP-PROC-0018
+**Gabarito: E.** A análise de valor limite testa as fronteiras de cada partição e os valores imediatamente vizinhos, porque os defeitos se concentram ali (por exemplo, `<` no lugar de `<=`). Para o intervalo de 0,01 a 1.000,00: 0,00 (inválido) e 0,01 (válido) no limite inferior; 1.000,00 (válido) e 1.000,01 (inválido) no superior.
+
+- **A:** Um valor do meio do intervalo é típico de particionamento de equivalência, não testa limite.
+- **B:** Testa só os limites válidos, sem os vizinhos inválidos.
+- **C:** São valores representativos de cada partição, longe das fronteiras.
+- **D:** Testa só os vizinhos inválidos, sem os limites válidos.
+
+@@ ESP-PROC-0019
+**Gabarito: B.** Requisito não funcional expressa qualidade ou restrição sobre como o sistema opera. Tempo de resposta (até 2 segundos em 95% das requisições) é requisito de **desempenho**, e está escrito de forma mensurável, como deve ser.
+
+- **A:** Consultar extrato é uma função do sistema.
+- **C:** Cadastrar chaves Pix é uma função.
+- **D:** Emitir comprovante é uma função.
+- **E:** Bloquear o cartão a pedido do cliente é uma função.
+
+@@ ESP-PROC-0020
+**Gabarito: B.** A prototipação é indicada quando o cliente define só os objetivos gerais e não detalha entradas, processamento e saídas: o protótipo é construído rápido, o cliente avalia e os requisitos vão sendo esclarecidos (Pressman).
+
+- **A:** O cascata exige requisitos bem compreendidos e estáveis desde o início.
+- **C:** O modelo V é uma variação do cascata, com a mesma exigência.
+- **D:** O RAD pede requisitos bem entendidos e escopo restrito para ser desenvolvido em ciclos muito curtos.
+- **E:** Codifica-remenda é a ausência de processo, não um modelo recomendável.
+
+@@ ESP-PROC-0021
+**Gabarito: Certo.** No modelo em espiral, cada volta passa por quatro setores (na descrição de Sommerville): definição de objetivos, avaliação e redução de riscos, desenvolvimento e validação, e planejamento da próxima volta. A análise explícita de riscos a cada ciclo é justamente o que distingue o espiral do cascata, do incremental e da prototipação.
+
+@@ ESP-PROC-0022
+**Gabarito: B.** No modelo V cada fase de especificação tem um nível de teste correspondente. O projeto da arquitetura (como os módulos se relacionam) é validado pelo teste de **integração**.
+
+- **A:** O teste de unidade corresponde ao projeto detalhado de cada módulo.
+- **C:** O teste de sistema corresponde à especificação de requisitos do sistema.
+- **D:** O teste de aceitação corresponde aos requisitos do usuário.
+- **E:** Regressão não é um nível do V: é a reexecução de testes após uma mudança, em qualquer nível.
+
+@@ ESP-PROC-0023
+**Gabarito: C.** Manutenção **adaptativa** ajusta o software a mudanças no ambiente externo: legislação, normas, regras de negócio, plataforma. Uma nova resolução do Banco Central é o exemplo típico.
+
+- **A:** Corretiva corrige defeitos, e o enunciado diz que não há defeito.
+- **B:** Preventiva melhora a estrutura para evitar problemas futuros (por exemplo, refatoração).
+- **D:** Perfectiva acrescenta ou melhora funcionalidades e desempenho a pedido dos usuários, sem imposição externa.
+- **E:** Emergencial é uma correção feita fora do planejamento para restabelecer o serviço; não é o caso.
+
+@@ ESP-PROC-0024
+**Gabarito: Errado.** É o contrário: segundo Pressman, o RAD **não** é adequado quando os riscos técnicos são altos, como no uso intenso de tecnologia nova. Ele também não serve quando o sistema não pode ser modularizado ou exige alto desempenho por ajuste fino. O RAD funciona com requisitos bem compreendidos, escopo restrito e reúso de componentes, em ciclos de 60 a 90 dias. Para alto risco, o modelo indicado é o espiral.
+
+@@ ESP-PROC-0025
+**Gabarito: B.** Na **Elaboração** analisa-se o domínio, define-se e valida-se uma arquitetura executável e tratam-se os riscos de maior prioridade. O marco que a encerra é o LCA (*Lifecycle Architecture*).
+
+- **A:** A Concepção define escopo e viabilidade do negócio; marco LCO (*Lifecycle Objectives*).
+- **C:** A Construção desenvolve o produto sobre a arquitetura já estável; marco IOC (*Initial Operational Capability*).
+- **D:** A Transição entrega o produto aos usuários; marco PR (*Product Release*).
+- **E:** Implantação é uma disciplina do RUP, não uma de suas quatro fases.
+
+@@ ESP-PROC-0026
+**Gabarito: Errado.** No RUP quem é sequencial são as **fases** (Concepção, Elaboração, Construção, Transição). As disciplinas atravessam todas as fases, com intensidade variável, e se repetem a cada iteração (o gráfico das "baleias"). A disciplina de Teste, portanto, ocorre em todas as iterações, inclusive na Elaboração, em paralelo com a Implementação, e não só depois que ela termina.
+
+@@ ESP-PROC-0027
+**Gabarito: C.** O RUP tem nove disciplinas. As seis de engenharia são Modelagem de Negócio, Requisitos, Análise e Design, Implementação, Teste e Implantação. As três de **suporte** são Gerenciamento de Configuração e Mudança, Gerenciamento de Projeto e Ambiente.
+
+- **A:** As três são disciplinas de engenharia.
+- **B:** As três são disciplinas de engenharia.
+- **D:** Só Ambiente é de suporte; Implantação e Teste são de engenharia.
+- **E:** Requisitos é disciplina de engenharia.
+
+@@ ESP-PROC-0028
+**Gabarito: B.** A tríade clássica do Processo Unificado (Jacobson, Booch e Rumbaugh): dirigido por casos de uso (eles guiam requisitos, projeto e testes), centrado na arquitetura (definida cedo, na Elaboração) e iterativo e incremental.
+
+- **A:** O UP não é sequencial nem orientado a documentos; isso lembra o cascata.
+- **C:** O UP trata riscos cedo, mas não se define por protótipos descartáveis, e produz documentação (artefatos e modelos UML).
+- **D:** "Dirigido por testes" remete ao TDD e ao XP; entregas diárias não são do UP.
+- **E:** Funcionalidades, dono de classe e inspeções são características do FDD.
+
+@@ ESP-PROC-0029
+**Gabarito: Certo.** A Transição leva o produto ao ambiente dos usuários. Suas atividades típicas são testes beta, conversão das bases de dados operacionais, treinamento de usuários e do pessoal de suporte e ajustes finais. A fase termina com o marco *Product Release* (lançamento do produto).
+
+@@ ESP-PROC-0030
+**Gabarito: C.** Os quatro valores do Manifesto Ágil: indivíduos e interações mais que processos e ferramentas; software em funcionamento mais que documentação abrangente; **colaboração com o cliente mais que negociação de contratos**; responder a mudanças mais que seguir um plano.
+
+- **A:** Invertido: indivíduos e interações é que valem mais.
+- **B:** Mistura pares: software em funcionamento é comparado com documentação abrangente, não com contratos.
+- **D:** Invertido: responder a mudanças vale mais que seguir um plano.
+- **E:** Invertido: software em funcionamento vale mais que documentação abrangente.
+
+@@ ESP-PROC-0031
+**Gabarito: Errado.** O sétimo princípio do Manifesto Ágil afirma que **software funcionando** é a medida primária de progresso. Percentual de cronograma cumprido ou de documentos entregues não mostra valor real: só o que funciona e pode ser usado conta como avanço.
+
+@@ ESP-PROC-0032
+**Gabarito: B.** No FDD, o **dono de classe** (*class owner*) é o desenvolvedor individualmente responsável por uma classe: sua consistência, desempenho e integridade conceitual. É o oposto da propriedade coletiva do código do XP, em que qualquer um altera qualquer parte.
+
+- **A:** O programador-chefe lidera as equipes de funcionalidade e distribui o trabalho.
+- **C:** A equipe de funcionalidade é o grupo temporário, formado pelos donos das classes envolvidas, que implementa uma funcionalidade.
+- **D:** Inspeção é a prática de revisão de projeto e código para garantir a qualidade.
+- **E:** O arquiteto-chefe responde pelo projeto geral do sistema.
+
+@@ ESP-PROC-0033
+**Gabarito: A.** A 1ª edição do XP (Kent Beck) trazia quatro valores: comunicação, simplicidade, feedback e coragem. A 2ª edição acrescentou o **respeito**.
+
+- **B:** Foco, abertura, coragem, compromisso e respeito são os cinco valores do Scrum.
+- **C:** Transparência, inspeção e adaptação são os três pilares do Scrum.
+- **D:** São fragmentos dos valores do Manifesto Ágil.
+- **E:** São princípios do Lean Software Development.
+
+@@ ESP-PROC-0034
+**Gabarito: Certo.** A família Crystal (Alistair Cockburn) é organizada por cores (Clear, Yellow, Orange, Red), escolhidas conforme o tamanho da equipe e a criticidade do sistema. O Crystal Clear atende equipes pequenas (até cerca de 6 a 8 pessoas) trabalhando no mesmo espaço, com entregas frequentes, melhoria reflexiva e comunicação osmótica (a informação circula porque todos ouvem as conversas ao redor).
+
+@@ ESP-PROC-0035
+**Gabarito: B.** No Guia 2020 cada artefato tem um compromisso que dá foco e transparência: Backlog do Produto, **Meta do Produto**; Sprint Backlog, **Meta da Sprint**; Incremento, **Definição de Pronto**.
+
+- **A:** Associa os três compromissos certos, mas em ordem trocada (primeiro e terceiro invertidos).
+- **C:** Troca os dois primeiros.
+- **D:** Visão do Produto, Plano da Sprint e Critério de Aceitação não são compromissos do Guia.
+- **E:** Troca os dois últimos.
+
+@@ ESP-PROC-0036
+**Gabarito: Errado.** O evento é mesmo de 15 minutos e destinado aos Developers, mas as três perguntas deixaram de ser obrigatórias: já eram só sugestão no Guia de 2017 e foram retiradas no de 2020. Os Developers escolhem a estrutura e as técnicas que quiserem, desde que a Daily foque no progresso em direção à Meta da Sprint e produza um plano para o próximo dia de trabalho.
+
+@@ ESP-PROC-0037
+**Gabarito: C.** Segundo o Guia do Scrum, uma Sprint pode ser cancelada se a Meta da Sprint se tornar obsoleta, e **somente o Product Owner** tem autoridade para isso.
+
+- **A:** Os demais membros podem recomendar, mas não decidir.
+- **B:** O Scrum Master remove impedimentos e apoia o time; não cancela a Sprint.
+- **D:** Stakeholders dão feedback na Sprint Review, sem votação nem poder de cancelamento.
+- **E:** O Guia prevê expressamente o cancelamento.
+
+@@ ESP-PROC-0038
+**Gabarito: B.** Lei de Little: tempo médio de ciclo = WIP ÷ vazão (*throughput*) = 15 itens ÷ 5 itens por semana = **3 semanas**. Daí a lógica do Kanban: mantida a vazão, reduzir o WIP reduz o tempo de ciclo.
+
+De onde vêm os distratores: 0,33 é a divisão invertida (5 ÷ 15); 5 é a própria vazão; 10 é a subtração 15 − 5; 75 é o produto 15 × 5.
+
+@@ ESP-PROC-0039
+**Gabarito: Errado.** O Scrum tem cinco eventos: a Sprint (que contém os demais), Sprint Planning, Daily Scrum, Sprint Review e Sprint Retrospective. O refinamento do Backlog do Produto é uma **atividade contínua**, não um evento, e não tem timebox. O limite de 10% da capacidade dos Developers era uma orientação do Guia de 2017, retirada na versão de 2020.
+
+@@ ESP-PROC-0040
+**Gabarito: B.** O Guia 2020 organiza a Sprint Planning em três tópicos: **por que** esta Sprint é valiosa (resulta na Meta da Sprint), **o que** pode ser feito (itens selecionados do Backlog do Produto) e **como** o trabalho será realizado (plano dos Developers). O tópico "por quê" foi a novidade de 2020.
+
+- **A:** Não são tópicos de nenhum evento do Scrum.
+- **C:** São as três perguntas antigas da Daily Scrum.
+- **D:** Visão, roadmap e release são planejamento de produto, fora do Guia.
+- **E:** É a restrição tripla da gerência tradicional de projetos.
+
+@@ ESP-PROC-0041
+**Gabarito: C.** A **Saída Externa** (SE) envia dados para fora da fronteira e exige lógica de processamento adicional: cálculo, dado derivado ou atualização de arquivo. O cálculo de totais define a classificação.
+
+- **A:** A Entrada Externa processa dados que **entram** na fronteira, em geral para manter um ALI.
+- **B:** A Consulta Externa também envia dados para fora, mas é recuperação simples, sem cálculo nem dado derivado.
+- **D:** O AIE é função de dados: arquivo apenas referenciado, mantido por outra aplicação.
+- **E:** O ALI é função de dados: arquivo mantido pela própria aplicação.
+
+@@ ESP-PROC-0042
+**Gabarito: Errado.** A definição dada é a do **ALI** (Arquivo Lógico Interno): dados mantidos dentro da fronteira da aplicação contada. O **AIE** (Arquivo de Interface Externa) é um grupo de dados apenas **referenciado** (lido) pela aplicação, mas mantido dentro da fronteira de outra aplicação.
+
+@@ ESP-PROC-0043
+**Gabarito: C.** Um ALI vale 7 PF (complexidade baixa), **10 PF (média)** ou 15 PF (alta). Com 2 a 5 tipos de registro e 20 a 50 tipos de dados, a tabela do IFPUG dá complexidade média, logo 10 PF.
+
+De onde vêm os distratores: 5, 7 e 10 são os pesos do AIE (baixa, média, alta), então 7 seria a resposta para um AIE médio ou um ALI baixo; 15 é o ALI de complexidade alta; 4 é o peso médio de uma Entrada Externa ou Consulta Externa.
+
+@@ ESP-PROC-0044
+**Gabarito: C.** No COCOMO básico (Boehm, 1981) o modo **orgânico** é o de projetos pequenos e simples, com equipe pequena e experiente, ambiente conhecido e requisitos pouco rígidos.
+
+- **A:** O modo embutido tem restrições rígidas de hardware, software e operação (por exemplo, sistemas de tempo real).
+- **B:** O semidestacado é o intermediário: equipe de experiência mista e requisitos em parte rígidos.
+- **D:** Pós-arquitetura é submodelo do COCOMO II.
+- **E:** Composição de aplicação também é submodelo do COCOMO II.
+
+@@ ESP-PROC-0045
+**Gabarito: C.** Complexidade ciclomática de McCabe: V(G) = E − N + 2 = 11 − 9 + 2 = **4**. O valor indica o número de caminhos independentes e, portanto, o mínimo de casos de teste para cobrir todos eles. Outras formas de calcular: nós predicados + 1, ou número de regiões do grafo.
+
+De onde vêm os distratores: 2 é E − N sem o "+ 2"; 3 é E − N + 1; 9 é o número de nós; 20 é E + N.
+
+@@ ESP-PROC-0046
+**Gabarito: Certo.** No Planning Poker cada participante escolhe em segredo uma carta (em geral da sequência de Fibonacci modificada) e todos revelam ao mesmo tempo. Assim ninguém é influenciado pela primeira estimativa dita em voz alta (ancoragem). Quando há divergência, quem deu o maior e o menor valor explica seus motivos e a rodada se repete até haver convergência.
+
+@@ ESP-PROC-0047
+**Gabarito: C.** Na ISO/IEC 25010:2011, a **manutenibilidade** tem cinco subcaracterísticas: modularidade, reusabilidade, analisabilidade, modificabilidade e testabilidade.
+
+- **A:** Portabilidade: adaptabilidade, instalabilidade e substituibilidade.
+- **B:** Confiabilidade: maturidade, disponibilidade, tolerância a falhas e recuperabilidade.
+- **D:** Usabilidade: reconhecimento de adequação, apreensibilidade, operabilidade, proteção contra erro do usuário, estética da interface e acessibilidade.
+- **E:** Compatibilidade: coexistência e interoperabilidade.
+
+@@ ESP-PROC-0048
+**Gabarito: Errado.** As perguntas estão trocadas. **Verificação**: "estamos construindo o produto corretamente?", isto é, de acordo com a especificação. **Validação**: "estamos construindo o produto certo?", isto é, aquele que atende às necessidades reais do usuário. A formulação é de Boehm.
+
+@@ ESP-PROC-0049
+**Gabarito: C.** No nível 4, **Gerenciado Quantitativamente**, a organização define objetivos quantitativos de qualidade e desempenho e controla os processos com técnicas estatísticas.
+
+- **A:** No nível 2 os processos são planejados e gerenciados por projeto (requisitos, planejamento, configuração, medição).
+- **B:** No nível 3 há um processo padrão da organização, adaptado a cada projeto.
+- **D:** O nível 5 foca em melhoria contínua, inovação e análise de causas, apoiado na base quantitativa do nível 4.
+- **E:** No nível 1 os processos são imprevisíveis e reativos (*ad hoc*).
+
+@@ ESP-PROC-0050
+**Gabarito: C.** O MPS.BR tem sete níveis de maturidade, de G (Parcialmente Gerenciado, o inicial) até A (Em Otimização, o mais alto), e foi concebido para ser compatível com o CMMI e com as normas ISO/IEC 12207 e 15504 (hoje série 33000).
+
+- **A:** Cinco níveis numerados de 1 a 5 são os do CMMI por estágios.
+- **B:** O nível A é o mais alto; o inicial é o G.
+- **D:** O MPS.BR é brasileiro, criado pela SOFTEX; o SEI criou o CMMI.
+- **E:** O modelo avalia a maturidade dos **processos** de software, não o produto.
+
+@@ ESP-PROC-0051
+**Gabarito: Certo.** Inspeções e walkthroughs são revisões: técnicas **estáticas**, que examinam o artefato sem executar nada. Por isso servem para qualquer documento legível (requisitos, modelos de projeto, planos de teste, código) e permitem achar defeitos antes de existir código, quando a correção é mais barata. A inspeção é a mais formal (papéis definidos, checklist, registro de defeitos); o walkthrough é conduzido pelo autor.
+
+@@ ESP-PROC-0052
+**Gabarito: C.** Sommerville divide os requisitos não funcionais em de produto, organizacionais e externos. Os **organizacionais** derivam de políticas e procedimentos da empresa e se subdividem em ambientais, operacionais e de **desenvolvimento** (linguagem de programação, processo e padrões a seguir).
+
+- **A:** Requisito de produto de eficiência trata do comportamento do software (desempenho, uso de espaço).
+- **B:** Requisito de produto de dependabilidade trata de confiabilidade e disponibilidade do software.
+- **D:** Requisito externo regulatório vem de órgão regulador, de fora da organização.
+- **E:** Requisito externo ético visa garantir que o sistema seja aceitável para os usuários e o público.
+
+@@ ESP-PROC-0053
+**Gabarito: Certo.** Na etnografia o analista se insere no ambiente dos usuários e observa o trabalho real. Segundo Sommerville, ela é eficaz para revelar requisitos implícitos (o que as pessoas fazem de fato, e não o que o processo formal diz) e requisitos de cooperação entre pessoas. Como olha para as práticas existentes, não é boa para descobrir novas funcionalidades nem requisitos organizacionais ou de domínio; por isso deve ser combinada com outras técnicas, como a prototipação.
+
+@@ ESP-PROC-0054
+**Gabarito: B.** A rastreabilidade **para trás** (*backward*) parte do artefato derivado (código, caso de teste) e volta ao requisito e à sua origem, inclusive o stakeholder que o solicitou. Serve para justificar por que cada trecho existe.
+
+- **A:** Para frente (*forward*) é o sentido oposto: do requisito para o projeto, o código e os testes que o implementam.
+- **C:** Horizontal relaciona artefatos do mesmo nível, como requisitos que dependem uns dos outros.
+- **D:** "Temporal" não é tipo de rastreabilidade de requisitos.
+- **E:** A rastreabilidade de projeto (na classificação de Sommerville) liga requisitos aos módulos do projeto, sem chegar ao solicitante.
+
+@@ ESP-PROC-0055
+**Gabarito: A.** Sommerville lista cinco verificações na validação de requisitos: **validade** (atendem às necessidades reais), **consistência** (não se contradizem), **completude** (nada falta), **realismo** (são viáveis com orçamento, prazo e tecnologia) e **verificabilidade** (é possível testar se foram atendidos).
+
+- **B:** São conceitos de projeto e de orientação a objetos.
+- **C:** São os pilares da segurança da informação.
+- **D:** São os níveis de teste de software.
+- **E:** São as quatro fases do RUP.
+
+@@ ESP-PROC-0056
+**Gabarito: Errado.** A descrição é da técnica de **questionários**. JAD é o oposto: sessões conjuntas (workshops) estruturadas, conduzidas por um facilitador, em que usuários, gestores e desenvolvedores se reúnem para definir os requisitos e chegar a consenso, com registro feito por um escriba.
+
+@@ ESP-PROC-0057
+**Gabarito: B.** INVEST (Bill Wake) reúne as qualidades de uma boa história de usuário: *Independent* (independente), *Negotiable* (negociável), *Valuable* (valiosa), *Estimable* (estimável), *Small* (pequena) e *Testable* (testável).
+
+As demais alternativas (A, C, D e E) são listas inventadas que só aproveitam as iniciais. Dica: uma história é um convite à conversa, por isso é negociável e não "especificada" ou "normatizada"; e ainda não foi feita, por isso é testável e não "testada" ou "implementada".
+
+@@ ESP-PROC-0058
+**Gabarito: C.** No **percurso cognitivo** (*cognitive walkthrough*) especialistas percorrem a tarefa passo a passo, no papel de um usuário novato, e perguntam a cada ação se ele saberá o que fazer, se encontrará o controle e se entenderá o retorno recebido. O foco é a facilidade de aprendizado.
+
+- **A:** Na avaliação heurística os especialistas inspecionam a interface contra uma lista de princípios (como as 10 heurísticas de Nielsen), sem simular uma tarefa passo a passo.
+- **B:** O teste A/B compara duas versões com usuários reais e mede resultados.
+- **D:** No card sorting os usuários agrupam cartões para orientar a arquitetura da informação.
+- **E:** O grupo focal é uma discussão moderada com usuários para colher opiniões.
+
+@@ ESP-PROC-0059
+**Gabarito: Certo.** O protótipo **horizontal** cobre muitas funcionalidades de forma superficial, em geral só a camada de interface, sem lógica real por trás. O **vertical** escolhe poucas funcionalidades e as implementa em profundidade, atravessando as camadas (interface, regras de negócio, dados), o que permite testar viabilidade técnica e desempenho.
+
+@@ ESP-PROC-0060
+**Gabarito: B.** O problema mais citado (Pressman) é o cliente ver algo funcionando, achar que o sistema está quase pronto e pressionar para colocá-lo em produção, sem saber que o protótipo foi feito às pressas, sem qualidade, desempenho nem manutenibilidade.
+
+- **A:** Obter feedback do usuário é justamente a finalidade do protótipo.
+- **C:** O protótipo é simplificado; não precisa implementar os requisitos não funcionais.
+- **D:** Protótipos de baixa fidelidade usam exatamente papel e ferramentas de desenho.
+- **E:** O protótipo apoia a validação de requisitos, não a elimina.
+
+@@ ESP-PROC-0061
+**Gabarito: B.** Os diagramas de interação são um subgrupo dos comportamentais: **sequência**, **comunicação**, **tempo** (temporização) e **visão geral de interação**.
+
+- **A:** Classes, objetos, pacotes e componentes são diagramas estruturais.
+- **C:** Casos de uso, atividades e máquina de estados são comportamentais, mas não de interação.
+- **D:** Implantação, estrutura composta e perfil são estruturais.
+- **E:** Mistura um de interação (sequência), dois comportamentais comuns (atividades, casos de uso) e um estrutural (classes).
+
+@@ ESP-PROC-0062
+**Gabarito: Errado.** Os conceitos estão trocados. **«include»** é o comportamento obrigatório: o caso de uso base sempre executa o incluído (a seta parte do base para o incluído). **«extend»** é o comportamento opcional ou condicional, que só acontece em certas situações, em um ponto de extensão do caso base (a seta parte do caso estendido para o base).
+
+@@ ESP-PROC-0063
+**Gabarito: C.** A descrição é de **composição**: a parte não vive sem o todo, que controla seu ciclo de vida. Notação: losango preenchido na extremidade do todo.
+
+- **A:** Linha tracejada com seta aberta é dependência.
+- **B:** Losango vazio no lado do todo é agregação, em que a parte existe de forma independente.
+- **D:** Linha contínua com triângulo vazio é generalização (herança).
+- **E:** Linha tracejada com triângulo vazio é realização (implementação de interface).
+
+@@ ESP-PROC-0064
+**Gabarito: B.** O **nó final de fluxo** (círculo com um X) termina apenas o fluxo que chega a ele; os outros fluxos concorrentes continuam.
+
+- **A:** O nó final de atividade (círculo preto dentro de outro círculo) encerra a atividade inteira, com todos os fluxos.
+- **C:** O nó de união (*join*) sincroniza fluxos concorrentes em um só; não encerra nada.
+- **D:** O nó de decisão (losango) escolhe um entre vários caminhos conforme as guardas.
+- **E:** O nó inicial (círculo preto) é onde a atividade começa.
+
+@@ ESP-PROC-0065
+**Gabarito: Certo.** O rótulo de uma transição tem a forma `evento [guarda] / ação`, com as três partes opcionais. O evento é o gatilho; a guarda é uma condição booleana avaliada quando o evento ocorre; se ela for verdadeira, a transição dispara, a ação é executada e o objeto passa ao estado de destino. Se a guarda for falsa, a transição não ocorre.
+
+@@ ESP-PROC-0066
+**Gabarito: D.** O fragmento **alt** (alternativas) tem dois ou mais operandos, cada um com sua condição de guarda (pode haver um `[else]`), e só um deles é executado: é o "se-senão".
+
+- **A:** `opt` tem um único operando, executado só se a guarda for verdadeira: é o "se" sem "senão".
+- **B:** `loop` repete o operando enquanto a condição valer.
+- **C:** `par` executa os operandos em paralelo.
+- **E:** `ref` faz referência a outra interação, definida em outro diagrama.
+
+@@ ESP-PROC-0067
+**Gabarito: C.** O diagrama de **implantação** (*deployment*) mostra os nós (dispositivos e ambientes de execução), as conexões entre eles e os artefatos (executáveis, bibliotecas, arquivos) implantados em cada um.
+
+- **A:** O de componentes mostra as partes modulares do software e suas interfaces, não o hardware.
+- **B:** O de pacotes mostra o agrupamento lógico dos elementos do modelo e suas dependências.
+- **D:** O de estrutura composta mostra a estrutura interna de um classificador (partes, portas, conectores).
+- **E:** O de objetos mostra instâncias de classes e seus vínculos em um dado momento.
+
+@@ ESP-PROC-0068
+**Gabarito: B.** Na integração *top-down* começa-se pelo módulo principal e desce-se na hierarquia. Os módulos **chamados** que ainda não existem são simulados por **stubs** (pseudocontrolados), que devolvem respostas fixas ou simplificadas.
+
+- **A:** Drivers simulam o módulo **chamador**; são usados na integração *bottom-up*.
+- **C:** Oráculo é o mecanismo que informa o resultado esperado de um teste.
+- **D:** Mutantes são versões do programa com defeitos inseridos de propósito (teste de mutação).
+- **E:** Controlador de teste é outro nome para driver.
+
+@@ ESP-PROC-0069
+**Gabarito: Errado.** A implicação vale no sentido inverso: 100% de cobertura de decisões garante 100% de cobertura de instruções, mas não o contrário. Exemplo: em `if (x > 0) y = 1;` sem `else`, um único teste com `x = 5` executa todas as instruções, mas o resultado falso da decisão nunca é exercitado, e a cobertura de decisões fica em 50%.
+
+@@ ESP-PROC-0070
+**Gabarito: B.** Na análise de valor-limite com dois valores testa-se cada limite da partição válida e o vizinho imediato do lado de fora: 0 e 1 no limite inferior, 100 e 101 no superior. (Na variante de três valores entrariam também 2 e 99.)
+
+- **A:** Só os limites válidos, sem os vizinhos inválidos.
+- **C:** 50 é valor de meio de partição (particionamento de equivalência), e faltam os próprios limites 1 e 100.
+- **D:** Nenhum deles é limite: 2 e 99 são vizinhos internos e 50 é valor do meio.
+- **E:** Cobre o limite inferior, mas falta o 101 no superior, e −1 não é vizinho imediato de nenhum limite.
+
+@@ ESP-PROC-0071
+**Gabarito: Certo.** Os dois são testes de aceitação feitos por usuários. O **alfa** ocorre nas instalações do desenvolvedor, em ambiente controlado, com a equipe observando e registrando os problemas. O **beta** ocorre no ambiente real dos usuários, em geral sem o desenvolvedor presente; os próprios usuários relatam os problemas encontrados.
+
+@@ ESP-PROC-0072
+**Gabarito: C.** Teste de **regressão** é reexecutar testes que já passavam para conferir se uma mudança (correção ou evolução) não quebrou o que funcionava. É forte candidato à automação.
+
+- **A:** O teste de confirmação (reteste) reexecuta o teste que falhou, para ver se o próprio defeito foi corrigido.
+- **B:** O teste de fumaça é uma checagem rápida das funções principais para decidir se a versão está estável o bastante para ser testada.
+- **D:** O teste de estresse leva o sistema além dos limites de carga.
+- **E:** O teste de aceitação é feito pelo cliente ou usuário para decidir se aceita o sistema.
+
+@@ ESP-PROC-0073
+**Gabarito: Errado.** As definições estão trocadas. O teste de **carga** avalia o sistema sob a carga esperada de produção (normal e de pico previsto). O teste de **estresse** submete o sistema a condições acima dos limites especificados, ou com recursos reduzidos, para achar o ponto de ruptura e ver como ele falha e se recupera.
+
+@@ ESP-PROC-0074
+**Gabarito: B.** Sem escrever código, a ferramenta é **no-code**; quem construiu foi a área de negócio, isto é, **desenvolvedores cidadãos**; e, sem apoio nem conhecimento da TI, a solução é **shadow IT**, com riscos de segurança, vazamento de dados e falta de suporte.
+
+- **A:** Low-code ainda admite algum código e, aqui, não houve desenvolvedores profissionais.
+- **C:** MDD gera código a partir de modelos e exige perfil técnico; nada no cenário aponta para isso.
+- **D:** Microsserviços são um estilo de arquitetura, não uma forma de quem desenvolve.
+- **E:** Programação em pares é prática do XP, com dois programadores no mesmo código.
+
+@@ ESP-PROC-0075
+**Gabarito: Errado.** Componentes prontos de segurança não substituem a governança. Como o low-code facilita a criação de aplicações por muita gente, a governança fica ainda mais necessária: controle de acesso a dados e conectores, separação de ambientes (desenvolvimento, teste, produção), revisão e catálogo das aplicações, definição de responsáveis. Sem isso, proliferam aplicações sem dono e shadow IT.
+
+@@ ESP-PROC-0076
+**Gabarito: B.** A aplicação low-code fica presa ao modelo, aos componentes e ao ambiente de execução proprietários da plataforma. Migrar para outro fornecedor costuma exigir reescrever tudo: é o *vendor lock-in*.
+
+- **A:** Criar interfaces gráficas de forma visual é um dos pontos fortes do low-code.
+- **C:** O low-code reduz a escrita de código; não há linguagem de máquina.
+- **D:** As plataformas oferecem conectores e integração com APIs.
+- **E:** A promessa do low-code é justamente reduzir o tempo de entrega.
+
+@@ ESP-PROC-0077
+**Gabarito: B.** No versionamento semântico o formato é MAJOR.MINOR.PATCH. Funcionalidade nova **compatível** incrementa o MINOR e zera o PATCH: 3.4.2 passa a **3.5.0**.
+
+- **A:** 3.4.3 incrementa o PATCH, usado para correção de defeito compatível.
+- **C:** 3.5.2 sobe o MINOR, mas esquece de zerar o PATCH.
+- **D:** 4.0.0 incrementa o MAJOR, reservado para mudança incompatível com as versões anteriores.
+- **E:** 4.4.2 sobe o MAJOR sem zerar MINOR e PATCH, o que não é válido.
+
+@@ ESP-PROC-0078
+**Gabarito: C.** O texto diz que os endpoints legados *will be deprecated next quarter* (serão marcados como obsoletos no próximo trimestre) e que *eventually, the old endpoints will be removed* (por fim, serão removidos).
+
+- **A:** A nova versão é *backward compatible*, ou seja, compatível com as anteriores.
+- **B:** A remoção ainda vai acontecer (*will be removed*); nem a depreciação ocorreu.
+- **D:** O texto recomenda migrar o quanto antes (*should migrate as soon as possible*).
+- **E:** Os endpoints antigos serão removidos, não mantidos.
+
+@@ ESP-PROC-0079
+**Gabarito: C.** *Eventually* é falso cognato: significa "por fim", "no final", "com o tempo". Indica algo que vai acontecer, só não se diz quando.
+
+- **A:** "Eventualmente" em português quer dizer "de vez em quando" ou "por acaso"; em inglês seria *occasionally* ou *possibly*.
+- **B:** "Ocasionalmente" é *occasionally*.
+- **D:** "Talvez" é *maybe* ou *perhaps*; o texto afirma que a remoção ocorrerá.
+- **E:** "Atualmente" é *currently*; cuidado com outro falso cognato, *actually*, que significa "na verdade".
+
+@@ ESP-PROC-0080
+**Gabarito: Errado.** Pela convenção da RFC 2119, usada em especificações técnicas, *should* indica **recomendação**: o esperado é seguir, mas pode haver motivo válido para não fazê-lo. Requisito obrigatório se expressa com *must* ou *shall* (e proibição com *must not*). *May* indica algo opcional.
