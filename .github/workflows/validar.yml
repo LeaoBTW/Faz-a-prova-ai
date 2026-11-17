@@ -17,3 +17,5 @@ jobs:
         run: python3 tools/validar_banco.py
       - name: Conferir comentários revisados
         run: python3 tools/comentarios/montar.py --conferir
+      - name: Conferir questões do Técnico Bancário
+        run: python3 tools/tecnico_bancario.py --conferir

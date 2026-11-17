@@ -1102,10 +1102,9 @@
     Object.keys(porInst).sort().forEach(function (inst) {
       grade.appendChild(h("h3", { class: "inst" }, inst));
       porInst[inst].forEach(function (c) {
-        var n = (window.BANCO || []).filter(function (q) { return q && (!q.concursos || q.concursos.indexOf(c.id) >= 0) && q.status === "validada"; }).length;
+        var n = D.contarBanco(c);
         var total = 0;
         c.blocos.forEach(function (b) { (b.materias || []).forEach(function (m) { total += m.questoes; }); });
-        (c.eixos || []).forEach(function (e) { total += e.questoes; });
         var ativo = D.config && D.config.id === c.id;
         grade.appendChild(cartao([
           h("h4", null, c.cargo || c.nome),
@@ -1142,10 +1141,9 @@
       Object.keys(porInst).sort().forEach(function (inst) {
         lista.appendChild(h("h3", { class: "inst" }, inst));
         porInst[inst].forEach(function (c) {
-          var n = (window.BANCO || []).filter(function (q) { return q && (!q.concursos || q.concursos.indexOf(c.id) >= 0) && q.status === "validada"; }).length;
+          var n = D.contarBanco(c);
           var total = 0;
           c.blocos.forEach(function (b) { (b.materias || []).forEach(function (m) { total += m.questoes; }); });
-          (c.eixos || []).forEach(function (e) { total += e.questoes; });
           lista.appendChild(h("button", { type: "button", role: "radio", "aria-checked": escolhido === c.id ? "true" : "false",
             class: "cartao concurso" + (escolhido === c.id ? " ativo" : ""), "data-concurso": c.id,
             onclick: function () { escolhido = c.id; desenharLista(); } }, [

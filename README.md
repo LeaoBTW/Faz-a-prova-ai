@@ -1,7 +1,7 @@
 # Faz a prova AI
 
-App web de simulados e treino para o concurso **Banestes 2027 – Analista de TI (Desenvolvimento de Sistemas)**,
-edital 01/2027 (FCC). Monta provas na proporção do edital, corrige com a nota oficial, guarda o histórico,
+App web de simulados e treino para concursos do Banestes (FCC): **Analista de TI – Desenvolvimento de Sistemas**
+(edital 01/2027) e **Técnico Bancário** (edital 01/2026, nível médio). O concurso é escolhido ao criar o perfil. Monta provas na proporção do edital, corrige com a nota oficial, guarda o histórico,
 mostra a evolução e mantém um caderno de erros com revisão espaçada.
 
 - **Site final:** https://leaobtw.github.io/Faz-a-prova-ai/
@@ -102,7 +102,8 @@ Atenção: correções feitas à mão nos arquivos importados são perdidas ao r
 index.html                 o app (carrega os scripts abaixo, sem dependências externas)
 app/                       util, markdown, dados, armazenamento, sorteio, correcao, grafico, telas, main + estilo.css
 config/
-  banestes-2027-analista-ti.js   estrutura da prova, eixos, pesos, tempo, mínimo e posições de 2024
+  banestes-2027-analista-ti.js       estrutura da prova, eixos, pesos, tempo, mínimo e posições de 2024
+  banestes-2026-tecnico-bancario.js  prova do Técnico Bancário (nível médio)
 banco/
   gerais-lp.js, gerais-rle.js, gerais-atualidades.js, gerais-etica.js
   esp-<eixo>.js            um arquivo por eixo dos Específicos
@@ -110,6 +111,7 @@ banco/
   reforco.js                              inéditas de reforço para temas com poucas questões (tools/reforco/gerar.py)
   topicos.js               mapa de temas unificados, aplicado ao carregar (tools/topicos.py)
   textos-base.js           textos compartilhados por várias questões
+  tecnico-bancario.js      quais questões valem para o Técnico Bancário e em qual matéria (tools/tecnico_bancario.py)
 img/                       figuras das questões
 tools/
   importar.py              importador das fontes (Markdown do vault)
@@ -123,6 +125,23 @@ docs/
 ```
 
 O histórico de respostas **não** vai para o repositório: fica no navegador e, se você quiser, no vault.
+
+## Técnico Bancário (edital 01/2026)
+
+Prova de 70 questões em 4 h: Gerais (peso 1) com Língua Portuguesa 10, Matemática/Raciocínio Lógico 10,
+Atualidades do Mercado Financeiro 5 e Ética, Compliance e ESG 5; Específicos (peso 2) com Conhecimentos
+Bancários e Securitários 15, Matemática Financeira 5, Probabilidade e Estatística 5, Informática e
+Comportamentos Digitais 5 e Vendas, Negociação e Atendimento 10. Configuração em
+`config/banestes-2026-tecnico-bancario.js`.
+
+O perfil reaproveita as questões do banco do Analista que cabem no edital de nível médio, cada uma na matéria
+do Técnico (ex.: juros e descontos em Matemática Financeira; CMN, produtos e PLD/Coaf em Conhecimentos
+Bancários; LGPD e golpes digitais em Informática). Quem decide é `tools/tecnico_bancario.py`, que grava
+`banco/tecnico-bancario.js` (`{id: sigla da matéria}`); o app aplica numa cópia da questão, então o perfil de
+TI continua igual. Depois de mudar questões ou regras, rode `python3 tools/tecnico_bancario.py` (o CI roda com
+`--conferir`). Questões criadas só para o Técnico usam `"concursos": ["banestes-2026-tecnico-bancario"]` e o nome
+da matéria do Técnico. Quando uma matéria não tem questões suficientes, o sorteio completa com outras do mesmo bloco
+e avisa.
 
 ## Adicionar outro concurso
 
