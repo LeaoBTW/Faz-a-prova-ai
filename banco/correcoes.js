@@ -1400,3 +1400,11 @@ CORRECOES.push({
   },
   "motivo": "Rejeitada pelo agente 5: Quase-duplicata de ESP-NUVEM-0001 (mesmo cenário: API publicada sem administrar SO, só pacote e variáveis de ambiente → PaaS). Mantida a ESP-NUVEM-0001, que é pai de ESP-NUVEM-V001."
 });
+
+CORRECOES.push({
+  "id": "RLE-0054",
+  "campos": {
+    "alternativas": { "A": "37/30", "B": "123/99", "C": "123/90", "D": "12/9", "E": "37/33" }
+  },
+  "motivo": "A alternativa C (111/90) tinha o mesmo valor do gabarito 37/30, só sem simplificar; trocada por 123/90 para haver uma única resposta correta."
+});

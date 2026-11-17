@@ -1,0 +1,780 @@
+@@ ESP-BD-0001
+**Gabarito: C.** O isolamento exige que transações concorrentes não interfiram umas nas outras, e o mecanismo clássico para isso é o bloqueio (*lock*) de dados, como no protocolo de bloqueio em duas fases (2PL). Outra técnica usada pelos SGBDs é o controle multiversão (MVCC).
+
+- **A:** Cache é área de memória para acelerar o acesso a dados; não controla concorrência.
+- **B:** Commit confirma a transação; está ligado à atomicidade e à durabilidade.
+- **D:** Logging registra as alterações para permitir desfazer e refazer (atomicidade e durabilidade), não isola transações.
+- **E:** Syncpoint é um ponto de sincronização/confirmação, também ligado à recuperação.
+
+@@ ESP-BD-0002
+**Gabarito: C.** X → Y existe quando cada valor de X está associado a um único valor de Y. Várias pessoas podem morar no mesmo endereço, então um endereço não determina um único CPF.
+
+- **A:** Cada CPF pertence a uma única pessoa, que tem um único nome: CPF → Nome vale (homônimos não atrapalham, pois a dependência é do CPF para o nome, não o contrário).
+- **B:** Cada pessoa tem um CPF e um RG próprios: CPF → RG vale.
+- **D:** O RG identifica a pessoa, e a tabela guarda um endereço por pessoa: RG → Endereço vale.
+- **E:** Pelo mesmo motivo, RG → Nome vale.
+
+@@ ESP-BD-0003
+**Gabarito: A.** Não há condição de junção, então o resultado é o produto cartesiano das linhas que passam nos filtros:
+
+- `t1.B > 2`: sobra só (1, 3).
+- `t2.D < 55`: sobram C = 100 e C = 120 (55 não é menor que 55).
+- `t3.E > 19`: sobram as linhas com E = 20 e E = 40 (NULL é descartado).
+
+São 1 × 2 × 2 = 4 linhas antes do agrupamento. O `group by t1.A, t2.C` forma os grupos (1, 100) e (1, 120), cada um com soma 60: **duas linhas**. Quem esquece o agrupamento marca quatro (C); quem ignora os filtros chega a números maiores.
+
+@@ ESP-BD-0004
+**Gabarito: B.** O `NOT EXISTS` mantém a linha de T1 quando a subconsulta não retorna nada. A subconsulta procura em T3 uma linha com o mesmo A, com E nulo e com C existente em T2. Só há uma linha de T3 com E nulo: (2, 100, NULL), e C = 100 existe em T2. Portanto apenas A = 2 é eliminado, e sobram (1, 3) e (4, 2).
+
+- **A:** Esquece (4, 2): A = 4 nem aparece em T3, logo a subconsulta é vazia e a linha é mantida.
+- **C:** Esquece (1, 3): as linhas de T3 com A = 1 têm E preenchido.
+- **D:** Inclui (2, 2), justamente a linha eliminada.
+- **E:** Inclui (2, 2) e deixa (1, 3) de fora.
+
+@@ ESP-BD-0005
+**Gabarito: A.** T3 tem duas chaves estrangeiras independentes, uma para cada tabela, e cada uma é declarada em sua própria cláusula: `foreign key (coluna) references Tabela(coluna)`.
+
+- **B:** Uma única cláusula `foreign key` referencia uma única tabela; não se pode listar T1 e T2 no mesmo `references`.
+- **C:** `foreign key T1(A) for A` não é sintaxe SQL (não existe `for` nessa cláusula).
+- **D:** Mesmo erro da C, ainda juntando as duas tabelas.
+- **E:** Inverte a ordem: a coluna local vem depois de `foreign key` e a tabela referenciada depois de `references`.
+
+@@ ESP-BD-0006
+**Gabarito: D.** `min(E)` ignora o NULL e vale 10. As linhas com E = 10 são (2, 120, 10) e (2, 110, 10). A segunda condição conta quantas linhas de T3 têm o mesmo A da linha avaliada: para A = 2 são 3, maior que 1. As duas linhas atendem às duas condições e são removidas.
+
+- **A:** Há linhas que satisfazem o `where`, então há remoção.
+- **B e C:** Cada uma cita só uma das duas linhas com E = 10; o `delete` remove todas as que satisfazem a condição.
+- **E:** As linhas com E = 20, 40 e NULL não têm E = 10 (a comparação com NULL resulta em desconhecido) e permanecem.
+
+@@ ESP-BD-0007
+**Gabarito: B.** Comparar com NULL usando `=` ou `<>` sempre resulta em UNKNOWN, e o `where` só aceita linhas com resultado TRUE.
+
+- **I:** `E <> NULL` é UNKNOWN para todas as linhas: retorna zero linhas.
+- **II:** `not (E is NULL)` usa o operador correto (`is`): retorna as 4 linhas com E preenchido.
+- **III:** `E = NULL` é UNKNOWN, e `not UNKNOWN` continua UNKNOWN: retorna zero linhas.
+
+Assim, só I e III são equivalentes (ambos vazios), e II é diferente.
+
+@@ ESP-BD-0008
+**Gabarito: A.** As restrições de integridade clássicas do modelo relacional são: de **entidade** (a chave primária é única e não nula), de **domínio** (cada atributo só aceita valores válidos para seu tipo/domínio) e **referencial** (toda chave estrangeira aponta para uma chave existente ou é nula).
+
+- **B:** "Integridade de relacionamento" não é uma categoria clássica; o relacionamento entre tabelas é garantido pela integridade referencial.
+- **C:** Cardinalidade é uma propriedade dos relacionamentos no modelo ER, não um nível de integridade.
+- **D:** Junta os dois termos inexistentes e omite entidade e domínio.
+
+@@ ESP-BD-0009
+**Gabarito: A.** A view é uma tabela virtual (consulta armazenada). Ela junta Cliente e Pedido, agrupa por cliente e devolve, para cada um, o ID, o nome completo (concatenação com `||`) e a soma dos valores dos pedidos (`sum(b.Valor)`). Como o `join` é interno, clientes sem pedido não aparecem.
+
+- **B:** O agrupamento é por cliente (ID, Nome, Sobrenome), não "por valores dos pedidos"; e a view lista uma soma.
+- **C:** Fala em soma total dos pedidos dos clientes, como se fosse um único total; a soma é calculada para cada cliente.
+- **D:** A view não exclui nada; a redação nem faz sentido.
+
+@@ ESP-BD-0010
+**Gabarito: B.** A ação referencial `ON UPDATE CASCADE` propaga a alteração da chave na tabela pai (`fornecedor`) para as linhas filhas. A alternativa omite o "ON", mas é a única que corresponde a essa instrução.
+
+- **A:** `ON DELETE CASCADE` trata da exclusão: apagar o fornecedor apaga os registros filhos.
+- **C:** `REFERENCES` apenas indica a tabela e a coluna referenciadas pela chave estrangeira.
+- **D:** É só a definição da coluna `fornecedor_id` (inteira e obrigatória).
+
+@@ ESP-BD-0011
+**Gabarito: A.** INNER JOIN retorna só as linhas com correspondência nas duas tabelas. OUTER JOIN preserva também as linhas sem correspondência: de uma tabela no LEFT/RIGHT ou das duas no FULL. A alternativa descreve o FULL OUTER JOIN, que é a leitura pretendida pela banca.
+
+- **B:** Inverte as duas definições.
+- **C:** Atribui ao INNER JOIN o comportamento do FULL OUTER e descreve mal o OUTER JOIN.
+- **D:** INNER JOIN exige correspondência em **ambas** as tabelas, não em uma delas.
+
+@@ ESP-BD-0012
+**Gabarito: C.** Filtro sobre linhas (`tipo = 'D'`) vai no WHERE; filtro sobre o resultado de uma agregação (`SUM(valor) > 1000`) vai no HAVING, depois do GROUP BY.
+
+- **A:** Função de agregação não pode aparecer no WHERE, que é avaliado antes do agrupamento.
+- **B:** No HAVING só cabem colunas do GROUP BY ou agregações; `tipo` e `valor` soltos são inválidos, e `valor > 1000` testaria cada lançamento, não o total.
+- **D:** Falta o GROUP BY: `conta` aparece no SELECT sem estar agrupada.
+- **E:** Não agrupa nem soma; ORDER BY só ordena, não filtra.
+
+@@ ESP-BD-0013
+**Gabarito: D.** O LEFT JOIN mantém todos os clientes, inclusive Carla, cujas colunas de `conta` vêm nulas. `COUNT(t.id)` conta apenas valores não nulos, então dá 0 para Carla.
+
+- **A:** Seria o resultado de um INNER JOIN, que descarta Carla.
+- **B:** Carla 1 seria o resultado de `COUNT(*)`, que conta a linha mesmo com as colunas de `conta` nulas.
+- **C:** COUNT nunca retorna NULL; sem valores para contar, retorna 0.
+- **E:** Há GROUP BY por nome, então sai uma linha por cliente, não um total único.
+
+@@ ESP-BD-0014
+**Gabarito: A.** Com chave primária simples não pode haver dependência parcial, logo a relação está na 2FN. Mas `num_pedido → cod_cliente → nome_cliente` é uma dependência transitiva de atributo não chave, o que viola a 3FN.
+
+- **B:** A 1FN proíbe atributos multivalorados ou compostos, não valores repetidos entre linhas.
+- **C:** Dependência parcial só existe com chave composta.
+- **D:** Chave simples garante a 2FN, não a FNBC; aqui `cod_cliente` é determinante sem ser chave candidata.
+- **E:** Ser chave estrangeira não elimina a dependência transitiva.
+
+@@ ESP-BD-0015
+**Gabarito: B.** No padrão SQL, só o SERIALIZABLE impede os três fenômenos: leitura suja, leitura não repetível e leitura fantasma.
+
+- **A:** READ UNCOMMITTED permite os três fenômenos.
+- **C:** READ COMMITTED impede só a leitura suja.
+- **D:** REPEATABLE READ impede leitura suja e não repetível, mas ainda admite fantasmas (pegadinha clássica).
+- **E:** "SNAPSHOT COMMITTED" não existe no padrão.
+
+@@ ESP-BD-0016
+**Gabarito: B.** O índice bitmap guarda um vetor de bits por valor distinto da coluna. Rende bem quando há poucos valores distintos (sexo, UF, situação) e consultas analíticas que combinam vários filtros com AND/OR, cenário típico de data warehouse.
+
+- **A:** Chave primária tem cardinalidade máxima (um bitmap por linha) e OLTP tem muita atualização; usa-se B-tree.
+- **C:** Atualização concorrente frequente é o ponto fraco do bitmap (manutenção cara e bloqueios amplos).
+- **D:** Valores únicos e busca por faixa são o caso de uso da B-tree.
+- **E:** Bitmap complementa a B-tree em cenários específicos; não a substitui.
+
+@@ ESP-BD-0017
+**Gabarito: A.** Basta fazer o AND bit a bit, posição por posição:
+
+```
+101001  (COR = 'azul')
+100101  (TAMANHO = 'P')
+------
+100001
+```
+
+Ficam ligados os bits 1 e 6, logo as linhas 1 e 6.
+
+- **B:** 1, 3, 4 e 6 é o resultado do OR (101101).
+- **C:** 1 e 4 são as linhas com bit 1 só no segundo bitmap, contando o 6 de fora.
+- **D:** 3 e 4 são as linhas em que os bitmaps diferem (XOR).
+- **E:** 2 e 5 são as linhas com bit 0 nos dois bitmaps.
+
+@@ ESP-BD-0018
+**Gabarito: C.** Cada INSERT, UPDATE ou DELETE obriga a manter os bitmaps, e o bloqueio de um trecho de bitmap atinge muitas linhas de uma vez, gerando contenção. Por isso o bitmap é evitado em OLTP.
+
+- **A:** É o contrário: combinar índices com AND, OR e NOT é a grande vantagem do bitmap.
+- **B:** Em baixa cardinalidade o bitmap é compacto e costuma ocupar menos espaço que a B-tree.
+- **D:** É usado justamente para resolver filtros do WHERE.
+- **E:** COUNT é muito eficiente: basta contar os bits 1.
+
+@@ ESP-BD-0019
+**Gabarito: B.** O NOT inverte cada bit: 10101001 vira 01010110. Como não há NULL, o resultado coincide com o bitmap de Sexo = M.
+
+- **A:** É o bitmap original, sem inversão.
+- **C:** Tudo 1 seria o OR do bitmap com seu complemento (todas as linhas).
+- **D:** Tudo 0 seria o AND do bitmap com seu complemento (nenhuma linha).
+- **E:** Erra o último bit: o original termina em 1, então o invertido termina em 0.
+
+@@ ESP-BD-0020
+**Gabarito: B.** Árvore de decisão aprende com exemplos rotulados (supervisionado, classificação ou regressão); k-means agrupa dados sem rótulo (não supervisionado).
+
+- **A:** Ordem invertida: k-means é não supervisionado e k-NN é supervisionado.
+- **C:** Apriori (regras de associação) é não supervisionado e regressão linear é supervisionada: também invertido.
+- **D:** DBSCAN é agrupamento (não supervisionado) e Naive Bayes é classificador (supervisionado): invertido.
+- **E:** PCA (redução de dimensionalidade) e k-means são ambos não supervisionados.
+
+@@ ESP-BD-0021
+**Gabarito: B.** Desempenho muito alto no treino e bem menor no teste indica que o modelo memorizou os dados de treino e não generaliza: sobreajuste (*overfitting*), associado a alta variância.
+
+- **A:** No underfitting o modelo é simples demais e vai mal já no treino.
+- **C:** Alto viés é a marca do underfitting; no overfitting o problema é alta variância.
+- **D:** Vazamento de dados do teste inflaria a acurácia de teste, em vez de derrubá-la.
+- **E:** No cenário ideal, treino e teste têm desempenhos próximos.
+
+@@ ESP-BD-0022
+**Gabarito: A.** Precisão = VP / (VP + FP) = 30 / 50 = 60% (dos que o modelo apontou como positivos, quantos eram). Revocação = VP / (VP + FN) = 30 / 40 = 75% (dos positivos reais, quantos o modelo achou).
+
+- **B:** Valores certos em ordem trocada.
+- **C e D:** 97% é a acurácia, (VP + VN) / total = 970 / 1000, inflada pela grande quantidade de negativos; não é precisão nem revocação.
+- **E:** 30% não corresponde a nenhuma das métricas (30 é só a contagem de VP).
+
+@@ ESP-BD-0023
+**Gabarito: C.** O k-NN é supervisionado e "preguiçoso": não constrói modelo, guarda os exemplos e classifica o novo caso pela classe mais frequente entre os k vizinhos mais próximos.
+
+- **A:** Descreve o k-means (agrupamento com k centroides).
+- **B:** Descreve a árvore de decisão; o k-NN praticamente não tem fase de treino.
+- **D:** Como usa distância, atributos em escalas diferentes distorcem o resultado; normalizar é necessário.
+- **E:** A predição compara o novo exemplo com a base armazenada, então o custo cresce com o tamanho dela.
+
+@@ ESP-BD-0024
+**Gabarito: A.** Confiança = suporte(A,B) / suporte(A) = 20% / 40% = 50%. Lift = confiança / suporte(B) = 0,50 / 0,25 = 2: a presença de A dobra a chance de B.
+
+- **B:** 20% é o suporte da regra, não a confiança; 0,8 sai de 20/25.
+- **C:** Confiança certa, mas 1,25 vem de dividir 0,50 por 0,40 (suporte do antecedente), erro comum.
+- **D:** 80% é suporte(A,B) / suporte(B), a confiança da regra inversa B → A.
+- **E:** 62,5% é suporte(B) / suporte(A), e lift 1 indicaria independência entre A e B.
+
+@@ ESP-BD-0025
+**Gabarito: B.** Independência **física** é poder mudar o esquema interno (estruturas de armazenamento, índices, organização de arquivos) sem alterar o esquema conceitual.
+
+- **A:** Independência lógica é mudar o esquema conceitual sem alterar os esquemas externos nem os programas.
+- **C:** Transparência de distribuição é conceito de bancos de dados distribuídos.
+- **D:** Normalização é técnica de projeto para eliminar redundância.
+- **E:** "Abstração externa" não nomeia nenhum dos dois tipos de independência de dados.
+
+@@ ESP-BD-0026
+**Gabarito: Errado.** É o contrário: a independência lógica é a **mais difícil** de alcançar. As aplicações referenciam diretamente nomes de tabelas, atributos e relacionamentos, então mudanças no esquema conceitual tendem a afetá-las. A independência física é mais fácil, porque trocar índices ou a organização de arquivos fica escondido atrás do esquema conceitual.
+
+@@ ESP-BD-0027
+**Gabarito: D.** Os dados presentes no banco em um dado momento formam a **instância** (também chamada de estado ou extensão), que muda a cada atualização.
+
+- **A:** O esquema é a descrição da estrutura do banco, definida no projeto e raramente alterada.
+- **B:** Intensão é sinônimo de esquema; o conjunto de dados é a extensão.
+- **C:** O catálogo (dicionário de dados) armazena a descrição do banco, isto é, os metadados.
+- **E:** Metadados são "dados sobre os dados" (nomes, tipos, restrições), não o conteúdo armazenado.
+
+@@ ESP-BD-0028
+**Gabarito: D.** O SGBD **acrescenta** custo: hardware, software, treinamento e a sobrecarga de segurança, controle de concorrência, recuperação e integridade. Em aplicações simples e bem definidas, com um só usuário, arquivos comuns podem ser mais baratos e rápidos.
+
+- **A:** Controlar a redundância (e as inconsistências que ela causa) é vantagem clássica.
+- **B:** Compartilhamento com controle de concorrência é vantagem do SGBD.
+- **C:** A estrutura dos dados fica no catálogo, não nos programas: é a independência programa-dados.
+- **E:** As restrições de integridade são declaradas e impostas pelo próprio SGBD.
+
+@@ ESP-BD-0029
+**Gabarito: B.** A DML de alto nível, ou não procedural (declarativa), diz **o que** se quer e trabalha um conjunto de registros por vez (*set-at-a-time*). É o caso da SQL.
+
+- **A:** A DML procedural, de baixo nível, diz **como** obter os dados e processa um registro por vez (*record-at-a-time*), embutida em linguagem hospedeira.
+- **C:** A SDL (linguagem de definição de armazenamento) especifica o esquema interno, não consultas.
+- **D:** A DCL controla permissões (GRANT, REVOKE).
+- **E:** "Hierárquica" designa um modelo de dados, não um tipo de DML.
+
+@@ ESP-BD-0030
+**Gabarito: B.** A entidade fraca não tem chave própria: é identificada pela chave da entidade proprietária somada à sua chave parcial (por exemplo, DEPENDENTE em relação a FUNCIONARIO), por meio de um relacionamento identificador.
+
+- **A:** Entidade associativa é o relacionamento (em geral N:N) tratado como entidade para poder participar de outros relacionamentos.
+- **C:** Entidade genérica é a superclasse de uma generalização/especialização.
+- **D:** Agregação é a abstração que trata um relacionamento com suas entidades como uma entidade de nível mais alto.
+- **E:** Categoria (tipo união) é uma subclasse com superclasses de tipos diferentes.
+
+@@ ESP-BD-0031
+**Gabarito: Certo.** São duas restrições independentes que se somam. **Disjunta**: cada entidade pertence a no máximo uma subclasse (o oposto é sobreposta). **Total**: cada entidade da superclasse pertence a pelo menos uma subclasse (o oposto é parcial). No máximo uma e pelo menos uma resultam em exatamente uma.
+
+@@ ESP-BD-0032
+**Gabarito: C.** No 1:N, a chave primária do lado 1 é incluída como chave estrangeira na tabela do lado N, pois cada linha do lado N se liga a uma única linha do lado 1 (ex.: `FUNCIONARIO.cod_depto`).
+
+- **A:** Tabela associativa é o padrão do relacionamento N:N.
+- **B:** Invertido: a linha do lado 1 se relaciona com várias do lado N, e uma coluna não guarda vários valores.
+- **D:** Fundir as tabelas é opção apenas em alguns relacionamentos 1:1.
+- **E:** Tabela própria é o mapeamento de atributo multivalorado, outro caso.
+
+@@ ESP-BD-0033
+**Gabarito: B.** No IDEF1X, o relacionamento **identificador** (a chave do pai migra para a chave primária do filho, que passa a ser entidade dependente, desenhada com cantos arredondados) é uma linha sólida.
+
+- **A:** Linha tracejada é o relacionamento não identificador: a chave do pai migra como atributo comum, fora da chave primária.
+- **C:** O losango na ponta do pai indica relacionamento não identificador opcional (a FK pode ser nula).
+- **D:** O círculo com linhas abaixo é o símbolo de generalização (categoria); duas linhas indicam categoria completa.
+- **E:** A letra Z junto ao filho indica cardinalidade zero ou um.
+
+@@ ESP-BD-0034
+**Gabarito: C.** Contagem pelo mapeamento ER para relacional:
+
+- 3 tabelas para as entidades FUNCIONARIO, PROJETO e DEPARTAMENTO.
+- 1 tabela associativa para o relacionamento M:N entre FUNCIONARIO e PROJETO.
+- 1 tabela para o atributo multivalorado "habilidades".
+- O relacionamento 1:N não gera tabela: vira chave estrangeira em FUNCIONARIO.
+
+Total: 3 + 1 + 1 = **5**. Quem esquece o multivalorado chega a 4; quem cria tabela também para o 1:N chega a 6.
+
+@@ ESP-BD-0035
+**Gabarito: C.** A integridade de **entidade** determina que nenhum atributo da chave primária seja nulo, pois é ela que identifica cada tupla.
+
+- **A:** A integridade referencial exige que a chave estrangeira aponte para uma chave existente (ou seja nula).
+- **B:** A de domínio exige que o valor do atributo pertença ao domínio definido (tipo, faixa, formato).
+- **D:** Restrições semânticas são regras de negócio gerais (ex.: salário do funcionário não maior que o do chefe).
+- **E:** Restrições de transição tratam de mudanças de estado válidas (ex.: salário só pode aumentar).
+
+@@ ESP-BD-0036
+**Gabarito: Errado.** A exclusão só pode violar a integridade **referencial**, quando a tupla removida é referenciada por chaves estrangeiras de outras tuplas. Remover uma linha não cria valor fora do domínio, chave duplicada nem chave primária nula. Quem pode violar os quatro tipos de restrição é a inserção (e a alteração).
+
+@@ ESP-BD-0037
+**Gabarito: C.** Chave candidata é uma superchave mínima. Como matricula, cpf e email são únicos, há três candidatas; a escolhida vira primária e as outras são chaves alternativas (ou secundárias).
+
+- **A:** São três chaves candidatas, não uma.
+- **B:** {matricula, nome} identifica a tupla, mas não é mínima (nome sobra): é superchave, não candidata.
+- **D:** É o contrário: toda superchave contém ao menos uma chave candidata.
+- **E:** Nenhum atributo da chave primária pode ser nulo, seja ela simples ou composta (integridade de entidade).
+
+@@ ESP-BD-0038
+**Gabarito: B.** `ON DELETE SET NULL` grava nulo na chave estrangeira dos filhos quando o pai é excluído (a coluna precisa aceitar nulos).
+
+- **A:** `ON DELETE CASCADE` exclui também os registros filhos.
+- **C:** `NO ACTION` impede a exclusão do pai enquanto houver filhos (é o comportamento padrão).
+- **D:** `ON UPDATE SET NULL` reage à atualização da chave do pai, não à exclusão.
+- **E:** `RESTRICT` também impede a exclusão, com verificação imediata.
+
+@@ ESP-BD-0039
+**Gabarito: B.** **Grau** é o número de atributos (colunas) da relação: 7. **Cardinalidade** é o número de tuplas (linhas): 150.
+
+- **A:** Valores certos, mas em ordem trocada.
+- **C e D:** Repetem o mesmo número para as duas medidas, que contam coisas diferentes.
+- **E:** Grau 1 seria uma relação com uma única coluna.
+
+@@ ESP-BD-0040
+**Gabarito: B.** A 2FN exige 1FN mais a ausência de **dependência parcial**: nenhum atributo não chave pode depender só de parte de uma chave composta.
+
+- **A:** Eliminar dependências transitivas é a exigência da 3FN.
+- **C:** Todo determinante ser chave candidata é a definição da FNBC.
+- **D:** Ausência de dependências multivaloradas não triviais é a 4FN.
+- **E:** Relação só com atributos de chave não é definição de forma normal alguma (embora uma relação assim atenda à 3FN).
+
+@@ ESP-BD-0041
+**Gabarito: Errado.** A implicação é inversa: toda relação na FNBC está na 3FN, mas não o contrário. A 3FN tolera uma dependência X → A em que X não é superchave desde que A seja atributo primo (parte de alguma chave candidata); a FNBC não tolera, exigindo que todo determinante seja superchave.
+
+@@ ESP-BD-0042
+**Gabarito: B.** O fecho de A é A⁺ = {A, B, C, D}, logo A é a chave. Sendo chave simples, não há dependência parcial e R está na 2FN. Porém B → C e C → D têm determinantes que não são chave e dependentes não primos (dependências transitivas), o que viola a 3FN.
+
+- **A:** As dependências transitivas impedem a 3FN.
+- **C:** Nada indica atributos multivalorados; a 1FN é pressuposta.
+- **D:** {B, C}⁺ = {B, C, D}, não alcança A, então não é chave.
+- **E:** Se não está na 3FN, também não está na FNBC, que é mais restritiva.
+
+@@ ESP-BD-0043
+**Gabarito: C.** É a regra da **pseudotransitividade**: de X → Y, aumentando com W, obtém-se WX → WY; como WY → Z, por transitividade WX → Z.
+
+- **A:** X sozinho só determina Y; para chegar a Z falta W.
+- **B:** W sozinho não determina Y, então não basta para Z.
+- **D:** Nenhuma dependência dada tem W do lado direito.
+- **E:** Idem: nada permite derivar W a partir de outros atributos.
+
+@@ ESP-BD-0044
+**Gabarito: D.** Dois atributos multivalorados independentes na mesma relação (ex.: telefones e dependentes de um funcionário) geram dependências multivaloradas não triviais e combinações redundantes de valores. A 4FN exige separá-los em relações distintas.
+
+- **A:** Representados como uma tupla por combinação de valores, os atributos são atômicos e a 1FN é atendida.
+- **B, C e E:** Tratam de dependências funcionais (parciais, transitivas, determinante não chave). A relação pode ter só atributos de chave e estar até na FNBC, mesmo violando a 4FN.
+
+@@ ESP-BD-0045
+**Gabarito: B.** A projeção (π) escolhe colunas e, como o resultado é um conjunto, elimina as tuplas que ficarem duplicadas.
+
+- **A:** A seleção (σ) filtra linhas por uma condição e mantém todas as colunas.
+- **C:** A junção natural combina tuplas de duas relações pelos atributos de mesmo nome.
+- **D:** A divisão retorna as tuplas relacionadas a **todas** as tuplas de outra relação.
+- **E:** A renomeação (ρ) só troca nomes de relação ou de atributos.
+
+@@ ESP-BD-0046
+**Gabarito: Certo.** O produto cartesiano combina cada tupla de uma relação com cada tupla da outra: a cardinalidade é o produto (5 × 4 = 20 tuplas) e o grau é a soma (3 + 2 = 5 atributos).
+
+@@ ESP-BD-0047
+**Gabarito: C.** A divisão R ÷ S retorna os valores de R associados a **todas** as tuplas de S. Aqui, divide-se a relação (cliente, agência) pelo conjunto das agências de Vitória. A palavra "todas" é o sinal clássico.
+
+- **A:** União junta as tuplas de duas relações compatíveis.
+- **B:** Diferença retorna o que está em uma relação e não na outra (serve para "os que não têm").
+- **D:** Semijunção retorna as tuplas de R que casam com **alguma** tupla de S, não com todas.
+- **E:** Junção externa esquerda preserva as tuplas sem correspondência, preenchendo com nulos.
+
+@@ ESP-BD-0048
+**Gabarito: C.** A junção externa esquerda (*left outer join*) mantém todas as tuplas da relação da esquerda e completa com nulos os atributos da direita quando não há par.
+
+- **A:** A junção natural descarta as tuplas sem correspondência.
+- **B:** A equijunção (condição de igualdade) é junção interna e também as descarta.
+- **D:** A externa completa preserva as tuplas sem par dos **dois** lados.
+- **E:** O produto cartesiano combina tudo com tudo, sem condição e sem nulos.
+
+@@ ESP-BD-0049
+**Gabarito: C.** R − S (o que está em R e não em S) em geral é diferente de S − R.
+
+- **A:** R ∪ S = S ∪ R.
+- **B:** R ∩ S = S ∩ R.
+- **D:** A junção natural é comutativa (muda só a ordem das colunas, irrelevante na álgebra).
+- **E:** Seleções encadeadas comutam: σc1(σc2(R)) = σc2(σc1(R)).
+
+@@ ESP-BD-0050
+**Gabarito: B.** ALTER é DDL (define estrutura), INSERT é DML (manipula dados) e REVOKE é DCL (controla permissões).
+
+- **A:** GRANT é DCL e UPDATE é DML: os dois últimos estão trocados.
+- **C:** COMMIT é controle de transação (DTL/TCL), não DML.
+- **D:** ROLLBACK é controle de transação, não DCL (SELECT é classificado como DML ou DQL).
+- **E:** INSERT é DML, não DDL.
+
+@@ ESP-BD-0051
+**Gabarito: Errado.** O TRUNCATE remove todas as linhas, mas é um comando DDL: não aceita WHERE (para apagar só parte das linhas usa-se DELETE) e não dispara os triggers de DELETE por linha. Em geral é mais rápido que o DELETE porque não registra a remoção linha a linha.
+
+@@ ESP-BD-0052
+**Gabarito: B.** `WITH GRANT OPTION` dá ao beneficiário o direito de conceder o mesmo privilégio a outros usuários.
+
+- **A:** É o que acontece no GRANT sem essa opção.
+- **C:** A opção só vale para o privilégio recebido; não permite revogar privilégios de terceiros.
+- **D:** Criar usuários depende de privilégio administrativo próprio.
+- **E:** Alterar a estrutura exige ser dono da tabela ou ter privilégio de ALTER.
+
+@@ ESP-BD-0053
+**Gabarito: B.** `NULL >= 0` resulta em UNKNOWN, e a restrição CHECK só rejeita a linha quando a condição é FALSE. Para barrar nulos é preciso declarar NOT NULL. Note a diferença para o WHERE, que só aceita TRUE.
+
+- **A:** Comparação com NULL não dá falso, dá desconhecido.
+- **C:** O CHECK apenas valida; não converte valores (isso seria papel de DEFAULT ou COALESCE).
+- **D:** Não há chave estrangeira envolvida.
+- **E:** É o comportamento definido no padrão SQL, não uma particularidade do Oracle.
+
+@@ ESP-BD-0054
+**Gabarito: C.** No Oracle, todo comando DDL faz um **commit implícito** antes e depois de executar. O `CREATE TABLE` confirma o UPDATE pendente e a própria criação da tabela; quando o ROLLBACK chega, não há mais nada a desfazer.
+
+- **A:** O UPDATE já foi confirmado pelo commit implícito, e DDL no Oracle não é desfeito por ROLLBACK.
+- **B:** A tabela de fato permanece, mas o UPDATE também.
+- **D:** As duas operações ficam efetivadas.
+- **E:** DDL pode ser executado a qualquer momento; o efeito é encerrar a transação corrente.
+
+@@ ESP-BD-0055
+**Gabarito: B.** Na tabela CONTA:
+
+- `COUNT(*)` conta linhas: **4**.
+- `COUNT(cpf)` ignora nulos: a conta 4 tem cpf NULL, restam 111, 111 e 222: **3**.
+- `COUNT(DISTINCT cpf)` conta valores distintos não nulos: 111 e 222: **2**.
+
+A alternativa A esquece que COUNT(coluna) ignora NULL; a C esquece o DISTINCT (ou conta o NULL como valor); a D aplica o descarte do NULL também ao `COUNT(*)`; a E trata as três contagens como iguais.
+
+@@ ESP-BD-0056
+**Gabarito: Errado.** A subconsulta devolve 111, 111, 222 e **NULL** (conta 4). `cpf NOT IN (111, 222, NULL)` equivale a `cpf <> 111 AND cpf <> 222 AND cpf <> NULL`, e a última comparação é sempre UNKNOWN, logo a condição nunca é TRUE: o resultado é **vazio**. Para obter Carla e Davi, use `NOT EXISTS` ou filtre a subconsulta com `WHERE cpf IS NOT NULL`.
+
+@@ ESP-BD-0057
+**Gabarito: D.** O FULL OUTER JOIN devolve os pares casados mais as linhas sem par dos dois lados:
+
+- Pares: Ana com a conta 1, Ana com a conta 2, Bruno com a conta 3 (3 linhas).
+- Clientes sem conta: Carla e Davi (2 linhas, com numero NULL).
+- Conta sem cliente: a conta 4, cujo cpf é NULL e não casa com ninguém (1 linha, com nome NULL).
+
+Total: 3 + 2 + 1 = **6**. O INNER JOIN daria 3 (A); o RIGHT JOIN daria 4 (B); o LEFT JOIN daria 5 (C); 16 (E) é o produto cartesiano 4 × 4.
+
+@@ ESP-BD-0058
+**Gabarito: C.** O WHERE filtra linhas antes do agrupamento; o HAVING filtra os grupos já formados e por isso pode usar funções de agregação. Ordem lógica: FROM, WHERE, GROUP BY, HAVING, SELECT, ORDER BY.
+
+- **A:** WHERE não aceita função de agregação, pois é avaliado antes de os grupos existirem.
+- **B:** HAVING é avaliada depois do GROUP BY.
+- **D:** HAVING normalmente acompanha o GROUP BY; sem ele, a tabela inteira é tratada como um único grupo.
+- **E:** O SELECT é avaliado depois do WHERE, então os aliases ainda não existem (só o ORDER BY pode usá-los).
+
+@@ ESP-BD-0059
+**Gabarito: A.** Agrupando por agência: a 10 tem duas contas (500 e -50), a 20 e a 30 têm uma cada. O `HAVING COUNT(*) > 1` deixa só a agência 10, com soma 500 + (-50) = **450**.
+
+- **B:** 500 ignora o saldo negativo da conta 3.
+- **C:** A agência 20 tem só uma conta e é barrada pelo HAVING.
+- **D:** Existe um grupo com mais de uma linha, a agência 10.
+- **E:** A agência 20 tem o maior saldo, mas o filtro é pela quantidade de contas.
+
+@@ ESP-BD-0060
+**Gabarito: C.** Na lógica de três valores: `saldo > 0` com saldo -50 é FALSE; `cidade = NULL` é sempre UNKNOWN (o teste correto seria `IS NULL`). FALSE OR UNKNOWN = UNKNOWN. Em um WHERE, a linha não seria retornada.
+
+- **A:** O OR só daria TRUE se um dos lados fosse TRUE.
+- **B:** Só seria FALSE se os dois lados fossem FALSE.
+- **D:** Não há conversão: o resultado é UNKNOWN; apenas o efeito no WHERE é o mesmo de FALSE (a linha é descartada).
+- **E:** `= NULL` é sintaticamente válido, apenas inútil.
+
+@@ ESP-BD-0061
+**Gabarito: B.** A view comum guarda só a definição (o SELECT) no catálogo; seus dados são obtidos das tabelas base toda vez que ela é consultada.
+
+- **A:** Quem armazena fisicamente o resultado é a view materializada.
+- **C:** É um mecanismo clássico de segurança: concede-se acesso à view, que expõe só certas linhas e colunas.
+- **D:** Views com agregação, DISTINCT, GROUP BY ou certas junções não são atualizáveis.
+- **E:** Pode referenciar várias tabelas e até outras views.
+
+@@ ESP-BD-0062
+**Gabarito: Errado.** O índice clusterizado determina a ordem física em que as linhas ficam armazenadas, e uma tabela só pode estar ordenada fisicamente de uma maneira. Por isso há no máximo **um** índice clusterizado por tabela (que pode ter várias colunas); os demais são não clusterizados, e destes pode haver vários.
+
+@@ ESP-BD-0063
+**Gabarito: C.** O bitmap mantém um vetor de bits por valor distinto; com poucos valores (UF, sexo) fica compacto, e filtros combinados são resolvidos com AND/OR entre os vetores.
+
+- **A:** Hash serve para busca por igualdade em um valor; não é a indicação para combinar filtros de baixa cardinalidade.
+- **B:** O índice clusterizado define a ordem física e só pode haver um por tabela.
+- **D:** Full-text indexa palavras em colunas de texto longo.
+- **E:** Índice esparso tem entradas só para parte dos registros (em geral uma por bloco) e exige arquivo ordenado.
+
+@@ ESP-BD-0064
+**Gabarito: B.** No SQL Server, o UPDATE é visto no trigger como uma exclusão seguida de inserção: `deleted` traz as linhas com os valores antigos e `inserted`, com os novos.
+
+- **A:** `OLD` e `NEW` são usados em outros SGBDs (MySQL, PostgreSQL).
+- **C:** Nomes certos, mas na ordem invertida.
+- **D:** `:OLD` e `:NEW` são do Oracle (PL/SQL).
+- **E:** `before` e `after` não são pseudotabelas; BEFORE/AFTER indicam o momento do disparo.
+
+@@ ESP-BD-0065
+**Gabarito: C.** O trigger INSTEAD OF é executado **no lugar** da operação e é o tipo aplicável a views: o código do trigger distribui o INSERT entre as tabelas base.
+
+- **A e B:** BEFORE e AFTER rodam antes ou depois da operação, que continua sendo executada (e falharia em uma view não atualizável).
+- **D:** FOR EACH STATEMENT define a granularidade do disparo (uma vez por comando), não a substituição da operação.
+- **E:** Trigger DDL dispara em comandos como CREATE, ALTER e DROP.
+
+@@ ESP-BD-0066
+**Gabarito: C.** Atomicidade é o "tudo ou nada": ou todas as operações da transação são efetivadas ou nenhuma é.
+
+- **A:** Consistência: a transação leva o banco de um estado válido a outro estado válido.
+- **B:** Isolamento: transações concorrentes não interferem entre si.
+- **D:** Durabilidade: o que foi confirmado sobrevive a falhas.
+- **E:** Serializabilidade é critério de correção de escalonamentos concorrentes, não uma das quatro propriedades ACID.
+
+@@ ESP-BD-0067
+**Gabarito: Errado.** O 2PL (fase de crescimento, em que só se adquirem bloqueios, seguida da fase de encolhimento, em que só se liberam) garante a serializabilidade por conflito, mas **não** evita deadlock: duas transações podem ficar esperando bloqueios uma da outra. Só a variante conservadora, que bloqueia todos os itens antes de começar, é livre de deadlock.
+
+@@ ESP-BD-0068
+**Gabarito: B.** READ COMMITTED só lê dados confirmados, eliminando a leitura suja, mas ainda permite leitura não repetível e leitura fantasma.
+
+- **A:** A leitura suja é justamente o que esse nível impede.
+- **C:** Só fantasmas é o que resta no REPEATABLE READ.
+- **D:** Nenhuma anomalia corresponde ao SERIALIZABLE.
+- **E:** A leitura suja só ocorre em READ UNCOMMITTED.
+
+@@ ESP-BD-0069
+**Gabarito: C.** No **wait-die**, a transação mais antiga pode esperar pela mais nova, mas a mais nova que pede item da mais antiga "morre": é abortada e reiniciada com o **mesmo timestamp**, para envelhecer e não sofrer inanição.
+
+- **A:** Abortar a mais antiga (que detém o item) quando a pedinte é mais velha é o comportamento do wound-wait.
+- **B:** No wait-die quem espera é a transação mais antiga; a mais nova esperar é o que ocorre no wound-wait.
+- **D:** Apenas uma transação é abortada.
+- **E:** O esquema trata de prioridade por timestamp, não do modo do bloqueio.
+
+@@ ESP-BD-0070
+**Gabarito: D.** Há dois conflitos (operações de transações diferentes sobre o mesmo item, com ao menos uma escrita):
+
+- `r1(A)` antes de `w2(A)`: aresta T1 → T2.
+- `r2(B)` antes de `w1(B)`: aresta T2 → T1.
+
+As duas arestas formam um ciclo, logo S não é serializável por conflito.
+
+- **A:** Existem dois conflitos, portanto duas arestas.
+- **B e C:** Cada uma enxerga só um dos conflitos.
+- **E:** O grafo tem ciclo; além disso, grafo acíclico significa serializável, não serial (serial é sem intercalação).
+
+@@ ESP-BD-0071
+**Gabarito: C.** Leitura fantasma: a mesma consulta por predicado (agência = 10), repetida na transação, devolve linhas a mais (ou a menos) porque outra transação inseriu ou excluiu linhas que satisfazem o predicado.
+
+- **A:** Leitura suja é ler dado ainda não confirmado; aqui T2 confirmou.
+- **B:** Atualização perdida é uma escrita sobrepor a de outra transação.
+- **D:** Deadlock é espera circular por bloqueios.
+- **E:** Leitura não repetível é a **mesma linha** aparecer com valor diferente na releitura; aqui surgiu uma linha nova.
+
+@@ ESP-BD-0072
+**Gabarito: C.** Na atualização adiada, nada é gravado no banco antes do commit. Transações não confirmadas não deixaram rastro no disco (NO-UNDO); as confirmadas podem não ter chegado ao disco e precisam ser refeitas pelo log (REDO).
+
+- **A:** UNDO/REDO é o da atualização imediata em sua forma geral.
+- **B:** UNDO/NO-REDO é o da atualização imediata quando tudo é gravado em disco antes do commit.
+- **D:** NO-UNDO/NO-REDO é o da paginação sombra (*shadow paging*).
+- **E:** Checkpoint só reduz o trabalho de recuperação; não é um algoritmo de recuperação.
+
+@@ ESP-BD-0073
+**Gabarito: Errado.** É o oposto: pelo *write-ahead logging* (WAL), o registro de **log** que descreve a alteração deve estar em disco **antes** de a página de dados modificada ser gravada. Assim, sempre existe a informação necessária para desfazer (UNDO) a alteração. Além disso, os registros de log da transação são gravados antes da conclusão do commit, permitindo o REDO.
+
+@@ ESP-BD-0074
+**Gabarito: B.** No checkpoint, o SGBD grava em disco as páginas modificadas e registra o ponto no log. Na recuperação, as transações confirmadas antes dele não precisam ser refeitas, o que encurta o trecho de log a processar.
+
+- **A:** Bloqueios são liberados pelo controle de concorrência, ao fim das transações.
+- **C:** Backup continua necessário, por exemplo, para falhas de mídia.
+- **D:** Deadlock é tratado por prevenção, detecção ou timeout.
+- **E:** Isolamento é garantido por bloqueios ou multiversão, não por checkpoint.
+
+@@ ESP-BD-0075
+**Gabarito: C.** Com a falha logo após t6, o log conteria: T1 confirmada (t3, antes do checkpoint), T2 confirmada (t6) e T3 iniciada (t5) sem commit. Na atualização imediata, desfaz-se (UNDO) quem estava ativo na falha: apenas **T3**.
+
+- **A:** T1 confirmou antes do checkpoint: não precisa de nada.
+- **B:** T2 confirmou depois do checkpoint: precisa de REDO, não de UNDO.
+- **D:** Mistura a T2 (REDO) com a T3 (UNDO).
+- **E:** T4 só começa em t7, depois da falha considerada.
+
+@@ ESP-BD-0076
+**Gabarito: C.** **Steal**: o gerenciador de buffer pode "roubar" uma página suja de transação ainda não confirmada e gravá-la em disco. Isso obriga a ter UNDO na recuperação.
+
+- **A:** Force: as páginas alteradas são gravadas em disco no momento do commit (dispensa REDO).
+- **B:** No-force: o commit não obriga a gravar as páginas (exige REDO).
+- **D:** No-steal: página de transação não confirmada não vai para o disco (dispensa UNDO).
+- **E:** Shadow (paginação sombra) é uma técnica de recuperação, não uma política de buffer.
+
+@@ ESP-BD-0077
+**Gabarito: B.** Seleções e projeções reduzem linhas e colunas; aplicá-las cedo (perto das folhas da árvore) diminui o tamanho dos resultados intermediários que alimentam as junções.
+
+- **A:** Produto cartesiano antes das seleções gera resultados intermediários enormes.
+- **C:** Deixar as seleções para o topo é exatamente o que a heurística evita.
+- **D:** O que se faz é o inverso: combinar produto cartesiano com seleção em uma junção.
+- **E:** A varredura completa é apenas um dos caminhos de acesso; com filtro seletivo, o índice costuma ser melhor.
+
+@@ ESP-BD-0078
+**Gabarito: Certo.** O otimizador baseado em custo (CBO) gera planos alternativos e estima o custo de cada um (E/S, CPU) a partir de estatísticas do catálogo: número de linhas e de blocos, valores distintos por coluna, histogramas, altura dos índices. Escolhe o plano de menor custo estimado, e por isso estatísticas desatualizadas levam a planos ruins.
+
+@@ ESP-BD-0079
+**Gabarito: C.** O hash join tem duas fases: *build* (monta a tabela hash com a relação menor) e *probe* (percorre a maior consultando a tabela). Só serve para junção por igualdade.
+
+- **A:** Nested loops percorre, para cada linha da relação externa, a interna; é bom com poucas linhas ou com índice na interna.
+- **B:** Sort-merge ordena as duas relações pela chave de junção e as intercala.
+- **D:** Index seek é um método de acesso a uma tabela via índice, não um algoritmo de junção.
+- **E:** Bitmap join é um tipo de índice (Oracle) sobre junção pré-calculada, não constrói tabela de dispersão.
+
+@@ ESP-BD-0080
+**Gabarito: B.** `EXPLAIN PLAN FOR <consulta>` grava o plano na tabela PLAN_TABLE sem executar a consulta; depois ele é exibido com `DBMS_XPLAN.DISPLAY`.
+
+- **A:** `SHOW PLAN` não é comando do Oracle (lembra o `SET SHOWPLAN` do SQL Server).
+- **C:** `SET STATISTICS IO ON` é do SQL Server e mostra estatísticas de E/S de consultas executadas.
+- **D:** `DESCRIBE` mostra a estrutura (colunas e tipos) de uma tabela.
+- **E:** `ANALYZE QUERY` não existe; `ANALYZE` no Oracle coleta estatísticas de objetos.
+
+@@ ESP-BD-0081
+**Gabarito: B.** O índice B-tree guarda os valores de `data_mov`, não o resultado de `TO_CHAR(data_mov, 'YYYY')`. Com a função aplicada à coluna, o predicado deixa de ser sargável (não pode ser resolvido por busca no índice). Soluções: reescrever como faixa (`data_mov >= DATE '2024-01-01' AND data_mov < DATE '2025-01-01'`) ou criar um índice baseado em função.
+
+- **A:** Índices funcionam normalmente com datas.
+- **C:** `SELECT *` não impede o índice; só inviabiliza resolver a consulta apenas pelo índice (índice de cobertura).
+- **D:** Funções são permitidas no WHERE; o problema é só de desempenho.
+- **E:** Índices servem a filtros, junções e ordenação.
+
+@@ ESP-BD-0082
+**Gabarito: B.** O `PreparedStatement` é pré-compilado e recebe os valores por parâmetros (`?`), enviados separados do texto SQL. Isso permite reexecutar com eficiência e impede que a entrada do usuário seja interpretada como código (SQL Injection).
+
+- **A:** `Statement` executa SQL montado por concatenação de strings, vulnerável a injeção e recompilado a cada execução.
+- **C:** `ResultSet` representa o resultado de uma consulta.
+- **D:** `DriverManager` gerencia drivers e abre conexões.
+- **E:** `DatabaseMetaData` fornece informações sobre o banco (tabelas, versão, recursos).
+
+@@ ESP-BD-0083
+**Gabarito: Certo.** O driver tipo 4 (*thin*) é Java puro e fala diretamente o protocolo de rede do SGBD, sem bibliotecas nativas nem middleware; é o mais usado hoje. Para comparar: tipo 1 é a ponte JDBC-ODBC, tipo 2 usa a API nativa do banco (parte em código nativo) e tipo 3 é Java puro que passa por um servidor intermediário.
+
+@@ ESP-BD-0084
+**Gabarito: B.** No ODBC, a aplicação chama a API; o **Driver Manager** carrega o driver correspondente à fonte de dados e repassa a ele as chamadas; o driver fala com o SGBD.
+
+- **A:** O DSN (*Data Source Name*) é só o nome/configuração da fonte de dados (driver, servidor, banco).
+- **C:** Listener é o processo do Oracle que recebe as conexões de rede.
+- **D:** Data Pump é o utilitário de exportação e importação do Oracle.
+- **E:** Connection pool é o reaproveitamento de conexões abertas.
+
+@@ ESP-BD-0085
+**Gabarito: C.** O **msdb** é usado pelo SQL Server Agent (jobs, agendamentos, alertas, operadores) e guarda o histórico de backup e restauração.
+
+- **A:** master guarda as informações de nível de instância: logins, configurações e a lista dos bancos.
+- **B:** model é o modelo copiado para cada banco novo.
+- **D:** tempdb guarda objetos temporários e é recriado a cada inicialização.
+- **E:** resource é o banco oculto, somente leitura, com os objetos de sistema.
+
+@@ ESP-BD-0086
+**Gabarito: B.** O LGWR (*Log Writer*) grava o redo log buffer nos arquivos de redo log online, por exemplo a cada commit.
+
+- **A:** DBWn (*Database Writer*) grava os blocos de dados alterados do buffer cache nos datafiles.
+- **C:** SMON (*System Monitor*) faz a recuperação da instância na inicialização e limpezas de segmentos temporários.
+- **D:** PMON (*Process Monitor*) limpa os recursos de processos de usuário que falharam.
+- **E:** CKPT sinaliza o checkpoint e atualiza os cabeçalhos dos datafiles e o control file.
+
+@@ ESP-BD-0087
+**Gabarito: B.** Para Inmon, o DW é **orientado por assunto** (clientes, produtos, e não por aplicação), **integrado** (dados de várias fontes padronizados), **variante no tempo** (guarda histórico) e **não volátil** (os dados são carregados e consultados, não alterados a todo momento).
+
+- **A:** Orientado a aplicações, volátil e atual é o perfil dos sistemas transacionais (OLTP).
+- **C:** Normalizado, transacional e volátil também descreve OLTP.
+- **D:** Departamental lembra o data mart; atual e volátil contrariam a definição.
+- **E:** O DW não é operacional e a integração é uma de suas características centrais.
+
+@@ ESP-BD-0088
+**Gabarito: Certo.** No floco de neve (*snowflake*), as dimensões são normalizadas em hierarquias de tabelas (por exemplo, produto, categoria e departamento). Isso reduz redundância e espaço, mas as consultas precisam de mais junções e ficam mais complexas. No esquema estrela, as dimensões são desnormalizadas e ligadas diretamente à tabela fato.
+
+@@ ESP-BD-0089
+**Gabarito: B.** Ir de região para agência é descer na hierarquia, aumentando o nível de detalhe: drill-down.
+
+- **A:** Roll-up é o inverso: sobe na hierarquia e agrega (de agência para região).
+- **C:** Slice fixa um valor de uma dimensão, cortando uma fatia do cubo.
+- **D:** Pivot gira os eixos de visualização (troca linhas por colunas).
+- **E:** Drill-across combina, na mesma análise, fatos de tabelas fato diferentes por dimensões comuns.
+
+@@ ESP-BD-0090
+**Gabarito: B.** A SCD tipo 2 insere uma nova linha na dimensão para a nova versão do cliente, com nova chave substituta e controle de vigência (datas de início e fim ou indicador de registro atual). O histórico completo é preservado.
+
+- **A:** Sobrescrever, perdendo o histórico, é o tipo 1.
+- **C:** Coluna com o valor anterior é o tipo 3 (histórico limitado).
+- **D:** A fato não é atualizada: os fatos antigos continuam apontando para a versão antiga da dimensão.
+- **E:** Nada é excluído.
+
+@@ ESP-BD-0091
+**Gabarito: B.** Medida **semiaditiva** pode ser somada em algumas dimensões, mas não em todas. Saldos podem ser somados entre contas ou agências em uma mesma data, mas não ao longo do tempo (somar os saldos de 30 dias não significa nada; usa-se média ou último valor).
+
+- **A:** Aditiva soma em todas as dimensões (ex.: valor de vendas).
+- **C:** Não aditiva não pode ser somada em nenhuma (ex.: percentuais, taxas).
+- **D:** "Degenerada" qualifica dimensão (chave sem tabela própria, como o número da nota), não medida.
+- **E:** Dimensão junk agrupa indicadores e flags de baixa cardinalidade; não se relaciona com aditividade.
+
+@@ ESP-BD-0092
+**Gabarito: B.** Slice fixa um único valor em uma dimensão e gera uma "fatia" do cubo, com uma dimensão a menos.
+
+- **A:** Dice seleciona valores ou faixas em duas ou mais dimensões, produzindo um subcubo.
+- **C:** Drill-through vai do dado agregado aos registros detalhados da fonte.
+- **D:** Roll-up sobe na hierarquia, agregando.
+- **E:** Pivot apenas gira os eixos de visualização.
+
+@@ ESP-BD-0093
+**Gabarito: C.** Agrupamento (*clustering*) é tarefa descritiva e não supervisionada: os grupos são descobertos pela semelhança entre os registros, sem rótulos prévios.
+
+- **A:** Classificação atribui registros a classes já definidas, aprendidas de exemplos rotulados.
+- **B:** Regressão prevê um valor numérico contínuo.
+- **D:** Associação descobre itens que ocorrem juntos (regras do tipo "quem compra A compra B").
+- **E:** Sumarização produz descrições compactas dos dados (médias, totais, perfis).
+
+@@ ESP-BD-0094
+**Gabarito: Certo.** No modelo de Fayyad, o KDD tem cinco etapas: seleção, pré-processamento (limpeza), transformação, **mineração de dados** e interpretação/avaliação. A mineração é a etapa em que os algoritmos extraem os padrões, mas não se confunde com o processo inteiro.
+
+@@ ESP-BD-0095
+**Gabarito: D.** Confiança(A ⇒ B) = transações com A e B / transações com A = 30 / 40 = **75%**: das compras que têm A, três quartos também têm B.
+
+- **A:** 15% é o suporte da regra (30 / 200).
+- **B:** 20% é o suporte de A (40 / 200).
+- **C:** 30% apenas repete o número 30 como percentual.
+- **E:** 133% é a divisão invertida (40 / 30); confiança nunca passa de 100%.
+
+@@ ESP-BD-0096
+**Gabarito: C.** Árvores de decisão e Naive Bayes são classificadores: aprendem com exemplos rotulados e atribuem uma classe a novos registros.
+
+- **A:** k-means e DBSCAN são algoritmos de agrupamento.
+- **B:** Apriori e FP-Growth mineram regras de associação.
+- **D:** Mistura agrupamento (k-means) e associação (Apriori).
+- **E:** PCA é redução de dimensionalidade e DBSCAN é agrupamento.
+
+@@ ESP-BD-0097
+**Gabarito: D.** As seis fases do CRISP-DM, em ordem: (1) entendimento do negócio, (2) entendimento dos dados, (3) preparação dos dados, (4) **modelagem**, (5) avaliação, (6) implantação.
+
+- **A:** A primeira é o entendimento do negócio.
+- **B:** A segunda é o entendimento dos dados.
+- **C:** A terceira é a preparação dos dados (em geral a mais demorada).
+- **E:** A sexta é a implantação.
+
+@@ ESP-BD-0098
+**Gabarito: D.** Bancos de grafos armazenam nós e arestas (relacionamentos) com propriedades e percorrem vínculos de forma eficiente, sem junções custosas. Exemplo: Neo4j.
+
+- **A:** Chave-valor faz busca simples pela chave (cache, sessões); não modela relacionamentos.
+- **B:** Documentos guardam agregados JSON autocontidos; relacionamentos entre documentos são trabalhosos.
+- **C:** Colunas (famílias de colunas) atendem grandes volumes com escrita intensa e consultas pela chave.
+- **E:** Orientado a objetos não é uma das quatro categorias NoSQL clássicas.
+
+@@ ESP-BD-0099
+**Gabarito: Errado.** O teorema CAP diz justamente que não se pode garantir as três propriedades ao mesmo tempo. Como partições de rede são inevitáveis em sistemas distribuídos, quando uma ocorre é preciso escolher entre consistência (CP, recusando operações) e disponibilidade (AP, respondendo com dados possivelmente desatualizados). A replicação síncrona favorece a consistência, mas sacrifica a disponibilidade durante a partição.
+
+@@ ESP-BD-0100
+**Gabarito: C.** BASE = **B**asically **A**vailable (basicamente disponível), **S**oft state (estado flexível) e **E**ventual consistency (consistência eventual): as réplicas podem divergir por um tempo, mas convergem se não houver novas escritas. É o contraponto ao ACID.
+
+- **A, B, D e E:** São expressões inventadas; nenhuma faz parte do acrônimo.
+
+@@ ESP-BD-0101
+**Gabarito: B.** MongoDB (BSON) e CouchDB (JSON) armazenam documentos semiestruturados, com esquema flexível.
+
+- **A:** Chave-valor: Redis, DynamoDB, Riak.
+- **C:** Família de colunas: Cassandra, HBase.
+- **D:** Grafo: Neo4j.
+- **E:** Não são relacionais: não usam tabelas com esquema fixo nem junções como base do modelo.
+
+@@ ESP-BD-0102
+**Gabarito: B.** Sharding é o particionamento horizontal: os dados são divididos por uma chave (*shard key*) entre vários servidores, e cada um guarda uma parte. É a base da escalabilidade horizontal.
+
+- **A:** Normalização é técnica de projeto para reduzir redundância.
+- **C:** Replicação copia os **mesmos** dados em vários nós (disponibilidade), em vez de dividi-los.
+- **D:** Desnormalização introduz redundância para acelerar leituras.
+- **E:** Bitmap é um tipo de índice.
+
+@@ ESP-BD-0103
+**Gabarito: B.** Em PL/pgSQL, um `SELECT` precisa de destino (`INTO`); para executar uma consulta ou função só pelo efeito, descartando o resultado, usa-se `PERFORM` no lugar de `SELECT` (ex.: `PERFORM minha_funcao(1);`).
+
+- **A:** `CALL` invoca procedimentos (`CREATE PROCEDURE`), não funções.
+- **C:** `EXECUTE IMMEDIATE` é o SQL dinâmico do Oracle; no PL/pgSQL usa-se apenas `EXECUTE`.
+- **D:** `DBMS_OUTPUT` é pacote do Oracle para exibir mensagens (no PostgreSQL usa-se `RAISE NOTICE`).
+- **E:** `RETURN NEXT` acrescenta uma linha ao resultado de uma função que retorna conjunto.
+
+@@ ESP-BD-0104
+**Gabarito: B.** No PostgreSQL o gatilho é criado em duas etapas: primeiro uma função sem argumentos que retorna `trigger` (com acesso a `NEW` e `OLD`), depois o `CREATE TRIGGER`, que a associa à tabela e ao evento.
+
+- **A:** Não existe gatilho com corpo embutido no PostgreSQL; a função é obrigatória (corpo embutido é o estilo Oracle).
+- **C:** Packages são recurso do Oracle, inexistentes no PostgreSQL.
+- **D:** Visão materializada guarda resultado de consulta e é atualizada com `REFRESH`, não é gatilho.
+- **E:** O gatilho executa uma função, e não um procedimento chamado por `CALL`.
+
+@@ ESP-BD-0105
+**Gabarito: Certo.** Os procedimentos (`CREATE PROCEDURE`, chamados com `CALL`) surgiram no PostgreSQL 11 e podem executar COMMIT e ROLLBACK no próprio corpo. Funções rodam dentro da transação do comando que as chamou e não podem controlar transações.
+
+@@ ESP-BD-0106
+**Gabarito: E.** O `MERGE` do padrão SQL foi incluído no PostgreSQL 15 (2022).
+
+- **A:** A versão 9.5 trouxe o `INSERT ... ON CONFLICT` (o "upsert"), que era a alternativa até então.
+- **B, C e D:** As versões 12, 13 e 14 ainda não tinham MERGE.
+
+@@ ESP-BD-0107
+**Gabarito: B.** O H2 é um banco relacional escrito em Java que roda embutido na própria JVM e em memória (`jdbc:h2:mem:`), sem servidor para instalar; é escolha comum em testes de integração com Spring Boot.
+
+- **A:** Oracle 19c exige instalação e administração de um servidor.
+- **C:** MongoDB Atlas é serviço em nuvem de banco de documentos (NoSQL).
+- **D:** Redis é chave-valor em memória, mas não relacional.
+- **E:** Cassandra é NoSQL de família de colunas, distribuído.
+

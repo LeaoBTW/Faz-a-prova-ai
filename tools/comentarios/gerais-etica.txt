@@ -1,0 +1,224 @@
+@@ ETI-0001
+**Gabarito: B.** No Guia de Conduta Ética do Banestes, prudência é agir com atenção e cuidado nos assuntos do trabalho, evitando ações que ponham em risco as atribuições, o patrimônio ou a imagem da instituição. É um princípio de conduta individual do profissional.
+
+- **A:** Defesa da concorrência em emissões de títulos é tema de regulação de mercado (CVM), não princípio de conduta.
+- **C:** Regulação prudencial do sistema financeiro é função do CMN e do Banco Central; a semelhança com "prudência" é só de nome.
+- **D:** Cumprir normas do BCB é dever de conformidade, não a definição de prudência.
+- **E:** Regras do mercado segurador cabem ao CNSP e à Susep.
+
+@@ ETI-0002
+**Gabarito: D.** O art. 1º da Lei 9.613/1998 define a lavagem: "ocultar ou dissimular a natureza, origem, localização, disposição, movimentação ou propriedade de bens, direitos ou valores provenientes, direta ou indiretamente, de infração penal".
+
+- **A:** Uso de informação privilegiada (*insider trading*) é crime contra o mercado de capitais (Lei 6.385/1976).
+- **B:** Fraude em demonstrativos contábeis é outro delito (por exemplo, crime contra o sistema financeiro).
+- **C:** Não recolher IOF é questão tributária.
+- **E:** Remeter recursos ao exterior é lícito se feito pelos canais legais; irregular, pode ser evasão de divisas (Lei 7.492/1986), não lavagem por si só.
+
+@@ ETI-0003
+**Gabarito: A.** A Lei 9.613/1998 tipifica os crimes de lavagem ou ocultação de bens, direitos e valores, impõe deveres de prevenção às instituições e criou o Coaf. Também serve de base à prevenção do financiamento do terrorismo, embora esse crime esteja tipificado na Lei 13.260/2016 (Lei Antiterrorismo).
+
+- **B:** A Lei 8.212/1991 trata do custeio da Seguridade Social.
+- **C:** A Lei 8.213/1991 trata dos benefícios da Previdência Social.
+- **D:** A Lei 9.605/1998 é a Lei de Crimes Ambientais.
+
+@@ ETI-0004
+**Gabarito: A.** Os "Rs" da consciência ambiental citados no Guia de Conduta Ética do Banestes são quatro: **reduzir, reutilizar, reciclar e repensar**. O enunciado é longo, mas a pergunta é só essa lista.
+
+- **B:** Omite reduzir e reutilizar e inclui "restaurar", que não consta.
+- **C:** Omite reduzir e repensar e inclui "responsabilizar", que não consta.
+- **D:** Traz só dois dos quatro; o "somente" torna a alternativa errada.
+
+@@ ETI-0005
+**Gabarito: D.** O Conselho de Conduta Ética do Banestes é paritário: 3 membros titulares e 3 suplentes indicados pela Diretoria, e 3 titulares e 3 suplentes eleitos pelos empregados do SFB (12 pessoas no total).
+
+- **A:** Erra os números (2 e 1) e quebra a paridade entre indicados e eleitos.
+- **B:** Mantém a paridade, mas com 2 membros de cada lado em vez de 3.
+- **C:** Erra o número e a origem: a indicação é da Diretoria, não do Conselho anterior.
+
+@@ ETI-0006
+**Gabarito: C.** A **colocação** (*placement*) é a primeira fase da lavagem: a entrada do dinheiro sujo no sistema econômico. Fracionar o valor em depósitos pequenos para fugir dos controles (*smurfing* ou estruturação) é técnica típica dessa fase.
+
+- **A:** Integração é a terceira fase: o dinheiro volta à economia com aparência lícita (compra de imóveis, empresas).
+- **B:** Ocultação (*layering*) é a segunda fase: sucessivas transferências e operações para apagar o rastro.
+- **D e E:** Reinvestimento e compensação não são fases da lavagem; as fases são colocação, ocultação e integração.
+
+@@ ETI-0007
+**Gabarito: D.** Pelo art. 11 da Lei 9.613/1998, as pessoas obrigadas comunicam as operações suspeitas ao Coaf, a Unidade de Inteligência Financeira do Brasil, no prazo de 24 horas, **abstendo-se de dar ciência** do ato a qualquer pessoa, inclusive ao cliente.
+
+- **A:** O destinatário é o Coaf, e avisar o cliente é proibido.
+- **B:** A CVM não é a destinatária, e o prazo é de 24 horas.
+- **C:** A comunicação é preventiva, feita diante da mera suspeita, sem depender de condenação.
+- **E:** Não vai à Receita Federal, e o cliente não recebe cópia.
+
+@@ ETI-0008
+**Gabarito: B.** A **ocultação** (*layering* ou estratificação) é a segunda fase: o dinheiro já inserido passa por várias camadas de transferências, contas e empresas de fachada, muitas vezes em paraísos fiscais, para quebrar a cadeia de evidências sobre a origem.
+
+- **A:** Colocação é a entrada do dinheiro no sistema financeiro.
+- **C:** Integração é o retorno dos recursos à economia formal, com aparência lícita.
+- **D:** Estruturação é o fracionamento de depósitos (*smurfing*), técnica da fase de colocação.
+- **E:** Conversão não é nome de fase da lavagem.
+
+@@ ETI-0009
+**Gabarito: C.** A Lei 12.683/2012 eliminou o rol de crimes antecedentes. Desde então, o art. 1º da Lei 9.613/1998 fala em bens provenientes de "infração penal", gênero que abrange crimes e contravenções (como o jogo do bicho). É a chamada lei de terceira geração.
+
+- **A:** Só o tráfico de drogas era o modelo das leis de primeira geração.
+- **B:** O rol taxativo era o modelo da redação original (segunda geração), revogado em 2012.
+- **D e E:** Não há restrição ao tipo de infração nem a quem a pratica.
+
+@@ ETI-0010
+**Gabarito: Errado.** O art. 11, II, da Lei 9.613/1998 manda comunicar a operação suspeita ao Coaf **sem dar ciência** a qualquer pessoa, inclusive àquela a quem a informação se refere. Avisar o cliente (*tipping off*) frustraria a investigação. Não há contraditório nessa etapa, que é de inteligência financeira, e a comunicação de boa-fé não gera responsabilidade civil ou administrativa.
+
+@@ ETI-0011
+**Gabarito: C.** Pelo art. 12, II, da Lei 9.613/1998, a multa pecuniária é variável e não pode ser superior: (a) ao dobro do valor da operação; (b) ao dobro do lucro real obtido ou que presumivelmente seria obtido com a operação; ou (c) a **R$ 20.000.000,00**.
+
+- **A, B e D:** Valores que não constam da lei.
+- **E:** A lei não usa percentual do faturamento (critério da Lei Anticorrupção, 12.846/2013, que vai de 0,1% a 20% do faturamento bruto).
+
+As demais sanções do art. 12 são advertência, inabilitação temporária por até dez anos e cassação ou suspensão da autorização.
+
+@@ ETI-0012
+**Gabarito: Certo.** O Coaf (Conselho de Controle de Atividades Financeiras) é a Unidade de Inteligência Financeira do Brasil: recebe, examina e analisa comunicações de operações suspeitas e produz relatórios de inteligência para as autoridades. Pela Lei 13.974/2020, está vinculado administrativamente ao Banco Central, com autonomia técnica e operacional. Antes, esteve nos ministérios da Fazenda, da Justiça e da Economia.
+
+@@ ETI-0013
+**Gabarito: Certo.** É o texto do art. 1º, § 4º, da Lei 9.613/1998: a pena (reclusão de 3 a 10 anos e multa) é aumentada de 1/3 a 2/3 se o crime for cometido de forma reiterada, por intermédio de organização criminosa ou por meio da utilização de ativo virtual. Essa última hipótese foi incluída pela Lei 14.478/2022, o marco legal dos criptoativos.
+
+@@ ETI-0014
+**Gabarito: B.** A Circular BCB 3.978/2020 (art. 10) exige que a avaliação interna de risco (AIR) considere, no mínimo, quatro perfis de risco: dos clientes; da instituição (modelo de negócio e área geográfica de atuação); das operações, transações, produtos e serviços; e das atividades de funcionários, parceiros e prestadores de serviços terceirizados.
+
+- **A:** Os clientes são apenas um dos quatro perfis.
+- **C:** Produtos e serviços também são só um deles.
+- **D:** Controladores e Banco Central não são perfis da AIR.
+- **E:** PEPs e pessoas jurídicas são tipos de cliente, já incluídos no primeiro perfil.
+
+@@ ETI-0015
+**Gabarito: C.** São PEP os ocupantes de cargos públicos relevantes, no Brasil e no exterior, nos últimos cinco anos. A instituição deve aplicar diligência reforçada a eles e também a seus familiares e estreitos colaboradores.
+
+- **A:** Não há proibição de relacionamento, só controles mais rigorosos.
+- **B:** A condição perdura por cinco anos depois de a pessoa deixar o cargo.
+- **D:** Há PEPs brasileiras (chefes de Poder, ministros, parlamentares etc.) e estrangeiras.
+- **E:** Ser PEP não presume ilicitude; indica maior exposição ao risco.
+
+@@ ETI-0016
+**Gabarito: Certo.** Segundo a apostila 03 (§10), a regulamentação de PLD/FT passou a incluir, entre as comunicações automáticas ao Coaf (as que independem de análise de suspeição), as transferências de ativos virtuais de ou para carteiras autocustodiadas em valor igual ou superior ao equivalente a US$ 10 mil. A regra foi incluída pela Resolução BCB 588/2026, reproduzida pela Resolução BCB 591/2026, em vigor desde 1º/10/2026. É o mesmo tipo de comunicação objetiva das operações em espécie de valor elevado.
+
+@@ ETI-0017
+**Gabarito: B.** Beneficiário final é sempre uma **pessoa natural**: aquela que, em última instância, possui, controla ou influencia significativamente o cliente pessoa jurídica. Para identificá-la, a instituição percorre a cadeia societária.
+
+- **A:** A pessoa jurídica é o cliente; busca-se quem está por trás dela.
+- **C:** O gerente é empregado do banco, sem relação com o conceito.
+- **D:** Não basta qualquer participação: a instituição fixa um percentual mínimo de referência, que não pode passar de 25%.
+- **E:** O procurador é representante e também deve ser identificado, mas não é o beneficiário final.
+
+@@ ETI-0018
+**Gabarito: Certo.** A Circular BCB 3.978/2020 substituiu regras uniformes pela abordagem baseada em risco: a instituição faz sua avaliação interna de risco, classifica clientes, produtos e operações em categorias e ajusta os controles. Riscos maiores pedem controles reforçados; riscos menores admitem controles simplificados.
+
+@@ ETI-0019
+**Gabarito: B.** A Lei 7.492/1986 (crimes contra o sistema financeiro nacional) pune, no art. 4º, parágrafo único, a gestão **temerária** com reclusão de 2 a 8 anos e multa.
+
+- **A:** É crime, não mera infração administrativa.
+- **C:** A gestão fraudulenta (art. 4º, *caput*) é mais grave: reclusão de 3 a 12 anos e multa.
+- **D:** Contravenção é infração de menor gravidade, sem pena de reclusão.
+- **E:** Os crimes dessa lei são de competência da Justiça Federal, com ação penal do Ministério Público Federal.
+
+@@ ETI-0020
+**Gabarito: B.** O art. 1º, § 3º, IV, da LC 105/2001 diz que não viola o sigilo a comunicação, às autoridades competentes, da prática de ilícitos penais ou administrativos, com informações sobre operações que envolvam recursos de origem criminosa. É o que ampara as comunicações ao Coaf.
+
+- **A:** Extrato entregue a terceiro sem autorização do titular é quebra de sigilo.
+- **C:** Divulgar saldos de clientes viola o sigilo, qualquer que seja o motivo.
+- **D:** O Ministério Público, em regra, depende de ordem judicial; "em qualquer caso" torna a alternativa errada.
+- **E:** Vender cadastros viola o sigilo e a LGPD.
+
+@@ ETI-0021
+**Gabarito: Certo.** O art. 22 da Lei 7.492/1986 pune a evasão de divisas com reclusão de 2 a 6 anos e multa. O parágrafo único equipara ao crime quem promove, sem autorização legal, a saída de moeda ou divisa para o exterior, ou nele mantém depósitos não declarados à repartição federal competente. Ter conta no exterior é lícito; o crime está em não declarar.
+
+@@ ETI-0022
+**Gabarito: B.** Pelo art. 4º, §§ 1º e 2º, da LC 105/2001, as comissões parlamentares de inquérito podem obter informações sigilosas diretamente das instituições financeiras ou por meio do Banco Central e da CVM, desde que a solicitação seja aprovada previamente pelo plenário da Câmara, do Senado ou da própria CPI.
+
+- **A:** As CPIs têm poderes de investigação próprios das autoridades judiciais (CF, art. 58, § 3º).
+- **C:** Por isso mesmo, não dependem de ordem judicial.
+- **D:** O poder alcança instituições públicas e privadas.
+- **E:** O Coaf não é intermediário desses pedidos.
+
+@@ ETI-0023
+**Gabarito: Errado.** O direito à eliminação de dados não é absoluto. O art. 16, I, da LGPD autoriza conservar os dados para cumprimento de obrigação legal ou regulatória pelo controlador, que também é base legal de tratamento (art. 7º, II). Como a regulamentação de PLD/FT obriga o banco a guardar os registros de operações por prazo mínimo, ele pode e deve recusar a eliminação enquanto a obrigação durar.
+
+@@ ETI-0024
+**Gabarito: B.** Prudência, no Guia, é atuar com atenção e cuidado, evitando ações que ponham em risco as atribuições, o patrimônio ou a imagem da instituição.
+
+- **A:** Temperança é exercer as funções com moderação, usando as prerrogativas do cargo só para cumprir os deveres.
+- **C:** Discrição é reserva quanto a informações e assuntos da instituição e dos clientes.
+- **D:** Lealdade é fidelidade à instituição e a seus objetivos.
+- **E:** Tolerância é aceitar críticas e formas diferentes de pensar.
+
+@@ ETI-0025
+**Gabarito: C.** Temperança é moderação: exercer as funções sem excessos e usar as prerrogativas do cargo apenas para o cumprimento dos deveres, nunca em benefício próprio.
+
+- **A:** Aceitar críticas e formas diferentes de pensar é tolerância.
+- **B:** Manter o endividamento sob controle é dever ligado à administração financeira pessoal.
+- **D:** Guardar sigilo sobre operações é dever de sigilo (e de discrição).
+- **E:** Cumprir determinações dos superiores decorre do respeito à hierarquia.
+
+@@ ETI-0026
+**Gabarito: Certo.** O Guia de Conduta Ética considera conivente o profissional que toma conhecimento de conduta contrária às suas disposições e deixa de comunicá-la. Ou seja, o dever não é só de não violar o Guia: é também de relatar as violações de que souber, pelos canais próprios (como o Conselho de Conduta Ética). A omissão é tratada como falta.
+
+@@ ETI-0027
+**Gabarito: C.** O Guia admite brindes promocionais de uso cotidiano e fixa um limite anual para presentes (segundo a apostila 03 §12, R$ 100,00 por ano civil, somados por ofertante). O que ultrapassar o limite deve ser comunicado por escrito ao Conselho de Conduta Ética, que destina o presente a instituições filantrópicas.
+
+- **A:** Declarar não basta: há limite de valor.
+- **B:** Brindes simples, como canetas e agendas, são permitidos.
+- **D:** Datas comemorativas não afastam o limite.
+- **E:** O limite não é de um salário mínimo.
+
+@@ ETI-0028
+**Gabarito: Errado.** O Conselho de Conduta Ética é paritário: 3 titulares e 3 suplentes indicados pela Diretoria e 3 titulares e 3 suplentes eleitos pelos empregados do Sistema Financeiro Banestes. O erro está em "exclusivamente": metade do conselho vem do voto dos empregados.
+
+@@ ETI-0029
+**Gabarito: B.** O Guia trata como nepotismo, conduta inadequada e vedada, a contratação ou o favorecimento de cônjuge, companheiro ou parente até o terceiro grau (tios e sobrinhos, por exemplo), sobretudo em relação de subordinação.
+
+- **A:** O mérito do parente não afasta a vedação.
+- **C:** Incompatibilidade de atividades refere-se a atividades externas que conflitam com as funções no banco.
+- **D:** É o oposto: uso do cargo em favor de familiares.
+- **E:** O caso não tem relação com liberdade de expressão.
+
+@@ ETI-0030
+**Gabarito: B.** A Lei 12.846/2013 (Lei Anticorrupção) estabelece a responsabilidade **objetiva** da pessoa jurídica, nas esferas administrativa e civil, pelos atos lesivos praticados em seu interesse ou benefício: basta provar o ato e o nexo, sem discutir dolo ou culpa.
+
+- **A:** Culpa e dolo só importam para a responsabilização das pessoas físicas (dirigentes), que é subjetiva.
+- **C:** A lei não cria responsabilidade penal da empresa.
+- **D:** A empresa responde diretamente, independentemente da responsabilização dos indivíduos.
+- **E:** Alcança atos contra a administração pública nacional e estrangeira.
+
+@@ ETI-0031
+**Gabarito: B.** No modelo das três linhas (IIA), a segunda linha reúne as funções de gestão de riscos, controles internos e compliance, que apoiam e monitoram a primeira.
+
+- **A:** A primeira linha são as áreas de negócio e operacionais, donas dos riscos e dos controles do dia a dia.
+- **C:** A terceira linha é a auditoria interna, que avalia as outras duas com independência.
+- **D:** A auditoria externa é prestadora de avaliação externa, fora das três linhas.
+- **E:** A alta administração e o conselho formam o corpo de governança, a quem as linhas se reportam.
+
+@@ ETI-0032
+**Gabarito: B.** O risco climático **de transição** é a possibilidade de perdas ligadas à passagem para uma economia de baixo carbono: novas leis e regulações, mudanças tecnológicas, de mercado e de preferência dos consumidores.
+
+- **A:** O risco climático físico decorre de intempéries frequentes e severas ou de alterações ambientais de longo prazo (enchentes, secas, elevação do nível do mar).
+- **C:** O risco social envolve violação de direitos e garantias fundamentais ou atos lesivos ao interesse comum.
+- **D:** O risco operacional vem de falhas em processos, pessoas, sistemas ou de eventos externos.
+- **E:** O risco de liquidez é não conseguir honrar obrigações no vencimento.
+
+@@ ETI-0033
+**Gabarito: Certo.** A Agenda 2030, adotada pelos países-membros da ONU em 2015, reúne 17 Objetivos de Desenvolvimento Sustentável (ODS), desdobrados em 169 metas, a serem alcançados até 2030. Abrangem temas como erradicação da pobreza, educação, igualdade de gênero, energia limpa e ação climática.
+
+@@ ETI-0034
+**Gabarito: B.** A Resolução CMN 4.945/2021 dispõe sobre a Política de Responsabilidade Social, Ambiental e Climática (PRSAC) e as ações para sua efetividade.
+
+- **A:** A Resolução CMN 4.595/2017 trata da política de conformidade (compliance).
+- **C:** A Circular BCB 3.978/2020 trata da prevenção à lavagem de dinheiro e ao financiamento do terrorismo.
+- **D:** A Lei 12.846/2013 é a Lei Anticorrupção, e nem é norma do CMN.
+- **E:** A Lei 9.613/1998 é a lei dos crimes de lavagem de dinheiro.
+
+@@ ETI-0035
+**Gabarito: C.** A auditoria interna é a terceira linha: avalia, com independência e objetividade, a eficácia da governança, da gestão de riscos e dos controles, reportando-se ao conselho de administração ou ao comitê de auditoria.
+
+- **A:** A primeira linha são as áreas de negócio e operação, que gerenciam os riscos no dia a dia.
+- **B:** A segunda linha são as funções de gestão de riscos e compliance.
+- **D e E:** O modelo não tem linha zero nem quarta linha; a auditoria externa e os reguladores ficam fora das três linhas.
+

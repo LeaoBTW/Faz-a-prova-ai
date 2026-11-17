@@ -1,0 +1,69 @@
+@@ ESP-NUVEM-0001
+**Gabarito: A.** No **PaaS** (plataforma como serviço), o cliente implanta a própria aplicação e ajusta suas configurações; o provedor administra rede, servidores, sistema operacional, patches, runtime e escalabilidade.
+
+- **B:** No IaaS o cliente recebe máquinas virtuais, rede e armazenamento e precisa administrar o sistema operacional e o servidor de aplicação.
+- **C:** No SaaS o cliente só usa uma aplicação pronta do provedor; não implanta código próprio.
+- **D:** Nuvem comunitária é modelo de **implantação** (quem usa a nuvem), não de serviço.
+- **E:** Nuvem híbrida também é modelo de implantação.
+
+@@ ESP-NUVEM-0002
+**Gabarito: B.** O NIST (SP 800-145) define cinco características essenciais: **autoatendimento sob demanda**, **amplo acesso à rede**, **agrupamento de recursos** (*resource pooling*, multi-inquilino), **elasticidade rápida** e **serviço medido**.
+
+- **A:** Virtualização é tecnologia de base, multicloud é estratégia e pagamento antecipado contraria o serviço medido (paga-se pelo uso).
+- **C:** Mistura os três modelos de serviço (IaaS, PaaS, SaaS) com modelos de implantação (pública, privada).
+- **D:** Alta disponibilidade, criptografia e SLA não estão na lista do NIST.
+- **E:** O acesso é amplo, por redes padrão (não rede privada), e os recursos são agrupados e compartilhados (não dedicados).
+
+@@ ESP-NUVEM-0004
+**Gabarito: Errado.** Pela definição do NIST, a nuvem híbrida é a composição de duas ou mais infraestruturas de nuvem (privada, comunitária ou pública) que **permanecem entidades distintas**, mas são ligadas por tecnologia padronizada ou proprietária que permite a portabilidade de dados e aplicações (por exemplo, *cloud bursting*). Também não há exigência de um único provedor: o caso típico combina a nuvem privada da organização com a pública de um fornecedor.
+
+@@ ESP-NUVEM-0005
+**Gabarito: C.** A nuvem **comunitária** é de uso exclusivo de uma comunidade de organizações com preocupações em comum (missão, requisitos de segurança, política, conformidade regulatória). Pode ser gerida pelas próprias organizações ou por terceiros.
+
+- **A:** A nuvem pública é aberta ao público em geral.
+- **B:** A nuvem privada é de uso exclusivo de **uma única** organização.
+- **D:** A híbrida é a composição de duas ou mais nuvens distintas, interligadas.
+- **E:** Computação de borda (*edge*) é processamento próximo da origem dos dados, não um modelo de implantação do NIST.
+
+@@ ESP-NUVEM-0006
+**Gabarito: C.** **Multicloud** é usar serviços de dois ou mais provedores de nuvem ao mesmo tempo, para reduzir a dependência de um fornecedor (*vendor lock-in*), aumentar a resiliência e aproveitar o melhor de cada um.
+
+- **A:** *Cloud bursting* é transbordar a carga da nuvem privada para a pública nos picos de demanda.
+- **B:** Nuvem comunitária é modelo de implantação compartilhado por organizações com interesses comuns.
+- **D:** *Fog computing* leva processamento e armazenamento a nós intermediários entre os dispositivos e a nuvem.
+- **E:** *Lift and shift* é migrar a aplicação para a nuvem como está, sem reescrevê-la.
+
+@@ ESP-NUVEM-0007
+**Gabarito: C.** No IaaS o provedor responde pela segurança **da** nuvem (instalações físicas, hardware, rede, hipervisor) e o cliente pela segurança **na** nuvem: sistema operacional das máquinas virtuais (inclusive patches), aplicações, dados, contas e regras de firewall.
+
+- **A:** A segurança física do data center é sempre do provedor.
+- **B:** O hipervisor é mantido pelo provedor.
+- **D:** A troca de hardware defeituoso é do provedor.
+- **E:** Energia e redundância das zonas de disponibilidade são do provedor.
+
+@@ ESP-NUVEM-0008
+**Gabarito: C.** **Elasticidade** é a capacidade de provisionar e liberar recursos de forma automática e rápida, acompanhando a carga para cima e para baixo, com cobrança pelo que foi usado. A diferença para a escalabilidade é o ajuste dinâmico nos dois sentidos.
+
+- **A:** Escalabilidade vertical é aumentar os recursos de uma mesma máquina (mais CPU, mais memória); não implica automatismo nem redução.
+- **B:** Alta disponibilidade é manter o serviço no ar, com redundância.
+- **D:** Tolerância a falhas é continuar operando mesmo quando um componente falha.
+- **E:** Portabilidade é poder mover a aplicação entre ambientes ou provedores.
+
+@@ ESP-NUVEM-0009
+**Gabarito: Errado.** *Serverless* não quer dizer ausência de servidores: o código (por exemplo, funções em FaaS) executa em servidores do **provedor de nuvem**, não no navegador. "Sem servidor" significa que o cliente não provisiona nem administra servidores; o provedor aloca a capacidade sob demanda, escala automaticamente (inclusive a zero) e cobra pelo tempo de execução.
+
+@@ ESP-NUVEM-0010
+**Gabarito: B.** O **RPO** (*Recovery Point Objective*) é o ponto no tempo até onde os dados precisam ser recuperados: a perda máxima tolerável de dados, medida em tempo. Um RPO de 1 hora exige backup ou replicação pelo menos a cada hora.
+
+- **A:** O RTO (*Recovery Time Objective*) é o tempo máximo aceitável para restabelecer o serviço após a interrupção.
+- **C:** O MTTR é o tempo médio de reparo.
+- **D:** O MTBF é o tempo médio entre falhas, medida de confiabilidade.
+- **E:** O SLA é o acordo de nível de serviço entre provedor e cliente.
+
+@@ ESP-NUVEM-0011
+**Gabarito: C.** O fator III (Config) do Twelve-Factor App manda guardar no **ambiente** tudo o que varia entre implantações (credenciais, endereços de banco e de serviços), em variáveis de ambiente, com separação estrita entre configuração e código. Assim, o mesmo build roda em qualquer ambiente.
+
+- **A:** Constantes no código misturam configuração e código e expõem credenciais no repositório.
+- **B:** Arquivos versionados com o código têm o mesmo problema e acabam vazando segredos.
+- **D:** O endereço e a credencial do banco são justamente o que se precisa conhecer antes de acessá-lo.
+- **E:** Log é fluxo de eventos (fator XI), não lugar de configuração, e não deve conter segredos.

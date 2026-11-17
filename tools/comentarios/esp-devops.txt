@@ -1,0 +1,45 @@
+@@ ESP-DEVOPS-0001
+**Gabarito: C.** Contêineres virtualizam o sistema operacional: todos usam o kernel do hospedeiro e isolam apenas processos, rede e sistema de arquivos. Por isso iniciam em segundos e ocupam pouco espaço.
+
+- **A:** Emular hardware completo (BIOS, dispositivos) é o que faz a máquina virtual.
+- **B:** SO convidado completo por instância também é característica da VM.
+- **D:** É o contrário: como compartilham o kernel, o isolamento dos contêineres é em geral mais fraco que o das VMs.
+- **E:** Contêineres não dependem de hipervisor; rodam direto sobre o kernel do hospedeiro.
+
+@@ ESP-DEVOPS-0002
+**Gabarito: B.** **Namespaces** isolam o que o processo enxerga (PID, rede, pontos de montagem, usuários, hostname). **cgroups** limitam e contabilizam quanto o processo usa (CPU, memória, E/S). A ordem pedida é isolamento e depois limitação.
+
+- **A:** Traz os dois recursos certos, mas na ordem invertida.
+- **C:** `chroot` só troca a raiz do sistema de arquivos e SELinux é controle de acesso obrigatório; nenhum limita CPU e memória.
+- **D:** iptables é firewall e systemd é o gerenciador de serviços.
+- **E:** LVM gerencia volumes e OverlayFS é o sistema de arquivos em camadas das imagens.
+
+@@ ESP-DEVOPS-0003
+**Gabarito: C.** `RUN` executa um comando **durante o build** e grava o resultado em uma nova camada da imagem (por exemplo, instalar pacotes).
+
+- **A:** `CMD` define o comando padrão quando o contêiner **inicia**; não roda no build.
+- **B:** `ENTRYPOINT` define o executável principal do contêiner, também em tempo de execução.
+- **D:** `EXPOSE` apenas documenta a porta que o contêiner escuta.
+- **E:** `VOLUME` declara um ponto de montagem para dados persistentes.
+
+@@ ESP-DEVOPS-0004
+**Gabarito: C.** Na **implantação contínua** (*continuous deployment*), toda alteração que passa pelo pipeline vai para produção automaticamente, sem aprovação manual.
+
+- **A:** Integração contínua é integrar o código com frequência ao ramo principal, com build e testes automáticos; não trata da ida para produção.
+- **B:** Na entrega contínua (*continuous delivery*) o software fica sempre pronto para implantar, mas a ida para produção depende de uma decisão manual. É a pegadinha clássica.
+- **D:** Blue-green é uma estratégia de implantação com dois ambientes idênticos e troca de tráfego.
+- **E:** Feature toggle liga e desliga funcionalidades por configuração.
+
+@@ ESP-DEVOPS-0005
+**Gabarito: Certo.** Contêineres virtualizam o sistema operacional e compartilham o kernel do hospedeiro; por isso são leves e iniciam rápido. O preço é um isolamento em geral mais fraco que o das máquinas virtuais, que têm kernel e SO próprios sobre um hipervisor. Todas as partes da afirmação estão corretas.
+
+@@ ESP-DEVOPS-0006
+**Gabarito: B.** No **canary release**, a nova versão recebe primeiro uma pequena fração do tráfego; se as métricas ficam boas, a fração aumenta até 100%.
+
+- **A:** Blue-green mantém dois ambientes completos e troca **todo** o tráfego de uma vez.
+- **C:** Recreate derruba a versão antiga e sobe a nova, com indisponibilidade.
+- **D:** Big bang troca tudo de uma vez para todos os usuários.
+- **E:** Cascata é modelo de ciclo de vida de desenvolvimento, não estratégia de implantação.
+
+@@ ESP-DEVOPS-0007
+**Gabarito: Certo.** Idempotência é exatamente isso: aplicar a mesma definição uma ou várias vezes leva ao mesmo estado final, sem efeitos acumulados. É o que permite reexecutar Terraform, Ansible ou manifestos do Kubernetes com segurança, e está ligada ao estilo declarativo (descreve-se o estado desejado, e não os passos).

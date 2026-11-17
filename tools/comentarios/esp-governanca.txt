@@ -1,0 +1,293 @@
+@@ ESP-GOV-0001
+**Gabarito: B.** *Stakeholders* são as partes interessadas: todas as pessoas, grupos ou organizações que afetam ou são afetados por um projeto ou pela organização (clientes, acionistas, empregados, fornecedores, reguladores, sociedade).
+
+- **A:** Acionistas, executivos e conselheiros são apenas alguns dos stakeholders; acionista, sozinho, é *shareholder*.
+- **C:** A equipe técnica é só uma parte dos interessados.
+- **D:** Órgãos fiscalizadores também são stakeholders, mas o conceito não se limita a eles.
+
+@@ ESP-GOV-0002
+**Gabarito: C.** O ERP (*Enterprise Resource Planning*) é um sistema de informação que integra os processos da empresa (finanças, compras, estoque, vendas, RH) em uma base única. É o exemplo clássico de TIC aplicada à gestão do negócio.
+
+- **A:** Entrega de comida é um serviço (um negócio em si), não uma aplicação de TIC à gestão empresarial.
+- **B:** Redes sociais de fotos são voltadas ao uso pessoal e ao entretenimento.
+- **D:** Máquina de lavar automática é um eletrodoméstico, automação de produto de consumo.
+
+@@ ESP-GOV-0003
+**Gabarito: C.** A governança de TIC busca alinhar a TI ao negócio, entregar valor, gerir riscos e recursos e medir o desempenho. Com processos definidos e controlados, o resultado esperado é mais eficiência e eficácia nos processos de negócio.
+
+- **A:** A governança **aumenta** a transparência e a prestação de contas.
+- **B:** O esperado é otimizar custos e recursos, não aumentá-los.
+- **D:** Processos de mudança bem definidos reduzem a resistência e os riscos das mudanças tecnológicas.
+
+@@ ESP-GOV-0004
+**Gabarito: E.** O COBIT 2019 separa governança de gestão. Os cinco objetivos de **governança** ficam no domínio EDM (Avaliar, Dirigir e Monitorar), de responsabilidade do conselho. Os 35 objetivos de gestão se distribuem pelos outros quatro domínios.
+
+- **A:** APO (14 objetivos) é domínio de gestão: estratégia, arquitetura, orçamento, riscos, segurança.
+- **B:** BAI (11 objetivos) é gestão: construção, aquisição e implantação de soluções.
+- **C:** DSS (6 objetivos) é gestão: operação e suporte dos serviços.
+- **D:** MEA (4 objetivos) é gestão: monitoramento de desempenho e conformidade.
+
+@@ ESP-GOV-0005
+**Gabarito: E.** A cadeia de valor de serviço da ITIL 4 tem seis atividades: planejar, melhorar, engajar, desenho e transição, obter/construir, e entregar e suportar. "Operar e encerrar" não existe.
+
+- **A:** Planejar é uma das seis atividades.
+- **B:** Engajar é uma das seis: relacionamento com as partes interessadas e entendimento da demanda.
+- **C:** Obter/construir é uma das seis: garante a disponibilidade dos componentes do serviço.
+- **D:** Entregar e suportar é uma das seis.
+
+Não confunda com as cinco fases do ciclo de vida da ITIL v3 (estratégia, desenho, transição, operação e melhoria contínua).
+
+@@ ESP-GOV-0006
+**Gabarito: B.** Na ITIL, **problema** é a causa, real ou potencial, de um ou mais incidentes. O registro trata da causa (certificado mal configurado) de várias falhas recorrentes; investigar e eliminar essa causa é papel do gerenciamento de problemas.
+
+- **A:** O gerenciamento de incidentes restaura o serviço o mais rápido possível a cada interrupção, sem buscar a causa raiz.
+- **C:** Requisição de serviço é um pedido comum do usuário (acesso, informação, troca de senha), não uma falha.
+- **D:** O gerenciamento de nível de serviço define e acompanha as metas acordadas com o cliente (SLA).
+- **E:** O gerenciamento de configuração mantém as informações sobre os itens de configuração e seus relacionamentos.
+
+@@ ESP-GOV-0007
+**Gabarito: B.** Para o ITGI, a governança de TI é responsabilidade da **alta administração** (conselho de administração e diretoria executiva) e parte integrante da governança corporativa.
+
+- **A:** O departamento de TI cuida da gestão, do dia a dia; a governança não é assunto exclusivo dele.
+- **C:** Auditores externos avaliam e opinam, com independência; não respondem pela governança.
+- **D:** Usuários finais são partes interessadas, sem responsabilidade de direção.
+- **E:** O órgão regulador impõe normas de fora; a responsabilidade é interna à organização.
+
+@@ ESP-GOV-0008
+**Gabarito: D.** O ITGI define cinco áreas de foco da governança de TI: alinhamento estratégico, entrega de valor, gestão de riscos, gestão de recursos e mensuração de desempenho. Desenvolvimento ágil de software é abordagem de engenharia de software, não área de foco.
+
+- **A:** Alinhamento estratégico é área de foco: ligar os planos de TI aos do negócio.
+- **B:** Entrega de valor é área de foco: garantir que a TI entregue os benefícios prometidos.
+- **C:** Gestão de riscos é área de foco.
+- **E:** Mensuração de desempenho é área de foco (por exemplo, com o Balanced Scorecard).
+
+A quinta área, que a questão não lista, é a gestão de recursos.
+
+@@ ESP-GOV-0009
+**Gabarito: Certo.** O Balanced Scorecard (Kaplan e Norton) traduz a estratégia em objetivos, indicadores, metas e iniciativas, distribuídos em quatro perspectivas ligadas por relações de causa e efeito: **financeira**, **clientes**, **processos internos** e **aprendizado e crescimento**. A ideia é equilibrar indicadores financeiros e não financeiros, de curto e de longo prazo.
+
+@@ ESP-GOV-0010
+**Gabarito: C.** No modelo de alinhamento estratégico de Henderson e Venkatraman, a perspectiva de **potencial competitivo** parte da estratégia de TI: novas capacidades tecnológicas abrem oportunidades que alteram a estratégia de negócio e, depois, a infraestrutura organizacional.
+
+- **A:** Na execução da estratégia, a estratégia de negócio é a condutora e define a estrutura organizacional e a infraestrutura de TI (visão clássica).
+- **B:** Na transformação tecnológica, a estratégia de negócio conduz a estratégia de TI, que define a infraestrutura de TI.
+- **D:** No nível de serviço, a estratégia de TI define a infraestrutura de TI, com foco em atender bem a organização.
+- **E:** Integração funcional é uma dimensão do modelo (ligação entre negócio e TI), não uma das quatro perspectivas.
+
+@@ ESP-GOV-0011
+**Gabarito: Errado.** São conceitos distintos, com responsáveis distintos. A **governança** avalia, dirige e monitora (EDM): define a direção e acompanha os resultados, e cabe ao conselho de administração e à alta direção. A **gestão** planeja, constrói, executa e monitora (PBRM) as atividades, seguindo a direção dada, e cabe à diretoria executiva e aos gestores. A separação entre governança e gestão é um princípio do COBIT.
+
+@@ ESP-GOV-0012
+**Gabarito: C.** No arquétipo **feudal** de Weill e Ross, cada unidade de negócio (ou processo) decide sozinha sobre a sua TI, conforme suas necessidades, sem coordenação central.
+
+- **A:** Na monarquia de TI, os executivos de TI decidem.
+- **B:** No federalismo, a decisão é compartilhada entre a alta direção corporativa e as unidades de negócio, com ou sem a TI.
+- **D:** No duopólio, executivos de TI decidem em acordo com outro grupo (alta direção ou líderes de unidades).
+- **E:** Na anarquia, cada usuário ou pequeno grupo decide por conta própria; o nível é o indivíduo, não a unidade de negócio.
+
+@@ ESP-GOV-0013
+**Gabarito: C.** **EDM** (Avaliar, Dirigir e Monitorar) é o único domínio de governança do COBIT 2019, com cinco objetivos.
+
+- **A:** APO (Alinhar, Planejar e Organizar) é domínio de gestão.
+- **B:** BAI (Construir, Adquirir e Implementar) é de gestão.
+- **D:** DSS (Entregar, Servir e Suportar) é de gestão.
+- **E:** MEA (Monitorar, Avaliar e Analisar) é de gestão. Cuidado: tem "monitorar" e "avaliar" no nome, mas trata do monitoramento feito pela gestão.
+
+@@ ESP-GOV-0014
+**Gabarito: C.** O modelo central do COBIT 2019 tem **40** objetivos: 5 de governança (EDM) e 35 de gestão (APO 14, BAI 11, DSS 6, MEA 4).
+
+De onde vêm os distratores: 34 é o número de processos do COBIT 4.1; 37 é o número de processos do COBIT 5 (o 2019 acrescentou APO14 Dados Gerenciados, BAI11 Projetos Gerenciados e MEA04 Garantia Gerenciada); 41 e 45 não correspondem a nenhuma versão.
+
+@@ ESP-GOV-0015
+**Gabarito: B.** "Disponibilidade e capacidade gerenciadas" é o objetivo **BAI04**, do domínio Construir, Adquirir e Implementar. É pegadinha frequente, porque o tema parece operacional.
+
+- **A:** O DSS trata da operação: operações, requisições e incidentes, problemas, continuidade, serviços de segurança e controles de processos de negócio.
+- **C:** O APO trata de estratégia, arquitetura, orçamento, pessoas, fornecedores, riscos e segurança.
+- **D:** O MEA trata de monitoramento de desempenho, controle interno, conformidade e garantia.
+- **E:** O EDM é o domínio de governança.
+
+@@ ESP-GOV-0016
+**Gabarito: Certo.** O COBIT 2019 tem seis princípios para o sistema de governança: prover valor às partes interessadas, abordagem holística, **sistema de governança dinâmico**, governança distinta da gestão, **adaptado às necessidades da organização** e sistema de governança de ponta a ponta. Os dois citados são as novidades em relação aos cinco princípios do COBIT 5.
+
+@@ ESP-GOV-0017
+**Gabarito: E.** Os sete componentes do sistema de governança (os antigos "habilitadores" do COBIT 5) são: processos; estruturas organizacionais; princípios, políticas e procedimentos; informação; cultura, ética e comportamento; pessoas, habilidades e competências; e serviços, infraestrutura e aplicações. Acordo de nível de serviço com o Banco Central não é componente.
+
+- **A:** Processos são um dos sete componentes.
+- **B:** Estruturas organizacionais também.
+- **C:** Cultura, ética e comportamento também.
+- **D:** Informação também.
+
+@@ ESP-GOV-0018
+**Gabarito: Errado.** A escala de 0 a 5 está certa, mas a base não: no COBIT 2019, a capacidade dos processos segue um esquema baseado no **CMMI**. A ISO/IEC 15504 (SPICE) era a base do modelo de capacidade de processos do **COBIT 5**.
+
+@@ ESP-GOV-0019
+**Gabarito: D.** Os sete princípios orientadores da ITIL 4 são: foco no valor; comece onde você está; progrida iterativamente com feedback; colabore e promova visibilidade; pense e trabalhe de forma holística; mantenha simples e prático; otimize e automatize. "Documente todos os processos antes de iniciar" não existe e contraria dois deles: progredir iterativamente e manter simples e prático.
+
+- **A:** Foco no valor é princípio: tudo deve gerar valor para as partes interessadas.
+- **B:** Comece onde você está é princípio: aproveitar o que já existe antes de criar do zero.
+- **C:** Otimize e automatize é princípio: primeiro otimizar, depois automatizar.
+- **E:** Mantenha simples e prático é princípio: usar o mínimo de etapas necessário.
+
+@@ ESP-GOV-0020
+**Gabarito: B.** São as seis atividades da cadeia de valor de serviço, que se combinam em fluxos de valor para transformar demanda em valor: planejar, melhorar, engajar, desenho e transição, obter/construir, entregar e suportar.
+
+- **A:** São as cinco fases do ciclo de vida de serviço da ITIL v3.
+- **C:** Avaliar, direcionar e monitorar são as atividades de governança (ISO/IEC 38500 e domínio EDM do COBIT).
+- **D:** É o ciclo PDCA de Deming.
+- **E:** São as fases da prática de gerenciamento de problemas (identificação do problema, controle do problema e controle de erros).
+
+@@ ESP-GOV-0021
+**Gabarito: Certo.** São as definições da ITIL 4. **Incidente** é a interrupção não planejada ou a redução da qualidade de um serviço; **problema** é a causa, real ou potencial, de um ou mais incidentes; **erro conhecido** é um problema que já foi analisado, mas ainda não foi resolvido. Enquanto a solução definitiva não vem, usa-se uma **solução de contorno**, que reduz ou elimina o impacto.
+
+@@ ESP-GOV-0022
+**Gabarito: B.** **Garantia** (*warranty*) é a segurança de que o serviço atenderá aos requisitos acordados de disponibilidade, capacidade, continuidade e segurança: torna o serviço "adequado ao uso" e responde a "como o serviço se comporta".
+
+- **A:** É a definição de **utilidade** (*utility*): a funcionalidade oferecida, "adequado ao propósito", o que o serviço faz. O valor exige utilidade e garantia juntas.
+- **C:** Contratos com fornecedores pertencem à prática de gerenciamento de fornecedores.
+- **D:** Preço não é garantia; custos são tratados na gestão financeira do serviço.
+- **E:** Suporte jurídico não tem relação com o conceito.
+
+@@ ESP-GOV-0023
+**Gabarito: Certo.** A ITIL 4 define quatro dimensões que devem ser consideradas em conjunto em todo serviço: **organizações e pessoas** (estrutura, cultura, competências), **informação e tecnologia**, **parceiros e fornecedores**, e **fluxos de valor e processos**. Elas substituem os "4 Ps" da ITIL v3 (pessoas, processos, produtos e parceiros) e sofrem influência de fatores externos (modelo PESTLE).
+
+@@ ESP-GOV-0024
+**Gabarito: C.** A mudança **padrão** é de baixo risco, bem compreendida, documentada e **pré-autorizada**: pode ser executada sem nova avaliação nem autorização, em geral como requisição de serviço.
+
+- **A:** A mudança normal precisa ser agendada, avaliada e autorizada conforme o processo, caso a caso.
+- **B:** A mudança emergencial deve ser implementada o quanto antes (por exemplo, para resolver um incidente ou aplicar uma correção de segurança), com avaliação e autorização aceleradas.
+- **D:** "Maior" não é um dos três tipos de mudança da ITIL 4.
+- **E:** "Significativa" também não é um dos tipos.
+
+@@ ESP-GOV-0025
+**Gabarito: B.** A ISO/IEC 38500 atribui ao órgão de governança três tarefas: **avaliar** o uso atual e futuro da TI, **dirigir** a preparação e a implementação de planos e políticas, e **monitorar** a conformidade e o desempenho. É o mesmo EDM do domínio de governança do COBIT.
+
+- **A:** Planejar, construir, executar e monitorar (PBRM) são as atividades da **gestão** no COBIT.
+- **C:** É o ciclo PDCA de melhoria contínua.
+- **D:** São etapas do processo de gestão de riscos.
+- **E:** Lembra os grupos de processos de gerenciamento de projetos do PMBOK.
+
+@@ ESP-GOV-0026
+**Gabarito: E.** Os seis princípios da ISO/IEC 38500:2015 são responsabilidade, estratégia, aquisição, desempenho, conformidade e comportamento humano. Automação não é princípio.
+
+- **A:** Responsabilidade é princípio: papéis e responsabilidades claros quanto à TI.
+- **B:** Estratégia é princípio: a estratégia do negócio considera as capacidades atuais e futuras da TI.
+- **C:** Aquisição é princípio: aquisições de TI feitas por razões válidas, com análise adequada.
+- **D:** Comportamento humano é princípio: respeito às necessidades das pessoas envolvidas.
+
+Os dois que a questão não lista são desempenho e conformidade. A edição de 2024 passou a adotar os 11 princípios da ISO 37000.
+
+@@ ESP-GOV-0027
+**Gabarito: Certo.** A ISO/IEC 20000-1 traz os **requisitos** para estabelecer, implementar, manter e melhorar continuamente um sistema de gestão de serviços (SGS). Por conter requisitos, é a parte certificável, e a certificação é dada a **organizações**. A parte 2 da norma traz orientações de aplicação e não é base de certificação. Lembre que a ITIL, por ser um conjunto de boas práticas, certifica pessoas, não organizações.
+
+@@ ESP-GOV-0028
+**Gabarito: A.** O PMBOK 6ª edição organiza seus 49 processos em cinco grupos de processos: iniciação, planejamento, execução, monitoramento e controle, e encerramento (e em 10 áreas de conhecimento).
+
+- **B:** Avaliar, dirigir e monitorar são as tarefas de governança da ISO/IEC 38500 e do COBIT.
+- **C:** São as fases do ciclo de vida de serviço da ITIL v3.
+- **D:** São parte das atividades da cadeia de valor de serviço da ITIL 4.
+- **E:** São áreas de conhecimento (e "tempo" passou a se chamar "cronograma" na 6ª edição), não grupos de processos.
+
+@@ ESP-GOV-0029
+**Gabarito: Certo.** A edição de 2024 da ISO/IEC 38500 alinhou a governança de TI à norma de governança das organizações, a ISO 37000:2021. Com isso, os seis princípios da edição de 2015 (responsabilidade, estratégia, aquisição, desempenho, conformidade e comportamento humano) deram lugar aos onze princípios da ISO 37000, entre eles propósito, geração de valor, estratégia, supervisão e prestação de contas. As tarefas avaliar, dirigir e monitorar foram mantidas.
+
+@@ ESP-GOV-0030
+**Gabarito: B.** Para o PMBOK, projeto é um esforço **temporário** (tem início e fim definidos) empreendido para criar um produto, serviço ou resultado **único**.
+
+- **A:** Esforço contínuo e repetitivo para manter o negócio define **operações**.
+- **C:** Operações rotineiras são o oposto de projeto.
+- **D:** A hierarquia é inversa: portfólio reúne programas e projetos; programa é um grupo de projetos relacionados.
+- **E:** Projetos existem em qualquer área, e nem toda atividade de TI é projeto (suporte e operação não são).
+
+@@ ESP-GOV-0031
+**Gabarito: B.** A 8ª edição do Guia PMBOK traz 6 princípios, 7 domínios de desempenho e 5 áreas de foco, e volta a apresentar processos (40), agora de forma não prescritiva.
+
+- **A:** 12 princípios e 8 domínios de desempenho são a estrutura da 7ª edição, que foi alterada.
+- **C:** 10 áreas de conhecimento e 49 processos são a estrutura da 6ª edição.
+- **D:** Quem deixou os processos de lado em favor de princípios foi a 7ª edição; a 8ª os retoma.
+- **E:** Os domínios de desempenho continuam (reduzidos a sete); não há "grupos de entregáveis".
+
+@@ ESP-GOV-0032
+**Gabarito: B.** Os seis princípios da 8ª edição são: adotar uma visão holística, focar em valor, incorporar a qualidade aos processos e às entregas, ser um líder responsável, **integrar a sustentabilidade** em todas as áreas do projeto e construir uma cultura de empoderamento.
+
+- **A:** ITTOs (entradas, ferramentas e técnicas, saídas) são a forma de descrever processos, não um princípio.
+- **C:** Controlar o escopo é um processo, não um princípio.
+- **D:** O guia não privilegia abordagem alguma: preditiva, adaptativa ou híbrida, conforme o contexto.
+- **E:** Centralizar decisões no PMO contraria a ideia de cultura de empoderamento.
+
+@@ ESP-GOV-0033
+**Gabarito: Certo.** Os sete domínios de desempenho da 8ª edição são Governança, Escopo, Cronograma, **Finanças**, Partes Interessadas, Recursos e Riscos. Os nomes lembram as antigas áreas de conhecimento. Não confunda com os oito domínios da 7ª edição (partes interessadas, equipe, abordagem de desenvolvimento e ciclo de vida, planejamento, trabalho do projeto, entrega, medição e incerteza).
+
+@@ ESP-GOV-0034
+**Gabarito: B.** As cinco áreas de foco da 8ª edição retomam os antigos grupos de processos: iniciação, planejamento, execução, monitoramento e controle, e encerramento.
+
+- **A:** Lembra as áreas de conhecimento antigas; na 8ª edição, escopo, cronograma e riscos aparecem como domínios de desempenho.
+- **C:** São domínios de desempenho da 7ª edição.
+- **D:** São temas dos princípios (valor, qualidade, liderança, sustentabilidade, cultura).
+- **E:** São abordagens de desenvolvimento e ciclos de vida.
+
+@@ ESP-GOV-0035
+**Gabarito: D.** O art. 28 da Lei 14.133/2021 prevê cinco modalidades: pregão, concorrência, concurso, leilão e diálogo competitivo. **Tomada de preços** e convite, que existiam na Lei 8.666/1993, foram extintos (assim como o RDC como regime à parte).
+
+- **A:** O pregão é modalidade, obrigatória para bens e serviços comuns.
+- **B:** A concorrência é modalidade, para bens e serviços especiais e obras.
+- **C:** O diálogo competitivo é a modalidade nova, para contratações complexas em que a Administração dialoga com licitantes para definir a solução.
+- **E:** O leilão é modalidade, para alienação de bens.
+
+@@ ESP-GOV-0036
+**Gabarito: B.** O **Estudo Técnico Preliminar** (ETP) caracteriza a necessidade, levanta e compara as soluções disponíveis, estima custos e justifica a solução escolhida e a viabilidade da contratação.
+
+- **A:** O Termo de Referência vem depois do ETP e detalha o objeto, os requisitos, o modelo de execução e de gestão do contrato e os critérios de seleção do fornecedor.
+- **C:** O DFD abre o processo: a área requisitante apenas formaliza a demanda.
+- **D:** O IMR mede a qualidade do serviço já contratado e ajusta o pagamento.
+- **E:** A Ordem de Serviço é emitida na execução do contrato para solicitar o serviço à contratada.
+
+@@ ESP-GOV-0037
+**Gabarito: Certo.** O art. 1º, § 1º, da Lei 14.133/2021 exclui de sua abrangência as empresas públicas, as sociedades de economia mista e suas subsidiárias, que são regidas pela **Lei 13.303/2016** (Lei das Estatais), ressalvadas as disposições penais (art. 178). Um banco estadual constituído como sociedade de economia mista, como o Banestes, licita com base na Lei 13.303 e em seu regulamento interno de licitações e contratos.
+
+@@ ESP-GOV-0038
+**Gabarito: C.** O **IMR** (Instrumento de Medição de Resultado) define indicadores, metas e níveis mínimos de qualidade do serviço e as faixas de ajuste: se o resultado fica abaixo do nível acordado, o pagamento é reduzido proporcionalmente. É o que permite pagar por resultado.
+
+- **A:** O ETP é documento do planejamento, que analisa a necessidade e escolhe a solução.
+- **B:** O DFD apenas formaliza a demanda da área requisitante.
+- **D:** O PDTIC é o plano diretor de TIC do órgão, instrumento de planejamento tático.
+- **E:** O mapa de riscos identifica e trata os riscos da contratação.
+
+@@ ESP-GOV-0039
+**Gabarito: B.** O art. 17 da Lei 14.133/2021 fixa a sequência: preparatória; divulgação do edital; apresentação de propostas e lances; **julgamento**; **habilitação**; recursal; homologação. A marca da lei é o julgamento antes da habilitação (só se examinam os documentos do vencedor); a inversão é possível, mas exige justificativa.
+
+- **A:** Omite as fases preparatória e de divulgação e põe a habilitação em primeiro, ordem da antiga Lei 8.666.
+- **C:** Põe a habilitação antes do julgamento e a homologação antes da fase recursal.
+- **D:** Põe a habilitação antes da própria divulgação do edital.
+- **E:** Começa pelas propostas, antes de haver edital divulgado.
+
+@@ ESP-GOV-0040
+**Gabarito: A.** A **Fase A, Visão da Arquitetura**, abre o ciclo do ADM: define o escopo, identifica as partes interessadas e suas preocupações, cria a visão de alto nível da arquitetura-alvo e obtém a aprovação para prosseguir.
+
+- **B:** A Fase B desenvolve a arquitetura de negócio (linha de base e alvo) em detalhe.
+- **C:** A Fase E identifica os projetos e as soluções que vão realizar a arquitetura.
+- **D:** A Fase G supervisiona a implementação para garantir a conformidade com a arquitetura.
+- **E:** A Fase H gerencia as mudanças na arquitetura depois de implantada.
+
+@@ ESP-GOV-0041
+**Gabarito: B.** O **OLA** (*Operational Level Agreement*, acordo de nível operacional) é firmado entre equipes **internas** do provedor (por exemplo, service desk, redes e banco de dados) para sustentar as metas do SLA.
+
+- **A:** O SLA é o acordo entre o provedor e o **cliente**.
+- **C:** O UC (*Underpinning Contract*, contrato de apoio) é firmado com **fornecedor externo**.
+- **D:** O NDA é um acordo de confidencialidade.
+- **E:** O SLR (*Service Level Requirement*) é o requisito de nível de serviço pedido pelo cliente, base para negociar o SLA.
+
+@@ ESP-GOV-0042
+**Gabarito: Certo.** O PDTIC (Plano Diretor de TIC) é o instrumento de planejamento **tático** que desdobra a estratégia do órgão (PEI e estratégia de TIC) em diagnóstico, planejamento e gestão dos recursos e processos de TIC. Entre seus conteúdos estão o inventário de necessidades priorizadas e o plano de metas e ações, além dos planos de gestão de pessoas, orçamentário e de gestão de riscos.
+
+@@ ESP-GOV-0043
+**Gabarito: B.** Comprar servidores é investimento em ativos, **CAPEX** (despesa de capital), depreciado ao longo dos anos. Pagar a nuvem conforme o uso é despesa corrente, **OPEX** (despesa operacional). A troca reduz o CAPEX e aumenta o OPEX.
+
+- **A:** É o movimento inverso, de quem sai da nuvem para infraestrutura própria.
+- **C:** O TCO (custo total de propriedade) não desaparece; ele muda de composição e precisa ser comparado.
+- **D:** A natureza do gasto muda, logo os dois se alteram.
+- **E:** Depreciação decorre de ativos adquiridos (CAPEX); com a nuvem há menos ativos a depreciar.
+
+@@ ESP-GOV-0044
+**Gabarito: B.** ROI = (ganho − custo) ÷ custo = (260 − 200) ÷ 200 = 60 ÷ 200 = 0,30 = **30%**.
+
+De onde vêm os distratores: 23% é o lucro dividido pelo ganho (60 ÷ 260); 60 é o lucro em milhares de reais, não um percentual; 77% é o custo dividido pelo ganho (200 ÷ 260); 130% é o ganho dividido pelo custo (260 ÷ 200), sem descontar o investimento.

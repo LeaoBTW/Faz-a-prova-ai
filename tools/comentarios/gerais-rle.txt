@@ -1,0 +1,1109 @@
+@@ RLE-0001
+**Gabarito: D.** Converta tudo para m² e subtraia: 17 × 27.000 = 459.000 m² e 18 × 24.000 = 432.000 m². Diferença: 459.000 − 432.000 = 27.000 m². Como 1 hectare = 10.000 m², 27.000 ÷ 10.000 = **2,7 hectares**.
+
+- **A, B, C e E:** não saem da conta correta. Conferência: 17 × 27 = 459 e 18 × 24 = 432 (em milhares de m²); 459 − 432 = 27 mil m², que só pode ser 2,7 ha. O erro comum é trocar os valores dos dois alqueires ou errar a conversão para hectare.
+
+@@ RLE-0002
+**Gabarito: C.** A condicional "se P então Q" equivale a "não P ou Q". Aqui P = "não tem cão" e Q = "caça com gato"; negando P, fica "**tem cão ou caça com gato**". A outra equivalente seria a contrapositiva: "se não caça com gato, então tem cão".
+
+- **A:** "Se tem cão então não caça com gato" nega as duas partes sem inverter (é a inversa), não é equivalente.
+- **B:** Inverte a ordem e nega só uma parte; também não é equivalente.
+- **D:** A conjunção "e" exige as duas verdadeiras ao mesmo tempo, mais forte que a condicional.
+- **E:** Negou a parte errada: o correto é manter "caça com gato" afirmativo.
+
+@@ RLE-0003
+**Gabarito: A.** Princípio da casa dos pombos: se todos os 6 consultores atendessem no máximo 14 clientes, o total seria no máximo 6 × 14 = 84, menor que 86. Logo pelo menos um atende mais de 14.
+
+- **B:** Não é obrigatório; por exemplo, 15, 15, 14, 14, 14, 14 soma 86 sem ninguém com 16.
+- **C:** 86 não é múltiplo de 6 (86 ÷ 6 = 14 e resto 2).
+- **D:** Três com 20 somam 60; sobram 26 para os outros três, mas o mínimo deles é 3 × 9 = 27. Impossível.
+- **E:** É possível: três com 9 somam 27; sobram 59 para os outros três, que podem atender 20, 20 e 19.
+
+@@ RLE-0004
+**Gabarito: A.** Teste quem trabalha com previdência. Se for Hugo, a 1ª e a 2ª afirmativas são verdadeiras (duas, não serve). Se for Mário, a 2ª e a 3ª são verdadeiras (não serve). Se for Lauro, a 1ª e a 2ª são falsas, então a 3ª tem de ser a verdadeira: Mário não é multimercado, logo Mário é ações e **Hugo é multimercado**.
+
+- **B:** Com Hugo na previdência haveria duas afirmativas verdadeiras.
+- **C e D:** Lauro trabalha com previdência.
+- **E:** Com Mário na previdência haveria duas afirmativas verdadeiras; Mário trabalha com ações.
+
+@@ RLE-0005
+**Gabarito: C.** Suponha 100 funcionários: 65 homens e 35 mulheres. Um quinto das mulheres tem curso superior: 35 ÷ 5 = 7; então 28 mulheres não têm. Entre os sem curso superior, 2/3 são homens, logo as 28 mulheres são 1/3 desse grupo: o grupo tem 84 pessoas, sendo 56 homens. Homens com curso superior: 65 − 56 = **9**, ou 9% dos funcionários.
+
+- **A:** 7% é a porcentagem de **mulheres** com curso superior.
+- **B, D e E:** não fecham as três condições. Conferência: sem superior = 56 + 28 = 84 e 56/84 = 2/3.
+
+@@ RLE-0006
+**Gabarito: C.** Suponha que Priscila é paulista. Pela 1ª, Joel é capixaba. Pela contrapositiva da 2ª (se Joel é capixaba, Gabriela é carioca), Gabriela é carioca. Pela 3ª, Priscila não é paulista: contradição. Logo **Priscila não é paulista**.
+
+- **A e B:** Com Priscila não paulista, as três sentenças ficam verdadeiras tanto com Gabriela carioca quanto com Gabriela não carioca e Joel não capixaba; nada se deduz sobre Gabriela.
+- **D:** Leva à contradição mostrada acima.
+- **E:** Joel pode ser capixaba (basta Gabriela ser carioca), então não é dedução necessária.
+
+@@ RLE-0007
+**Gabarito: E.** Ímpares: 222 − 87 = 135. Os 37 grupos ímpar-ímpar usam 37 × 2 = 74 ímpares; sobram 135 − 74 = 61 ímpares, cada um em um grupo misto, que consome 61 pares. Restam 87 − 61 = 26 pares, que formam 26 ÷ 2 = **13** grupos par-par. Conferência: 37 + 61 + 13 = 111 grupos.
+
+- **A:** 74 é o número de bolinhas ímpares nos grupos ímpar-ímpar.
+- **B:** 61 é o número de grupos mistos.
+- **C e D:** não correspondem a nenhuma etapa correta da conta (26 seria o número de bolinhas pares restantes, não de grupos).
+
+@@ RLE-0008
+**Gabarito: B.** Letras em ordem: A, B, C, N, O. Começando com A há 4! = 24 anagramas e com B outros 24: total 48. Em seguida vêm os que começam com C, depois A: CABNO (49º), CABON (50º) e **CANBO (51º)**, pois após CAB vem CAN, e as letras restantes B e O em ordem dão CANBO primeiro.
+
+- **A:** 50 é a posição de CABON.
+- **C:** 52 é a posição de CANOB.
+- **D e E:** 53 e 54 são CAOBN e CAONB.
+
+@@ RLE-0009
+**Gabarito: E.** A soma é 5 × 17 = 85 e, em ordem crescente, o 3º número é 23. O 4º e o 5º valem pelo menos 23 cada, então os dois menores somam no máximo 85 − 3 × 23 = 16, e o menor vale no máximo 8. Como o maior é pelo menos 23, a diferença é no mínimo 23 − 8 = **15**. Exemplo que atinge o mínimo: 8, 8, 23, 23, 23.
+
+- **A, B, C e D:** diferenças menores que 15 são impossíveis: exigiriam menor número acima de 8 ou maior abaixo de 23, o que quebra a soma 85 ou a mediana 23.
+
+@@ RLE-0010
+**Gabarito: A.** Há 6 × 6 = 36 resultados ordenados. Os pares consecutivos são (1,2), (2,3), (3,4), (4,5), (5,6) e seus inversos: 10 casos. Probabilidade: 10/36 = **5/18**.
+
+- **B:** 5/36 conta só uma ordem de cada par, esquecendo os inversos.
+- **C:** 1/3 = 12/36 conta casos demais.
+- **D:** 1/9 = 4/36 conta casos de menos.
+- **E:** 7/36 não corresponde à contagem correta de 10 casos.
+
+@@ RLE-0011
+**Gabarito: A.** Na semana 18 o avanço realizado (cerca de 22%) está abaixo do planejado para a mesma semana (cerca de 35%): a obra está atrasada. A curva do intervalo 3 (projeção pelo caminho crítico) sobe mais rápido e encontra a curva planejada na semana 21.
+
+- **B:** O gráfico mostra avanço realizado antes da semana 18 (já na S17), então não é verdade que não houve progresso.
+- **C:** A projeção do intervalo 3 ultrapassa 35% antes da semana 20.
+- **D:** A obra está atrasada, não adiantada; a recuperação é só projetada para a S21.
+
+@@ RLE-0012
+**Gabarito: D.** Conte as partes cercadas por cada amigo. O 1º cerca metade do terreno e metade do restante (1/2 e 1/4): 2 partes, sobrando 1/4. O 2º cerca metade dessa sobra (1/8) e um terço do que ainda resta (1/3 de 1/8 = 1/24): mais 2 partes, sobrando 1/8 − 1/24 = 1/12. O 3º divide a sobra em 2 partes. Total: 2 + 2 + 2 = **6 partes**.
+
+- **A, B e C:** 12, 10 e 8 contam partes a mais; cada amigo criou exatamente 2 partes, e as frações (1/2, 1/4, 1/8, 1/24 e duas de 1/24) somam o terreno inteiro.
+
+@@ RLE-0013
+**Gabarito: C.** Se P1 + P2 + P3 > 1.000 mil e P1 = 100 mil, então P2 + P3 > 900 mil. É a única conclusão garantida, pois só se conhece a soma dos dois.
+
+- **A:** P2 pode faturar menos de 100 mil (ex.: P2 = 50 mil e P3 = 900 mil).
+- **B:** P3 sozinho não precisa passar de 900 mil (ex.: P2 = 500 mil e P3 = 450 mil).
+- **D:** Pelo mesmo exemplo de A, o produto 1 pode não ser o de menor faturamento.
+
+@@ RLE-0014
+**Gabarito: D.** 10% de 50,1 = 5,01; o total cairia para 91,53 − 5,01 = 86,52 mil, valor próximo de 86 mil.
+
+- **A:** Desvio padrão pode ser calculado para qualquer conjunto com valores diferentes; além disso, a média dos seis itens é 91,53 ÷ 6 ≈ 15,26 mil, não 12,3 mil.
+- **B:** (0,23 + 23,5) ÷ 2 ≈ 11,87 mil, menor que 12,3 mil.
+- **C:** 0,9 ÷ 91,53 ≈ 0,98%, cerca de 1%, não 9%.
+
+@@ RLE-0015
+**Gabarito: B.** São 2 + 3 + 3 + 5 = 13 gravatas: 5 lisas e 8 não lisas. P(1ª não lisa) = 8/13; sem reposição, P(2ª lisa) = 5/12. Produto: 8/13 × 5/12 = 40/156 = 10/39 ≈ **25,64%**.
+
+- **A:** 16,02% é aproximadamente 5/13 × 5/12 (25/156), que usa 5 em vez de 8 na primeira retirada.
+- **C:** 27,78% = 5/18, que não corresponde a 13 gravatas.
+- **D:** 32,04% é o dobro do valor de A, também sem relação com o evento descrito.
+
+@@ RLE-0016
+**Gabarito: C.** Resolva 80a + 50b = 1.000, ou 8a + 5b = 100, com a e b inteiros não negativos. Como 5b e 100 são múltiplos de 5, a também é: (a, b) = (0, 20), (5, 12) ou (10, 4), com 20, 17 e 14 sacos. O mínimo é 10 de 80 kg e 4 de 50 kg: **14 sacos** (800 + 200 = 1.000 kg).
+
+- **A e B:** Com 10 ou 12 sacos não se chega a exatamente 1.000 kg (12 sacos de 80 kg dão 960 kg; 13 passam de 1.000).
+- **D:** 20 sacos de 50 kg dão 1.000 kg, mas não é o mínimo.
+
+@@ RLE-0017
+**Gabarito: D.** Escala 1:12.000 significa que 1 cm no mapa vale 12.000 cm reais. 35 × 12.000 = 420.000 cm = 4.200 m = **4,2 km**.
+
+- **A:** 420 m é erro de conversão (uma casa decimal a menos).
+- **B e C:** 1.800 m e 3,6 km não saem de 35 × 12.000; 3,6 km corresponderia a 30 cm no mapa.
+
+@@ RLE-0018
+**Gabarito: D.** Velocidade média = distância total ÷ tempo total. Ida: 120 + 50 + 250 = 420 km em 2 + 1 + 4 = 7 h, ou 420 ÷ 7 = **60 km/h**. Volta: os mesmos 420 km em 5 h, 420 ÷ 5 = **84 km/h**.
+
+- **A e C:** Erram a velocidade da ida (48 e 64 km/h não são 420 ÷ 7).
+- **B:** Acerta a ida, mas 72 km/h na volta daria 360 km em 5 h, não 420 km.
+
+Cuidado: não se faz a média das velocidades dos trechos (60, 50 e 62,5 km/h); divide-se a distância total pelo tempo total.
+
+@@ RLE-0019
+**Gabarito: D.** Seja x o total: x = (7/8)x + 7/8. Então x − (7/8)x = 7/8, ou x/8 = 7/8, e x = **7**. Conferência: 7/8 de 7 = 49/8; 49/8 + 7/8 = 56/8 = 7.
+
+- **A, B e C:** não satisfazem a equação. Por exemplo, com 9: (7/8) × 9 + 7/8 = 70/8 = 8,75, diferente de 9.
+
+@@ RLE-0020
+**Gabarito: D.** A mesma pessoa pode ocupar mais de um papel. Com avô, pai e filho (3 pessoas): o avô e o pai são os dois pais; o pai e o filho são os dois filhos; o avô é o avô e o filho é o neto. Cada um recebe uma maçã: x = **3**.
+
+- **A, B e C:** 7, 6 e 5 contam cada papel como uma pessoa diferente (6 seria a soma 2 + 2 + 1 + 1); são possíveis, mas não são o menor valor.
+
+@@ RLE-0021
+**Gabarito: B.** No 1º dia percorre 30%; restam 70%. No 2º dia percorre 20% **do restante**: 0,20 × 70% = 14%. Falta 70% − 14% = **56%** (ou 0,7 × 0,8 = 0,56).
+
+- **A:** 60% não considera corretamente os dois descontos sucessivos.
+- **C:** 50% soma 30% + 20% como se os 20% fossem do trajeto inteiro.
+- **D:** 45% não sai de nenhuma leitura correta do enunciado.
+
+@@ RLE-0022
+**Gabarito: D.** A negação de "Todo A é B" é "Algum A não é B" (basta um contraexemplo para a frase ser falsa).
+
+- **A:** "Nenhum A é B" é a proposição contrária, não a negação: as duas podem ser falsas ao mesmo tempo (quando só alguns são programadores).
+- **B:** "Todo A não é B" é outra forma de dizer "nenhum".
+- **C:** "Algum A é B" é compatível com a frase original, não a nega.
+
+@@ RLE-0023
+**Gabarito: C.** Sejam p = só Python, j = só Java e a = ambos. Dados: p + j + a = 12; Java (j + a) = 3p; a = j/2. Substituindo: j + j/2 = 3p, logo p = j/2. Então j/2 + j + j/2 = 2j = 12, j = 6, a = **3** e p = 3. Conferência: Java = 9 = 3 × 3.
+
+- **A, B e D:** com a = 1, 2 ou 4 teríamos j = 2, 4 ou 8 e p = 1, 2 ou 4, somando 4, 8 ou 16 analistas, e não 12.
+
+@@ RLE-0024
+**Gabarito: B.** "Alguns programadores são especialistas em BD" é uma proposição particular afirmativa, que pode ser invertida: existem especialistas em BD que são programadores.
+
+- **A:** Inverte a inclusão: todo desenvolvedor é programador, mas pode haver programador que não é desenvolvedor.
+- **C:** Generaliza "alguns" para "todos".
+- **D:** Os programadores especialistas em BD podem estar todos fora do grupo dos desenvolvedores; não há garantia.
+
+@@ RLE-0025
+**Gabarito: D.** Divisão proporcional: soma das idades 2 + 3 + 5 = 10 partes; cada parte vale 1.000 ÷ 10 = R$ 100. O mais velho (5 anos) recebe 5 × 100 = **R$ 500**.
+
+- **A:** R$ 300 é a parte do filho de 3 anos.
+- **B e C:** R$ 400 e R$ 450 não correspondem a nenhuma das partes (200, 300 e 500).
+
+@@ RLE-0026
+**Gabarito: B.** Proposição é uma frase declarativa que pode ser julgada verdadeira ou falsa. Item a item:
+
+- **I:** pergunta, não tem valor lógico.
+- **II:** declarativa com valor lógico (verdadeira): é proposição.
+- **III:** sentença aberta; depende do valor de x, então não é proposição.
+- **IV:** ordem (imperativa), não tem valor lógico.
+- **V:** declarativa com valor lógico (falsa): é proposição. Ser falsa não a impede de ser proposição.
+
+São duas proposições (II e V). Quem marca 3 costuma incluir a sentença aberta III; quem marca 1 esquece que frase falsa também é proposição.
+
+@@ RLE-0027
+**Gabarito: C.** O número de linhas da tabela-verdade é 2ⁿ, em que n é a quantidade de proposições simples **distintas**. Aqui são p, q, r e s (a negação ~s não cria proposição nova): 2⁴ = **16**.
+
+- **A:** 4 = 2², seria para duas proposições.
+- **B:** 8 = 2³, seria para três (esquece uma das letras).
+- **D:** 32 = 2⁵, conta ~s como se fosse uma quinta proposição.
+- **E:** 64 = 2⁶, seria para seis proposições.
+
+@@ RLE-0028
+**Gabarito: C.** Comece pela premissa simples: "a ouvidoria registra" é falsa. Na 2ª premissa (reclama → registra), consequente falso obriga antecedente falso: o cliente não reclamou. Na 1ª (cai → reclama), de novo consequente falso: o sistema não caiu. É o modus tollens aplicado duas vezes.
+
+- **A:** Se o sistema tivesse caído, o cliente reclamaria e a ouvidoria registraria.
+- **B e D:** Se o cliente tivesse reclamado, a ouvidoria teria registrado, o que contradiz a 3ª premissa.
+- **E:** As premissas permitem concluir, como mostrado.
+
+@@ RLE-0029
+**Gabarito: B.** Em "p → q", p é condição suficiente e q é condição **necessária**. Se a graduação é necessária para ser analista, ela fica no consequente: "se é analista, então tem graduação em TI".
+
+- **A:** Trata a graduação como condição suficiente (é a recíproca).
+- **C:** Inverte os papéis: diz que ser analista é que seria necessário.
+- **D:** O bicondicional exigiria que a graduação fosse necessária **e** suficiente.
+- **E:** É a inversa da correta (equivale à alternativa A), não à frase original; a contrapositiva certa seria "se não tem graduação em TI, não é analista".
+
+@@ RLE-0030
+**Gabarito: C.** Uma condicional só é falsa com antecedente V e consequente F. Para p → (q → p) ser falsa, precisaríamos de p = V e (q → p) = F; mas (q → p) só é falsa com p = F. Como p não pode ser V e F ao mesmo tempo, a proposição nunca é falsa: é **tautologia**.
+
+- **A:** Contradição é sempre falsa; esta é sempre verdadeira.
+- **B:** Contingência teria linhas V e linhas F; aqui as quatro linhas dão V.
+- **D e E:** p e q assumem valor F em algumas linhas, enquanto a proposição é sempre V; logo não é equivalente a nenhuma delas.
+
+@@ RLE-0031
+**Gabarito: C.** A negação de p → q é p ∧ ~q: mantém o antecedente **e** nega o consequente. Fica "o cliente paga em dia e não recebe desconto".
+
+- **A:** É a inversa (~p → ~q), outra condicional; não nega a original.
+- **B:** Negou a parte errada: ~p ∧ q.
+- **D:** ~p ∨ q é **equivalente** à condicional original, não a negação.
+- **E:** É a contrapositiva (~q → ~p), também equivalente à original.
+
+@@ RLE-0032
+**Gabarito: B.** p → q equivale a ~p ∨ q (regra "nega a primeira ou mantém a segunda", o mnemônico NEYMAR): "Marta não é auditora ou Rui é contador". A outra equivalente seria a contrapositiva: "se Rui não é contador, Marta não é auditora".
+
+- **A:** Recíproca (q → p), não equivalente.
+- **C:** p ∧ ~q é a **negação** da condicional.
+- **D:** Inversa (~p → ~q), não equivalente (equivale à recíproca).
+- **E:** p ∨ q não nega o antecedente.
+
+@@ RLE-0033
+**Gabarito: B.** Lei de De Morgan: ~(p ∨ r) ≡ ~p ∧ ~r. Aqui r = "não joga damas", cuja negação é "joga damas". Resultado: "Lia **não** joga xadrez **e** joga damas".
+
+- **A:** Negou as duas partes, mas manteve o "ou".
+- **C:** Trocou o conectivo e negou só a segunda parte.
+- **D:** Trocou o conectivo e negou só a primeira parte.
+- **E:** "Se joga xadrez, joga damas" equivale a "não joga xadrez ou joga damas", igual à alternativa A.
+
+@@ RLE-0034
+**Gabarito: B.** Por De Morgan, ~(p ∧ q) ≡ ~p ∨ ~q. E como "~p ∨ r" equivale a "p → r", temos ~p ∨ ~q ≡ p → ~q: "se o servidor está online, o backup não foi feito".
+
+- **A:** Erro clássico de De Morgan: negou as duas partes mas manteve o "e".
+- **C:** Não negou nenhuma das partes.
+- **D:** ~q → p equivale a "q ou p", que é a alternativa C.
+- **E:** O bicondicional ~p ↔ q é falso quando as duas são falsas (servidor offline e sem backup), caso em que a frase original é verdadeira.
+
+@@ RLE-0035
+**Gabarito: B.** A negação do bicondicional (p ↔ q) é a disjunção exclusiva "ou p, ou q": exatamente uma das duas é verdadeira. Também pode ser escrita como p ↔ ~q.
+
+- **A:** ~p ↔ ~q é **equivalente** ao bicondicional original, não a negação.
+- **C:** p ∧ q é um dos casos em que a original é verdadeira.
+- **D:** p → ~q é verdadeira quando ambas são falsas, caso em que a original também é verdadeira; não é a negação.
+- **E:** ~p ∧ ~q é o outro caso em que a original é verdadeira.
+
+@@ RLE-0036
+**Gabarito: C.** A negação de "todo A é B" é "algum (pelo menos um) A não é B": basta um contraexemplo.
+
+- **A e B:** Dizem "nenhum fez", que é a proposição contrária, mais forte que a negação (ambas podem ser falsas juntas).
+- **D:** "Algum fez" é compatível com "todos fizeram".
+- **E:** Muda o sujeito para funcionários de fora da TI, sobre os quais a frase original nada diz.
+
+@@ RLE-0037
+**Gabarito: B.** A negação de "nenhum A é B" é "algum A é B": basta um relatório atrasado para a frase original ser falsa.
+
+- **A:** "Todos com atraso" é a contrária, exagera a negação.
+- **C:** "Algum não foi entregue com atraso" é compatível com a frase original.
+- **D:** "Nenhum no prazo" equivale a "todos com atraso", como em A.
+- **E:** "Todos no prazo" é a própria frase original dita de outro modo.
+
+@@ RLE-0038
+**Gabarito: C.** "Algum A é B" e "nenhum A é B" são contraditórias: quando uma é falsa, a outra é verdadeira. Se é falso que algum auditor é economista, então nenhum auditor é economista.
+
+- **A:** "Todo auditor é economista" exigiria que auditores (existindo) fossem economistas, o oposto do que se sabe.
+- **B:** É a mesma proposição dada como falsa, apenas invertida.
+- **D:** Afirma que "algum é", o que é falso.
+- **E:** Nada se sabe sobre a existência de economistas.
+
+@@ RLE-0039
+**Gabarito: B.** Para negar, troca-se "existe" por "todo" e nega-se o predicado. Por De Morgan, a negação de "seguro e rápido" é "não é seguro **ou** não é rápido". Resultado: "todo sistema não é seguro ou não é rápido".
+
+- **A:** Manteve o "e" (inseguro e lento), mais forte que a negação.
+- **C:** Manteve o "existe" e usou "nem" (e).
+- **D:** "Nenhum é seguro" é mais forte: a negação admite sistemas seguros, desde que não rápidos.
+- **E:** Fez De Morgan certo, mas manteve o quantificador "algum".
+
+@@ RLE-0040
+**Gabarito: C.** O zero é o elemento neutro da adição: x + 0 = x vale para todo real.
+
+- **A:** Falha, por exemplo, com x = 0,5 (0,25 < 0,5), com x = 0 e com x = 1.
+- **B:** Nenhum quadrado de número real é negativo.
+- **D:** 1/x não existe para x = 0.
+- **E:** x² = −1 não tem solução real (só complexa).
+
+@@ RLE-0041
+**Gabarito: B.** Em diagramas: o conjunto dos gerentes está dentro do dos economistas, e o dos economistas não tem interseção com o dos engenheiros. Logo gerentes e engenheiros também não se tocam: nenhum gerente é engenheiro.
+
+- **A:** Um gerente engenheiro seria um economista engenheiro, o que a 2ª premissa proíbe.
+- **C:** Pelo mesmo motivo, nenhum engenheiro pode ser gerente.
+- **D:** Não existe economista que seja engenheiro.
+- **E:** A conclusão B é necessária.
+
+@@ RLE-0042
+**Gabarito: B.** Existe pelo menos um analista que é músico; como todo músico é criativo, esse analista é criativo. Logo alguns analistas são criativos.
+
+- **A:** Só se garante para os analistas músicos; pode haver analista não criativo.
+- **C:** Contradiz a conclusão necessária.
+- **D:** Inverte a 2ª premissa; pode haver criativo que não é músico.
+- **E:** Não é necessário: todos os criativos poderiam ser analistas.
+
+@@ RLE-0043
+**Gabarito: C.** A forma "p → q; q; logo p" é a falácia da afirmação do consequente: o sistema pode ser seguro por outro motivo, sem estar atualizado.
+
+- **A:** Modus ponens afirma o **antecedente**: p → q; p; logo q.
+- **B:** Modus tollens nega o consequente: p → q; ~q; logo ~p.
+- **D:** O argumento é mesmo inválido, mas a negação do antecedente é outra falácia: p → q; ~p; logo ~q.
+- **E:** Silogismo disjuntivo parte de um "ou": p ∨ q; ~p; logo q.
+
+@@ RLE-0044
+**Gabarito: B.** Comece pela premissa simples: Carla vai. Em "se Bruno vai, Carla não vai", o consequente é falso, então o antecedente é falso: Bruno não vai. Na disjunção "ou Ana, ou Bruno" pelo menos um deve ir; como Bruno não vai, Ana vai.
+
+- **A e C:** Bruno ir tornaria falsa a 2ª premissa, já que Carla vai.
+- **D:** Deixaria a disjunção falsa e contradiz "Carla vai".
+- **E:** Contradiz diretamente a 3ª premissa.
+
+@@ RLE-0045
+**Gabarito: C.** Validade é propriedade da **forma** do argumento: ele é válido quando a verdade das premissas garante a da conclusão, isto é, é impossível ter premissas todas verdadeiras e conclusão falsa.
+
+- **A:** Premissas verdadeiras não bastam; a conclusão pode não decorrer delas.
+- **B:** Conclusão verdadeira pode aparecer em argumento inválido.
+- **D:** Tudo verdadeiro no mundo real não garante validade; e um argumento válido pode ter premissas falsas.
+- **E:** O número de premissas é irrelevante.
+
+@@ RLE-0046
+**Gabarito: D.** Um conjunto com n elementos tem 2ⁿ subconjuntos (cada elemento entra ou não entra). 2⁵ = **32**, incluindo o conjunto vazio e o próprio A.
+
+- **A:** 10 = 5 × 2 (ou C(5,2), só os subconjuntos de 2 elementos).
+- **B:** 25 = 5², troca base e expoente.
+- **C:** 31 exclui o vazio (subconjuntos não vazios).
+- **E:** 120 = 5!, que conta permutações, não subconjuntos.
+
+@@ RLE-0047
+**Gabarito: C.** Estudam pelo menos um idioma: 50 − 12 = 38. Estudam os dois: 28 + 20 − 38 = 10. Apenas inglês: 28 − 10 = **18**. Conferência: 18 + 10 + 10 + 12 = 50.
+
+- **A:** 8 = 28 − 20, subtração sem considerar a interseção.
+- **B:** 10 é o número dos que estudam os dois (e também só espanhol).
+- **D:** 20 é o total de espanhol.
+- **E:** 28 é o total de inglês, incluindo quem também estuda espanhol.
+
+@@ RLE-0048
+**Gabarito: A.** A ∪ B = {1, 2, 3, 4, 5}. O complementar em U = {1, 2, 3, 4, 5, 6} é o que sobra: **{6}**.
+
+- **B:** {5, 6} é o complementar só de A.
+- **C:** {1, 2} é A − B.
+- **D:** Seria vazio apenas se A ∪ B = U.
+- **E:** {3, 4} é A ∩ B.
+
+@@ RLE-0049
+**Gabarito: C.** Usam pelo menos um: 100% − 10% = 90%. Pela união: 70 + 50 − x = 90, logo x = **30%**. Conferência: só Linux 40%, só Windows 20%, ambos 30%, nenhum 10%: total 100%.
+
+- **A:** 10% é quem não usa nenhum.
+- **B:** 20% é quem usa só Windows (ou 70 + 50 − 100, esquecendo os 10% de fora).
+- **D:** 40% é quem usa só Linux.
+- **E:** 50% é o total de Windows.
+
+@@ RLE-0050
+**Gabarito: C.** A interseção é mínima quando a união é máxima (todos os 120 clientes têm pelo menos um produto): 80 + 70 − 120 = **30**.
+
+- **A e B:** Com interseção 10 ou 20, a união seria 140 ou 130, mais que os 120 clientes.
+- **D:** 50 não é mínimo nem máximo.
+- **E:** 70 é o **máximo** possível (todos com cheque especial também têm cartão).
+
+@@ RLE-0051
+**Gabarito: D.** Todo natural n pode ser escrito como a fração n/1, então ℕ está contido em ℚ.
+
+- **A:** 0,333... é dízima periódica, igual a 1/3: racional.
+- **B:** √9 = 3, racional.
+- **C:** π é irracional (decimal infinito não periódico).
+- **E:** Contraexemplo: √2 + (−√2) = 0, que é racional.
+
+@@ RLE-0052
+**Gabarito: C.** Os alarmes coincidem a cada MMC(15, 20) minutos. 15 = 3 × 5 e 20 = 2² × 5, logo MMC = 2² × 3 × 5 = 60 min. 8h + 60 min = **9h**.
+
+- **A:** 35 = 15 + 20, soma dos períodos, que não é múltiplo de nenhum deles.
+- **B:** 45 min é múltiplo de 15, mas não de 20.
+- **D:** 80 min é múltiplo de 20, mas não de 15.
+- **E:** Às 10h (120 min) eles também tocam juntos, mas não pela primeira vez.
+
+@@ RLE-0053
+**Gabarito: C.** Após gastar 2/5 sobram 3/5. Gastando 1/3 do restante, sobram 2/3 de 3/5 = 2/5 da mesada. Então (2/5) × M = 120 e M = 120 × 5/2 = **R$ 300**. Conferência: gasta 120, sobram 180; gasta 60, sobram 120.
+
+- **A:** Com R$ 200 sobrariam R$ 80.
+- **B:** Com R$ 250 sobrariam R$ 100.
+- **D:** Com R$ 360 sobrariam R$ 144.
+- **E:** R$ 450 trataria o 1/3 como fração da mesada inteira (1 − 2/5 − 1/3 = 4/15; 120 ÷ 4/15 = 450).
+
+@@ RLE-0054
+**Gabarito: A.** Dízima composta: seja x = 1,2333... Então 10x = 12,333... e 100x = 123,333...; subtraindo, 90x = 111, x = 111/90 = **37/30** (simplificando por 3). Conferência: 37 ÷ 30 = 1,2333...
+
+- **B:** 123/99 = 1,2424..., seria a geratriz se o período fosse "24".
+- **C:** 123/90 = 1,3666...; o numerador correto é 123 − 12 = 111 (subtrai-se a parte que não se repete), e 111/90 simplifica para 37/30.
+- **D:** 12/9 = 1,333...
+- **E:** 37/33 = 1,1212...
+
+@@ RLE-0055
+**Gabarito: D.** Fatore: 180 = 2² × 3² × 5¹. O número de divisores positivos é o produto dos expoentes somados de 1: (2 + 1)(2 + 1)(1 + 1) = 3 × 3 × 2 = **18**.
+
+- **A:** 9 = 3 × 3 esquece o fator 5.
+- **B:** 12 seria, por exemplo, de 2² × 3 × 5 = 60.
+- **C e E:** 15 e 20 não saem da fatoração correta.
+
+@@ RLE-0056
+**Gabarito: B.** Aumentos e descontos sucessivos se multiplicam: 4.000 × 1,15 = 4.600; 4.600 × 0,85 = **3.910**. O fator total é 1,15 × 0,85 = 0,9775, uma perda de 2,25%, porque o desconto incide sobre um valor maior que o original.
+
+- **A:** R$ 4.000 supõe que +15% e −15% se anulam, o que não acontece.
+- **C, D e E:** não saem da conta; R$ 4.090 teria o sinal trocado (o resultado fica abaixo, não acima, do preço inicial: 4.000 − 90 = 3.910).
+
+@@ RLE-0057
+**Gabarito: D.** Após 30% de desconto paga-se 70% do preço: 0,7 × P = 840, logo P = 840 ÷ 0,7 = **R$ 1.200**. Conferência: 30% de 1.200 = 360; 1.200 − 360 = 840.
+
+- **A:** R$ 1.092 = 840 × 1,3: erro clássico de somar 30% ao preço com desconto em vez de dividir por 0,7.
+- **B, C e E:** com esses preços, 70% daria 770, 826 e 875, e não 840.
+
+@@ RLE-0058
+**Gabarito: B.** Multiplique os fatores: 1,05 × 1,10 = 1,155, ou seja, aumento único de **15,5%**. O 0,5% extra vem dos 10% aplicados sobre os 5% do primeiro aumento (5% × 10% = 0,5%).
+
+- **A:** 15% apenas soma as taxas, ignorando o efeito "aumento sobre aumento".
+- **C:** 15,05% erra a casa decimal do termo cruzado (0,05 em vez de 0,5).
+- **D e E:** não correspondem a 1,05 × 1,10.
+
+@@ RLE-0059
+**Gabarito: D.** Variação relativa = (novo − antigo) ÷ antigo = (2,5 − 2) ÷ 2 = 0,25 = **25%**. Em pontos percentuais, o aumento foi de 0,5 p.p.; são medidas diferentes.
+
+- **A:** 0,5 é a variação em pontos percentuais, não a variação relativa.
+- **B:** 5% não sai de nenhuma das duas contas.
+- **C:** 20% divide pela taxa nova (0,5 ÷ 2,5) em vez da antiga.
+- **E:** 50% não corresponde a 0,5 ÷ 2.
+
+@@ RLE-0060
+**Gabarito: C.** Fator acumulado: 1,20 × 0,75 = 0,90. Então 0,90 × N = 18.000 e N = 18.000 ÷ 0,9 = **20.000**. Conferência: 20.000 × 1,2 = 24.000; 24.000 × 0,75 = 18.000.
+
+- **A:** 18.000 é o valor final.
+- **B:** Aproximadamente 18.000 ÷ 0,95, tratando +20% e −25% como queda de 5%.
+- **D:** 21.600 = 18.000 × 1,2, aplica o aumento ao valor final.
+- **E:** 22.500 = 18.000 ÷ 0,8, não corresponde ao fator 0,9.
+
+@@ RLE-0061
+**Gabarito: C.** Juros simples: J = C × i × t = 6.000 × 0,015 × 10. Por mês: 6.000 × 0,015 = 90; em 10 meses: 90 × 10 = **R$ 900**.
+
+- **A:** R$ 600 usaria taxa de 1% a.m.
+- **B:** R$ 750 usaria 1,25% a.m.
+- **D e E:** R$ 960 e R$ 1.050 usariam 1,6% e 1,75% a.m.; nenhum corresponde aos dados.
+
+@@ RLE-0062
+**Gabarito: C.** Juros compostos: M = C × (1 + i)ⁿ = 20.000 × 1,1³. Como 1,1² = 1,21 e 1,1³ = 1,331, M = 20.000 × 1,331 = **R$ 26.620**. Ano a ano: 22.000, 24.200, 26.620.
+
+- **A:** R$ 26.000 é o montante a juros **simples** (20.000 + 3 × 2.000).
+- **B, D e E:** não correspondem a 1,1³; lembre que o composto supera o simples em prazos maiores que um período, mas aqui só por 620.
+
+@@ RLE-0063
+**Gabarito: C.** Para triplicar, o montante é 3C, logo os juros são J = 2C. Em juros simples, J = C × i × t: 2C = C × 0,05 × t, então t = 2 ÷ 0,05 = **40 meses**.
+
+- **A:** 20 meses é o tempo para **dobrar** (J = C).
+- **E:** 60 meses = 3 ÷ 0,05 confunde montante com juros; em 60 meses o capital quadruplica.
+- **B e D:** em 30 e 50 meses os juros seriam 1,5C e 2,5C.
+
+@@ RLE-0064
+**Gabarito: C.** Um ano tem 2 semestres; no regime composto: (1 + 0,10)² − 1 = 1,21 − 1 = 0,21 = **21% a.a.**
+
+- **A:** 20% é a taxa proporcional (regime simples: 2 × 10%).
+- **B, D e E:** não correspondem a 1,1². O extra de 1% sobre os 20% vem dos juros sobre juros (10% de 10%).
+
+@@ RLE-0065
+**Gabarito: A.** Taxa real: (1 + nominal) ÷ (1 + inflação) − 1 = 1,12 ÷ 1,05 − 1 ≈ 1,0667 − 1 = **6,67%**. Conferência: 1,05 × 1,0667 ≈ 1,12.
+
+- **B:** 7% é a subtração simples (12 − 5), que só aproxima; o correto é dividir os fatores.
+- **C e D:** não saem de 1,12 ÷ 1,05.
+- **E:** 17% soma as taxas, o contrário do que se quer.
+
+@@ RLE-0066
+**Gabarito: D.** Soma das partes: 2 + 3 + 4 = 9. Constante: 4.500 ÷ 9 = 500. Partes: 1.000, 1.500 e 2.000. A maior é 4 × 500 = **R$ 2.000**.
+
+- **A:** R$ 1.000 é a menor parte.
+- **B:** R$ 1.500 é a parte do meio.
+- **C e E:** R$ 1.800 e R$ 2.250 (metade do total) não são nenhuma das partes.
+
+@@ RLE-0067
+**Gabarito: C.** Inversamente proporcional a 20, 30 e 60 é diretamente proporcional a 1/20, 1/30 e 1/60. Multiplicando por 60: 3, 2 e 1 (soma 6). Constante: 24.000 ÷ 6 = 4.000. O mais novo (20 anos) recebe 3 × 4.000 = **R$ 12.000**; os outros, 8.000 e 4.000.
+
+- **A:** R$ 4.000 é a parte do mais velho (60 anos).
+- **B:** R$ 8.000 é a parte do herdeiro de 30 anos.
+- **D e E:** não correspondem a nenhuma parte; na divisão **direta** o mais novo receberia 24.000 × 20/110 ≈ 4.364.
+
+@@ RLE-0068
+**Gabarito: D.** Regra de três composta. Menos impressoras, mais tempo (inversa): fator 8/5. Mais páginas, mais tempo (direta): fator 3.000/2.400 = 1,25. Tempo = 15 × 1,6 × 1,25 = **30 min**. Conferência: cada impressora faz 2.400 ÷ (8 × 15) = 20 páginas/min; 5 fazem 100 páginas/min; 3.000 ÷ 100 = 30.
+
+- **B:** 24 min = 15 × 8/5, ajusta só as impressoras e esquece as páginas.
+- **A, C e E:** não saem das proporções corretas (tratar impressoras como grandeza direta daria menos de 15 min).
+
+@@ RLE-0069
+**Gabarito: C.** Se x/y = 2/7, então x = 2k e y = 7k. x + y = 9k = 54, logo k = 6, x = 12 e y = 42. y − x = 5k = **30**.
+
+- **A:** 12 é o valor de x.
+- **E:** 42 é o valor de y.
+- **B e D:** 24 e 36 seriam 4k e 6k, que não correspondem a y − x.
+
+@@ RLE-0070
+**Gabarito: B.** Some as produtividades: o primeiro faz 1/10 do lote por hora e o segundo 1/15. Juntos: 1/10 + 1/15 = 3/30 + 2/30 = 5/30 = 1/6 do lote por hora, ou seja, **6 h**. Atalho: produto ÷ soma = 150 ÷ 25.
+
+- **A:** 5 h é a diferença dos tempos.
+- **C:** 7,5 h não corresponde a nenhuma conta válida.
+- **D:** 12,5 h é a média dos tempos; juntos eles têm de gastar menos que o mais rápido sozinho (10 h).
+- **E:** 25 h é a soma dos tempos.
+
+@@ RLE-0071
+**Gabarito: C.** Distância real = distância no mapa × denominador da escala: 12 × 12.000 = 144.000 cm. Convertendo: 144.000 cm = 1.440 m = **1,44 km**.
+
+- **A:** 144 m erra a conversão de cm para m (dividiu por 1.000).
+- **B:** 1,2 km corresponderia a 10 cm no mapa.
+- **D e E:** 14,4 km e 144 km erram casas na conversão para km.
+
+@@ RLE-0072
+**Gabarito: C.** 1 hectare = 10.000 m² (um quadrado de 100 m de lado). 3,2 × 10.000 = **32.000 m²**.
+
+- **A:** Usa 1 ha = 100 m², que é a definição do are.
+- **B:** Usa 1 ha = 1.000 m².
+- **D:** Usa 1 ha = 100.000 m².
+- **E:** Usa 1 ha = 1.000.000 m², que é 1 km².
+
+@@ RLE-0073
+**Gabarito: B.** Como 1 dm³ = 1 L, converta tudo para decímetros: 1,2 m = 12 dm; 80 cm = 8 dm; 50 cm = 5 dm. Volume = 12 × 8 × 5 = 480 dm³ = **480 L**. Em metros: 1,2 × 0,8 × 0,5 = 0,48 m³, e 1 m³ = 1.000 L.
+
+- **A e E:** 48 e 4,8 erram casas decimais para menos.
+- **C e D:** 4.800 e 48.000 erram para mais (por exemplo, usando 1 m³ = 10.000 L).
+
+@@ RLE-0074
+**Gabarito: A.** 2,6 h não são 2 h 60 min nem 2 h 06 min: 0,6 h = 0,6 × 60 = 36 min. Então 14h48 + 2h36 = 16h84 = **17h24**.
+
+- **B:** 17h14 trata 2,6 h como 2 h 26 min.
+- **C:** 17h08 não corresponde a nenhuma conversão válida (2 h 20 min).
+- **D:** 17h36 soma errado os minutos.
+- **E:** 16h54 trata 2,6 h como 2 h 06 min.
+
+@@ RLE-0075
+**Gabarito: C.** Escala = medida no desenho ÷ medida real, nas mesmas unidades. 60 m = 6.000 cm; 3 ÷ 6.000 = 1 ÷ 2.000. Escala **1:2.000**.
+
+- **A:** 1:20 divide 60 por 3 sem converter metros em centímetros.
+- **B e D:** 1:200 e 1:20.000 erram a conversão (1 m = 100 cm).
+- **E:** 1:600 não sai de 6.000 ÷ 3.
+
+@@ RLE-0076
+**Gabarito: A.** Velocidade média = distância total ÷ tempo total. Subida: 6 ÷ 12 = 0,5 h (30 min). Descida: 6 ÷ 36 = 1/6 h (10 min). Total: 12 km em 40 min = 2/3 h, ou 12 ÷ (2/3) = **18 km/h**. Para distâncias iguais vale a média harmônica: 2 × 12 × 36 ÷ (12 + 36) = 864 ÷ 48 = 18.
+
+- **D:** 24 km/h é a média aritmética das velocidades, pegadinha clássica: o ciclista passa mais tempo no trecho lento.
+- **B, C e E:** não correspondem a 12 km em 40 min.
+
+@@ RLE-0077
+**Gabarito: C.** Para passar de km/h para m/s divide-se por 3,6: 90 ÷ 3,6 = **25 m/s** (90 km/h = 90.000 m em 3.600 s).
+
+- **A:** 15 m/s equivalem a 54 km/h.
+- **B:** 20 m/s equivalem a 72 km/h.
+- **D:** 30 m/s equivalem a 108 km/h.
+- **E:** 324 = 90 × 3,6, multiplicou em vez de dividir.
+
+@@ RLE-0078
+**Gabarito: B.** Distância total: 240 + 160 = 400 km. Tempo total, contando a parada: 3 + 1 + 2 = 6 h. Velocidade média: 400 ÷ 6 ≈ **66,7 km/h**.
+
+- **A:** 60 km/h não corresponde aos dados (seriam 360 km em 6 h).
+- **C:** 70 km/h não sai de nenhuma conta válida.
+- **D:** 80 km/h ignora a parada (400 ÷ 5); também é a velocidade de cada trecho em movimento.
+- **E:** 100 km/h divide por 4 h.
+
+@@ RLE-0079
+**Gabarito: B.** Em sentidos opostos as velocidades se somam: afastam-se a 4 + 6 = 10 m/s. Tempo = 1.000 m ÷ 10 m/s = **100 s**. Conferência: um percorre 400 m e o outro 600 m.
+
+- **A:** 50 s daria só 500 m de separação.
+- **C:** 125 s não corresponde a 10 m/s.
+- **D:** 166 s é 1.000 ÷ 6, usa só a velocidade do mais rápido.
+- **E:** 250 s é 1.000 ÷ 4, usa só a do mais lento.
+
+@@ RLE-0080
+**Gabarito: B.** 54 km/h ÷ 3,6 = 15 m/s. Em 40 s o trem percorre 15 × 40 = 600 m. Para atravessar **totalmente**, ele percorre o túnel mais o próprio comprimento: túnel + 150 = 600, logo túnel = **450 m**.
+
+- **A:** 300 m subtrai o comprimento do trem duas vezes.
+- **C:** 600 m esquece de descontar o trem.
+- **D:** 750 m soma o trem em vez de subtrair.
+- **E:** 2.010 = 54 × 40 − 150, sem converter km/h para m/s.
+
+@@ RLE-0081
+**Gabarito: C.** Multiplique tudo pelo MMC 6: 3(x + 1) − 2(x − 3) = 12. Distribuindo: 3x + 3 − 2x + 6 = 12 (atenção: −2 × −3 = +6). Então x + 9 = 12 e x = **3**. Conferência: (3 + 1)/2 − (3 − 3)/3 = 2 − 0 = 2.
+
+- **A, B, D e E:** substituindo, o lado esquerdo dá 5/3 (x = 1), 11/6 (x = 2), 13/6 (x = 4) e 7/3 (x = 5), nenhum igual a 2.
+
+@@ RLE-0082
+**Gabarito: C.** Depois da segunda restam 3/5 do relatório. Na terça ele lê metade do restante, sobrando 1/2 × 3/5 = 3/10. Então (3/10) × x = 36 e x = **120 páginas**. Conferência: lê 48, restam 72; lê 36, restam 36.
+
+- **A:** Com 90 páginas faltariam 27.
+- **B:** Com 100 faltariam 30.
+- **D:** Com 150 faltariam 45.
+- **E:** Com 180 faltariam 54.
+
+Erro comum: tratar o 1/2 como metade do relatório inteiro (1 − 2/5 − 1/2 = 1/10), o que daria 360 páginas.
+
+@@ RLE-0083
+**Gabarito: C.** Sistema: c + m = 42 e 4c + 2m = 136. Atalho: se todos fossem motos, haveria 84 rodas; faltam 136 − 84 = 52, e cada carro acrescenta 2 rodas, logo 26 carros e 42 − 26 = **16 motos**. Conferência: 26 × 4 + 16 × 2 = 104 + 32 = 136.
+
+- **D:** 26 é o número de **carros**.
+- **A, B e E:** com 10, 14 ou 28 motos as rodas somariam 148, 140 ou 112.
+
+@@ RLE-0084
+**Gabarito: C.** Relações de Girard: soma das raízes = −b/a = −(−12)/3 = **4**. Conferência: dividindo por 3, x² − 4x + 3 = 0, raízes 1 e 3, soma 4.
+
+- **A:** −4 esquece o sinal de −b.
+- **B:** 3 é o **produto** das raízes (c/a = 9/3) e também uma das raízes.
+- **D:** 9 é o coeficiente c.
+- **E:** 12 é −b, sem dividir por a.
+
+@@ RLE-0085
+**Gabarito: C.** Hoje: r + s = 46. Há 5 anos: r − 5 = 2(s − 5), logo r = 2s − 5. Substituindo: 2s − 5 + s = 46, 3s = 51, s = 17 e r = **29**. Conferência: há 5 anos, 24 e 12 (o dobro).
+
+- **A, B, D e E:** com Rita de 27, 28, 30 ou 32 anos, Sofia teria 19, 18, 16 ou 14, e há 5 anos as idades seriam 22 e 14, 23 e 13, 25 e 11, 27 e 9: em nenhum caso uma é o dobro da outra.
+
+@@ RLE-0086
+**Gabarito: B.** Com avó, mãe e filha, a mãe ocupa dois papéis: é mãe (da filha) e filha (da avó). Assim há duas mães (avó e mãe) e duas filhas (mãe e filha) em apenas **3 pessoas**, o que bate com os 3 pratos.
+
+- **A:** Com 2 pessoas haveria só uma mãe e uma filha.
+- **C:** 4 pessoas pediriam 4 pratos; é a leitura ingênua (2 + 2).
+- **D e E:** contrariam o número de pratos.
+
+@@ RLE-0087
+**Gabarito: B.** "O ontem de amanhã" é hoje (amanhã menos um dia). Logo hoje é sábado; amanhã é domingo e depois de amanhã é **segunda**.
+
+- **A:** Domingo é amanhã.
+- **C:** Terça vem um dia depois de depois de amanhã (três dias após hoje).
+- **D e E:** quinta e sexta são dias anteriores a hoje, não posteriores.
+
+@@ RLE-0088
+**Gabarito: C.** Davi não está em TI nem em Câmbio, então está em Crédito. Elisa não está em TI e Crédito já é de Davi, então está em Câmbio. Sobra TI para **Fábio**.
+
+- **A:** O enunciado diz que Davi não trabalha em Câmbio.
+- **B:** Crédito é de Davi; Elisa fica com Câmbio.
+- **D:** Crédito é de Davi; Fábio fica com TI.
+- **E:** O enunciado diz que Elisa não trabalha em TI.
+
+@@ RLE-0089
+**Gabarito: B.** Teste cada culpado. Se foi Y: X diz a verdade, Y mente e Z diz a verdade, exatamente um mentiroso (serve). Se foi X ou Z: X e Z mentem (acusam Y) e só Y diz a verdade, dois mentirosos (não serve). Logo foi **Y**. Outro caminho: X e Z dizem a mesma coisa; se mentissem seriam dois mentirosos, então dizem a verdade.
+
+- **A e C:** Nesses casos haveria dois mentirosos (X e Z).
+- **D:** Z está descartado pelo mesmo motivo.
+- **E:** A condição de exatamente um mentiroso determina o culpado.
+
+@@ RLE-0090
+**Gabarito: C.** Princípio da casa dos pombos, pensando no pior caso: é possível tirar 2 canetas de cada uma das 3 cores (6 canetas) sem ter 3 iguais. A 7ª caneta, de qualquer cor, completa um trio. Resposta: 2 × 3 + 1 = **7**.
+
+- **A:** Com 3 canetas elas podem ser uma de cada cor.
+- **B:** Com 6 ainda pode haver 2 de cada cor.
+- **D:** 10 também garante, mas não é o mínimo.
+- **E:** 19 seria o necessário para garantir 3 canetas **azuis** (pior caso: 7 pretas e 9 vermelhas antes), não 3 de uma mesma cor qualquer.
+
+@@ RLE-0091
+**Gabarito: C.** Termo geral da PA: aₙ = a₁ + (n − 1) × r, com a₁ = 7 e r = 12 − 7 = 5. a₃₀ = 7 + 29 × 5 = 7 + 145 = **152**.
+
+- **A:** 147 usa 28 × 5 (é o 29º termo).
+- **B:** 150 = 30 × 5, esquece o primeiro termo.
+- **D:** 155 não é termo da PA (os termos terminam em 2 ou 7).
+- **E:** 157 usa 30 × 5 em vez de 29 × 5 (é o 31º termo).
+
+@@ RLE-0092
+**Gabarito: C.** Os ímpares formam a PA 1, 3, 5, ..., com a₅₀ = 1 + 49 × 2 = 99. Soma = (a₁ + aₙ) × n ÷ 2 = (1 + 99) × 50 ÷ 2 = **2.500**. Atalho: a soma dos n primeiros ímpares é n².
+
+- **A:** 1.250 divide por 2 uma vez a mais.
+- **B:** 2.450 não corresponde à soma (seria a soma dos pares de 2 a 98).
+- **D:** 2.550 é a soma dos 50 primeiros **pares** (50 × 51).
+- **E:** 5.000 esquece de dividir por 2.
+
+@@ RLE-0093
+**Gabarito: D.** Cada termo é o dobro do anterior mais 1 (ou as diferenças dobram: 2, 4, 8, 16, 32). Então 31 × 2 + 1 = 31 + 32 = **63**. Os termos são 2ⁿ − 1: 1, 3, 7, 15, 31, 63.
+
+- **A:** 47 repete a diferença anterior (31 + 16).
+- **B:** 51 não segue nenhum padrão da sequência.
+- **C:** 62 só dobra, sem somar 1.
+- **E:** 64 é 2⁶, sem subtrair 1.
+
+@@ RLE-0094
+**Gabarito: A.** O ciclo tem 3 letras. 100 ÷ 3 = 33 ciclos completos (99 letras) e resto 1: a 100ª letra é a 1ª do ciclo, **A**.
+
+- **B:** B aparece nas posições de resto 2 (como a 101ª).
+- **C:** C aparece nas posições múltiplas de 3 (como a 99ª).
+- **D e E:** A sequência é periódica, então a posição determina a letra.
+
+@@ RLE-0095
+**Gabarito: C.** Termo geral da PG: aₙ = a₁ × qⁿ⁻¹, com a₁ = 2 e q = 6 ÷ 2 = 3. a₆ = 2 × 3⁵ = 2 × 243 = **486**. Termos: 2, 6, 18, 54, 162, 486.
+
+- **A:** 162 é o 5º termo.
+- **B:** 243 é 3⁵, sem multiplicar por a₁ = 2.
+- **D:** 729 é 3⁶.
+- **E:** 1.458 é o 7º termo (usa q⁶).
+
+@@ RLE-0096
+**Gabarito: C.** A ordem importa e não há repetição (arranjo): 5 opções para o 1º algarismo, 4 para o 2º, 3 para o 3º e 2 para o 4º. 5 × 4 × 3 × 2 = **120**.
+
+- **A:** 24 = 4!, como se houvesse só 4 algarismos disponíveis.
+- **B:** 60 = 5 × 4 × 3, números de 3 algarismos.
+- **D:** 625 = 5⁴, permite repetição.
+- **E:** 3.125 = 5⁵, cinco posições com repetição.
+
+@@ RLE-0097
+**Gabarito: D.** PROVA tem 5 letras distintas; os anagramas são as permutações: 5! = 5 × 4 × 3 × 2 × 1 = **120**.
+
+- **A:** 24 = 4!.
+- **B:** 60 = 5!/2, seria o caso de uma letra repetida duas vezes.
+- **C:** 100 não corresponde a nenhuma contagem.
+- **E:** 720 = 6!, para palavra de 6 letras distintas.
+
+@@ RLE-0098
+**Gabarito: B.** Sem funções distintas a ordem não importa: combinação. C(7,4) = C(7,3) = (7 × 6 × 5) ÷ (3 × 2 × 1) = 210 ÷ 6 = **35**.
+
+- **A:** 28 = 7 × 4, multiplica os números do enunciado.
+- **C:** 210 = 7 × 6 × 5, esquece de dividir por 3!.
+- **D:** 840 = 7 × 6 × 5 × 4 é o arranjo, em que a ordem importaria.
+- **E:** 5.040 = 7!, permutação de todos.
+
+@@ RLE-0099
+**Gabarito: C.** Na permutação circular só importa a posição relativa: fixa-se uma pessoa e permutam-se as outras. PC₆ = (6 − 1)! = 5! = **120**.
+
+- **A:** 36 = 6 × 6.
+- **B:** 60 seria 5!/2, quando também não se distingue o sentido (caso de colares).
+- **D:** 360 = 6!/2.
+- **E:** 720 = 6!, permutação em fila, que conta cada roda 6 vezes.
+
+@@ RLE-0100
+**Gabarito: A.** Princípio multiplicativo com repetição: 26 × 26 para as letras e 10 × 10 × 10 para os algarismos. 676 × 1.000 = **676.000**.
+
+- **B:** 468.000 = 26 × 25 × 10 × 9 × 8, sem repetição de letras nem de algarismos.
+- **C:** 67.600 usa só 2 algarismos (676 × 100).
+- **D:** 650.000 = 26 × 25 × 1.000, sem repetição de letras.
+- **E:** 6.760.000 usa 4 algarismos (676 × 10.000).
+
+@@ RLE-0101
+**Gabarito: B.** Sem reposição: P(1ª branca) = 4/10; P(2ª branca) = 3/9. Produto: 12/90 = **2/15**. Por combinação: C(4,2) ÷ C(10,2) = 6 ÷ 45 = 2/15.
+
+- **A:** 4/25 = (4/10)², seria **com** reposição.
+- **C:** 1/5 não corresponde ao evento.
+- **D:** 2/5 é só a probabilidade da primeira branca.
+- **E:** 4/15 é o dobro da correta (multiplica por 2 sem motivo: a ordem não gera casos novos quando as duas são brancas).
+
+@@ RLE-0102
+**Gabarito: B.** Dos 36 resultados ordenados, somam 8: (2,6), (3,5), (4,4), (5,3) e (6,2). São 5 casos: **5/36**.
+
+- **A:** 1/6 = 6/36 é a probabilidade da soma 7.
+- **C:** 1/9 = 4/36 é a da soma 5 ou da soma 9.
+- **D:** 7/36 não é probabilidade de nenhuma soma (o máximo é 6/36).
+- **E:** 1/12 = 3/36 é a da soma 4 ou 10 (ou conta só pares não ordenados).
+
+@@ RLE-0103
+**Gabarito: C.** P(A ∪ B) = P(A) + P(B) − P(A ∩ B). Por serem independentes, P(A ∩ B) = 0,5 × 0,4 = 0,2. Então 0,5 + 0,4 − 0,2 = **0,7**. Conferência pelo complementar: 1 − 0,5 × 0,6 = 0,7.
+
+- **A:** 0,2 é a interseção.
+- **B:** 0,5 é só P(A).
+- **D:** 0,8 não corresponde à fórmula.
+- **E:** 0,9 soma sem subtrair a interseção (valeria só para eventos mutuamente exclusivos).
+
+@@ RLE-0104
+**Gabarito: A.** Há duas ordens possíveis: desenvolvimento e depois infraestrutura (8/12 × 4/11 = 32/132) ou o contrário (4/12 × 8/11 = 32/132). Soma: 64/132 = **16/33**. Por combinação: (8 × 4) ÷ C(12,2) = 32 ÷ 66 = 16/33.
+
+- **B:** 8/33 = 32/132 considera só uma das ordens.
+- **C, D e E:** 1/2, 1/3 e 2/3 não saem da conta (16/33 ≈ 0,485, perto mas diferente de 1/2).
+
+@@ RLE-0105
+**Gabarito: E.** Use o complementar: P(pelo menos uma menina) = 1 − P(nenhuma menina) = 1 − (1/2)³ = 1 − 1/8 = **7/8**.
+
+- **A:** 1/8 é a probabilidade de nenhuma menina (três meninos).
+- **B:** 3/8 é a de exatamente uma menina (ou exatamente duas).
+- **C:** 1/2 é a de pelo menos duas meninas.
+- **D:** 5/8 não corresponde a nenhum desses eventos.
+
+@@ RLE-0106
+**Gabarito: C.** Pitágoras: h² = 9² + 12² = 81 + 144 = 225, logo h = **15 cm**. É o triângulo 3-4-5 multiplicado por 3.
+
+- **A:** 13 é a hipotenusa do triângulo 5-12-13.
+- **B e D:** 14² = 196 e 16² = 256, diferentes de 225.
+- **E:** 21 é a soma dos catetos; a hipotenusa é sempre menor que essa soma.
+
+@@ RLE-0107
+**Gabarito: C.** A diagonal é a hipotenusa do triângulo formado pelos lados: d² = 12² + 5² = 144 + 25 = 169, logo d = **13 m** (terno 5-12-13).
+
+- **A e B:** A diagonal tem de ser maior que o maior lado (12 m).
+- **D:** 15² = 225, não 169.
+- **E:** 17 é a soma dos lados.
+
+@@ RLE-0108
+**Gabarito: C.** Soma dos ângulos internos de um polígono de n lados: (n − 2) × 180°. Para o octógono (n = 8): 6 × 180° = **1.080°**.
+
+- **A:** 720° é do hexágono (n = 6).
+- **B:** 900° é do heptágono (n = 7).
+- **D:** 1.260° é do eneágono (n = 9).
+- **E:** 1.440° = 8 × 180°, esquece de subtrair 2 (é a soma do decágono).
+
+@@ RLE-0109
+**Gabarito: C.** Comprimento: 2πr = 12π, logo r = 6 cm. Área: πr² = π × 6² = **36π cm²**.
+
+- **A:** 12π repete o comprimento.
+- **B:** 24π = 2π × 12, mistura as fórmulas.
+- **D:** 72π é o dobro da área.
+- **E:** 144π usa r = 12 (confunde raio com diâmetro).
+
+@@ RLE-0110
+**Gabarito: B.** No mesmo instante os raios de sol formam triângulos semelhantes: altura ÷ sombra é constante. h/15 = 2/3, logo h = 15 × 2 ÷ 3 = **10 m**.
+
+- **A:** 7,5 m = 15 ÷ 2.
+- **C:** 12 m não satisfaz a proporção (12/15 = 0,8, diferente de 2/3).
+- **D:** 20 m não corresponde à proporção.
+- **E:** 22,5 m inverte a razão (15 × 3/2).
+
+@@ RLE-0111
+**Gabarito: C.** Primeiro ordene (rol): 1, 3, 4, 7, 8, 9. Com número par de dados, a mediana é a média dos dois centrais: (4 + 7) ÷ 2 = **5,5**.
+
+- **A e E:** 4 e 7 são os dois valores centrais, mas com n par tira-se a média deles.
+- **B:** 5 não corresponde a nenhuma medida do conjunto.
+- **D:** 6 não é a mediana (e a média aritmética é 32 ÷ 6 ≈ 5,33).
+
+Erro comum: pegar os centrais sem ordenar (1 e 9), o que daria 5.
+
+@@ RLE-0112
+**Gabarito: B.** Média ponderada = soma de nota × peso dividida pela soma dos pesos: (7 × 1 + 6 × 1 + 8 × 2) ÷ (1 + 1 + 2) = 29 ÷ 4 = **7,25**.
+
+- **A:** 7 é a média aritmética simples (21 ÷ 3), ignorando os pesos.
+- **C, D e E:** não saem de 29 ÷ 4; dividir 29 por 3 (número de provas) daria 9,67.
+
+@@ RLE-0113
+**Gabarito: C.** Média: (1 + 3 + 5 + 7) ÷ 4 = 4. Desvios: −3, −1, 1, 3. Quadrados: 9, 1, 1, 9, soma 20. Variância populacional (divide por n): 20 ÷ 4 = **5**.
+
+- **A:** 2 é o desvio médio absoluto ((3 + 1 + 1 + 3) ÷ 4).
+- **B:** 4 é a média.
+- **D:** 6,67 é a variância **amostral** (20 ÷ 3, dividindo por n − 1).
+- **E:** 20 é a soma dos quadrados, sem dividir.
+
+@@ RLE-0114
+**Gabarito: C.** Somar uma constante desloca todos os valores e a média na mesma quantidade; os desvios em relação à média ficam iguais, então desvio padrão e variância **não se alteram**. A média, sim, aumenta 10.
+
+- **A:** Quem aumenta 10 unidades é a média (e a mediana e a moda).
+- **B:** Dobraria se os valores fossem **multiplicados** por 2.
+- **D:** Nem a variância muda com a soma de constante.
+- **E:** A dispersão não diminui.
+
+@@ RLE-0115
+**Gabarito: D.** Trabalhe com somas. Soma atual: 5 × 12 = 60. Soma necessária com 6 números: 6 × 13 = 78. O novo número é 78 − 60 = **18**.
+
+- **A:** Acrescentar 13 daria média 73 ÷ 6 ≈ 12,17.
+- **B:** 15 daria média 12,5.
+- **C:** 17 daria média ≈ 12,83.
+- **E:** 20 daria média ≈ 13,33.
+
+@@ RLE-0116
+**Gabarito: D.** O círculo inteiro (100%) tem 360°, então cada 1% vale 3,6°. 18 × 3,6 = **64,8°**.
+
+- **A:** 18° confunde porcentagem com graus.
+- **B:** 36° corresponde a 10%.
+- **C:** 54,8° é erro de conta (18 × 3 = 54, mais 18 × 0,6 = 10,8).
+- **E:** 72° corresponde a 20%.
+
+@@ RLE-0117
+**Gabarito: B.** Realizado (32%) abaixo do planejado (40%) indica atraso; a diferença entre dois percentuais se mede em pontos percentuais: 40 − 32 = **8 p.p.**
+
+- **A:** Estaria adiantado se o realizado superasse o planejado.
+- **C:** 32% é o **acumulado** até o fim do mês 3, não o executado só no mês 3.
+- **D:** 20% é o atraso relativo (8 ÷ 40), não 20 pontos percentuais.
+- **E:** A comparação das duas curvas permite concluir.
+
+@@ RLE-0118
+**Gabarito: C.** A curva S mostra o avanço acumulado no tempo; a inclinação é o avanço por unidade de tempo. Onde a curva é mais íngreme (em geral no meio do projeto), o ritmo de execução é maior.
+
+- **A:** Atraso se vê comparando realizado com planejado, não pela inclinação.
+- **B:** Menor produtividade aparece nos trechos mais achatados (início e fim).
+- **D:** No fim a curva achata ao se aproximar de 100%.
+- **E:** Interrupção seria um trecho horizontal.
+
+@@ RLE-0119
+**Gabarito: C.** Os valores dados são acumulados; o avanço de um mês é a diferença para o mês anterior: 60% − 30% = **30%**. Avanços mensais: 10, 20, 30, 25 e 15 (soma 100).
+
+- **A:** 20% é o avanço do mês 2.
+- **B:** 25% é o avanço do mês 4.
+- **D:** 60% é o acumulado até o mês 3.
+- **E:** 90% soma os acumulados dos meses 2 e 3.
+
+@@ RLE-0120
+**Gabarito: B.** A diferença entre dois percentuais se mede em pontos percentuais: 30 − 20 = 10 p.p. Já a variação relativa é (30 − 20) ÷ 20 = 0,5 = 50%. As duas informações estão corretas e aparecem juntas na alternativa B.
+
+- **A:** "Cresceu 10%" confunde ponto percentual com porcentagem; 10% sobre 20% daria 22%.
+- **C:** 30% é o valor final, não o crescimento.
+- **D:** 1,5 é a razão 30 ÷ 20, não uma diferença em pontos percentuais.
+- **E:** 150% é o valor final como percentual do inicial; o crescimento é de 50%.
+
+@@ RLE-0121
+**Gabarito: B.** Os quadrantes são numerados no sentido anti-horário: 1º (+, +), 2º (−, +), 3º (−, −) e 4º (+, −). O ponto (−2, 5) tem x negativo e y positivo: **2º quadrante**.
+
+- **A:** No 1º quadrante x e y são positivos.
+- **C:** No 3º os dois são negativos.
+- **D:** No 4º, x é positivo e y negativo, como (2, −5).
+- **E:** Para estar no eixo y, a abscissa teria de ser 0.
+
+@@ RLE-0122
+**Gabarito: B.** Distância entre dois pontos: d = √(Δx² + Δy²). Δx = 5 − (−1) = 6 e Δy = 10 − 2 = 8. d = √(36 + 64) = √100 = **10** (terno 6-8-10).
+
+- **A:** 8 é só a diferença das ordenadas.
+- **C:** 12 não corresponde a nenhuma conta válida.
+- **D:** 14 soma os catetos (6 + 8) em vez de aplicar Pitágoras.
+- **E:** √52 = √(4² + 6²) vem de erros de sinal nas diferenças das coordenadas.
+
+@@ RLE-0123
+**Gabarito: A.** O ponto médio é a média das coordenadas: x = (2 + 8) ÷ 2 = 5 e y = (−4 + 6) ÷ 2 = 1. Ponto **(5, 1)**.
+
+- **B:** (6, 2) não corresponde às médias.
+- **C:** (3, 5) é a metade das **diferenças** (8 − 2 e 6 − (−4)).
+- **D:** (10, 2) é a soma das coordenadas, sem dividir por 2.
+- **E:** (5, −1) erra o sinal da ordenada.
+
+@@ RLE-0124
+**Gabarito: C.** Coeficiente angular: (7 − 3) ÷ (2 − 0) = 2. Como a reta passa por (0, 3), o coeficiente linear é 3: y = 2x + 3. Para x = 5: y = 2 × 5 + 3 = **13**.
+
+- **A:** 10 = 2 × 5, esquece o coeficiente linear.
+- **B, D e E:** 11, 15 e 17 são as ordenadas para x = 4, 6 e 7.
+
+@@ RLE-0125
+**Gabarito: C.** Simetria em relação à origem troca o sinal das **duas** coordenadas: (x, y) vira (−x, −y). Logo (4, −3) vira **(−4, 3)**.
+
+- **A:** (4, 3) é o simétrico em relação ao eixo x (troca só o sinal de y).
+- **B:** (−4, −3) é o simétrico em relação ao eixo y (troca só o sinal de x).
+- **D:** (−3, 4) é o simétrico em relação à reta y = x (troca as coordenadas de lugar).
+- **E:** (3, −4) é o simétrico em relação à reta y = −x.
+
+@@ RLE-0126
+**Gabarito: C.** O produto A·B existe quando o número de colunas de A é igual ao de linhas de B (3 = 3). O resultado tem as linhas de A e as colunas de B: **2 × 4**.
+
+- **A:** 2 × 3 é a ordem de A.
+- **B:** 3 × 3 usa os números "de dentro", que só servem para verificar se o produto existe.
+- **D:** 4 × 2 inverte linhas e colunas.
+- **E:** O produto existe; o que não existe é B·A (4 colunas contra 2 linhas).
+
+@@ RLE-0127
+**Gabarito: B.** Determinante 2 × 2: diagonal principal menos diagonal secundária. 3 × 4 − 5 × 2 = 12 − 10 = **2**.
+
+- **A:** −2 inverte a ordem da subtração.
+- **C:** 7 soma a diagonal principal (3 + 4), que é o traço.
+- **D:** 22 soma os produtos (12 + 10) em vez de subtrair.
+- **E:** 14 soma todos os elementos.
+
+@@ RLE-0128
+**Gabarito: C.** A diagonal principal tem os elementos com i = j: a₁₁ = 1 + 1 = 2, a₂₂ = 2 + 2 = 4 e a₃₃ = 3 + 3 = 6. Soma (traço): 2 + 4 + 6 = **12**.
+
+- **A:** 6 = 1 + 2 + 3, soma os índices uma vez só.
+- **B:** 9 é a soma da 1ª linha (2 + 3 + 4).
+- **D:** 15 é a soma da 3ª linha (4 + 5 + 6).
+- **E:** 18 não corresponde à diagonal.
+
+@@ RLE-0129
+**Gabarito: D.** Multiplicar a matriz por k multiplica **cada uma das n linhas** por k, então det(kA) = kⁿ × det A. Com n = 3: 2³ × 5 = 8 × 5 = **40**.
+
+- **A:** 10 = 2 × 5, valeria se só uma linha fosse multiplicada por 2.
+- **B:** 20 = 2² × 5, valeria para matriz 2 × 2.
+- **C:** 30 = 2 × 3 × 5, multiplica pela ordem em vez de usar potência.
+- **E:** 125 = 5³, eleva o determinante em vez do escalar.
+
+@@ RLE-0130
+**Gabarito: D.** O elemento c₂₁ é a linha 2 de A vezes a coluna 1 de B: (3, 4) · (0, 2) = 3 × 0 + 4 × 2 = **8**. A matriz completa é C = [[4, −1], [8, −1]].
+
+- **A:** 2 é o elemento b₂₁ de B.
+- **B:** 4 é o elemento c₁₁.
+- **C:** 6 não é elemento de C.
+- **E:** −1 é o valor de c₁₂ e de c₂₂.
+
+@@ RLE-0131
+**Gabarito: C.** No desconto racional (por dentro) composto, o valor atual é A = N ÷ (1 + i)ⁿ = 12.100 ÷ 1,1² = 12.100 ÷ 1,21 = **R$ 10.000**. Conferência: 10.000 × 1,21 = 12.100.
+
+- **A:** R$ 9.680 é o desconto **comercial simples**: 12.100 × (1 − 0,20).
+- **B:** R$ 9.801 é o desconto **comercial composto**: 12.100 × 0,9².
+- **D:** R$ 10.890 desconta 10% uma única vez (12.100 × 0,9).
+- **E:** R$ 11.000 desconta só um mês (12.100 ÷ 1,1).
+
+@@ RLE-0132
+**Gabarito: B.** O valor presente das duas prestações deve ser 1.000: P/1,1 + P/1,21 = 1.000. Multiplicando por 1,21: 1,1P + P = 1.210, logo 2,1P = 1.210 e P ≈ **R$ 576,19**. Conferência: 576,19 ÷ 1,1 ≈ 523,81 e 576,19 ÷ 1,21 ≈ 476,19; soma 1.000.
+
+- **A:** R$ 550 = 1.100 ÷ 2, considera juros de um só mês sobre tudo.
+- **C:** R$ 600 = 1.200 ÷ 2, juros simples de dois meses sobre todo o principal.
+- **D:** R$ 605 = 1.210 ÷ 2, capitaliza toda a dívida por dois meses, ignorando que a 1ª parcela amortiza antes.
+- **E:** R$ 610 não corresponde a nenhuma conta válida.
+
+@@ RLE-0133
+**Gabarito: B.** Traga os fluxos a valor presente pela TMA: 11.000 ÷ 1,1 = 10.000 e 12.100 ÷ 1,21 = 10.000. VPL = 10.000 + 10.000 − 20.000 = **0**. A TIR é a taxa que zera o VPL; como ele zera a 10%, TIR = 10% = TMA (o projeto é indiferente).
+
+- **A:** R$ 3.100 é a soma nominal (23.100 − 20.000), sem descontar os fluxos.
+- **C:** O VPL é zero, não negativo, e a TIR é igual a 10%.
+- **D:** 15,5% é 3.100 ÷ 20.000, o ganho nominal total, que não é a TIR.
+- **E:** Em 1 ano só voltam 11.000 dos 20.000; o payback simples ocorre durante o 2º ano.
+
+@@ RLE-0134
+**Gabarito: Errado.** No SAC o que é constante é a **amortização**. Como os juros incidem sobre o saldo devedor, que cai a cada período, os juros são decrescentes e as prestações (amortização + juros) também **decrescem**. Prestações iguais são a característica do sistema Price (francês), no qual os juros caem e a amortização cresce.
+
+@@ RLE-0135
+**Gabarito: C.** O valor presente de uma perpetuidade (renda infinita e constante) é PV = pagamento ÷ taxa = 300 ÷ 0,015 = **R$ 20.000**. Conferência: 1,5% de 20.000 = 300 por mês.
+
+- **A:** R$ 4.500 = 300 × 15, multiplica em vez de dividir.
+- **B:** R$ 15.000 usaria taxa de 2% a.m.
+- **D:** R$ 30.000 usaria taxa de 1% a.m.
+- **E:** R$ 45.000 não corresponde à fórmula.
+
+@@ RLE-0136
+**Gabarito: B.** Em qualquer sistema, prestação = juros + amortização, e os juros incidem sobre o saldo devedor. Juros da 1ª parcela: 2% × 50.000 = 1.000. Amortização: 2.000 − 1.000 = **R$ 1.000**.
+
+- **A:** Seria zero só se a prestação fosse igual aos juros (R$ 1.000).
+- **C:** R$ 1.500 não sai dos dados.
+- **D:** R$ 1.960 calcula os juros sobre a prestação (2% de 2.000 = 40), não sobre o saldo.
+- **E:** R$ 2.000 ignora os juros embutidos na prestação.
+
+@@ RLE-0137
+**Gabarito: C.** Na amostragem **estratificada** a população é dividida em grupos homogêneos (estratos) e sorteiam-se elementos **dentro de cada um**; aqui, com alocação proporcional ao tamanho do estrato.
+
+- **A:** Na aleatória simples sorteia-se direto da população inteira, sem dividir em grupos.
+- **B:** Na sistemática escolhe-se um elemento a cada k da lista (por exemplo, de 10 em 10).
+- **D:** Em conglomerados sorteiam-se alguns grupos inteiros (por exemplo, agências) e pesquisam-se seus elementos.
+- **E:** Por conveniência não há sorteio; é amostragem não probabilística.
+
+@@ RLE-0138
+**Gabarito: C.** O intervalo de 45 a 55 mil é a média mais ou menos 1 desvio padrão (50 ± 5). Pela regra empírica da normal, cerca de **68%** dos dados ficam em μ ± 1σ.
+
+- **A:** 34% é só um dos lados (entre a média e 1σ).
+- **B:** 50% é a parcela acima (ou abaixo) da média.
+- **D:** 95% corresponde a μ ± 2σ (40 a 60 mil).
+- **E:** 99,7% corresponde a μ ± 3σ (35 a 65 mil).
+
+@@ RLE-0139
+**Gabarito: C.** Z = (valor − média) ÷ desvio padrão = (80 − 70) ÷ 5 = **2**: a nota está 2 desvios padrão acima da média.
+
+- **A:** 0,5 inverte a divisão (5 ÷ 10).
+- **B:** Z = 1 seria a nota 75.
+- **D:** 10 é só a diferença para a média, sem dividir pelo desvio padrão.
+- **E:** 16 = 80 ÷ 5, esquece de subtrair a média.
+
+@@ RLE-0140
+**Gabarito: Errado.** O coeficiente de Pearson varia de −1 a +1; o sinal dá o sentido e o módulo dá a força da relação linear. r = −0,9 indica correlação **forte e negativa**: quando uma variável aumenta, a outra tende a diminuir. Ausência de relação linear corresponde a r próximo de 0.
+
+@@ RLE-0141
+**Gabarito: B.** Valores muito altos puxam a média para cima, mas quase não afetam a mediana. Média (8) maior que mediana (6) indica cauda alongada à direita: assimetria **positiva**, típica de salários.
+
+- **A:** Na distribuição simétrica, média e mediana coincidem.
+- **C:** Na assimetria à esquerda (negativa), a média é menor que a mediana.
+- **D:** A normal padrão é simétrica, com média 0.
+- **E:** A uniforme também é simétrica.
+
+@@ RLE-0142
+**Gabarito: C.** Erro padrão da média = σ ÷ √n = 40 ÷ √400 = 40 ÷ 20 = **2**.
+
+- **A:** 0,1 = 40 ÷ 400, divide por n em vez de √n.
+- **B:** 1 não corresponde à fórmula.
+- **D:** 4 = 40 ÷ 10, erra a raiz de 400.
+- **E:** 10 = 400 ÷ 40, inverte a conta.
+
+@@ RLE-0143
+**Gabarito: B.** Média: (1 + 3 + 5 + 7 + 9) ÷ 5 = 5. Desvios absolutos em relação à média: 4, 2, 0, 2, 4, soma 12. Desvio médio: 12 ÷ 5 = **2,4**.
+
+- **A:** 2,0 é a razão da sequência, não uma medida de dispersão.
+- **C:** 2,8 é aproximadamente o desvio padrão (√8 ≈ 2,83).
+- **D:** 4,0 é o maior desvio absoluto.
+- **E:** 8,0 é a variância populacional (16 + 4 + 0 + 4 + 16 = 40; 40 ÷ 5).
+
+@@ RLE-0144
+**Gabarito: C.** No Sistema de Amortização Misto, cada prestação é a média aritmética das prestações do SAC e do Price. 1ª do SAC: amortização 20.000 ÷ 5 = 4.000 mais juros 2% × 20.000 = 400, total 4.400. SAM: (4.400 + 4.243,17) ÷ 2 = 8.643,17 ÷ 2 ≈ **R$ 4.321,58**.
+
+- **A:** R$ 4.000 é só a amortização do SAC.
+- **B:** R$ 4.243,17 é a prestação Price.
+- **D:** R$ 4.400 é a 1ª prestação do SAC.
+- **E:** R$ 4.643,17 soma os juros (400) à prestação Price.
+
+@@ RLE-0145
+**Gabarito: C.** Leve cada título à data focal 3, capitalizando pelo tempo que falta. O do mês 1 anda 2 meses: 5.000 × 1,05² = 5.000 × 1,1025 = 5.512,50. O do mês 2 anda 1 mês: 5.000 × 1,05 = 5.250. Soma: **R$ 10.762,50**.
+
+- **A:** R$ 10.000 soma os valores sem juros.
+- **B:** R$ 10.500 capitaliza tudo por 1 mês só.
+- **D:** R$ 11.025 capitaliza os dois títulos por 2 meses (10.000 × 1,1025).
+- **E:** R$ 11.576,25 capitaliza os dois por 3 meses (10.000 × 1,05³).
+
+@@ RLE-0146
+**Gabarito: B.** Desconte cada parcela pelo seu prazo: 1.100 ÷ 1,1 = 1.000 e 2.420 ÷ 1,1² = 2.420 ÷ 1,21 = 2.000. Valor presente: 1.000 + 2.000 = **R$ 3.000**.
+
+- **A:** R$ 2.909,09 = 3.520 ÷ 1,21, desconta as duas parcelas por 2 meses.
+- **C:** R$ 3.200 = 3.520 ÷ 1,1, desconta as duas por 1 mês só.
+- **D:** R$ 3.520 é a soma nominal, sem desconto.
+- **E:** R$ 3.872 = 3.520 × 1,1, capitaliza em vez de descontar.
+
+@@ RLE-0147
+**Gabarito: Errado.** É nos juros **compostos** que a equivalência de capitais não depende da data focal: se dois conjuntos são equivalentes em uma data, são em qualquer outra. Nos juros simples, mudar a data focal muda o resultado, por isso as questões desse regime sempre informam a data focal a usar.
+
+@@ RLE-0148
+**Gabarito: Errado.** Somar uma constante a todos os valores aumenta a média na mesma constante, de modo que cada desvio (valor menos média) fica igual. Assim o desvio médio, a variância e o desvio padrão **não mudam**. Quem aumenta 10 unidades é a média. O desvio médio só mudaria com multiplicação: multiplicar os dados por k multiplica o desvio médio por |k|.
+
+@@ RLE-0150
+**Gabarito: C.** Na capitalização contínua, M = C × e^(i × t) = 5.000 × e^(0,08 × 3) = 5.000 × e^0,24 = 5.000 × 1,2712 = **R$ 6.356,00**.
+
+- **A:** R$ 6.200 é o montante a juros simples (5.000 × 1,24).
+- **B:** R$ 6.298,56 é a capitalização composta anual (5.000 × 1,08³).
+- **D e E:** não correspondem a nenhum regime com esses dados.
+
+A ordem ajuda a conferir: simples (6.200) < composta anual (6.298,56) < contínua (6.356).
+
+@@ RLE-0151
+**Gabarito: B.** Taxa real: (1 + nominal) ÷ (1 + inflação) − 1 = 1,1025 ÷ 1,05 − 1 = 1,05 − 1 = **5%**. Conferência: 1,05 × 1,05 = 1,1025.
+
+- **A:** 4,75% não sai da fórmula de Fisher.
+- **C:** 5,25% é a subtração simples (10,25 − 5), apenas uma aproximação.
+- **D:** 5,5% não corresponde a nenhuma conta.
+- **E:** 15,76% multiplica os fatores (1,1025 × 1,05 ≈ 1,1576) em vez de dividir.
+
+@@ RLE-0149
+**Gabarito: D.** O círculo completo tem 360° e representa 100%; o ângulo do setor é proporcional à participação: 0,18 × 360° = **64,8°** (cada 1% vale 3,6°).
+
+- **A:** 18° confunde porcentagem com graus.
+- **B:** 36° corresponde a 10% do total.
+- **C:** 54° corresponde a 15% (ou 18 × 3, esquecendo o 0,6).
+- **E:** 72° corresponde a 20%.
+

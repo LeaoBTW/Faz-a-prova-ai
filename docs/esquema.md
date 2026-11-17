@@ -122,3 +122,17 @@ python3 tools/validar_banco.py
 Confere campos obrigatórios, ids únicos e no padrão, matéria/eixo válidos, 5 alternativas distintas
 e gabarito válido em `multipla_5`, `id_pai` existente, texto-base e imagem existentes. Sai com código 1
 se houver erro. Roda no GitHub Actions a cada push e pull request (`.github/workflows/validar.yml`).
+
+## Comentários revisados
+
+Os comentários das questões importadas foram reescritos para justificar o gabarito e explicar cada
+alternativa errada. Eles ficam em `tools/comentarios/<arquivo>.txt` (uma questão por bloco `@@ <id>`)
+e viram `banco/correcoes-comentarios.js`, aplicado depois de `banco/correcoes.js`:
+
+```
+python3 tools/comentarios/montar.py            # gera o arquivo
+python3 tools/comentarios/montar.py --conferir # falha se estiver desatualizado ou com erro
+```
+
+Para corrigir um comentário de questão importada, edite o `.txt` e rode o script. Variações e reforço
+continuam sendo corrigidos nas fontes dos geradores.
